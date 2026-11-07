@@ -1,0 +1,40 @@
+{
+  "medium": {
+    "mesh_sha256": "14017f6407f8ed5d61df859d40464af18bd5fc9226b512a7c266e5b9c7d747e9",
+    "counts": {
+      "nodes": 6451,
+      "cells": 12410,
+      "faces": 18861
+    },
+    "LE_m": [
+      0.00048367698354395,
+      0.00691690311771526
+    ],
+    "TEcentre_m": [
+      0.099510483857701,
+      -0.0070004069782912855
+    ],
+    "effective_h_m": 0.0034671065731195455,
+    "topology_gate": true,
+    "domain_hole_alignment_gate": true
+  },
+  "fine": {
+    "mesh_sha256": "c1cd705bee5fa525ea733fe456d4233c4c190c82a63616f296add4e52bdc0461",
+    "counts": {
+      "nodes": 10433,
+      "cells": 20195,
+      "faces": 30628
+    },
+    "LE_m": [
+      0.00048367698354395,
+      0.00691690311771526
+    ],
+    "TEcentre_m": [
+      0.099510483857701,
+      -0.0070004069782912855
+    ],
+    "effective_h_m": 0.0027178828345327533,
+    "topology_gate": true,
+    "domain_hole_alignment_gate": true
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "logical_case": "Case1",
+    "physical_folder": "case01_aligned",
+    "terminal_iteration": 489,
+    "first_printed_1e3_after_seed": 293,
+    "strict_pass": true,
+    "final_case": "solver\\case01_aligned\\case01_aligned_final.cas.h5",
+    "final_data": "solver\\case01_aligned\\case01_aligned_final.dat.h5"
+  },
+  {
+    "logical_case": "Case2",
+    "physical_folder": "case02_aligned",
+    "terminal_iteration": 2225,
+    "first_printed_1e3_after_seed": 225,
+    "strict_pass": false,
+    "final_case": "solver\\case02_aligned\\case02_aligned_final.cas.h5",
+    "final_data": "solver\\case02_aligned\\case02_aligned_final.dat.h5"
+  },
+  {
+    "logical_case": "Case3",
+    "physical_folder": "case03_aligned",
+    "terminal_iteration": 2919,
+    "first_printed_1e3_after_seed": 419,
+    "strict_pass": false,
+    "final_case": "solver\\case03_aligned\\case03_aligned_final.cas.h5",
+    "final_data": "solver\\case03_aligned\\case03_aligned_final.dat.h5"
+  },
+  {
+    "logical_case": "Case4",
+    "physical_folder": "case04_verified",
+    "terminal_iteration": 753,
+    "first_printed_1e3_after_seed": 216,
+    "strict_pass": true,
+    "final_case": "solver\\case04_verified\\case04_verified_final.cas.h5",
+    "final_data": "solver\\case04_verified\\case04_verified_final.dat.h5"
+  },
+  {
+    "logical_case": "Case5",
+    "physical_folder": "case05_verified",
+    "terminal_iteration": 3689,
+    "first_printed_1e3_after_seed": 1737,
+    "strict_pass": true,
+    "final_case": "solver\\case05_verified\\case05_verified_final.cas.h5",
+    "final_data": "solver\\case05_verified\\case05_verified_final.dat.h5"
+  }
+]

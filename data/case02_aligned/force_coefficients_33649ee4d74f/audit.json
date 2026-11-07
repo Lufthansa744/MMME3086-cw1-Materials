@@ -1,0 +1,173 @@
+{
+  "case_id": "Case 2 standard k-epsilon",
+  "metadata": {
+    "case_id": "Case 2 standard k-epsilon",
+    "density_kg_m3": 1.225,
+    "reference_speed_m_s": 50.9,
+    "reference_area_m2": 0.1,
+    "drag_direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "lift_direction": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "force_definition": "Total pressure plus viscous fluid force on aerofoil_te, aerofoil_pressure, aerofoil_suction; global +x drag/+y lift; 2D depth 1 m",
+    "evidence": {
+      "density_kg_m3": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+        "locator": "materials/air/density/constant"
+      },
+      "reference_speed_m_s": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+        "locator": "bc/inlet/vmag constant and reference-velocity"
+      },
+      "reference_area_m2": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+        "locator": "reference-area"
+      },
+      "drag_direction": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+        "locator": "monitor/report-definitions drag-force force-vector (1 0), global, scaled? #f"
+      },
+      "lift_direction": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+        "locator": "monitor/report-definitions lift-force force-vector (0 1), global, scaled? #f"
+      },
+      "force_definition": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+        "locator": "Actual drag/lift report definitions: total force on aerofoil_te, aerofoil_pressure, aerofoil_suction; 2D rp-3d? #f; depth 1 m recorded in setup transcript"
+      },
+      "native_force_source": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\monitors\\forces.out",
+        "locator": "header (Iteration drag-force lift-force); all numeric records"
+      },
+      "conversion_script": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\conversion_33649ee4d74f.py",
+        "locator": "monitor() and main() mapping native drag/lift to Fx/Fy; Fz=0 from actual 2D setup"
+      }
+    },
+    "conversion": {
+      "mode": "script",
+      "column_mapping": {
+        "iteration": {
+          "source": "Iteration",
+          "expression": "Iteration",
+          "source_units": "iteration",
+          "target_units": "iteration"
+        },
+        "Fx_N": {
+          "source": "drag-force",
+          "expression": "+drag-force",
+          "source_units": "N",
+          "target_units": "N"
+        },
+        "Fy_N": {
+          "source": "lift-force",
+          "expression": "+lift-force",
+          "source_units": "N",
+          "target_units": "N"
+        },
+        "Fz_N": {
+          "source": "2D case model",
+          "expression": "0, because rp-3d? is #f",
+          "source_units": "N",
+          "target_units": "N"
+        }
+      },
+      "row_filter": "Keep native iteration > 0; inherited initial rows remain preserved in native source"
+    }
+  },
+  "evidence": {
+    "density_kg_m3": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+      "locator": "materials/air/density/constant",
+      "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115"
+    },
+    "reference_speed_m_s": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+      "locator": "bc/inlet/vmag constant and reference-velocity",
+      "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115"
+    },
+    "reference_area_m2": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+      "locator": "reference-area",
+      "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115"
+    },
+    "drag_direction": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+      "locator": "monitor/report-definitions drag-force force-vector (1 0), global, scaled? #f",
+      "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115"
+    },
+    "lift_direction": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+      "locator": "monitor/report-definitions lift-force force-vector (0 1), global, scaled? #f",
+      "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115"
+    },
+    "force_definition": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\settings\\case02_aligned_final.set",
+      "locator": "Actual drag/lift report definitions: total force on aerofoil_te, aerofoil_pressure, aerofoil_suction; 2D rp-3d? #f; depth 1 m recorded in setup transcript",
+      "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115"
+    },
+    "native_force_source": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\monitors\\forces.out",
+      "locator": "header (Iteration drag-force lift-force); all numeric records",
+      "sha256": "e33e8369b36cee1bbe06d30ec1c2cf43c945cc2cba6f6eb624699d4d28a48da4"
+    },
+    "conversion_script": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\native\\conversion_33649ee4d74f.py",
+      "locator": "monitor() and main() mapping native drag/lift to Fx/Fy; Fz=0 from actual 2D setup",
+      "sha256": "33649ee4d74f216ab4f763864b6d6fa3a35dd2a161bc24b13a4c3d25e994a265"
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\forces_normalized.csv",
+      "sha256": "7c1cf5d60a540c966f4d39dba5d98c36fd8df66bb43669351d1f8b9887b64ee9"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\force_metadata_33649ee4d74f.json",
+      "sha256": "c1954010f5b860cc167c08ab47edbd428c68570dcccd6317b325416fa40bf65a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\process_forces.py",
+      "sha256": "8661c6e1d8e2253e05811b3a5daf1e2ad4cfddc9890fa29a214cd220a60f27ba"
+    }
+  ],
+  "normalising_force_N": 158.6871125,
+  "sample_count": 2225,
+  "diagnostic_window_start_iteration": 2176.0,
+  "diagnostic_window_end_iteration": 2225.0,
+  "diagnostics": {
+    "CL": {
+      "samples": 50,
+      "mean": 0.8262977279923286,
+      "minimum": 0.8262977262795779,
+      "maximum": 0.8262977297050785,
+      "range": 3.4255006609029692e-09,
+      "slope_per_iteration": -4.112239128649215e-12
+    },
+    "CD": {
+      "samples": 50,
+      "mean": 0.09014689232046047,
+      "minimum": 0.09014688634784586,
+      "maximum": 0.09014689829307487,
+      "range": 1.1945229014265202e-08,
+      "slope_per_iteration": -1.4340007453459326e-11
+    }
+  },
+  "convergence_assessment": "Not determined by this processor; requires independent solver and physics review",
+  "outputs": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\force_coefficients_33649ee4d74f\\coefficients.csv",
+      "sha256": "10771324783084107e75182ec3464da1954b1fa140cdb3d8a32fb43cba39546b"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\force_coefficients_33649ee4d74f\\force_coefficients.svg",
+      "sha256": "2d94f27d649879f5e49b0e40c3d033b22f5ad2577436cb562a8646a4656e5545"
+    }
+  ]
+}

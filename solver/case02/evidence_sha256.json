@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\raw\\pressure_p_yplus.csv",
+    "Hash": "FC6545C38F0BAA458431C341A685DDC2AD4047592E6902FB05519D532365232A"
+  },
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\raw\\suction_p_yplus.csv",
+    "Hash": "0A522A21234F93EE7FC5FBCE2DFD0754981472914930FB08A18F6535DDCA8259"
+  },
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\raw\\velocity_mid.csv",
+    "Hash": "E84B64C0A4A4C9778A7CC05EE126E6019A9A46BD46ED5611537F2968B28D7569"
+  },
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\raw\\velocity_te.csv",
+    "Hash": "6C5A2D02201185755ED668F4A20A3B8B8AEE8A016B20268F8A74456C13FB50AC"
+  },
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\raw\\velocity_wake.csv",
+    "Hash": "D729B69BDA28AD1D92E6513236AB8D0B6913F3B6AD7FE4F426C8193B47FCCBA0"
+  },
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\case02_final.cas.h5",
+    "Hash": "0BA0ACDD916C5B498C39AD4D283C793F6157CC815BEC7B3CF3764F512F8189FF"
+  },
+  {
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02\\case02_final.dat.h5",
+    "Hash": "4DD7A7B872E9913C93F08B7036C27B3FFC43AF29E8C6257F50F3EE271772F13B"
+  }
+]

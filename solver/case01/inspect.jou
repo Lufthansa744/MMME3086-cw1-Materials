@@ -1,0 +1,7 @@
+/file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/logs/setup.transcript"
+(chdir "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01")
+/file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/taskA/taskA_baseline.msh"
+/mesh/check
+/mesh/quality
+/define/boundary-conditions/list-zones
+/define/materials/list-materials

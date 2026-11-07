@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="355" viewBox="0 0 1600 355">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="29" fill="#222">
+<path d="M155,255.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="264.0" text-anchor="end">0</text>
+<path d="M155,195.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="204.0" text-anchor="end">20</text>
+<path d="M155,135.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="144.0" text-anchor="end">40</text>
+<path d="M155,75.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="84.0" text-anchor="end">60</text>
+<text x="155.0" y="298" text-anchor="middle">-75</text>
+<text x="385.8333333333333" y="298" text-anchor="middle">-50</text>
+<text x="616.6666666666666" y="298" text-anchor="middle">-25</text>
+<text x="847.5" y="298" text-anchor="middle">0</text>
+<text x="1078.3333333333333" y="298" text-anchor="middle">25</text>
+<text x="1309.1666666666667" y="298" text-anchor="middle">50</text>
+<text x="1540.0" y="298" text-anchor="middle">75</text>
+<path d="M155,75V255H1540" fill="none" stroke="#222" stroke-width="2"/>
+<text x="847.5" y="343" text-anchor="middle" font-size="32">y (mm)</text>
+<text x="35" y="165.0" text-anchor="middle" transform="rotate(-90,35,165.0)" font-size="32">Velocity (m/s)</text>
+<polyline points="155.0000,255.0000 212.7980,116.8739 216.8215,108.9811 225.8109,107.5455 280.6473,98.3410 296.6387,97.4720 356.6236,95.8597 373.6157,95.7689 450.9670,95.8379 452.3489,95.8406 473.6146,95.8875 524.4036,96.0007 526.9298,96.0034 571.4689,96.2774 618.2798,96.5486 621.3306,96.5732 625.8099,97.0472 703.3343,105.5094 759.3342,118.4846 765.7748,120.0659 772.1749,120.6796 826.3680,125.9800 892.3799,117.6772 895.6103,117.2776 897.8933,116.8644 969.1979,104.9517 976.1201,104.2001 1030.3822,99.5848 1048.6752,98.5737 1096.4745,96.4324 1141.3939,95.2289 1173.0068,94.4772 1225.8351,93.9652 1249.9645,93.7077 1262.5848,93.6943 1324.0227,93.6809 1369.8811,94.6352 1391.0057,95.0972 1424.7384,100.0037 1463.0411,105.3964 1499.0118,174.1366 1540.0000,255.0000" fill="none" stroke="#0072b2" stroke-width="2.7"/>
+<path d="M155,40h38" stroke="#0072b2" stroke-width="3"/>
+<text x="203" y="49" font-size="28">k-e</text>
+</g></svg>

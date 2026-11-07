@@ -1,0 +1,347 @@
+{
+  "case": "case03",
+  "label": "Case 3 RSM",
+  "iteration": 610,
+  "solver_converged_flag": true,
+  "stop_status": "Fluent residual auto-convergence",
+  "residual_threshold": 0.001,
+  "residual_criteria": {
+    "continuity": 0.001,
+    "x-velocity": 0.001,
+    "y-velocity": 0.001,
+    "k": 0.001,
+    "epsilon": 0.001,
+    "uu-stress": 0.001,
+    "vv-stress": 0.001,
+    "ww-stress": 0.001,
+    "uv-stress": 0.001
+  },
+  "equation_names": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon",
+    "uu-stress",
+    "vv-stress",
+    "ww-stress",
+    "uv-stress"
+  ],
+  "residual_native_headers": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon",
+    "uu-stress",
+    "vv-stress",
+    "ww-stress",
+    "uv-stress",
+    "mass-net",
+    "lift-force",
+    "drag-force"
+  ],
+  "residual_headers": [
+    "iteration",
+    "continuity",
+    "x_velocity",
+    "y_velocity",
+    "k",
+    "epsilon",
+    "uu_stress",
+    "vv_stress",
+    "ww_stress",
+    "uv_stress",
+    "mass_net_kg_s",
+    "lift_N",
+    "drag_N",
+    "source_transcript_line"
+  ],
+  "last_scaled_residuals": {
+    "continuity": 0.00099366,
+    "x-velocity": 4.0436e-07,
+    "y-velocity": 1.6871e-07,
+    "k": 4.5697e-06,
+    "epsilon": 2.8982e-05,
+    "uu-stress": 1.9119e-05,
+    "vv-stress": 1.2357e-05,
+    "ww-stress": 1.0208e-05,
+    "uv-stress": 8.4581e-06
+  },
+  "drag_N": 9.262282269406931,
+  "lift_N": 117.7043273643232,
+  "CD": 0.058368207244346514,
+  "CL": 0.7417384153632716,
+  "mass_net_kg_s": 3.255037768212787e-07,
+  "nominal_inlet_mass_flow_kg_s": 9.352875000000001,
+  "mass_imbalance_fraction_of_uniform_inlet": 3.4802536847897425e-08,
+  "last50": {
+    "drag": {
+      "mean_N": 9.256182064525946,
+      "range_N": 0.012572213599721493,
+      "range_over_final_fraction": 0.0013573559122946595
+    },
+    "lift": {
+      "mean_N": 117.5373316127406,
+      "range_N": 0.3384925363539111,
+      "range_over_final_fraction": 0.00287578667610236
+    }
+  },
+  "parameters": {
+    "rho_kg_m3": 1.225,
+    "mu_Pa_s": 1.7894e-05,
+    "U_m_s": 50.9,
+    "TI_fraction": 0.05,
+    "chord_m": 0.1,
+    "area_m2": 0.1,
+    "Re": 348454.7893148542,
+    "RMS_fluctuation_m_s": 2.545,
+    "q_Pa": 1586.8711250000001,
+    "qS_N": 158.6871125
+  },
+  "surface_summary": {
+    "suction": {
+      "samples": 51,
+      "yplus_min": 8.657917208,
+      "yplus_max": 201.2334499,
+      "pressure_min_Pa": -3998.659506,
+      "pressure_max_Pa": -223.3430035,
+      "yplus_below_30_count": 7,
+      "yplus_30_to_300_count": 44,
+      "yplus_above_300_count": 0,
+      "yplus_at_most_1_count": 0
+    },
+    "pressure": {
+      "samples": 51,
+      "yplus_min": 31.40646414,
+      "yplus_max": 129.6565401,
+      "pressure_min_Pa": -99.52280221,
+      "pressure_max_Pa": 1707.972296,
+      "yplus_below_30_count": 0,
+      "yplus_30_to_300_count": 51,
+      "yplus_above_300_count": 0,
+      "yplus_at_most_1_count": 0
+    }
+  },
+  "profile_summary": {
+    "mid": {
+      "x_m": 0.05,
+      "samples": 89,
+      "minimum_velocity_m_s": 0.0,
+      "maximum_velocity_m_s": 62.65540008,
+      "global_peak_y_m": 0.008710253281,
+      "number_of_fluid_segments": 2,
+      "wake_core_window_m": null,
+      "wake_core_minimum_m_s": null,
+      "wake_minimum_y_m": null,
+      "deficit_relative_to_inlet_m_s": null,
+      "sample_spacing_below_core_min_m": null,
+      "sample_spacing_above_core_min_m": null,
+      "local_outer_reference_samples": null,
+      "passages": {
+        "lower": {
+          "samples": 44,
+          "peak_velocity_m_s": 52.06575732,
+          "peak_y_m": -0.01620879707
+        },
+        "upper": {
+          "samples": 45,
+          "peak_velocity_m_s": 62.65540008,
+          "peak_y_m": 0.008710253281
+        }
+      }
+    },
+    "te": {
+      "x_m": 0.1,
+      "samples": 91,
+      "minimum_velocity_m_s": 0.0,
+      "maximum_velocity_m_s": 56.16759763,
+      "global_peak_y_m": 0.04977799988,
+      "number_of_fluid_segments": 1,
+      "wake_core_window_m": [
+        -0.04,
+        0.02
+      ],
+      "wake_core_minimum_m_s": 6.26108798,
+      "wake_minimum_y_m": -0.01140880228,
+      "deficit_relative_to_inlet_m_s": 44.63891202,
+      "sample_spacing_below_core_min_m": 4.265948000000026e-05,
+      "sample_spacing_above_core_min_m": 0.0011271850899999998,
+      "local_outer_reference_samples": [
+        {
+          "requested_y_m": -0.04,
+          "actual_y_m": -0.04011445992,
+          "velocity_m_s": 52.24885244,
+          "deficit_from_this_sample_m_s": 45.98776446
+        },
+        {
+          "requested_y_m": 0.02,
+          "actual_y_m": 0.02006907495,
+          "velocity_m_s": 55.62322863,
+          "deficit_from_this_sample_m_s": 49.36214065
+        }
+      ]
+    },
+    "wake": {
+      "x_m": 0.2,
+      "samples": 40,
+      "minimum_velocity_m_s": 0.0,
+      "maximum_velocity_m_s": 52.8949894,
+      "global_peak_y_m": 0.04852898625,
+      "number_of_fluid_segments": 1,
+      "wake_core_window_m": [
+        -0.04,
+        0.02
+      ],
+      "wake_core_minimum_m_s": 44.56592664,
+      "wake_minimum_y_m": -0.008925000581,
+      "deficit_relative_to_inlet_m_s": 6.334073359999998,
+      "sample_spacing_below_core_min_m": 0.0020186007989999987,
+      "sample_spacing_above_core_min_m": 0.003327972377000001,
+      "local_outer_reference_samples": [
+        {
+          "requested_y_m": -0.04,
+          "actual_y_m": -0.03928385141,
+          "velocity_m_s": 52.35975732,
+          "deficit_from_this_sample_m_s": 7.793830679999999
+        },
+        {
+          "requested_y_m": 0.02,
+          "actual_y_m": 0.01877883603,
+          "velocity_m_s": 52.66621145,
+          "deficit_from_this_sample_m_s": 8.100284809999998
+        }
+      ]
+    }
+  },
+  "midline_solid_interval_m": [
+    -0.01229241358,
+    -0.001665783226
+  ],
+  "report_value_policy": "Terminal values at the actual declared stop status. Last50 ranges retained to show remaining force drift. No claim of grid independence or physical validation.",
+  "sources": [
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\monitors\\forces.out",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\monitors\\forces.out",
+      "sha256": "b93cfc63c853310b04a9322fae439204087ce67fd876f5d972cfd5563c7ec5e4",
+      "bytes": 24224
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\monitors\\mass_balance.out",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\monitors\\mass_balance.out",
+      "sha256": "29b41563aea716c3348a47b4a51d68fa7a3660c9d64f2badc71833f57809b7d4",
+      "bytes": 16035
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\settings\\case03_final.set",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\settings\\case03_final.set",
+      "sha256": "e6ac8e3925a683259d2fe8154620b7f34d8a0e66c5f188a1a11a0850932a9a55",
+      "bytes": 125467
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\logs\\setup.transcript",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\logs\\setup.transcript",
+      "sha256": "4703fc098e0cb069155d5227b00bc845dbb2e55d32ba3d58b291da69e07e5981",
+      "bytes": 120365
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\suction_p_yplus.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\suction_p_yplus.csv",
+      "sha256": "02f3fa5c6864c6d0c7ef284ffb475bb181f7a386ae94d196949513e18774a489",
+      "bytes": 4992
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\pressure_p_yplus.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\pressure_p_yplus.csv",
+      "sha256": "de36a6ca7476d80d7ff5d6bbbeee04a670fe9705cede0eb28a9018c97686fa2e",
+      "bytes": 4992
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\velocity_mid.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\velocity_mid.csv",
+      "sha256": "08b5edd5d70b5c08ba11a35955acff92bf91d0899009d48e63e06f1607048077",
+      "bytes": 5582
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\velocity_te.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\velocity_te.csv",
+      "sha256": "db76449907ec93c755c386f87b437dd765d6f781b29ac85c18f29c27dd36c1a7",
+      "bytes": 5706
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\velocity_wake.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\velocity_wake.csv",
+      "sha256": "839476dbfddfbcc50f5dd565a8784200530cd2c64631a5739e0f9f27cf9dc9d2",
+      "bytes": 2544
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\drag_breakdown.txt",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\drag_breakdown.txt",
+      "sha256": "2e22b8d3abcd41e607f31b57d18065a91a1e663d921a609d61bd1fc45366ac5f",
+      "bytes": 3081
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03\\raw\\lift_breakdown.txt",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\lift_breakdown.txt",
+      "sha256": "3c0a42314df5ae431820a521eb52984d6ba64d72c70b55de3ff641447f606ba8",
+      "bytes": 3081
+    }
+  ],
+  "script": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\process_case.py",
+    "sha256": "c1e27e4dfc51168e64aa2e734350c44479f332528e8c660672a4314687cfc98e"
+  },
+  "force_breakdown": {
+    "drag": {
+      "pressure_N": 8.051396,
+      "viscous_N": 1.2108862,
+      "total_N_rounded_in_native_report": 9.2622823,
+      "native_pressure_coefficient": 0.050737555,
+      "native_viscous_coefficient": 0.0076306526,
+      "native_total_coefficient": 0.058368207,
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\drag_breakdown.txt",
+      "sha256": "2e22b8d3abcd41e607f31b57d18065a91a1e663d921a609d61bd1fc45366ac5f",
+      "line_one_based": 19
+    },
+    "lift": {
+      "pressure_N": 117.76281,
+      "viscous_N": -0.058486982,
+      "total_N_rounded_in_native_report": 117.70433,
+      "native_pressure_coefficient": 0.74210698,
+      "native_viscous_coefficient": -0.00036856794,
+      "native_total_coefficient": 0.74173842,
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03\\native\\raw\\lift_breakdown.txt",
+      "sha256": "3c0a42314df5ae431820a521eb52984d6ba64d72c70b55de3ff641447f606ba8",
+      "line_one_based": 19
+    }
+  },
+  "brief_reference_comparison": {
+    "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\brief_reference_reading.json",
+    "sha256": "9060c49def33a9ffb8b3fe811c08440e598361eb4b368d0a6ff7a360d984e591",
+    "reference_Re": 360000,
+    "Re_relative_difference_fraction": -0.03207002968096058,
+    "scope": "Comparison with the actual coursework reproduction at 8 degrees. Graphical reading allowances are not statistical confidence intervals. Convergence is separate from physical validation.",
+    "CL": {
+      "CFD": 0.7417384153632716,
+      "brief_graph_approx": 0.81,
+      "graphical_reading_allowance": 0.02,
+      "signed_relative_difference_fraction": -0.08427356127991172,
+      "ratio_to_reference": 0.9157264387200883,
+      "relative_difference_range_from_graphical_allowance": [
+        -0.10633925859846807,
+        -0.06109061346421325
+      ]
+    },
+    "CD": {
+      "CFD": 0.058368207244346514,
+      "brief_graph_approx": 0.017,
+      "graphical_reading_allowance": 0.003,
+      "signed_relative_difference_fraction": 2.4334239555497947,
+      "ratio_to_reference": 3.4334239555497947,
+      "relative_difference_range_from_graphical_allowance": [
+        1.9184103622173259,
+        3.1691576603104643
+      ]
+    }
+  }
+}

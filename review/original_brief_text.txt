@@ -1,0 +1,376 @@
+=== PDF PAGE 1 ===
+MMME3086: COMPUTER MODELLING
+TECHNIQUES
+CFD ASSIGNMENT
+10 Credits from a 20 credit module
+Set: 29th October 2026 | Due: 12th November 2026
+Staff Contact: Dr Donald Giddings
+
+=== PDF PAGE 2 ===
+MODULE CODE MODULE TITLE
+MMME3086 Computer Modelling Techniques
+ASSESSMENT TITLE
+CFD assignment
+ASSESSMENT TYPE WEIGHT (INDICATIVE EFFORT)
+Individual Coursework 10 credits 20 hours
+DEADLINE DATE DEADLINE TIME SUBMISSION METHOD
+Thursday 12th November 2026 15:00 Moodle submission box
+STAFF MEMBER RESPONSIBLE
+Dr Donald Giddings Donald.giddings@nottingham.ac.uk
+FEEDBACK DETAILS
+A mark, and comments on Moodle will be provided by Thursday 3rd December 2026
+LEARNING OUTCOMES ASSESSED
+LO1 Understand the theoretical background of numerical methods used in engineering
+analysis, Finite Element and Computational Fluid Dynamics techniques. - AHEP4:
+LO2 1, 2
+Identify and apply appropriate computer modelling techniques to solve specific
+LO3 engineering problems. - AHEP4: 3
+Demonstrate an understanding of how computer programmes can be used to solve
+LO4 practical solid and fluid mechanics problems in engineering. - AHEP4: 3
+Evaluate the accuracy and sources of error in solving solid and fluid mechanics
+LO5 problems in engineering using computational models. - AHEP4: 2
+Gain hands-on experience of running state of the art FEA and CFD software codes
+widely used in industry - AHEP4: 13
+KEY SUBMISSION REQUIREMENTS
+• An 8 page report with strict length limits
+• Graphic and text representation of ideas communicated
+NO EVIDENCE EC ELIGIBLE?1 EC OUTCOME
+(No) Extension or First sit depending situation
+Before submitting an EC, please discuss with your tutor.
+SUPPORT PLAN EXTENSION2
+If you have an existing support plan and require a support plan extension for this assessment, you should
+email EZ-M3-DLO@exmail.nottingham.ac.uk. Please include module code, assessment name, original
+deadline including time, and requested extension (usually one working week).
+MISCONDUCT INFORMATION3
+1 EC regula(cid:415)ons: h(cid:425)ps://www.no(cid:427)ngham.ac.uk/qualitymanual/assessment-awards-and-deg-classi(cid:302)ca(cid:415)on/ext-circumstances.aspx
+2 Support plans: https://www.nottingham.ac.uk/studentservices/servicedetails/disability-support-services/disability-support-
+services.aspx
+3 Details of the University’s policy procedures on Academic Misconduct and disciplinary procedures:
+
+=== PDF PAGE 3 ===
+| Context
+The learning outcome(s) of the coursework assessment is to develop a 2D CFD model that represents the
+flow around an aerofoil in a duct. This will help you to develop aspects of all the learning outcomes of the
+module.
+The CFD assessment provides an opportunity to learn how to use a commercially available CFD software
+package. You will set up the model, solve the fluid flow and analyse the data produced. The procedure will
+involve establishing that a proper CFD investigation has been done including mesh dependence check,
+numerical convergence and analysis of physical representation according to validation data available in the
+literature.
+| Building on Previous work
+This assessment builds upon knowledge, skills, and feedback gained throughout your degree programme.
+Before starting the assessment, you are encouraged to review the following:
+• Fluid mechanics modules in year 1 and year 2
+| Supporting your future development
+The knowledge, skills, and feedback gained will support your development in future assessments and
+learning opportunities, including project work as appropriate and further analysis of any fluid flow situation.
+| Workload breakdown
+This assessment is worth 10 credits of a 20 credit module – ~20 hours of work to complete.
+| Use of Artificial Intelligence
+| Declaration of AI usage
+A log: Students must provide a summary of the AI usage log in an appendix, maximum [2] pages,
+addressing all seven points in the AI usage log template.
+| Guidance on AI usage
+All assessments must include an AI guidance table.
+Detailed guidance on AI usage is provided in the table in Appendix 1
+| Submission information
+Naming File: Last-name_First-name_Student-ID-number_CFDAssignment.PDF
+File Type Required: PDF
+Title of Submission box on Moodle: CFD Assignment Submission box
+
+=== PDF PAGE 4 ===
+Students must submit their work using the correct naming convention, and in the file type listed above.
+Failure to do this may result in penalties if staff are unable to make an appropriate judgement on your work
+due to incorrect file types.
+Your submission deadline is 3 pm on 12th November 2026.
+You should use the template provided for your submission, completing the Word document available on
+Moodle. Please do not change the format of the document. You can print the relevant pages directly to pdf
+to be uploaded. There are word counts for specific parts of the assignment, please observe the word count
+so that you complete a precise and concise report.
+It is your responsibility to check the file you have uploaded to ensure that it has uploaded correctly.
+Late submission shall incur the normal university penalties: Any assessment uploaded after 15:00:00 on the
+submission date will be counted as late and will receive a 5% penalty. An additional 5% penalty will be
+applied for each additional working day that it is late. Please ensure you upload your work well prior to
+the submission deadline to ensure upload issues do not create an unexpected late penalty. Similarly,
+it is important that you read through all the documentation for this assessment and ask any questions in
+plenty of time ahead of the deadline. Raising an issue the day or an hour before the deadline is not a
+suitable time frame. We recommend storing your final document on OneDrive in a secure location to
+preserve the date of completion in case of unpredictable complications upon submission.
+If you have submitted an EC but have not had a response from the panel at the time of the deadline, you
+must submit the current work you have completed, even if this is not finished, with the words EC
+PENDING in the title. You should then:
+• notify the staff member responsible for the assessment that you have submitted an EC and your
+proposed deadline (do not exceed the maximum extension for an EC as stated on the moodle page)
+• continue to work to, and submit by, the extension date requested in your EC claim.
+If you are then granted an extension, your later submission will be marked.
+
+=== PDF PAGE 5 ===
+| Brief
+Date issued: Thursday 29/10/2026 , 15:00
+Deadline for Thursday 12/11/2026, 15:00
+submission:
+Submission format: - Online only on Moodle (not a paper copy) using the template provided on
+Moodle, the format is figures with captions and tables and indicated text
+commentary boxes. Each item of text (caption or text box) should be no
+greater than the stated word count. Obvious overlength will have a
+penalty for inefficient communication. Save as pdf.
+Marks allocated: 50% of the MMME3086 module mark
+- Ansys Workbench is available on the Virtual Engineering Desktop, this is
+the 2026 R1 version.
+How to access Ansys
+Workbench: - Note: You may download a free “Student Edition” of Ansys for home use:
+https://www.ansys.com/en-gb/academic/free-student-products
+- Ansys Workbench is also available in departmental computer rooms
+Timetabled sessions: - This coursework assignment does not require supervision.
+There are no timetabled computer sessions, but there is the 2nd hour of the
+Thursday practical sessions in which support tutors will assist with specific
+questions.
+Estimated time to be - Approximately 20 hours
+spent on this
+assignment:
+Feedback and Marks
+Individual feedback will be provided on 03/12/2026. This will be available on Moodle in the submissions
+Grade box in the form of a mark and an assessment rubric with generic and specific commentary. An
+announcement will be made when feedback and marks are available.
+
+=== PDF PAGE 6 ===
+| Structure
+Task (A) – generating a geometry and mesh
+[16% of coursework
+marks]
+The purpose of this task is to gain some hands-on experience of setting up a geometry using Ansys Discovery
+and various computational meshes in Ansys Mesher.
+Using the step-by-step consolidation method (available on Echo360)
+A1. Generate your own 150 mm by 1 m duct with a NACA0012 aerofoil at an 8 angle of attack. Illustrate the
+geometry with a short descriptive caption in Figure 1. [4]
+A2. Generate and illustrate in Figure 2 a mesh with 10 mm triangular cells on the duct, but with 2 mm cell
+Sizing associated with the walls of the aerofoil only and a growth rate of 1.05 of the cells away from the
+aerofoil. In the caption (<100 words) add a comment on your consideration of the model about the CFD
+theory of the mesh. Display the local region around the aerofoil in an inset image.
+[8]
+A3. Add appropriate names to all of the boundaries of the model and label them in your figure from part A2.
+[4]
+
+=== PDF PAGE 7 ===
+Task (B) – generating boundary conditions and solving
+[34% of coursework marks]
+Set up a case using the aerofoil mesh you have generated. Set the velocity inlet magnitude to the value
+(n/100)10+50 m/s, where n is the number formed by the last two digits of your student ID number (should
+produce Re = O(105) based on chord length of 100 mm) and use the default pressure outlet boundary
+condition. On models, select under viscous model the settings for each of the 5 cases described in sections
+B1 and B2 below.
+B0. Note in your report [6]:
+a. density of air
+b. viscosity of air
+c. turbulence intensity and isotropic RMS velocity of turbulent fluctuations at inlet
+d. velocity at inlet
+e. calculated Reynolds number based on chord length
+B1. Case 1: Use the Spalart-Allmaras one equation turbulence model using standard wall function
+together with the SIMPLE pressure-velocity coupling method. Initialise the case and set the calculation
+and run it until convergence is achieved. Print a graphic, in Figure 3, showing the residual history and
+note in the caption what happened to the convergence of the case and what you think it might indicate.
+[5]
+Note the number of iterations to convergence. From the data, extract to an Excel spreadsheet the
+following:
+1. static pressure and y+ on suction side,
+2. static pressure and y+ on pressure side.
+3. Insert three lines, across the duct, one at mid chord, one at trailing edge and one 100 mm
+downstream from the trailing edge. Extract to Excel the velocity magnitude for the three lines.
+4. Record the total drag and lift on the aerofoil and the convergence criterion and iterations to
+convergence.
+5. Record this data for all subsequent models also.
+Case 2: Set up a new case with the same mesh by the ‘Duplicate’ method in Workbench. Run it with k-
+turbulence model, standard wall function and SIMPLE pressure-velocity coupling and record the data
+for this model.
+Case 3: Duplicate the setup again, and run the RSM model, with standard wall function, and with
+SIMPLE pressure-velocity coupling method. Record the data.
+B2. Results analysis: For the RSM Case 3, present a vector plot around the aerofoil showing the wake
+region clearly in Figure 4. In the caption state what it is you are showing and what it is that you see in
+the flow pattern and state the lift and drag for this case. State the lift and drag forces and the iterations to
+convergence and the convergence criterion. [6]
+In Figure 5, present a contour plot of y+ values on the cells in touch with the aerofoil for Case 3, showing
+the cell values and showing the legend to indicate range of values of the cells in contact with the aerofoil.
+Indicate any unusual regions stating why you have highlighted them with reference to the wall function
+that was applied. [5]
+B3. Load the mesh Aerofoil8-degAoA-enhancedBL.msh into Fluent directly. Run the Case 4 with RSM and
+enhanced wall treatment with SIMPLE, state what you observe. Run the Case 4 again with SIMPLE,
+k- turbulence model, and use enhanced wall treatment in the turbulence model. Note the convergence
+rate and the drag and lift forces and record its data as for the models in B1. Duplicate and set up a new
+Case 5 to change the turbulence method back to RSM, alter the under-relaxation on Reynolds stresses
+to 0.25, all other turbulent and momentum under-relaxation parameters to 0.5, and then continue to run
+the case until convergence or until it doesn’t change. Collect the data. Report the drag and lift forces and
+describe how the residuals behave for each of Case 4 and Case 5 and comment what changed between
+the two RSM cases here. [6].
+Present a graphic in Figure 6 containing both a graphic showing the velocity vectors and another graphic
+of the y+ for the RSM case and describe in the caption what you can see and interpret the outcome with
+respect to CFD theory. [6]
+
+=== PDF PAGE 8 ===
+Task (C) – using post processing skills and turbulence
+models
+[50% of coursework marks]
+The purpose of this part is to demonstrate ability to analyse the results from a CFD model.
+For part C1, C2 and C3, Consider the models used and the meshes they were used on and make brief
+statements especially regarding the reliability of the methods used when you state your observations. Each
+statement should be less than 120 words long.
+C1. Compare the velocity data on the three lines for all models in 3 graphs and make briefly state your
+observations in less than 100 words for each figure.
+[10]
+C2. Compare the pressure data on the pressure side of the aerofoil and the suction side for all five cases on
+two graphs and briefly state your observations in no more than 100 words about each figure.
+[10]
+C3. Compare the y+ values on the pressure and suction sides of the aerofoil for all the models and briefly
+state your observations in no more than 100 words combined.
+[10]
+C4. Compare the 8 angle of attack C , and C with the Sheldahl result in the figure below. Comment on
+D L
+your Reynolds number compared with that of Sheldahl and your model with the physical setup of the
+model of Sheldahl. Comment, in less than 550 words, on the accuracy of your own simulations versus
+the experimental values and discuss what the effects of the CFD models should be in producing better
+reliability. Comment on why it is so important to match the experimental value.
+Use the planform area, assuming 1 m depth, to determine the force. Notice the definition of the tests
+done by Sheldahl (in the original paper, the aerofoil chord is 150 mm and the span is 900 mm, and the
+wind tunnel cross section is 2.1 m high) and comment on how well they compare to the boundary
+conditions of the 2D model in CFD. [20]
+You can review the paper at:
+http://article.sapub.org/10.5923.j.aerospace.20160401.01.html4
+4 S. Martínez-Aranda, A. L. García-González, L. Parras, J. F. Velázquez-Navarro, C. del Pino, 2016, Comparison of
+the Aerodynamic Characteristics of the NACA0012 Airfoil at Low-to-Moderate Reynolds Numbers for any Aspect
+Ratio, International Journal of Aerospace Sciences, 4(1): 1-8.
+
+=== PDF PAGE 9 ===
+| Assessment Criteria
+See Excel file for improved visibility if required.
+A
+B
+C
+P art Elem en ts fo r C o n sid eratio n
+D em o n strate ab ility w ith geo m etry
+co n stru ctio n . Presen t figu res sh o w in g th e
+req u ired d evelo p m en ts o n each p art w ith
+go o d co n sid eratio n o f th e p resen tatio n an d
+w ith d escrip tive cap tio n s o f ap p ro p riate
+len gth . Fo rm at o f tem p late is u sed
+ap p ro p riately.
+D em o n strate ab ility w ith p resen tin g C FD
+d ata. G o o d illu stratio n o f figu res an d
+d escrip tive cap tio n s. G o o d co n sid eratio n o f
+C FD asp ects o b served fro m th e m o d els.
+D em o n strate acq u isitio n o f C FD skills as
+req u ired in th e tasks an d th e p o st-p ro cessin g
+req u ired . Presen t ap p ro p riately clearly w ith
+co n sid ered b rief cap tio n s an d text exp lain in g
+th e figu res. C o rrect u n d erstan d in g o f th e
+asp ects asked an d q u estio n s p o sed .
+To tal
+W eigh t
+20
+M arks
+A w ard
+30
+M arks
+A w ard
+50
+M arks
+A w ard
+100
+P o o r Less th an A ccep tab le A ccep tab le
+Po o r attem p t at th e skills req u ired is Th e skills m ay n o t b e w ell d evelo p ed o r Th e skills req u ired h ave b een w ell
+p resen ted o r th e rep o rt is very p o o rly w ell p resen ted o r w ell d escrib ed , o r a attem p ted gen erally b u t m ay h ave so m e
+p resen ted w ith p ro b lem s o n figu res o r p ro d u ct o f p ro b lem s in co n sisten t acro ss erro rs o r o m issio n s o r d isp layin g
+cap tio n s o r u n d erstan d in g o r a th e asp ects req u ired . lim itatio n s an d th e d escrip tio n s in th e
+co m b in atio n o f each . N o t en o u gh w o rk cap tio n s m ay b e im p ro ved b y sim p le
+to assess w ell. ch an ges.
+0-39 40-49 50-59
+Po o r attem p t at th e skills req u ired is Th e skills m ay n o t b e w ell d evelo p ed o r Th e skills req u ired h ave b een w ell
+p resen ted o r th e rep o rt is very p o o rly w ell p resen ted o r w ell d escrib ed , o r a attem p ted gen erally b u t m ay h ave so m e
+p resen ted w ith p ro b lem s o n figu res o r p ro d u ct o f p ro b lem s in co n sisten t acro ss erro rs o r o m issio n s o r d isp layin g
+cap tio n s o r u n d erstan d in g o r a th e asp ects req u ired . lim itatio n s an d th e d escrip tio n s in th e
+co m b in atio n o f each . N o t en o u gh w o rk cap tio n s m ay b e im p ro ved b y sim p le
+to assess w ell. ch an ges.
+0-39 40-49 50-59
+Th ere is little o r n o co h eren t ap p ro ach to A ttem p ted w o rk h as asp ects th at req u ire Th ere is a go o d attem p t at all asp ects
+th e tasks an d p resen tatio n . Th is im p ro vem en t in vario u s p arts. A lth o u gh an d so m e areas fo r im p ro vem en t in th e
+gen erally reflects in su fficien t w o rk d o n e so m e skills are acq u ired an d so m e d em o n stratio n o f th e req u ired p o in ts
+fo r so m e reaso n . atten tio n to p resen tatio n is an d few areas fo r im p ro vem en t. Th e
+d em o n strated , th e o verall im p ressio n is grap h ics are clear b u t h ave ro o m fo r
+th at th in gs can b e im p ro ved in gen eral. im p ro vem en t, th e d ata statem en ts are
+m o stly co rrect an d th e cap tio n s su p p o rt
+th e figu res reaso n ab ly w ell.
+0-39 40-49 50-59
+G o o d
+Th e skills req u ired are d em o n strated
+w ith p erh ap s so m e erro rs in
+u n d erstan d in g th e task o r in co n fu sio n
+o ver p resen tatio n an d d escrip tio n .
+O verall w ell p resen ted an d d escrib ed
+reaso n ab ly w ell.
+60-69
+Th e skills req u ired are d em o n strated
+w ith p erh ap s so m e erro rs in
+u n d erstan d in g th e task o r in co n fu sio n
+o ver p resen tatio n an d d escrip tio n .
+O verall w ell p resen ted an d d escrib ed
+reaso n ab ly w ell.
+60-69
+Th e w o rk is attem p ted in every asp ect
+w ith go o d p resen tatio n o f figu res, an d
+cap tio n s cap tu rin g m o st o f th e
+d escrip tio n an d d ata th at is co rrectly
+acq u ired . Th ere is ro o m fo r so m e
+im p ro vem en t o n areas o f p resen tatio n
+o r u n d erstan d in g o r skills d em o n strated
+in d ata acq u isitio n .
+60-69
+Excellen t
+A ll skills o n geo m etry an d m esh are
+gen erated an d d em o n strated . C ap tio n s
+d escrib e th e d evelo p m en ts w ell. A ll
+elem en ts w ell d escrib ed an d p resen ted
+in ap p ro p riate fo rm at.
+70-79
+A ll skills o n geo m etry an d m esh are
+gen erated an d d em o n strated . C ap tio n s
+d escrib e th e d evelo p m en ts w ell. A ll
+elem en ts w ell d escrib ed an d p resen ted
+in ap p ro p riate fo rm at.
+70-79
+R eq u ired d ata, grap h ics an d cap tio n s are
+w ell gen erated w ith clear d em o n stratio n
+o f u n d erlyin g u n d erstan d in g an d skills
+acq u ired . Figu res an d cap tio n s are w ell
+p resen ted w ith o n ly sm all areas fo r
+im p ro vem en t. Kn o w led ge an d
+u n d erstan d in g o f th e acq u ired C FD d ata
+are n early en tirely d em o n strated w ith
+so m e sm all areas fo r im p ro vem en t in
+p resen tatio n o r co m b in atio n o f asp ects.
+70-79
+O u tstan d in g
+A n excep tio n al ap p ro ach to th e w o rk
+d em o n stratin g a h igh ly skilled p ractice
+w ith th e C FD so ftw are an d an excellen t
+u n d erstan d in g o f asp ects o f th e grap h ics
+o b tain ed to geth er w ith o u tstan d in g
+d escrip tio n an d p resen tatio n .
+80-100
+A n excep tio n al ap p ro ach to th e w o rk
+d em o n stratin g a h igh ly skilled p ractice
+w ith th e C FD so ftw are an d an excellen t
+u n d erstan d in g o f asp ects o f th e grap h ics
+an d d ata o b tain ed to geth er w ith
+o u tstan d in g d escrip tio n an d
+p resen tatio n .
+80-100
+A ll req u ired d ata, figu re gen eratio n an d
+d escrip tive cap tio n s d em o n strate clearly
+h igh level o f skill an d u n d erstan d in g in
+u sin g th e C FD . Figu res an d cap tio n s are
+co m p lete an d kn o w led ge an d
+u n d erstan d in g o f th e req u ired tasks is
+clearly d em o n strated w ith little o r n o
+ro o m fo r im p ro vem en t. A sp ects o f style
+th at elevate th e m ark are ap p aren t
+to geth er w ith excep tio n al o verall
+ap p ro ach .
+80-100

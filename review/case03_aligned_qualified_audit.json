@@ -1,0 +1,62 @@
+{
+  "case_id": "case03_aligned",
+  "first_default_threshold_iteration": 419,
+  "final_iteration": 2919,
+  "unique_residual_rows": 2919,
+  "identical_reprinted_iterations": [
+    419
+  ],
+  "residual_column_order": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon",
+    "uu-stress",
+    "vv-stress",
+    "ww-stress",
+    "uv-stress"
+  ],
+  "final_residuals": [
+    0.00028063,
+    1.8943e-08,
+    5.4387e-08,
+    1.5985e-07,
+    2.0357e-06,
+    1.0755e-07,
+    1.0605e-07,
+    5.0948e-08,
+    1.1477e-07
+  ],
+  "last100_continuity_range": [
+    0.00028063,
+    0.00028103
+  ],
+  "last100_force_stats": {
+    "drag_N": {
+      "samples": 100,
+      "final": 8.427621052108366,
+      "mean": 8.427846351957006,
+      "range": 0.00045085428312852116,
+      "range_percent_mean": 0.005349578816465129,
+      "endpoint_drift_percent_mean": -0.0053479313126046915
+    },
+    "lift_N": {
+      "samples": 100,
+      "final": 120.7250519681665,
+      "mean": 120.72800719016527,
+      "range": 0.005911360767996143,
+      "range_percent_mean": 0.004896428679291323,
+      "endpoint_drift_percent_mean": -0.004895985195959629
+    }
+  },
+  "last100_mass_net_range_kg_s": [
+    -1.864923202532509e-07,
+    1.857361517920708e-07
+  ],
+  "last100_mass_sign_alternates": true,
+  "strict_residual_target_met": false,
+  "force_stability_target_met": true,
+  "native_flux_imbalance_percent": 1.9625181435158385e-06,
+  "interpretation": "Qualified acceptance for the prescribed model comparison. Native default 1e-3 was met at 419. The predeclared continuation cap of 2919 was reached with scaled continuity at 2.8063e-4, above the analyst 1e-5 target. Stable integral forces and small global net mass flux do not establish local continuity satisfaction, spatial accuracy, physical unsteadiness, or a floating-point floor mechanism."
+}

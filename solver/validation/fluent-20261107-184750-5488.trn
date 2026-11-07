@@ -1,0 +1,21 @@
+Auto-Transcript Start Time:  18:47:50, 07 Nov 2026 GMT 标准时间 
+Current Directory: "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation"
+
+              Welcome to ANSYS Fluent 2022 R2
+
+              Copyright 1987-2022 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 27 2022 08:53:57 EDT  Build Id: 10212  
+ 
+Cannot initialize ANSYS Licensing context
+Connected License Server List:	
+
+ANSYS LICENSE MANAGER ERROR:ANSYSLI exited or could not read server port ansyscl.DESKTOP-KUJ9RI4.5488.41502.
+Please refer C:\\Users\\A320N\\AppData\\Local\\Temp\\.ansys\\ansyscl.DESKTOP-KUJ9RI4.5488.41502.log for more information.
+
+
+
+Unexpected license problem; exiting.

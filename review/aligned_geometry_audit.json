@@ -1,0 +1,103 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\create_geometry.py",
+      "sha256": "1bbc1587a912fe3a6356bc1167587abf052d329ab112cb7bdccdf3e18974f480"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\foil_coordinates_m.csv",
+      "sha256": "f646a70ac1d6c50e61d22ea15684c8adc78c357bfefaf0f0fb6fddc1c3f130c0"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\boundary_edges.csv",
+      "sha256": "fe34d171d4d2db50fb751f2f49450757c4502646c2a33c82b10babf835fb74d3"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_geometry.scdoc",
+      "sha256": "33012a790bd46d58963dec5818df5da5b2f79f30f9326d1fb6f19f60a0540aed"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\geometry_properties.txt",
+      "sha256": "2eb94d3fb4ccaf17c42d4fe7b7df3b55092bd9569a1443630939ddec1f14e6a8"
+    }
+  ],
+  "translation_target_m": [
+    0.0004836769835439499,
+    0.006916903117715257
+  ],
+  "coordinate_count": 802,
+  "maximum_actual_translation_error_m": 9.505200446180417e-16,
+  "maximum_NACA_formula_vertical_residual_m": 5.542441505745899e-16,
+  "shared_LE_from_actual_curve_endpoints_m": [
+    0.00048367698354395,
+    0.00691690311771526
+  ],
+  "trailing_edge_center_m": [
+    0.099510483857701,
+    -0.0070004069782912855
+  ],
+  "LE_match_provided_m": 2.604342988979101e-18,
+  "TE_match_provided_m": 5.647850449853784e-17,
+  "chord_m": 0.10000000000000002,
+  "chord_angle_deg": -8.0,
+  "outer_duct_edges_unchanged": true,
+  "named_selections": [
+    {
+      "name": [
+        "aerofoil_te"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:26"
+      ]
+    },
+    {
+      "name": [
+        "aerofoil_pressure"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:29"
+      ]
+    },
+    {
+      "name": [
+        "aerofoil_suction"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:32"
+      ]
+    },
+    {
+      "name": [
+        "inlet"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:35"
+      ]
+    },
+    {
+      "name": [
+        "wall_bottom"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:38"
+      ]
+    },
+    {
+      "name": [
+        "outlet"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:41"
+      ]
+    },
+    {
+      "name": [
+        "wall_top"
+      ],
+      "objects": [
+        "f43680f4-2529-4113-9bfd-bef3751522ea:44"
+      ]
+    }
+  ],
+  "limitation": "Actual CAD endpoint/coordinate inputs and saved names verified. New kernel hole check and exported mesh topology/quality remain separate gates."
+}

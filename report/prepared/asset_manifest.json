@@ -1,0 +1,67 @@
+[
+  {
+    "report_asset": "fig01_geometry.png",
+    "original": "data/taskA/figure1_native_compact.png",
+    "sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712"
+  },
+  {
+    "report_asset": "fig02_mesh_bc.png",
+    "original": "data/taskA/figure2_mesh_compact.png",
+    "sha256": "e355048540a77294c8564788954eb2ae55717d6cfc38bcf055592f287897bde0"
+  },
+  {
+    "report_asset": "fig03_sa_convergence.pdf",
+    "original": "data/print_assets/fig03_sa_convergence.pdf",
+    "sha256": "83e03a53e9cee126cbdb808223ebb57de025d1220d5bc111d5bdc0c45f993f9b"
+  },
+  {
+    "report_asset": "fig04_rsm_vectors.pdf",
+    "original": "data/print_assets/fig04_rsm_vectors.pdf",
+    "sha256": "13abc11550dd40c87dbfbdbe4a546f3523553df44035aaa031368ed5816ca0b7"
+  },
+  {
+    "report_asset": "fig05_rsm_yplus.pdf",
+    "original": "data/print_assets/fig05_rsm_yplus.pdf",
+    "sha256": "61cfcbb6954077fcc6bbd9a0b91482ac6adc56bf1ea16c009b9ca87a615ed620"
+  },
+  {
+    "report_asset": "fig06_enhanced_combined.pdf",
+    "original": "data/print_assets/fig06_enhanced_combined.pdf",
+    "sha256": "3d262c7967e813dc1d0816584c9eb8ca8ecb4984b7af943cc3df00bdeea7fb51"
+  },
+  {
+    "report_asset": "fig07_velocity_midchord.pdf",
+    "original": "data/print_assets/fig07_velocity_midchord.pdf",
+    "sha256": "9a5a63b0bbff70a7266eb2af3264b2a3708e5a9f72124cfc0e510606a10dc78b"
+  },
+  {
+    "report_asset": "fig08_velocity_trailingedge.pdf",
+    "original": "data/print_assets/fig08_velocity_trailingedge.pdf",
+    "sha256": "bd0c2f04ba0cde5b5d6cd22e2d10f33e65a3fac90f4315d85713d0ec6dd74d14"
+  },
+  {
+    "report_asset": "fig09_velocity_downstream.pdf",
+    "original": "data/print_assets/fig09_velocity_downstream.pdf",
+    "sha256": "2f4c86230a98ed001874713e6a2d698297bc268a9d14fae55b45e39c38b6d12b"
+  },
+  {
+    "report_asset": "fig10_pressure_pressure.pdf",
+    "original": "data/print_assets/fig10_pressure_pressure.pdf",
+    "sha256": "61e7329cdf22d17cc0430b07ba5d35305127eb71acc945deaeeb7c7a18e27a9a"
+  },
+  {
+    "report_asset": "fig11_pressure_suction.pdf",
+    "original": "data/print_assets/fig11_pressure_suction.pdf",
+    "sha256": "822d492f3a66a209a52dae694d9f4152fe39a41dbb3f5ee8737fc1b1078a0157"
+  },
+  {
+    "report_asset": "fig12_yplus_suction.pdf",
+    "original": "data/print_assets/fig12_yplus_suction.pdf",
+    "sha256": "b53d2f699391da265ef539343d22eb093c8eefba514dbba963156c7645241faf"
+  },
+  {
+    "report_asset": "fig13_yplus_pressure.pdf",
+    "original": "data/print_assets/fig13_yplus_pressure.pdf",
+    "sha256": "7710ce95f31edbf6660582ee79ead448949d030c8368aabeac6e1a52b65eb4bb"
+  }
+]

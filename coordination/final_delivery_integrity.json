@@ -1,0 +1,98 @@
+{
+  "source_archive_sha256": "527ef3cc1616a087a4b57c23a75a55348ba6d9c5bf577c5c1eb63bb961aaad95",
+  "prepared_main_sha256": "93391df3f80c4e90e85a5af5c1f13c2fbd26d03f4823f23ecbadc02831a34898",
+  "zip_members_match_prepared": true,
+  "report_figure_count": 13,
+  "figure_formats": {
+    "PNG": 2,
+    "vector_PDF": 11
+  },
+  "members": [
+    {
+      "file": "AI_prompt_record.txt",
+      "matches_prepared": true
+    },
+    {
+      "file": "asset_manifest.json",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig01_geometry.png",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig02_mesh_bc.png",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig03_sa_convergence.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig04_rsm_vectors.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig05_rsm_yplus.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig06_enhanced_combined.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig07_velocity_midchord.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig08_velocity_trailingedge.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig09_velocity_downstream.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig10_pressure_pressure.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig11_pressure_suction.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig12_yplus_suction.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "fig13_yplus_pressure.pdf",
+      "matches_prepared": true
+    },
+    {
+      "file": "main.tex",
+      "matches_prepared": true
+    },
+    {
+      "file": "new-aiaa.bst",
+      "matches_prepared": true
+    },
+    {
+      "file": "new-aiaa.cls",
+      "matches_prepared": true
+    },
+    {
+      "file": "verified_results.json",
+      "matches_prepared": true
+    },
+    {
+      "file": "verified_table.tex",
+      "matches_prepared": true
+    }
+  ],
+  "independent_final_review": "review/final_print_package_audit.json",
+  "iCloud_latest_source_folder": "print_source_for_mac",
+  "historical_numerical_snapshot": "snapshot_06_final_numerical_and_reviewed_source retains the earlier reviewed PNG source, not the current vector print package",
+  "latex_compiled": false,
+  "rendered_pdf_verified": false,
+  "remaining": "Mac continuation: authorised Overleaf upload/compile and rendered-PDF verification"
+}

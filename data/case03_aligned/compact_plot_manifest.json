@@ -1,0 +1,55 @@
+{
+  "dataset": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\workbook_input.json",
+  "dataset_sha256": "e51b2ae449085884832c2a055e17520f41d0c9a6a69a9d73ecb16504c4644586",
+  "plotter_source_sha256": "48a431d2ab08ff7713fccc927876c45b69aa9fb9bb30dde7729c865d3acd549e",
+  "compact_script_sha256": "2fc01cbda0e39978ae8110e99bfda5a452dde20a775ad81d7589d752bbc9685f",
+  "method": "Exact native samples, joined only within continuous fluid segments; no smoothing or cross-case interpolation",
+  "print_layouts": {
+    "residual": [
+      1600,
+      440
+    ],
+    "profiles": [
+      1600,
+      355
+    ],
+    "half_width_surfaces": [
+      820,
+      430
+    ]
+  },
+  "outputs": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure10_pressure_pressure_compact.svg",
+      "sha256": "921566105c4ee7cc94bbd554ff04da2df0327ef417ba926480b6e3af177d1a29"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure11_pressure_suction_compact.svg",
+      "sha256": "4b5c5cb9a4336ed103fa8395f0a5bd3d48473bf6b1382957a0f0637fd2a319df"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure12_yplus_suction_compact.svg",
+      "sha256": "b877aebf1a2946bee255a6338b1ce0ea331fcf1bc6a6ed4c72faa7c98ce80054"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure13_yplus_pressure_compact.svg",
+      "sha256": "3d4ea604665fc865133f7fe5d3d8235ecad9c1355d5f6be85abde7011c872f34"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure3_residuals_compact.svg",
+      "sha256": "964a71e52afec108f45c8181afb5bd023dd0e57cb42cf79cb8a045675eb277f2"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure7_velocity_mid_compact.svg",
+      "sha256": "d698a97ce6944f9785d34452d9de03f9c8cce544d7dddeb6597b1754b09ddada"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure8_velocity_te_compact.svg",
+      "sha256": "6fae1577054f5a927bfbf42b9e3e70ab0b55307a7e5d57fa2baa06ad8c6ed69b"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure9_velocity_wake_compact.svg",
+      "sha256": "a8ff2189ec0b0bee75e91af2ed81369cdd5ea4d8a35c7cd54ffbd65cb782c1f1"
+    }
+  ]
+}

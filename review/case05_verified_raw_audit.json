@@ -1,0 +1,324 @@
+{
+  "case_id": "case05_verified",
+  "normalizing_force_N": 158.6871125,
+  "foil_frame_origin_m": [
+    0.00048367698354395,
+    0.00691690311771526
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case04_verified_seed_sha256.json",
+      "bytes": 431,
+      "sha256": "916a6ffe918959a766f05eab80336f6d6322afc495adb652ef06dc073442f1fa"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\export.jou",
+      "bytes": 2021,
+      "sha256": "bc106bd85b0f08f433914d37858ecabe951e810c8bb211ad67d816d07907e59d"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\logs\\setup.transcript",
+      "bytes": 544193,
+      "sha256": "7c48116ee5ddf7771e8156b3a87fac9787788c263478d003749095d9c99bdf26"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\manifest.json",
+      "bytes": 6923,
+      "sha256": "f82d7ac297b7a8c9d401e71b07329c40e102c1fcb96e57f30dce4ada2e41db37"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\monitors\\forces.out",
+      "bytes": 119565,
+      "sha256": "79ce189fff1d2096eba5c685eb721311dd21fe24693ed428a30bf1976092d0a4"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\monitors\\mass_balance.out",
+      "bytes": 79599,
+      "sha256": "db4fb1bf6c2fcf39a1f7ad1a75f7736699f671579b4f1526fb09d9811a9ad528"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\domain_cell_fields.csv",
+      "bytes": 2674750,
+      "sha256": "b04cc689c140e2b48a51ec5e3444f57e3f9c4ae8b8b7c3c68ac38c88e60d5102"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\drag_breakdown.txt",
+      "bytes": 3081,
+      "sha256": "1d3767c4132e6d262ac4ae715f4dc9be1a817b43fcba77d4d7c1a202b26126e9"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\final_stress_fields.csv",
+      "bytes": 4423636,
+      "sha256": "f164d630c47f4e7a27c6f015e0d61905b12e0d4fd9d29087d7e2d730ec2877b3"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\initial_cell_fields.csv",
+      "bytes": 4423636,
+      "sha256": "bf1b43846782dabfffd4623d50d2b973cb83919401ae41d18ab89005ed374358"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\inlet_turbulence.csv",
+      "bytes": 4862,
+      "sha256": "bdea6ab9629fc0a55de667ec90cf8c4242caf2f37e40539501ed47654b4d8305"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\lift_breakdown.txt",
+      "bytes": 3081,
+      "sha256": "a01d277e1a27685e2836f3c4feb153276727d053da7027741ae1fee0ffc0eeb1"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\pressure_p_yplus.csv",
+      "bytes": 19680,
+      "sha256": "cdd5662b2a3e016cebe03087698337585b4299ea4d599f70c9b2e22c15feb06a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\suction_p_yplus.csv",
+      "bytes": 19680,
+      "sha256": "3b16829063953ffe3bd57e75a0eb7f4a365b8eb4ee48c2384cce2464626239a5"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\trailing_p_yplus.csv",
+      "bytes": 576,
+      "sha256": "4b655cfc0a7670f83a65ae18fc97c246f9951b0a0dbedc0ee07cf783d1159cef"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\velocity_mid.csv",
+      "bytes": 6202,
+      "sha256": "8b3d0863bd80bb032ba9f908f28b53d62d509531570524038d57b79b9290a9eb"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\velocity_te.csv",
+      "bytes": 5210,
+      "sha256": "91d2d744bcc6724ece8bd452648c3ad08fa577a6381be92f1503350c19c8e309"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\velocity_wake.csv",
+      "bytes": 2668,
+      "sha256": "96cde2c1e9c48ab42b5654a0352c81b764c983321e6d892a10b32a8a1ce784d7"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\settings\\case05_verified_configured.set",
+      "bytes": 122181,
+      "sha256": "c797bfc5e337ab59bc3b2013f3a9be22089b6f45e16496378e6ee17c73ebf86c"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\settings\\case05_verified_final.set",
+      "bytes": 122224,
+      "sha256": "c60b6bfec3e8fefc20a48be7e6fa60877bef91b3d75e37a32786453c748ba5b1"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\setup.jou",
+      "bytes": 1665,
+      "sha256": "ef59656c7d09f456d8c5da43b9ee8c4f14c43ebf9e05bc0fa661d3ed7484767a"
+    }
+  ],
+  "suction_p_yplus.csv": {
+    "rows": 204,
+    "x_range": [
+      0.0006350900512,
+      0.09943248332
+    ],
+    "y_range": [
+      -0.006848278921,
+      0.01018644031
+    ],
+    "foil_frame_y_range": [
+      0.0001397919807868478,
+      0.006001446941604003
+    ],
+    "yplus_range": [
+      0.4916147132,
+      6.585910008
+    ],
+    "pressure_range": [
+      -6745.776734,
+      144.8191385
+    ]
+  },
+  "pressure_p_yplus.csv": {
+    "rows": 204,
+    "x_range": [
+      0.0005136460532,
+      0.09941291809
+    ],
+    "y_range": [
+      -0.007125151809,
+      0.006560663227
+    ],
+    "foil_frame_y_range": [
+      -0.006001221864770882,
+      -0.0001371093530299107
+    ],
+    "yplus_range": [
+      0.1992311636,
+      6.464558848
+    ],
+    "pressure_range": [
+      -1012.446594,
+      1752.460279
+    ]
+  },
+  "velocity_mid.csv": {
+    "rows": 99,
+    "x_range": [
+      0.04999999836,
+      0.05000000323
+    ],
+    "y_range": [
+      -0.075,
+      0.075
+    ],
+    "velocity_range": [
+      0.0,
+      65.69114282
+    ],
+    "largest_y_gaps": [
+      [
+        0.010690853125999999,
+        -0.005340138619,
+        0.005350714507
+      ],
+      [
+        0.0040000000000000036,
+        0.06500533334,
+        0.06900533334
+      ],
+      [
+        0.0040000000000000036,
+        -0.05300533335,
+        -0.04900533335
+      ]
+    ]
+  },
+  "velocity_te.csv": {
+    "rows": 83,
+    "x_range": [
+      0.09999999619,
+      0.1000000074
+    ],
+    "y_range": [
+      -0.075,
+      0.075
+    ],
+    "velocity_range": [
+      0.0,
+      56.56600431
+    ],
+    "largest_y_gaps": [
+      [
+        0.004000000010000004,
+        0.04900533332,
+        0.05300533333
+      ],
+      [
+        0.004000000010000004,
+        -0.05300533333,
+        -0.04900533332
+      ],
+      [
+        0.0040000000000000036,
+        0.06900533333,
+        0.07300533333
+      ]
+    ]
+  },
+  "velocity_wake.csv": {
+    "rows": 42,
+    "x_range": [
+      0.1999999944,
+      0.200000487
+    ],
+    "y_range": [
+      -0.075,
+      0.075
+    ],
+    "velocity_range": [
+      0.0,
+      52.84378975
+    ],
+    "largest_y_gaps": [
+      [
+        0.0040000000000000036,
+        0.06900533333,
+        0.07300533333
+      ],
+      [
+        0.0040000000000000036,
+        0.06500533333,
+        0.06900533333
+      ],
+      [
+        0.0040000000000000036,
+        0.05700533333,
+        0.06100533333
+      ]
+    ]
+  },
+  "iteration_origin": 753,
+  "native_force_rows_at_or_before_origin": 1,
+  "first_force_iteration": 754.0,
+  "new_model_force_sample_count": 2936,
+  "force_window_stats": {
+    "25": {
+      "drag_N": {
+        "samples": 25,
+        "final": 5.232899341976225,
+        "mean": 5.232609871760395,
+        "range": 0.0005821214468468838,
+        "range_percent_mean": 0.011124877663601589,
+        "endpoint_drift_percent_mean": 0.011124877663601589
+      },
+      "lift_N": {
+        "samples": 25,
+        "final": 158.8477374876382,
+        "mean": 158.85870717331997,
+        "range": 0.022171377085300037,
+        "range_percent_mean": 0.01395666468638093,
+        "endpoint_drift_percent_mean": -0.01395666468638093
+      }
+    },
+    "50": {
+      "drag_N": {
+        "samples": 50,
+        "final": 5.232899341976225,
+        "mean": 5.23230237624517,
+        "range": 0.0012055496688923029,
+        "range_percent_mean": 0.02304051987449233,
+        "endpoint_drift_percent_mean": 0.02304051987449233
+      },
+      "lift_N": {
+        "samples": 50,
+        "final": 158.8477374876382,
+        "mean": 158.8706964623088,
+        "range": 0.047011628644014536,
+        "range_percent_mean": 0.029591126425991203,
+        "endpoint_drift_percent_mean": -0.029591126425991203
+      }
+    },
+    "100": {
+      "drag_N": {
+        "samples": 100,
+        "final": 5.232899341976225,
+        "mean": 5.23166646270198,
+        "range": 0.002515005952741234,
+        "range_percent_mean": 0.04807275025408094,
+        "endpoint_drift_percent_mean": 0.04807275025408094
+      },
+      "lift_N": {
+        "samples": 100,
+        "final": 158.8477374876382,
+        "mean": 158.89637554542435,
+        "range": 0.10173990674130096,
+        "range_percent_mean": 0.06402909216278263,
+        "endpoint_drift_percent_mean": -0.06402909216278263
+      }
+    }
+  },
+  "last_force_iteration": 3689.0,
+  "CD_final": 0.03297620871371155,
+  "CL_final": 1.001012211925138,
+  "mass_denominator_definition": "uniform prescribed inlet rho*U*height*depth from the manifest; check against native flux report separately",
+  "mass_imbalance_fraction": 7.947623008382271e-09,
+  "mass_imbalance_percent": 7.947623008382271e-07,
+  "limitation": "Native values and finite-window diagnostics, not independent acceptance of convergence or experimental accuracy. Foil-frame side check uses the explicitly recorded LE origin and verified clockwise eight-degree chord orientation."
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Only coursework directories; no runtime junctions, caches, .git or external user files",
+  "eligible_files_before_delivery_docs": 1604,
+  "credential_pattern_hits": [],
+  "content_values_not_printed": true
+}

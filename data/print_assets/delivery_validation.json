@@ -1,0 +1,10 @@
+{
+  "all_13_approved_png_hashes_unchanged": true,
+  "all_13_svg_hashes_unchanged_since_export": true,
+  "all_11_current_pdf_hashes_match_independent_review": true,
+  "independent_review": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_independent_audit.json",
+    "sha256": "ff1c9f826bcd2cc406169691d2b59af75792d54dc6d2ed812caea08c2f70579e"
+  },
+  "total_pdf_bytes": 691476
+}

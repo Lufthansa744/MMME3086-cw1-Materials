@@ -1,0 +1,142 @@
+{
+  "figure1": {
+    "sources_and_crops": [
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_geometry_native.png",
+        "sha256": "22127597b9fdff6b077ac8f421967e1f173b638e5faa862d8b0a86fc9ec42ede",
+        "source_size": [
+          2219,
+          1155
+        ],
+        "detected_bbox_px": [
+          114,
+          428,
+          2106,
+          728
+        ],
+        "crop_box_px": [
+          109,
+          423,
+          2111,
+          733
+        ],
+        "crop": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_full_crop.png",
+        "crop_sha256": "781bb6ff7b04578a57d1c6cd8c1bbfc47999b6aecff3fe5de796b4833cfe97db",
+        "placement_svg_px": {
+          "x": 100,
+          "y": 65,
+          "width": 1350,
+          "height": 209.04095904095905,
+          "uniform_scale": 0.6743256743256744
+        }
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_geometry_native_local.png",
+        "sha256": "81183e2108a2b067ebd09b01adb52e3363f4a9b6ea6194887b2da53babaae922",
+        "source_size": [
+          2219,
+          1155
+        ],
+        "detected_bbox_px": [
+          475,
+          448,
+          1745,
+          669
+        ],
+        "crop_box_px": [
+          435,
+          408,
+          1785,
+          709
+        ],
+        "crop": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_detail_crop.png",
+        "crop_sha256": "866d3022d122c7039be50f0035cca979c2a1f9d33abaa457a0e3066279a0a4b0",
+        "placement_svg_px": {
+          "x": 340,
+          "y": 285,
+          "width": 920,
+          "height": 205.1259259259259,
+          "uniform_scale": 0.6814814814814815
+        }
+      }
+    ],
+    "geometry_evidence": [
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\export_geometry_native.py",
+        "sha256": "849b5d3baaaf00c1706dd91a7c7671efa7f56351a08eca8d7c8574865988b49c"
+      },
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\cad_edge_dense_coordinates_m.csv",
+        "sha256": "61c6c7128bf55f8561525051450655186a036a8f1b3e509d967bd16d1a5c7210"
+      },
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\boundary_edges.csv",
+        "sha256": "fe34d171d4d2db50fb751f2f49450757c4502646c2a33c82b10babf835fb74d3"
+      },
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_geometry.scdoc",
+        "sha256": "33012a790bd46d58963dec5818df5da5b2f79f30f9326d1fb6f19f60a0540aed"
+      }
+    ],
+    "annotation_method": "Native PNG pixel content preserved through lossless crop; SVG placement uniformly scales each panel. Only dimension/flow/chord/angle annotations added. No geometry re-rendering, recolouring, stretching, replacement or redrawing.",
+    "actual_LE_m": [
+      0.00048367698354395,
+      0.00691690311771526
+    ],
+    "actual_TE_centre_m": [
+      0.09951048385770099,
+      -0.007000406978291282
+    ],
+    "actual_chord_m": 0.10000000000000002,
+    "local_projection": {
+      "frame_centre_m": [
+        0.05,
+        0.0,
+        0
+      ],
+      "vertical_extent_m": 0.09,
+      "derived_native_pixels_per_m": 12833.333333333334
+    },
+    "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_compact.svg",
+    "sha256": "4d82a272501a600090a53e3893580a032b26c8c93a8d90feb82ca3ea41be31cb",
+    "size_svg_px": [
+      1600,
+      530
+    ],
+    "minimum_annotation_font_px": 32
+  },
+  "figure2": {
+    "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+    "source_sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+    "counts": {
+      "nodes": 4029,
+      "cells": 7687,
+      "faces": 11716
+    },
+    "method": "Exact original face segments; no smoothing or retriangulation. Equal coordinate scale on both axes in each panel.",
+    "full_faces_drawn": 11716,
+    "local_intersecting_face_selection": 2160,
+    "local_bounds_m": [
+      -0.00551632301645605,
+      0.10948367698354394,
+      -0.01708309688228474,
+      0.01891690311771526
+    ],
+    "full_scale_px_per_m": 1300,
+    "local_scale_px_per_m": 9000,
+    "source_coordinate_units": "m",
+    "labels_units": "mm",
+    "minimum_font_px": 28,
+    "font_at_170mm_width_pt": 8.433070866141733,
+    "figure": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.svg",
+    "figure_sha256": "38ccff545368ce9d58580fdc0c6f69767b64b093565a82f85ddc641bfd372c6d",
+    "size_svg_px": [
+      1600,
+      740
+    ]
+  },
+  "script": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\make_taskA_compact.py",
+    "sha256": "f109bb27f304efec88d3515583cb0503dfdd307b77a17e415883c774c4adaf1e"
+  }
+}

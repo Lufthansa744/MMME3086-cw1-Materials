@@ -1,0 +1,21 @@
+{
+  "case_id": "case03_aligned",
+  "accepted_with_limitation": true,
+  "numeric_final_gate": false,
+  "numeric_strict_gate": false,
+  "reason": "Qualified acceptance for the prescribed model comparison. Native default 1e-3 was met at 419. The predeclared continuation cap of 2919 was reached with scaled continuity at 2.8063e-4, above the analyst 1e-5 target. Stable integral forces and small global net mass flux do not establish local continuity satisfaction, spatial accuracy, physical unsteadiness, or a floating-point floor mechanism.",
+  "first_default_threshold_iteration": 419,
+  "final_iteration": 2919,
+  "stop_reason": "predeclared continuation cap; scaled continuity plateau above analyst strict target",
+  "native_forces_sha256": "ded5810b276e582d87fad6f7b7cb80ec9cbed2edcdec74098aa10ae1b1ebdcbe",
+  "native_final_settings_sha256": "7a34da1426734aef17ae8bd980a36be3e4795a77c39bb52fa8e196f20a481324",
+  "review_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\case03_aligned_qualified_audit.json",
+  "review_source_sha256": "0c283ab462fb2bcfe6a940bd9db54ee4c683e8bea6d63d70af5f31221051a2e2",
+  "raw_audit_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\case03_aligned_raw_audit.json",
+  "field_mapping_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\case03_aligned_field_mapping_audit.json",
+  "report_requirements": [
+    "Retain first 1e-3 iteration 419 separately from final 2919*",
+    "Flag strict 1e-5 continuity target as unmet",
+    "Do not state that all five cases passed the strict gate"
+  ]
+}

@@ -1,0 +1,30 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+root=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver"
+f=open(root+r"\workbench\final_system_creation.txt","w")
+def log(s): f.write(str(s)+'\n');f.flush()
+try:
+    Open(FilePath=root+r"\workbench\coursework_cases.wbpj")
+    for name,title in [('FFF','Prealignment Case1 SA'),('FFF 1','Prealignment Case2 KE'),('FFF 2','Prealignment Case3 RSM')]:
+        try: GetSystem(Name=name).DisplayText=title
+        except Exception as e: log('Old title '+name+' '+str(e))
+    template=GetTemplate(TemplateName="Fluid Flow")
+    c1=template.CreateSystem()
+    c1.DisplayText="FINAL Case1 aligned SA"
+    c1.GetContainer(ComponentName="Setup").Import(FileType="Case",FilePath=root+r"\case01_aligned\case01_aligned_final.cas.h5")
+    log('AlignedCase1 imported '+str(c1))
+    c2=c1.Duplicate();c2.DisplayText="FINAL Case2 aligned KE"
+    log('AlignedCase2 real Duplicate '+str(c2))
+    c3=c2.Duplicate();c3.DisplayText="FINAL Case3 aligned RSM"
+    log('AlignedCase3 real Duplicate '+str(c3))
+    c4=template.CreateSystem();c4.DisplayText="FINAL Case4 verified KE EWT"
+    c4.GetContainer(ComponentName="Setup").Import(FileType="Case",FilePath=root+r"\case04_verified\case04_verified_final.cas.h5")
+    log('VerifiedCase4 imported '+str(c4))
+    c5=c4.Duplicate();c5.DisplayText="FINAL Case5 verified RSM EWT"
+    log('VerifiedCase5 real Duplicate '+str(c5))
+    c5.GetContainer(ComponentName="Setup").Import(FileType="Case",FilePath=root+r"\case05_verified\case05_verified_final.cas.h5")
+    Save(FilePath=root+r"\workbench\coursework_cases.wbpj",Overwrite=True)
+    log('FINAL_SYSTEMS_SAVED; Case2/3 await their independently solved final imports')
+except:
+    log(traceback.format_exc())
+f.close()

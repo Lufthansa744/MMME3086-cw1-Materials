@@ -1,0 +1,117 @@
+{
+  "source_files": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\create_geometry.py",
+      "sha256": "27b954d468f6f5fe2d8c127b86f29d5282178ec1cf31d591ed906728bb634464"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\geometry_properties.txt",
+      "sha256": "2eb94d3fb4ccaf17c42d4fe7b7df3b55092bd9569a1443630939ddec1f14e6a8"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\boundary_edges.csv",
+      "sha256": "1bd1c057aae016ffef354b544170330f9e5866606be218ae0886458041e7233d"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\foil_coordinates_m.csv",
+      "sha256": "d75b5ddbd2594ac3d43e8d180c7438299c9e72db019dbd40d421badbeff04f7b"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\geometry_creation.txt",
+      "sha256": "760cef164da03ac8ddc506ff64b3699e88829f6ef46c47e8adfd7a03d9e6c648"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\taskA_geometry.scdoc",
+      "sha256": "470b50548ccee81d1ef3c57c94e56e8349864e4aa9418064a6285a74c4e7122b"
+    }
+  ],
+  "coordinate_count": 802,
+  "side_counts": {
+    "suction": 401,
+    "pressure": 401
+  },
+  "max_formula_or_planarity_error_m": 6.073700570263796e-16,
+  "chord_m": 0.09999999999999995,
+  "chord_angle_degrees": -7.999999999999978,
+  "positive_aerodynamic_AoA_degrees_if_inlet_is_plus_x": 7.999999999999978,
+  "trailing_edge_centre_m": [
+    0.09902680687415699,
+    -0.0139173100960065
+  ],
+  "trailing_edge_gap_m": 0.00025200000000013216,
+  "maximum_sampled_thickness_m": 0.012003339429328679,
+  "foil_sample_polygon_area_m2": 0.0008220916776925064,
+  "expected_fluid_surface_area_from_polygon_m2": 0.14917790832230748,
+  "duct_x_bounds_m": [
+    -0.5,
+    0.5
+  ],
+  "duct_y_bounds_m": [
+    -0.075,
+    0.075
+  ],
+  "saved_named_selections": [
+    {
+      "name": [
+        "aerofoil_te"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:26"
+      ]
+    },
+    {
+      "name": [
+        "aerofoil_pressure"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:29"
+      ]
+    },
+    {
+      "name": [
+        "aerofoil_suction"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:32"
+      ]
+    },
+    {
+      "name": [
+        "inlet"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:35"
+      ]
+    },
+    {
+      "name": [
+        "wall_bottom"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:38"
+      ]
+    },
+    {
+      "name": [
+        "outlet"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:41"
+      ]
+    },
+    {
+      "name": [
+        "wall_top"
+      ],
+      "object_refs": [
+        "b9de5e93-2bf1-4455-a3a7-9dbe53bb8f60:44"
+      ]
+    }
+  ],
+  "cross_duct_sampling_x_m_if_using_chord_midpoint_and_TE_centre": [
+    0.049513403437078496,
+    0.09902680687415699,
+    0.199026806874157
+  ],
+  "limitation": "Coordinate formula and named-selection persistence verified. Kernel face hole, surface area and mesher/Fluent boundary transfer need direct downstream evidence."
+}

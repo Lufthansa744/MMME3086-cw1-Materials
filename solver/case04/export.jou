@@ -1,0 +1,14 @@
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/suction_p_yplus.csv" aerofoil-suction () yes pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/pressure_p_yplus.csv" aerofoil-pressure () yes pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/trailing_p_yplus.csv" aerofoil-trail () yes pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/velocity_mid.csv" line-mid () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/velocity_te.csv" line-te () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/velocity_wake.csv" line-wake () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/domain_cell_fields.csv" full-domain () yes x-velocity y-velocity pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/inlet_turbulence.csv" inlet () yes viscosity-ratio viscosity-turb turb-kinetic-energy turb-diss-rate () yes
+/report/forces/wall-forces no aerofoil-trail aerofoil-pressure aerofoil-suction () 1 0 yes "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/drag_breakdown.txt"
+/report/forces/wall-forces no aerofoil-trail aerofoil-pressure aerofoil-suction () 0 1 yes "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/raw/lift_breakdown.txt"
+/report/fluxes/mass-flow no inlet outlet () no
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/settings/case04_final.set"
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/case04_final.cas.h5"
+

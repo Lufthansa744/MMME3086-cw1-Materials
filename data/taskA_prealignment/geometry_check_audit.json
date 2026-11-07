@@ -1,0 +1,60 @@
+{
+  "artifact_type": "coordinate-derived geometry inspection; not a software screenshot",
+  "sources": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\foil_coordinates_m.csv",
+      "sha256": "d75b5ddbd2594ac3d43e8d180c7438299c9e72db019dbd40d421badbeff04f7b"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\boundary_edges.csv",
+      "sha256": "1bd1c057aae016ffef354b544170330f9e5866606be218ae0886458041e7233d"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\geometry_properties.txt",
+      "sha256": "2eb94d3fb4ccaf17c42d4fe7b7df3b55092bd9569a1443630939ddec1f14e6a8"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\create_geometry.py",
+      "sha256": "27b954d468f6f5fe2d8c127b86f29d5282178ec1cf31d591ed906728bb634464"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\taskA_geometry.scdoc",
+      "sha256": "470b50548ccee81d1ef3c57c94e56e8349864e4aa9418064a6285a74c4e7122b"
+    }
+  ],
+  "script": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\plot_taskA_geometry.py",
+    "sha256": "7e99af7d4c3e6fb0f64c48762934b6c7a66b82931fa3316dad6b756c22254117"
+  },
+  "coordinate_units": "m",
+  "LE_m": [
+    0.0,
+    0.0
+  ],
+  "TE_centre_m": [
+    0.09902680687415699,
+    -0.0139173100960065
+  ],
+  "chord_m": 0.09999999999999995,
+  "chord_angle_deg": -7.999999999999978,
+  "physical_AoA_deg_for_positive_x_inlet": 7.999999999999978,
+  "duct_length_m": 1.0,
+  "duct_height_m": 0.15,
+  "max_sampled_thickness_m": 0.012003339429328679,
+  "trailing_edge_gap_m": 0.00025200000000013216,
+  "unrotated_symmetry_error_m": 1.6341095143701523e-15,
+  "boundary_names": [
+    "aerofoil_te",
+    "aerofoil_pressure",
+    "aerofoil_suction",
+    "inlet",
+    "wall_bottom",
+    "outlet",
+    "wall_top"
+  ],
+  "geometry_checks": "pass: exported endpoints, planarity, dimensions, angle and symmetry",
+  "figure": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\geometry_coordinate_check.svg",
+    "sha256": "bd2f2e7de007c2baa73d017e1358e785e95a95bc0ee555e3b60406fd9077bbe4"
+  }
+}

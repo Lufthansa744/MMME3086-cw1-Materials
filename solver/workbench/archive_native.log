@@ -1,0 +1,9 @@
+None
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\workbench\archive_final_project.wbjn", line 8, in <module>
+    Archive(FilePath=root+r"\final_coursework_cases.wbpz",IncludeExternalFiles=True)
+  File "D:\ANSYS Inc\v222\Addins\PythonScriptingEngine\PythonFiles\CommandBindings.py", line 50, in __call__
+    asyncResult, returnValue = self.InvokeAsync(
+  File "D:\ANSYS Inc\v222\Addins\PythonScriptingEngine\PythonFiles\CommandBindings.py", line 85, in InvokeAsync
+    asyncResult = context.InvokeAsync(invokeConfig,migratedInfo)
+ValueError: Unknown argument: IncludeExternalFiles

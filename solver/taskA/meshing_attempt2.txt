@@ -1,0 +1,14 @@
+MESHER_PYTHON_OK
+Basic settings applied
+body SYS\fluid
+named_selection aerofoil_te [6]
+named_selection aerofoil_pressure [7]
+named_selection aerofoil_suction [8]
+named_selection inlet [9]
+named_selection wall_bottom [10]
+named_selection outlet [11]
+named_selection wall_top [12]
+GlobalSize=0.01 [m] growth=1.05 method=AllTriAllTet
+FoilSize=0.002 [m] growth=1.05 ids=[6, 7, 8]
+MESH_GENERATION_START
+MESH_GENERATED nodes=4042 elements=7713

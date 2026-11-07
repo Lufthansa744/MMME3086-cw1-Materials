@@ -1,0 +1,11 @@
+# Figure 2: actual native mesh rendering
+
+The plot reads `solver/taskA/taskA_baseline.msh`, SHA256 `9f1acf4d40a4f1cf3f203403db57427eebce629bae9e8558298b5eae7e633158`. It decodes the actual little-endian node-coordinate and face-connectivity blocks using the interpretation independently checked in `review/verify_baseline_mesh.py`. The plotting script is `data/plot_taskA_mesh.py`; no solver session is opened.
+
+All 11,755 unique native faces are drawn in the full-domain panel. The local panel selects segments whose bounding boxes intersect the requested region and clips them to the view; 3,212 native segments enter that selection. There is no new triangulation, smoothing, cell averaging, cosmetic subdivision, or CAD curve overlaid on the aerofoil boundary. Both axes use the same coordinate scale in each panel. The seven actual boundary zones are highlighted and named, including the single finite-thickness trailing-edge segment. The hole in the mesh is the actual aerofoil exclusion.
+
+`figure2_baseline_mesh.svg` is the vector original. `figure2_baseline_mesh.png` is a 3200 by 2320 pixel raster rendering with sharp, using 144 dpi on the 1600 by 1160 SVG. The submission variant removes the checking header and long source footer; its mesh paths and labels are identical. The SVG/audit are the authoritative geometry references. Figure captions can state the native source and actual meshing controls after independent review, without including the audit filename in the visible report figure.
+
+The display uses millimetres; the source is in metres. Counts are 4,042 nodes and 7,713 triangular cells. These values and the source/script/parser hashes are recorded in `figure2_mesh_manifest.json`. Element appearance does not establish convergence or wall-function validity; those require the real Fluent checks and solution.
+
+Suggested short factual caption, conditional on controls being independently verified: “Triangular mesh of the 1000 mm by 150 mm duct, comprising 7713 cells. The enlarged aerofoil region shows the 2 mm surface discretisation and the finite trailing-edge closure. Actual named boundaries are marked. The unstructured mesh becomes coarser away from the aerofoil; its suitability for the selected wall treatment must be assessed using the computed y+.”

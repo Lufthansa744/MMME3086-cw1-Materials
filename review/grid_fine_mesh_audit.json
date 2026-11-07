@@ -1,0 +1,119 @@
+{
+  "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\grid_fine_mesh\\mesh.msh",
+  "bytes": 658302,
+  "sha256": "c1cd705bee5fa525ea733fe456d4233c4c190c82a63616f296add4e52bdc0461",
+  "counts": {
+    "nodes": 10433,
+    "cells": 20195,
+    "faces": 30628
+  },
+  "dimension": 2,
+  "cell_headers_hex_decoded": [
+    [
+      2,
+      1,
+      20195,
+      1,
+      1
+    ]
+  ],
+  "all_cells_triangles": true,
+  "x_bounds_m": [
+    -0.5,
+    0.5
+  ],
+  "y_bounds_m": [
+    -0.075,
+    0.075
+  ],
+  "connected_fluid_cells": 20195,
+  "all_cells_one_component": true,
+  "boundary_face_count": 671,
+  "boundary_loop_vertex_counts": [
+    205,
+    466
+  ],
+  "euler_V_minus_E_plus_C": 0,
+  "cell_area_min_m2": 1.2999511164590333e-07,
+  "cell_area_max_m2": 2.3052049429764747e-05,
+  "total_cell_area_m2": 0.1491781850298942,
+  "minimum_triangle_mean_ratio": 0.38092105689208283,
+  "maximum_triangle_equiangle_skew": 0.781936532792224,
+  "minimum_triangle_angle_degrees": 13.083808032466562,
+  "cells_containing_foil_interior_test_point": [],
+  "zones": [
+    {
+      "id_as_written": "1",
+      "type": "interior",
+      "name": "interior-sys_fluid",
+      "face_count": 29957,
+      "min_edge_length_m": 0.0006965633801588095,
+      "max_edge_length_m": 0.008532067568303091
+    },
+    {
+      "id_as_written": "2",
+      "type": "fluid",
+      "name": "sys_fluid",
+      "face_count": 0,
+      "min_edge_length_m": null,
+      "max_edge_length_m": null
+    },
+    {
+      "id_as_written": "5",
+      "type": "wall",
+      "name": "aerofoil_te",
+      "face_count": 1,
+      "min_edge_length_m": 0.0002519999999999896,
+      "max_edge_length_m": 0.0002519999999999896
+    },
+    {
+      "id_as_written": "6",
+      "type": "wall",
+      "name": "aerofoil_pressure",
+      "face_count": 102,
+      "min_edge_length_m": 0.0009795032384178196,
+      "max_edge_length_m": 0.0009999347408818726
+    },
+    {
+      "id_as_written": "7",
+      "type": "wall",
+      "name": "aerofoil_suction",
+      "face_count": 102,
+      "min_edge_length_m": 0.0009794936292360655,
+      "max_edge_length_m": 0.0009998365258897966
+    },
+    {
+      "id_as_written": "8",
+      "type": "velocity-inlet",
+      "name": "inlet",
+      "face_count": 30,
+      "min_edge_length_m": 0.004999999999999366,
+      "max_edge_length_m": 0.005000000000000032
+    },
+    {
+      "id_as_written": "9",
+      "type": "wall",
+      "name": "wall_bottom",
+      "face_count": 203,
+      "min_edge_length_m": 0.004351789520758542,
+      "max_edge_length_m": 0.004991291023095423
+    },
+    {
+      "id_as_written": "10",
+      "type": "pressure-outlet",
+      "name": "outlet",
+      "face_count": 30,
+      "min_edge_length_m": 0.004999999999999366,
+      "max_edge_length_m": 0.005000000000000032
+    },
+    {
+      "id_as_written": "11",
+      "type": "wall",
+      "name": "wall_top",
+      "face_count": 203,
+      "min_edge_length_m": 0.004233832196130272,
+      "max_edge_length_m": 0.0049951010612081514
+    }
+  ],
+  "limitation": "Independent topology and triangle-geometry checks; computed mean-ratio/equiangle-skew are explicitly defined here and are not claimed to be Fluent orthogonal-quality metrics. Actual Fluent mesh check/quality and rendered mesh still required."
+}

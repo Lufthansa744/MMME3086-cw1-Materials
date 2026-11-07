@@ -1,0 +1,44 @@
+; Replay of the validated Case 1 setup. All paths are absolute.
+; Start from a fresh Fluent 2022 R2 2ddp session. This configures without iterating.
+/file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/taskA/taskA_baseline.msh"
+/define/models/viscous/spalart-allmaras yes
+/define/boundary-conditions/velocity-inlet inlet no no yes yes no 50.9 no 0 no yes 5 1
+/solve/set/p-v-coupling 20
+/report/reference-values/area 0.1
+/report/reference-values/length 0.1
+/report/reference-values/velocity 50.9
+/report/reference-values/depth 1
+/solve/monitors/residual/convergence-criteria 0.001 0.001 0.001 0.001
+/solve/monitors/residual/n-save 10000
+/solve/report-definitions/add drag-force drag
+thread-names aerofoil_te aerofoil_pressure aerofoil_suction ()
+force-vector 1 0
+scaled? no
+q
+/solve/report-definitions/add lift-force lift
+thread-names aerofoil_te aerofoil_pressure aerofoil_suction ()
+force-vector 0 1
+scaled? no
+q
+/solve/report-files/add forces
+file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/monitors/forces_replay.out"
+report-defs drag-force lift-force ()
+frequency 1
+print? yes
+q
+/solve/report-definitions/add mass-net flux-massflow
+zone-names inlet outlet ()
+q
+/solve/report-files/add mass-balance
+file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/monitors/mass_balance_replay.out"
+report-defs mass-net ()
+frequency 1
+print? yes
+q
+; Outlet and fluid properties remain the mesh-import defaults, verified in the
+; original setup transcript and saved settings: air rho=1.225 kg/m3,
+; mu=1.7894e-5 kg/(m s), gauge outlet pressure=0 Pa.
+; Native S-A treatment is used: no selectable standard-wall-function control.
+; The observed defaults TI=5% and turbulent length=1 m are explicitly replayed.
+; Hybrid initialization, actually used in the recorded run:
+/solve/initialize/hyb-initialization

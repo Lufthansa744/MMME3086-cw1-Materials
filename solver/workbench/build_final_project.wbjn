@@ -1,0 +1,31 @@
+SetScriptVersion(Version="22.2.192")
+import traceback, hashlib, json
+root=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver"
+f=open(root+r"\workbench\final_project_build.log","w")
+def log(s): f.write(str(s)+'\n');f.flush()
+records=[]
+def pair(system,folder,title):
+    system.DisplayText=title
+    stem=root+"\\"+folder+"\\"+folder+"_final"
+    system.GetContainer(ComponentName="Setup").Import(FileType="Case",FilePath=stem+".cas.h5")
+    system.GetContainer(ComponentName="Solution").ImportFinalData(FilePath=stem+".dat.h5")
+    item={"folder":folder,"title":title,"system":str(system),"files":[]}
+    for suffix in [".cas.h5",".dat.h5"]:
+        p=stem+suffix
+        item["files"].append({"source":p,"sha256":hashlib.sha256(open(p,"rb").read()).hexdigest()})
+    records.append(item)
+    log("IMPORTED_PAIRED_FINAL "+folder+" "+str(system))
+try:
+    template=GetTemplate(TemplateName="Fluid Flow")
+    c1=template.CreateSystem();pair(c1,"case01_aligned","Case 1 - aligned SA")
+    c2=c1.Duplicate();log("ACTUAL_DUPLICATE Case1->Case2 "+str(c2));pair(c2,"case02_aligned","Case 2 - aligned standard k-epsilon")
+    c3=c2.Duplicate();log("ACTUAL_DUPLICATE Case2->Case3 "+str(c3));pair(c3,"case03_aligned","Case 3 - aligned RSM")
+    c4=template.CreateSystem();pair(c4,"case04_verified","Case 4 - enhanced k-epsilon EWT")
+    c5=c4.Duplicate();log("ACTUAL_DUPLICATE Case4->Case5 "+str(c5));pair(c5,"case05_verified","Case 5 - enhanced relaxed RSM EWT")
+    Save(FilePath=root+r"\workbench\final_coursework_cases.wbpj",Overwrite=True)
+    json.dump(records,open(root+r"\workbench\final_project_sources.json","w"),indent=2)
+    log("FINAL_PROJECT_SAVED_FIVE_PAIRED_SYSTEMS")
+except:
+    log(traceback.format_exc())
+f.close()
+

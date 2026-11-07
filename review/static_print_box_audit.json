@@ -1,0 +1,353 @@
+{
+  "main_sha256": "d3c118e2faaaa9d281edd0aee3d9e4f2d4394ec59a97dcc71382c1e0bfec6cc8",
+  "class_text_width_mm": 165.1,
+  "class_text_height_mm": 228.6,
+  "figures": [
+    {
+      "figure": "fig01_geometry.png",
+      "PNG_pixels": [
+        3200,
+        1060
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 48.0,
+      "actual_print_width_mm": 144.90566037735852,
+      "actual_print_height_mm": 48.00000000000001,
+      "raster_ppi": 560.9166666666666,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_compact.svg",
+      "min_label_font_pt": 8.215124052889617,
+      "max_label_font_pt": 9.242014559500818,
+      "labels_below_8pt": []
+    },
+    {
+      "figure": "fig02_mesh_bc.png",
+      "PNG_pixels": [
+        3200,
+        1480
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 77.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 76.35874999999999,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.svg",
+      "min_label_font_pt": 8.190000000000001,
+      "max_label_font_pt": 9.360000000000001,
+      "labels_below_8pt": []
+    },
+    {
+      "figure": "fig03_sa_convergence.png",
+      "PNG_pixels": [
+        3200,
+        880
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 46.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 45.4025,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\figures\\figure3_residuals_compact.svg",
+      "min_label_font_pt": 7.8975,
+      "max_label_font_pt": 9.360000000000001,
+      "labels_below_8pt": [
+        {
+          "text": "10-5",
+          "svg_font_px": 27.0,
+          "print_pt": 7.8975
+        },
+        {
+          "text": "10\u22123",
+          "svg_font_px": 27.0,
+          "print_pt": 7.8975
+        }
+      ]
+    },
+    {
+      "figure": "fig04_rsm_vectors.png",
+      "PNG_pixels": [
+        3200,
+        1260
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 70.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 65.008125,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure4_velocity_vectors.svg",
+      "min_label_font_pt": 7.8975,
+      "max_label_font_pt": 8.775,
+      "labels_below_8pt": [
+        {
+          "text": "Inset: normalised",
+          "svg_font_px": 27.0,
+          "print_pt": 7.8975
+        },
+        {
+          "text": "direction arrows",
+          "svg_font_px": 27.0,
+          "print_pt": 7.8975
+        },
+        {
+          "text": "No cells with u\u2093 < 0",
+          "svg_font_px": 27.0,
+          "print_pt": 7.8975
+        }
+      ]
+    },
+    {
+      "figure": "fig05_rsm_yplus.png",
+      "PNG_pixels": [
+        3200,
+        1280
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 68.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 66.03999999999999,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure5_wall_cell_yplus.svg",
+      "min_label_font_pt": 8.190000000000001,
+      "max_label_font_pt": 8.775,
+      "labels_below_8pt": []
+    },
+    {
+      "figure": "fig06_enhanced_combined.png",
+      "PNG_pixels": [
+        3200,
+        1380
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 72.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 71.19937499999999,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\figures\\figure6_combined_compact.svg",
+      "min_label_font_pt": 7.8975,
+      "max_label_font_pt": 8.775,
+      "labels_below_8pt": [
+        {
+          "text": "Shared physical scale with Figure 4",
+          "svg_font_px": 27.0,
+          "print_pt": 7.8975
+        }
+      ]
+    },
+    {
+      "figure": "fig07_velocity_midchord.png",
+      "PNG_pixels": [
+        3200,
+        710
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 38.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 36.631562499999994,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure7_velocity_mid.svg",
+      "min_label_font_pt": 8.190000000000001,
+      "max_label_font_pt": 9.360000000000001,
+      "labels_below_8pt": []
+    },
+    {
+      "figure": "fig08_velocity_trailingedge.png",
+      "PNG_pixels": [
+        3200,
+        710
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 38.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 36.631562499999994,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure8_velocity_te.svg",
+      "min_label_font_pt": 8.190000000000001,
+      "max_label_font_pt": 9.360000000000001,
+      "labels_below_8pt": []
+    },
+    {
+      "figure": "fig09_velocity_downstream.png",
+      "PNG_pixels": [
+        3200,
+        710
+      ],
+      "available_width_mm": 165.1,
+      "height_cap_mm": 38.0,
+      "actual_print_width_mm": 165.1,
+      "actual_print_height_mm": 36.631562499999994,
+      "raster_ppi": 492.3076923076923,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure9_velocity_wake.svg",
+      "min_label_font_pt": 8.190000000000001,
+      "max_label_font_pt": 9.360000000000001,
+      "labels_below_8pt": []
+    },
+    {
+      "figure": "fig10_pressure_pressure.png",
+      "PNG_pixels": [
+        1640,
+        860
+      ],
+      "available_width_mm": 80.0735,
+      "height_cap_mm": 49.0,
+      "actual_print_width_mm": 80.0735,
+      "actual_print_height_mm": 41.98976219512195,
+      "raster_ppi": 520.2220459952418,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure10_pressure_pressure.svg",
+      "min_label_font_pt": 7.750536585365855,
+      "max_label_font_pt": 8.857756097560976,
+      "labels_below_8pt": [
+        {
+          "text": "S-A",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        }
+      ]
+    },
+    {
+      "figure": "fig11_pressure_suction.png",
+      "PNG_pixels": [
+        1640,
+        860
+      ],
+      "available_width_mm": 80.0735,
+      "height_cap_mm": 49.0,
+      "actual_print_width_mm": 80.0735,
+      "actual_print_height_mm": 41.98976219512195,
+      "raster_ppi": 520.2220459952418,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure11_pressure_suction.svg",
+      "min_label_font_pt": 7.750536585365855,
+      "max_label_font_pt": 8.857756097560976,
+      "labels_below_8pt": [
+        {
+          "text": "S-A",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        }
+      ]
+    },
+    {
+      "figure": "fig12_yplus_suction.png",
+      "PNG_pixels": [
+        1640,
+        860
+      ],
+      "available_width_mm": 80.0735,
+      "height_cap_mm": 46.0,
+      "actual_print_width_mm": 80.0735,
+      "actual_print_height_mm": 41.98976219512195,
+      "raster_ppi": 520.2220459952418,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure12_yplus_suction.svg",
+      "min_label_font_pt": 7.750536585365855,
+      "max_label_font_pt": 8.857756097560976,
+      "labels_below_8pt": [
+        {
+          "text": "S-A",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        }
+      ]
+    },
+    {
+      "figure": "fig13_yplus_pressure.png",
+      "PNG_pixels": [
+        1640,
+        860
+      ],
+      "available_width_mm": 80.0735,
+      "height_cap_mm": 46.0,
+      "actual_print_width_mm": 80.0735,
+      "actual_print_height_mm": 41.98976219512195,
+      "raster_ppi": 520.2220459952418,
+      "SVG": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure13_yplus_pressure.svg",
+      "min_label_font_pt": 7.750536585365855,
+      "max_label_font_pt": 8.857756097560976,
+      "labels_below_8pt": [
+        {
+          "text": "S-A",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "k-e EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        },
+        {
+          "text": "RSM EWT",
+          "svg_font_px": 28.0,
+          "print_pt": 7.750536585365855
+        }
+      ]
+    }
+  ],
+  "method": "Letterpaper minus 1 inch margins, exact source PNG aspect ratio, graphicx width AND height with keepaspectratio. SVG font-size inheritance converted at actual print width; no TeX compilation or rendered-page acceptance."
+}

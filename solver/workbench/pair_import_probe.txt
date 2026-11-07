@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\workbench\probe_pair_import.wbjn", line 7, in <module>
+    s.GetContainer(ComponentName="Setup").Import(FileType="CaseAndData",FilePath=root+r"\case01_aligned\case01_aligned_final.cas.h5")
+ValueError: Cannot convert value CaseAndData from String to FileType.

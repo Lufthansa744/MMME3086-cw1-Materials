@@ -1,0 +1,41 @@
+; Observed initial enhanced-mesh RSM setup; diagnostic run separate from Case 4/5.
+/file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/inputs/Aerofoil8-degAoA-enhancedBL.msh"
+/define/models/viscous/reynolds-stress-model yes
+/define/models/viscous/near-wall-treatment/enhanced-wall-treatment? yes
+/define/boundary-conditions/velocity-inlet inlet no no yes yes no 50.9 no 0 no yes 5 1 yes
+/solve/set/p-v-coupling 20
+/report/reference-values/area 0.1
+/report/reference-values/length 0.1
+/report/reference-values/velocity 50.9
+/report/reference-values/depth 1
+/solve/report-definitions/add drag-force drag
+thread-names aerofoil-trail aerofoil-pressure aerofoil-suction ()
+force-vector 1 0
+scaled? no
+q
+/solve/report-definitions/add lift-force lift
+thread-names aerofoil-trail aerofoil-pressure aerofoil-suction ()
+force-vector 0 1
+scaled? no
+q
+/solve/report-files/add forces
+file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/initial_enhanced_rsm/monitors/forces.out"
+report-defs drag-force lift-force ()
+frequency 1
+print? yes
+q
+/solve/report-definitions/add mass-net flux-massflow
+zone-names inlet outlet ()
+q
+/solve/report-files/add mass-balance
+file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/initial_enhanced_rsm/monitors/mass_balance.out"
+report-defs mass-net ()
+frequency 1
+print? yes
+q
+/solve/monitors/residual/n-save 10000
+/solve/monitors/residual/convergence-criteria 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/initial_enhanced_rsm/settings/initial_enhanced_rsm_configured.set"
+/file/write-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/initial_enhanced_rsm/settings/initial_enhanced_rsm_configured.cas.h5"
+/solve/initialize/hyb-initialization
+

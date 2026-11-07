@@ -1,0 +1,701 @@
+{
+  "case": "case01_aligned",
+  "mesh": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+    "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be"
+  },
+  "sources": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\native\\raw\\suction_p_yplus.csv",
+      "sha256": "804554b1417308ff46d4ade8fdd34f1371a6810cb3badd01961868b35db75c71"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\native\\raw\\pressure_p_yplus.csv",
+      "sha256": "4bdcbe92cc4f11eec489c92387d158b4f17602aa68d7b6cb6c5defeb723fea74"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case01_aligned\\raw\\trailing_p_yplus.csv",
+      "sha256": "a3d8565b7fb10733348e49d4b2bdb2fc818667a3956b0a3a22339c590e6b6601"
+    }
+  ],
+  "sides": {
+    "suction": {
+      "zone": "aerofoil_suction",
+      "face_count": 51,
+      "length_m": 0.10188636249433519,
+      "yplus_range": [
+        48.80756247,
+        205.6233674
+      ],
+      "length_fractions": {
+        "at_most_1": 0.0,
+        "above_1_to_5": 0.0,
+        "above_5": 1.0,
+        "below_30": 0.0,
+        "from_30_to_300": 1.0,
+        "above_300": 0.0
+      },
+      "native_faces": [
+        {
+          "face_id": 11401,
+          "adjacent_cell_id": 7156,
+          "length_m": 0.0019992640191261886,
+          "yplus": 177.7986214
+        },
+        {
+          "face_id": 11402,
+          "adjacent_cell_id": 7066,
+          "length_m": 0.001999264015948506,
+          "yplus": 167.8527314
+        },
+        {
+          "face_id": 11403,
+          "adjacent_cell_id": 7196,
+          "length_m": 0.001999264015148652,
+          "yplus": 160.3362335
+        },
+        {
+          "face_id": 11404,
+          "adjacent_cell_id": 7354,
+          "length_m": 0.0019992640148337733,
+          "yplus": 152.7307327
+        },
+        {
+          "face_id": 11405,
+          "adjacent_cell_id": 2227,
+          "length_m": 0.001999264014645307,
+          "yplus": 177.7601233
+        },
+        {
+          "face_id": 11406,
+          "adjacent_cell_id": 7318,
+          "length_m": 0.0019992640144885646,
+          "yplus": 120.4872498
+        },
+        {
+          "face_id": 11407,
+          "adjacent_cell_id": 7625,
+          "length_m": 0.0019992640143782245,
+          "yplus": 93.59055472
+        },
+        {
+          "face_id": 11408,
+          "adjacent_cell_id": 7137,
+          "length_m": 0.001999264014384525,
+          "yplus": 138.4415392
+        },
+        {
+          "face_id": 11409,
+          "adjacent_cell_id": 7362,
+          "length_m": 0.001999264014291544,
+          "yplus": 110.8192217
+        },
+        {
+          "face_id": 11410,
+          "adjacent_cell_id": 7509,
+          "length_m": 0.001999264014282663,
+          "yplus": 79.77797077
+        },
+        {
+          "face_id": 11411,
+          "adjacent_cell_id": 7346,
+          "length_m": 0.0019992640142494156,
+          "yplus": 95.40687788
+        },
+        {
+          "face_id": 11412,
+          "adjacent_cell_id": 7253,
+          "length_m": 0.0019992640142341856,
+          "yplus": 104.8121797
+        },
+        {
+          "face_id": 11413,
+          "adjacent_cell_id": 7109,
+          "length_m": 0.0019992640142536618,
+          "yplus": 117.2022062
+        },
+        {
+          "face_id": 11415,
+          "adjacent_cell_id": 7550,
+          "length_m": 0.001999300054955772,
+          "yplus": 125.8961196
+        },
+        {
+          "face_id": 11416,
+          "adjacent_cell_id": 7138,
+          "length_m": 0.001999319073051398,
+          "yplus": 88.89559964
+        },
+        {
+          "face_id": 11417,
+          "adjacent_cell_id": 7323,
+          "length_m": 0.0019992640142248567,
+          "yplus": 90.59654649
+        },
+        {
+          "face_id": 11418,
+          "adjacent_cell_id": 7466,
+          "length_m": 0.0019992640141869938,
+          "yplus": 88.58732015
+        },
+        {
+          "face_id": 11419,
+          "adjacent_cell_id": 7310,
+          "length_m": 0.001999264014169606,
+          "yplus": 93.61190564
+        },
+        {
+          "face_id": 11420,
+          "adjacent_cell_id": 7054,
+          "length_m": 0.001999264014183096,
+          "yplus": 106.4534921
+        },
+        {
+          "face_id": 11421,
+          "adjacent_cell_id": 7046,
+          "length_m": 0.001999264014171265,
+          "yplus": 115.385687
+        },
+        {
+          "face_id": 11422,
+          "adjacent_cell_id": 7117,
+          "length_m": 0.001999339705313177,
+          "yplus": 102.7305311
+        },
+        {
+          "face_id": 11423,
+          "adjacent_cell_id": 7100,
+          "length_m": 0.0019992640141670995,
+          "yplus": 99.17597114
+        },
+        {
+          "face_id": 11424,
+          "adjacent_cell_id": 7291,
+          "length_m": 0.0019992640141662686,
+          "yplus": 89.08506466
+        },
+        {
+          "face_id": 11425,
+          "adjacent_cell_id": 7426,
+          "length_m": 0.001999264014156738,
+          "yplus": 63.93230682
+        },
+        {
+          "face_id": 11426,
+          "adjacent_cell_id": 7288,
+          "length_m": 0.0019992640141582884,
+          "yplus": 77.20848849
+        },
+        {
+          "face_id": 11427,
+          "adjacent_cell_id": 7064,
+          "length_m": 0.001999276393371482,
+          "yplus": 88.59066926
+        },
+        {
+          "face_id": 11428,
+          "adjacent_cell_id": 7035,
+          "length_m": 0.0019992695618162902,
+          "yplus": 100.1997677
+        },
+        {
+          "face_id": 11429,
+          "adjacent_cell_id": 7244,
+          "length_m": 0.0019992640141539633,
+          "yplus": 94.28322304
+        },
+        {
+          "face_id": 11430,
+          "adjacent_cell_id": 7139,
+          "length_m": 0.0019992640141575316,
+          "yplus": 80.96338405
+        },
+        {
+          "face_id": 11431,
+          "adjacent_cell_id": 7210,
+          "length_m": 0.001999442013782698,
+          "yplus": 90.6056581
+        },
+        {
+          "face_id": 11432,
+          "adjacent_cell_id": 7052,
+          "length_m": 0.0019992814973718845,
+          "yplus": 92.22677536
+        },
+        {
+          "face_id": 11433,
+          "adjacent_cell_id": 5250,
+          "length_m": 0.001999264014154624,
+          "yplus": 95.34979645
+        },
+        {
+          "face_id": 11434,
+          "adjacent_cell_id": 7312,
+          "length_m": 0.0019992640141521887,
+          "yplus": 59.73748687
+        },
+        {
+          "face_id": 11435,
+          "adjacent_cell_id": 7249,
+          "length_m": 0.001999305158350039,
+          "yplus": 68.77791001
+        },
+        {
+          "face_id": 11436,
+          "adjacent_cell_id": 7593,
+          "length_m": 0.0019993281448820455,
+          "yplus": 75.38643393
+        },
+        {
+          "face_id": 11437,
+          "adjacent_cell_id": 7342,
+          "length_m": 0.001999264014151948,
+          "yplus": 73.55683953
+        },
+        {
+          "face_id": 11438,
+          "adjacent_cell_id": 7339,
+          "length_m": 0.001999264014151506,
+          "yplus": 66.82571024
+        },
+        {
+          "face_id": 11439,
+          "adjacent_cell_id": 6196,
+          "length_m": 0.001999284991347692,
+          "yplus": 55.58104825
+        },
+        {
+          "face_id": 11440,
+          "adjacent_cell_id": 7498,
+          "length_m": 0.00199946584824729,
+          "yplus": 68.98750917
+        },
+        {
+          "face_id": 11441,
+          "adjacent_cell_id": 7513,
+          "length_m": 0.0019992640141523917,
+          "yplus": 71.38308953
+        },
+        {
+          "face_id": 11442,
+          "adjacent_cell_id": 6943,
+          "length_m": 0.0019992640141516514,
+          "yplus": 68.71346877
+        },
+        {
+          "face_id": 11443,
+          "adjacent_cell_id": 7578,
+          "length_m": 0.001999264014152151,
+          "yplus": 69.34775021
+        },
+        {
+          "face_id": 11444,
+          "adjacent_cell_id": 7588,
+          "length_m": 0.0019994551984370227,
+          "yplus": 49.98582732
+        },
+        {
+          "face_id": 11445,
+          "adjacent_cell_id": 6134,
+          "length_m": 0.00199926401415307,
+          "yplus": 61.48202053
+        },
+        {
+          "face_id": 11446,
+          "adjacent_cell_id": 7316,
+          "length_m": 0.00199926401415211,
+          "yplus": 52.62756147
+        },
+        {
+          "face_id": 11447,
+          "adjacent_cell_id": 69,
+          "length_m": 0.001999264014156263,
+          "yplus": 49.78671511
+        },
+        {
+          "face_id": 11448,
+          "adjacent_cell_id": 7251,
+          "length_m": 0.0019993161648790727,
+          "yplus": 51.54988562
+        },
+        {
+          "face_id": 11414,
+          "adjacent_cell_id": 2573,
+          "length_m": 0.0019220288352524621,
+          "yplus": 48.80756247
+        },
+        {
+          "face_id": 11398,
+          "adjacent_cell_id": 351,
+          "length_m": 0.0019993772672869292,
+          "yplus": 190.2873985
+        },
+        {
+          "face_id": 11399,
+          "adjacent_cell_id": 7573,
+          "length_m": 0.0019993320657478646,
+          "yplus": 205.6233674
+        },
+        {
+          "face_id": 11400,
+          "adjacent_cell_id": 7298,
+          "length_m": 0.001999264028553254,
+          "yplus": 195.8297416
+        }
+      ]
+    },
+    "pressure": {
+      "zone": "aerofoil_pressure",
+      "face_count": 51,
+      "length_m": 0.10188636941805808,
+      "yplus_range": [
+        28.23981058,
+        154.3733402
+      ],
+      "length_fractions": {
+        "at_most_1": 0.0,
+        "above_1_to_5": 0.0,
+        "above_5": 1.0,
+        "below_30": 0.019622528403120384,
+        "from_30_to_300": 0.9803774715968797,
+        "above_300": 0.0
+      },
+      "native_faces": [
+        {
+          "face_id": 11389,
+          "adjacent_cell_id": 7047,
+          "length_m": 0.0019992680587251036,
+          "yplus": 116.1537845
+        },
+        {
+          "face_id": 11390,
+          "adjacent_cell_id": 7583,
+          "length_m": 0.0019992680587255346,
+          "yplus": 103.2362017
+        },
+        {
+          "face_id": 11391,
+          "adjacent_cell_id": 379,
+          "length_m": 0.0019992680587247757,
+          "yplus": 128.2707263
+        },
+        {
+          "face_id": 11392,
+          "adjacent_cell_id": 7090,
+          "length_m": 0.00199926805872527,
+          "yplus": 144.3548627
+        },
+        {
+          "face_id": 11393,
+          "adjacent_cell_id": 7541,
+          "length_m": 0.00199926805872705,
+          "yplus": 117.7464148
+        },
+        {
+          "face_id": 11394,
+          "adjacent_cell_id": 7302,
+          "length_m": 0.0019992680587262116,
+          "yplus": 108.9238602
+        },
+        {
+          "face_id": 11395,
+          "adjacent_cell_id": 7438,
+          "length_m": 0.001999268058725255,
+          "yplus": 81.9345474
+        },
+        {
+          "face_id": 11396,
+          "adjacent_cell_id": 7300,
+          "length_m": 0.0019992680587294152,
+          "yplus": 99.41804794
+        },
+        {
+          "face_id": 11397,
+          "adjacent_cell_id": 7095,
+          "length_m": 0.001999268058729324,
+          "yplus": 112.588505
+        },
+        {
+          "face_id": 11380,
+          "adjacent_cell_id": 7062,
+          "length_m": 0.0019221183539617041,
+          "yplus": 126.2216685
+        },
+        {
+          "face_id": 11388,
+          "adjacent_cell_id": 7282,
+          "length_m": 0.0019992680587243576,
+          "yplus": 107.3032078
+        },
+        {
+          "face_id": 11387,
+          "adjacent_cell_id": 1034,
+          "length_m": 0.0019992680587246243,
+          "yplus": 138.9541061
+        },
+        {
+          "face_id": 11386,
+          "adjacent_cell_id": 7308,
+          "length_m": 0.001999268058725083,
+          "yplus": 104.1836082
+        },
+        {
+          "face_id": 11385,
+          "adjacent_cell_id": 2209,
+          "length_m": 0.0019992680587252163,
+          "yplus": 129.9152547
+        },
+        {
+          "face_id": 11384,
+          "adjacent_cell_id": 7374,
+          "length_m": 0.001999268058724423,
+          "yplus": 88.56169725
+        },
+        {
+          "face_id": 11383,
+          "adjacent_cell_id": 7235,
+          "length_m": 0.001999268058725323,
+          "yplus": 98.74490911
+        },
+        {
+          "face_id": 11382,
+          "adjacent_cell_id": 3171,
+          "length_m": 0.0019993211102129443,
+          "yplus": 125.3090446
+        },
+        {
+          "face_id": 11381,
+          "adjacent_cell_id": 7351,
+          "length_m": 0.001999415085376918,
+          "yplus": 96.85147453
+        },
+        {
+          "face_id": 11379,
+          "adjacent_cell_id": 7191,
+          "length_m": 0.001999292031783657,
+          "yplus": 121.4591438
+        },
+        {
+          "face_id": 11378,
+          "adjacent_cell_id": 7173,
+          "length_m": 0.001999268058730689,
+          "yplus": 122.9220194
+        },
+        {
+          "face_id": 11377,
+          "adjacent_cell_id": 7331,
+          "length_m": 0.0019992680587271063,
+          "yplus": 123.6005314
+        },
+        {
+          "face_id": 11376,
+          "adjacent_cell_id": 7479,
+          "length_m": 0.0019992680587272633,
+          "yplus": 88.76197698
+        },
+        {
+          "face_id": 11375,
+          "adjacent_cell_id": 7305,
+          "length_m": 0.0019992680587340513,
+          "yplus": 107.5067368
+        },
+        {
+          "face_id": 11374,
+          "adjacent_cell_id": 7045,
+          "length_m": 0.00199926805873146,
+          "yplus": 125.3481953
+        },
+        {
+          "face_id": 11373,
+          "adjacent_cell_id": 7202,
+          "length_m": 0.0019992680587298936,
+          "yplus": 138.6456834
+        },
+        {
+          "face_id": 11372,
+          "adjacent_cell_id": 7027,
+          "length_m": 0.001999268058739469,
+          "yplus": 139.5436839
+        },
+        {
+          "face_id": 11371,
+          "adjacent_cell_id": 7177,
+          "length_m": 0.001999268058740315,
+          "yplus": 134.492812
+        },
+        {
+          "face_id": 11370,
+          "adjacent_cell_id": 2076,
+          "length_m": 0.0019992680587331024,
+          "yplus": 136.2657504
+        },
+        {
+          "face_id": 11369,
+          "adjacent_cell_id": 7349,
+          "length_m": 0.0019992680587444965,
+          "yplus": 126.755808
+        },
+        {
+          "face_id": 11368,
+          "adjacent_cell_id": 7068,
+          "length_m": 0.0019992680587563893,
+          "yplus": 128.9365226
+        },
+        {
+          "face_id": 11367,
+          "adjacent_cell_id": 7029,
+          "length_m": 0.0019992835221278745,
+          "yplus": 139.0412828
+        },
+        {
+          "face_id": 11366,
+          "adjacent_cell_id": 7338,
+          "length_m": 0.0019993009245759747,
+          "yplus": 121.7937072
+        },
+        {
+          "face_id": 11365,
+          "adjacent_cell_id": 6357,
+          "length_m": 0.0019992839843317456,
+          "yplus": 138.720137
+        },
+        {
+          "face_id": 11364,
+          "adjacent_cell_id": 7039,
+          "length_m": 0.001999268058750301,
+          "yplus": 145.6552643
+        },
+        {
+          "face_id": 11363,
+          "adjacent_cell_id": 7124,
+          "length_m": 0.0019992680587583907,
+          "yplus": 149.8169929
+        },
+        {
+          "face_id": 11362,
+          "adjacent_cell_id": 2877,
+          "length_m": 0.0019992680588272757,
+          "yplus": 154.3733402
+        },
+        {
+          "face_id": 11361,
+          "adjacent_cell_id": 7194,
+          "length_m": 0.001999268058807719,
+          "yplus": 149.920518
+        },
+        {
+          "face_id": 11360,
+          "adjacent_cell_id": 1611,
+          "length_m": 0.0019992680588230356,
+          "yplus": 145.9249919
+        },
+        {
+          "face_id": 11359,
+          "adjacent_cell_id": 2746,
+          "length_m": 0.0019992704405364806,
+          "yplus": 137.831751
+        },
+        {
+          "face_id": 11358,
+          "adjacent_cell_id": 6500,
+          "length_m": 0.0019993003536354532,
+          "yplus": 139.0266344
+        },
+        {
+          "face_id": 11357,
+          "adjacent_cell_id": 2951,
+          "length_m": 0.0019992680589588263,
+          "yplus": 128.9190017
+        },
+        {
+          "face_id": 11356,
+          "adjacent_cell_id": 7328,
+          "length_m": 0.0019992680589524105,
+          "yplus": 109.4619866
+        },
+        {
+          "face_id": 11355,
+          "adjacent_cell_id": 7273,
+          "length_m": 0.0019992960735725064,
+          "yplus": 105.0947224
+        },
+        {
+          "face_id": 11354,
+          "adjacent_cell_id": 5998,
+          "length_m": 0.00199948111195771,
+          "yplus": 119.0358196
+        },
+        {
+          "face_id": 11353,
+          "adjacent_cell_id": 7375,
+          "length_m": 0.0019992680594100296,
+          "yplus": 83.14730289
+        },
+        {
+          "face_id": 11352,
+          "adjacent_cell_id": 7284,
+          "length_m": 0.0019992680597261114,
+          "yplus": 94.6559759
+        },
+        {
+          "face_id": 11351,
+          "adjacent_cell_id": 2876,
+          "length_m": 0.0019995446497220086,
+          "yplus": 99.6284195
+        },
+        {
+          "face_id": 11350,
+          "adjacent_cell_id": 7147,
+          "length_m": 0.001999274829507358,
+          "yplus": 89.63930772
+        },
+        {
+          "face_id": 11349,
+          "adjacent_cell_id": 3644,
+          "length_m": 0.0019992680731566225,
+          "yplus": 70.42289913
+        },
+        {
+          "face_id": 11348,
+          "adjacent_cell_id": 5845,
+          "length_m": 0.001999268177796661,
+          "yplus": 28.23981058
+        },
+        {
+          "face_id": 11347,
+          "adjacent_cell_id": 7387,
+          "length_m": 0.001999268637807162,
+          "yplus": 49.217958
+        }
+      ]
+    },
+    "trailing": {
+      "zone": "aerofoil_te",
+      "face_count": 1,
+      "length_m": 0.0002519999999999896,
+      "yplus_range": [
+        14.7777195,
+        14.7777195
+      ],
+      "length_fractions": {
+        "at_most_1": 0.0,
+        "above_1_to_5": 0.0,
+        "above_5": 1.0,
+        "below_30": 1.0,
+        "from_30_to_300": 0.0,
+        "above_300": 0.0
+      },
+      "native_faces": [
+        {
+          "face_id": 11346,
+          "adjacent_cell_id": 7516,
+          "length_m": 0.0002519999999999896,
+          "yplus": 14.7777195
+        }
+      ]
+    }
+  },
+  "definition": "Sum actual wall-face lengths meeting each y+ indicator, divided by total side length. The face scalar is its native adjacent-cell y+; no interpolation. Thresholds are descriptive wall-treatment diagnostics, not proof of mesh accuracy.",
+  "mapping": "Each exported face midpoint matched uniquely within 1e-7 m with identical adjacent cell ID; every actual side face used once.",
+  "script_sha256": "7a8f189fefbd5512bfa18349bca6bd7ec71c602fee0e7b6d74fa1f776d5d458a"
+}

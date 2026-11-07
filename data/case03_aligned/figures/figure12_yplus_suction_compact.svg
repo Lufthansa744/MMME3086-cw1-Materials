@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="29" fill="#222">
+<path d="M140,320.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="329.0" text-anchor="end">0</text>
+<path d="M140,258.75H785" stroke="#ddd" fill="none"/>
+<text x="125" y="267.75" text-anchor="end">50</text>
+<path d="M140,197.5H785" stroke="#ddd" fill="none"/>
+<text x="125" y="206.5" text-anchor="end">100</text>
+<path d="M140,136.25H785" stroke="#ddd" fill="none"/>
+<text x="125" y="145.25" text-anchor="end">150</text>
+<path d="M140,75.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="84.0" text-anchor="end">200</text>
+<text x="140.0" y="363" text-anchor="middle">0</text>
+<text x="269.0" y="363" text-anchor="middle">20</text>
+<text x="398.0" y="363" text-anchor="middle">40</text>
+<text x="527.0" y="363" text-anchor="middle">60</text>
+<text x="656.0" y="363" text-anchor="middle">80</text>
+<text x="785.0" y="363" text-anchor="middle">100</text>
+<path d="M140,75V320H785" fill="none" stroke="#222" stroke-width="2"/>
+<text x="462.5" y="418" text-anchor="middle" font-size="32">x (mm)</text>
+<text x="35" y="197.5" text-anchor="middle" transform="rotate(-90,35,197.5)" font-size="32">Wall y+</text>
+<polyline points="147.1486,115.9638 157.1426,112.6086 169.3979,113.6965 182.0776,123.5947 194.8953,129.8195 207.7665,134.5635 220.6573,140.4457 233.5511,110.5995 246.4392,177.3843 259.3166,208.4614 272.1805,157.3830 285.0293,188.6620 297.8619,225.7455 310.6779,207.8301 323.4773,196.9457 336.2601,182.5753 349.0268,172.6404 361.7777,216.4849 374.5129,213.9887 387.2329,216.9886 399.9385,211.5749 412.6300,196.9343 425.3081,186.3649 437.9735,201.2855 450.6264,205.6700 463.2672,218.0395 475.8966,248.9284 488.5149,235.0751 501.1228,223.1112 513.7205,210.3696 526.3084,218.0207 538.8868,234.7902 551.4566,225.3381 564.0175,224.9859 576.5692,222.5093 589.1123,263.6257 601.6472,256.2342 614.1740,251.6503 626.6925,255.6641 639.2026,264.5703 651.7045,278.6259 664.1987,268.4239 676.6845,264.1075 689.1610,269.5153 701.6287,270.7167 714.0880,290.6422 726.5379,279.8448 738.9775,288.2283 751.4069,296.0287 763.8258,293.6169 775.9942,292.7077" fill="none" stroke="#0072b2" stroke-width="2.7"/>
+<path d="M140,40h38" stroke="#0072b2" stroke-width="3"/>
+<text x="188" y="49" font-size="28">RSM</text>
+</g></svg>

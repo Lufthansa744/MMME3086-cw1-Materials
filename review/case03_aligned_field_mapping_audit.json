@@ -1,0 +1,1231 @@
+{
+  "source_mesh_sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+  "raw_hashes": {
+    "domain_cell_fields.csv": "cbf56b786c3fde2d92e48c39ab48c3f1a13f077ee3a8cc4b5f0f940bfd9a633f",
+    "suction_p_yplus.csv": "fd59d490a6b0fe298a3b93bc37f6e0bcf6d3960a2e59793c06c492af69c3db39",
+    "pressure_p_yplus.csv": "a4b6b0de6a251259afbabe85c3584ae6755c88b40a6c8d0b1091c18ab1285bf6",
+    "trailing_p_yplus.csv": "17ad306060b84d64da7d353a1be0fa4e577344d8a248c461dcb61ed31fdd8364"
+  },
+  "domain_rows": 7687,
+  "unique_cell_ids": 7687,
+  "raw_cell_id_range": [
+    1,
+    7687
+  ],
+  "tested_raw_to_mesh_id_offsets": {
+    "vertex_mean:-1": {
+      "missing": 1,
+      "max_center_error_m": 0.9676576492721864,
+      "median_center_error_m": 0.08379443430629317
+    },
+    "vertex_mean:0": {
+      "missing": 0,
+      "max_center_error_m": 4.114716796186353e-08,
+      "median_center_error_m": 2.78139171907382e-09
+    },
+    "vertex_mean:1": {
+      "missing": 1,
+      "max_center_error_m": 0.9676576341312632,
+      "median_center_error_m": 0.08379443059397412
+    },
+    "polygon_area_centroid:-1": {
+      "missing": 1,
+      "max_center_error_m": 0.9676576492721906,
+      "median_center_error_m": 0.08379443430629323
+    },
+    "polygon_area_centroid:0": {
+      "missing": 0,
+      "max_center_error_m": 4.114716873902132e-08,
+      "median_center_error_m": 2.7813914633804356e-09
+    },
+    "polygon_area_centroid:1": {
+      "missing": 1,
+      "max_center_error_m": 0.9676576341312614,
+      "median_center_error_m": 0.08379443059397418
+    }
+  },
+  "accepted_raw_to_mesh_id_offset": 0,
+  "accepted_centroid_definition": "vertex_mean",
+  "wall_mapping": [
+    {
+      "file": "suction_p_yplus.csv",
+      "zone": 7,
+      "rows": 51,
+      "mesh_faces": 51,
+      "all_faces_mapped_once": true,
+      "max_face_center_error_m": 4.956726256208843e-09,
+      "max_yplus_difference_domain_vs_wall": 0.0,
+      "records": [
+        {
+          "mesh_face": 11401,
+          "raw_cell_id": 7156,
+          "mesh_cell_id": 7156,
+          "face_center_match_error_m": 3.652896984244917e-10,
+          "wall_yplus": 160.3308193,
+          "domain_cell_yplus": 160.3308193,
+          "yplus_difference": 0.0,
+          "wall_pressure": -3129.040981,
+          "domain_cell_pressure": -3129.040981
+        },
+        {
+          "mesh_face": 11402,
+          "raw_cell_id": 7066,
+          "mesh_cell_id": 7066,
+          "face_center_match_error_m": 1.3184033637337852e-10,
+          "wall_yplus": 155.2493909,
+          "domain_cell_yplus": 155.2493909,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2784.659638,
+          "domain_cell_pressure": -2784.659638
+        },
+        {
+          "mesh_face": 11403,
+          "raw_cell_id": 7196,
+          "mesh_cell_id": 7196,
+          "face_center_match_error_m": 6.331082898601775e-10,
+          "wall_yplus": 151.3767242,
+          "domain_cell_yplus": 151.3767242,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2514.325961,
+          "domain_cell_pressure": -2514.325961
+        },
+        {
+          "mesh_face": 11404,
+          "raw_cell_id": 7354,
+          "mesh_cell_id": 7354,
+          "face_center_match_error_m": 3.41205373058758e-10,
+          "wall_yplus": 146.5749684,
+          "domain_cell_yplus": 146.5749684,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2318.644276,
+          "domain_cell_pressure": -2318.644276
+        },
+        {
+          "mesh_face": 11405,
+          "raw_cell_id": 2227,
+          "mesh_cell_id": 2227,
+          "face_center_match_error_m": 3.8270118047579467e-10,
+          "wall_yplus": 170.9392049,
+          "domain_cell_yplus": 170.9392049,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2100.029895,
+          "domain_cell_pressure": -2100.029895
+        },
+        {
+          "mesh_face": 11406,
+          "raw_cell_id": 7318,
+          "mesh_cell_id": 7318,
+          "face_center_match_error_m": 5.894132552957481e-10,
+          "wall_yplus": 116.4210056,
+          "domain_cell_yplus": 116.4210056,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2039.140999,
+          "domain_cell_pressure": -2039.140999
+        },
+        {
+          "mesh_face": 11407,
+          "raw_cell_id": 7625,
+          "mesh_cell_id": 7625,
+          "face_center_match_error_m": 4.168587380425468e-10,
+          "wall_yplus": 91.05195156,
+          "domain_cell_yplus": 91.05195156,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1868.339472,
+          "domain_cell_pressure": -1868.339472
+        },
+        {
+          "mesh_face": 11408,
+          "raw_cell_id": 7137,
+          "mesh_cell_id": 7137,
+          "face_center_match_error_m": 4.925289325877642e-10,
+          "wall_yplus": 132.748554,
+          "domain_cell_yplus": 132.748554,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1734.706089,
+          "domain_cell_pressure": -1734.706089
+        },
+        {
+          "mesh_face": 11409,
+          "raw_cell_id": 7362,
+          "mesh_cell_id": 7362,
+          "face_center_match_error_m": 4.688229293900304e-10,
+          "wall_yplus": 107.2147271,
+          "domain_cell_yplus": 107.2147271,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1656.731773,
+          "domain_cell_pressure": -1656.731773
+        },
+        {
+          "mesh_face": 11410,
+          "raw_cell_id": 7509,
+          "mesh_cell_id": 7509,
+          "face_center_match_error_m": 5.706738693415451e-10,
+          "wall_yplus": 76.94248472,
+          "domain_cell_yplus": 76.94248472,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1566.103259,
+          "domain_cell_pressure": -1566.103259
+        },
+        {
+          "mesh_face": 11411,
+          "raw_cell_id": 7346,
+          "mesh_cell_id": 7346,
+          "face_center_match_error_m": 1.107341762443632e-09,
+          "wall_yplus": 91.56728814,
+          "domain_cell_yplus": 91.56728814,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1461.742984,
+          "domain_cell_pressure": -1461.742984
+        },
+        {
+          "mesh_face": 11412,
+          "raw_cell_id": 7253,
+          "mesh_cell_id": 7253,
+          "face_center_match_error_m": 1.1295346355192047e-09,
+          "wall_yplus": 100.4525156,
+          "domain_cell_yplus": 100.4525156,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1388.542978,
+          "domain_cell_pressure": -1388.542978
+        },
+        {
+          "mesh_face": 11413,
+          "raw_cell_id": 7109,
+          "mesh_cell_id": 7109,
+          "face_center_match_error_m": 7.739182700124297e-10,
+          "wall_yplus": 112.1833919,
+          "domain_cell_yplus": 112.1833919,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1306.81247,
+          "domain_cell_pressure": -1306.81247
+        },
+        {
+          "mesh_face": 11415,
+          "raw_cell_id": 7550,
+          "mesh_cell_id": 7550,
+          "face_center_match_error_m": 3.86049510643509e-10,
+          "wall_yplus": 120.2935848,
+          "domain_cell_yplus": 120.2935848,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1234.228239,
+          "domain_cell_pressure": -1234.228239
+        },
+        {
+          "mesh_face": 11416,
+          "raw_cell_id": 7138,
+          "mesh_cell_id": 7138,
+          "face_center_match_error_m": 1.2228600054469226e-09,
+          "wall_yplus": 84.50213908,
+          "domain_cell_yplus": 84.50213908,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1176.39171,
+          "domain_cell_pressure": -1176.39171
+        },
+        {
+          "mesh_face": 11417,
+          "raw_cell_id": 7323,
+          "mesh_cell_id": 7323,
+          "face_center_match_error_m": 1.9153467529417415e-09,
+          "wall_yplus": 86.53987015,
+          "domain_cell_yplus": 86.53987015,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1101.706606,
+          "domain_cell_pressure": -1101.706606
+        },
+        {
+          "mesh_face": 11418,
+          "raw_cell_id": 7466,
+          "mesh_cell_id": 7466,
+          "face_center_match_error_m": 4.768860062480162e-10,
+          "wall_yplus": 84.09091345,
+          "domain_cell_yplus": 84.09091345,
+          "yplus_difference": 0.0,
+          "wall_pressure": -1050.895453,
+          "domain_cell_pressure": -1050.895453
+        },
+        {
+          "mesh_face": 11419,
+          "raw_cell_id": 7310,
+          "mesh_cell_id": 7310,
+          "face_center_match_error_m": 8.935634999731222e-10,
+          "wall_yplus": 88.51031838,
+          "domain_cell_yplus": 88.51031838,
+          "yplus_difference": 0.0,
+          "wall_pressure": -987.4496549,
+          "domain_cell_pressure": -987.4496549
+        },
+        {
+          "mesh_face": 11420,
+          "raw_cell_id": 7054,
+          "mesh_cell_id": 7054,
+          "face_center_match_error_m": 1.405544348847528e-09,
+          "wall_yplus": 100.4617613,
+          "domain_cell_yplus": 100.4617613,
+          "yplus_difference": 0.0,
+          "wall_pressure": -925.6501469,
+          "domain_cell_pressure": -925.6501469
+        },
+        {
+          "mesh_face": 11421,
+          "raw_cell_id": 7046,
+          "mesh_cell_id": 7046,
+          "face_center_match_error_m": 6.019657790168322e-10,
+          "wall_yplus": 109.0898469,
+          "domain_cell_yplus": 109.0898469,
+          "yplus_difference": 0.0,
+          "wall_pressure": -866.35304,
+          "domain_cell_pressure": -866.35304
+        },
+        {
+          "mesh_face": 11422,
+          "raw_cell_id": 7117,
+          "mesh_cell_id": 7117,
+          "face_center_match_error_m": 4.74471512995388e-10,
+          "wall_yplus": 96.90976809,
+          "domain_cell_yplus": 96.90976809,
+          "yplus_difference": 0.0,
+          "wall_pressure": -820.3711023,
+          "domain_cell_pressure": -820.3711023
+        },
+        {
+          "mesh_face": 11423,
+          "raw_cell_id": 7100,
+          "mesh_cell_id": 7100,
+          "face_center_match_error_m": 8.378349521467643e-10,
+          "wall_yplus": 93.33061002,
+          "domain_cell_yplus": 93.33061002,
+          "yplus_difference": 0.0,
+          "wall_pressure": -769.7360081,
+          "domain_cell_pressure": -769.7360081
+        },
+        {
+          "mesh_face": 11424,
+          "raw_cell_id": 7291,
+          "mesh_cell_id": 7291,
+          "face_center_match_error_m": 7.84997199391808e-10,
+          "wall_yplus": 83.23304907,
+          "domain_cell_yplus": 83.23304907,
+          "yplus_difference": 0.0,
+          "wall_pressure": -724.9908919,
+          "domain_cell_pressure": -724.9908919
+        },
+        {
+          "mesh_face": 11425,
+          "raw_cell_id": 7426,
+          "mesh_cell_id": 7426,
+          "face_center_match_error_m": 1.2665384219120233e-09,
+          "wall_yplus": 58.01762311,
+          "domain_cell_yplus": 58.01762311,
+          "yplus_difference": 0.0,
+          "wall_pressure": -687.4169177,
+          "domain_cell_pressure": -687.4169177
+        },
+        {
+          "mesh_face": 11426,
+          "raw_cell_id": 7288,
+          "mesh_cell_id": 7288,
+          "face_center_match_error_m": 7.749103087642658e-10,
+          "wall_yplus": 69.32646157,
+          "domain_cell_yplus": 69.32646157,
+          "yplus_difference": 0.0,
+          "wall_pressure": -635.5408679,
+          "domain_cell_pressure": -635.5408679
+        },
+        {
+          "mesh_face": 11427,
+          "raw_cell_id": 7064,
+          "mesh_cell_id": 7064,
+          "face_center_match_error_m": 6.852014308608674e-10,
+          "wall_yplus": 79.09291494,
+          "domain_cell_yplus": 79.09291494,
+          "yplus_difference": 0.0,
+          "wall_pressure": -589.9050039,
+          "domain_cell_pressure": -589.9050039
+        },
+        {
+          "mesh_face": 11428,
+          "raw_cell_id": 7035,
+          "mesh_cell_id": 7035,
+          "face_center_match_error_m": 6.423531952524192e-10,
+          "wall_yplus": 89.49423703,
+          "domain_cell_yplus": 89.49423703,
+          "yplus_difference": 0.0,
+          "wall_pressure": -542.5014298,
+          "domain_cell_pressure": -542.5014298
+        },
+        {
+          "mesh_face": 11429,
+          "raw_cell_id": 7244,
+          "mesh_cell_id": 7244,
+          "face_center_match_error_m": 1.1429047269757504e-09,
+          "wall_yplus": 83.24843794,
+          "domain_cell_yplus": 83.24843794,
+          "yplus_difference": 0.0,
+          "wall_pressure": -506.4318024,
+          "domain_cell_pressure": -506.4318024
+        },
+        {
+          "mesh_face": 11430,
+          "raw_cell_id": 7139,
+          "mesh_cell_id": 7139,
+          "face_center_match_error_m": 2.09457913679774e-09,
+          "wall_yplus": 69.55901665,
+          "domain_cell_yplus": 69.55901665,
+          "yplus_difference": 0.0,
+          "wall_pressure": -476.6038676,
+          "domain_cell_pressure": -476.6038676
+        },
+        {
+          "mesh_face": 11431,
+          "raw_cell_id": 7210,
+          "mesh_cell_id": 7210,
+          "face_center_match_error_m": 1.2982735677269663e-09,
+          "wall_yplus": 77.27503722,
+          "domain_cell_yplus": 77.27503722,
+          "yplus_difference": 0.0,
+          "wall_pressure": -435.306239,
+          "domain_cell_pressure": -435.306239
+        },
+        {
+          "mesh_face": 11432,
+          "raw_cell_id": 7052,
+          "mesh_cell_id": 7052,
+          "face_center_match_error_m": 1.6739004104021251e-09,
+          "wall_yplus": 77.56256146,
+          "domain_cell_yplus": 77.56256146,
+          "yplus_difference": 0.0,
+          "wall_pressure": -402.2510138,
+          "domain_cell_pressure": -402.2510138
+        },
+        {
+          "mesh_face": 11433,
+          "raw_cell_id": 5250,
+          "mesh_cell_id": 5250,
+          "face_center_match_error_m": 4.270676925752093e-10,
+          "wall_yplus": 79.58425728,
+          "domain_cell_yplus": 79.58425728,
+          "yplus_difference": 0.0,
+          "wall_pressure": -370.1070015,
+          "domain_cell_pressure": -370.1070015
+        },
+        {
+          "mesh_face": 11434,
+          "raw_cell_id": 7312,
+          "mesh_cell_id": 7312,
+          "face_center_match_error_m": 1.9368410742906972e-09,
+          "wall_yplus": 46.01986882,
+          "domain_cell_yplus": 46.01986882,
+          "yplus_difference": 0.0,
+          "wall_pressure": -355.4812261,
+          "domain_cell_pressure": -355.4812261
+        },
+        {
+          "mesh_face": 11435,
+          "raw_cell_id": 7249,
+          "mesh_cell_id": 7249,
+          "face_center_match_error_m": 1.2158534690768402e-09,
+          "wall_yplus": 52.05367985,
+          "domain_cell_yplus": 52.05367985,
+          "yplus_difference": 0.0,
+          "wall_pressure": -319.5040449,
+          "domain_cell_pressure": -319.5040449
+        },
+        {
+          "mesh_face": 11436,
+          "raw_cell_id": 7593,
+          "mesh_cell_id": 7593,
+          "face_center_match_error_m": 1.4524490386636907e-10,
+          "wall_yplus": 55.79565833,
+          "domain_cell_yplus": 55.79565833,
+          "yplus_difference": 0.0,
+          "wall_pressure": -296.4137335,
+          "domain_cell_pressure": -296.4137335
+        },
+        {
+          "mesh_face": 11437,
+          "raw_cell_id": 7342,
+          "mesh_cell_id": 7342,
+          "face_center_match_error_m": 2.008959444409022e-09,
+          "wall_yplus": 52.51908458,
+          "domain_cell_yplus": 52.51908458,
+          "yplus_difference": 0.0,
+          "wall_pressure": -274.6628727,
+          "domain_cell_pressure": -274.6628727
+        },
+        {
+          "mesh_face": 11438,
+          "raw_cell_id": 7339,
+          "mesh_cell_id": 7339,
+          "face_center_match_error_m": 3.2867737076980004e-10,
+          "wall_yplus": 45.24876937,
+          "domain_cell_yplus": 45.24876937,
+          "yplus_difference": 0.0,
+          "wall_pressure": -259.8505533,
+          "domain_cell_pressure": -259.8505533
+        },
+        {
+          "mesh_face": 11439,
+          "raw_cell_id": 6196,
+          "mesh_cell_id": 6196,
+          "face_center_match_error_m": 2.697693797581345e-09,
+          "wall_yplus": 33.77478567,
+          "domain_cell_yplus": 33.77478567,
+          "yplus_difference": 0.0,
+          "wall_pressure": -249.319704,
+          "domain_cell_pressure": -249.319704
+        },
+        {
+          "mesh_face": 11440,
+          "raw_cell_id": 7498,
+          "mesh_cell_id": 7498,
+          "face_center_match_error_m": 2.7190356940533084e-09,
+          "wall_yplus": 42.10290278,
+          "domain_cell_yplus": 42.10290278,
+          "yplus_difference": 0.0,
+          "wall_pressure": -235.6723062,
+          "domain_cell_pressure": -235.6723062
+        },
+        {
+          "mesh_face": 11441,
+          "raw_cell_id": 7513,
+          "mesh_cell_id": 7513,
+          "face_center_match_error_m": 1.3292973954913815e-09,
+          "wall_yplus": 45.62655465,
+          "domain_cell_yplus": 45.62655465,
+          "yplus_difference": 0.0,
+          "wall_pressure": -211.2300973,
+          "domain_cell_pressure": -211.2300973
+        },
+        {
+          "mesh_face": 11442,
+          "raw_cell_id": 6943,
+          "mesh_cell_id": 6943,
+          "face_center_match_error_m": 1.5926694633625127e-09,
+          "wall_yplus": 41.21202625,
+          "domain_cell_yplus": 41.21202625,
+          "yplus_difference": 0.0,
+          "wall_pressure": -202.3065489,
+          "domain_cell_pressure": -202.3065489
+        },
+        {
+          "mesh_face": 11443,
+          "raw_cell_id": 7578,
+          "mesh_cell_id": 7578,
+          "face_center_match_error_m": 1.0532426066998401e-09,
+          "wall_yplus": 40.23124347,
+          "domain_cell_yplus": 40.23124347,
+          "yplus_difference": 0.0,
+          "wall_pressure": -191.4664678,
+          "domain_cell_pressure": -191.4664678
+        },
+        {
+          "mesh_face": 11444,
+          "raw_cell_id": 7588,
+          "mesh_cell_id": 7588,
+          "face_center_match_error_m": 3.392344111262748e-09,
+          "wall_yplus": 23.96556544,
+          "domain_cell_yplus": 23.96556544,
+          "yplus_difference": 0.0,
+          "wall_pressure": -189.0268915,
+          "domain_cell_pressure": -189.0268915
+        },
+        {
+          "mesh_face": 11445,
+          "raw_cell_id": 6134,
+          "mesh_cell_id": 6134,
+          "face_center_match_error_m": 4.956726256208843e-09,
+          "wall_yplus": 32.77977224,
+          "domain_cell_yplus": 32.77977224,
+          "yplus_difference": 0.0,
+          "wall_pressure": -175.7016735,
+          "domain_cell_pressure": -175.7016735
+        },
+        {
+          "mesh_face": 11446,
+          "raw_cell_id": 7316,
+          "mesh_cell_id": 7316,
+          "face_center_match_error_m": 1.996315263523566e-09,
+          "wall_yplus": 25.9360812,
+          "domain_cell_yplus": 25.9360812,
+          "yplus_difference": 0.0,
+          "wall_pressure": -170.1125189,
+          "domain_cell_pressure": -170.1125189
+        },
+        {
+          "mesh_face": 11447,
+          "raw_cell_id": 69,
+          "mesh_cell_id": 69,
+          "face_center_match_error_m": 1.7383750810840501e-09,
+          "wall_yplus": 19.56839664,
+          "domain_cell_yplus": 19.56839664,
+          "yplus_difference": 0.0,
+          "wall_pressure": -166.1768876,
+          "domain_cell_pressure": -166.1768876
+        },
+        {
+          "mesh_face": 11448,
+          "raw_cell_id": 7251,
+          "mesh_cell_id": 7251,
+          "face_center_match_error_m": 2.5778682096901286e-09,
+          "wall_yplus": 21.53721692,
+          "domain_cell_yplus": 21.53721692,
+          "yplus_difference": 0.0,
+          "wall_pressure": -159.5879949,
+          "domain_cell_pressure": -159.5879949
+        },
+        {
+          "mesh_face": 11414,
+          "raw_cell_id": 2573,
+          "mesh_cell_id": 2573,
+          "face_center_match_error_m": 3.952632039165503e-09,
+          "wall_yplus": 22.27944689,
+          "domain_cell_yplus": 22.27944689,
+          "yplus_difference": 0.0,
+          "wall_pressure": -157.1848176,
+          "domain_cell_pressure": -157.1848176
+        },
+        {
+          "mesh_face": 11398,
+          "raw_cell_id": 351,
+          "mesh_cell_id": 351,
+          "face_center_match_error_m": 2.9321607032920187e-10,
+          "wall_yplus": 166.5601703,
+          "domain_cell_yplus": 166.5601703,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2714.827922,
+          "domain_cell_pressure": -2714.827922
+        },
+        {
+          "mesh_face": 11399,
+          "raw_cell_id": 7573,
+          "mesh_cell_id": 7573,
+          "face_center_match_error_m": 1.9443553664235663e-10,
+          "wall_yplus": 169.2990903,
+          "domain_cell_yplus": 169.2990903,
+          "yplus_difference": 0.0,
+          "wall_pressure": -4597.517933,
+          "domain_cell_pressure": -4597.517933
+        },
+        {
+          "mesh_face": 11400,
+          "raw_cell_id": 7298,
+          "mesh_cell_id": 7298,
+          "face_center_match_error_m": 5.845757852538916e-10,
+          "wall_yplus": 168.4110343,
+          "domain_cell_yplus": 168.4110343,
+          "yplus_difference": 0.0,
+          "wall_pressure": -3653.13697,
+          "domain_cell_pressure": -3653.13697
+        }
+      ]
+    },
+    {
+      "file": "pressure_p_yplus.csv",
+      "zone": 6,
+      "rows": 51,
+      "mesh_faces": 51,
+      "all_faces_mapped_once": true,
+      "max_face_center_error_m": 4.31682214059978e-09,
+      "max_yplus_difference_domain_vs_wall": 0.0,
+      "records": [
+        {
+          "mesh_face": 11389,
+          "raw_cell_id": 7047,
+          "mesh_cell_id": 7047,
+          "face_center_match_error_m": 4.2862697033979674e-10,
+          "wall_yplus": 101.2428967,
+          "domain_cell_yplus": 101.2428967,
+          "yplus_difference": 0.0,
+          "wall_pressure": -50.77689434,
+          "domain_cell_pressure": -50.77689434
+        },
+        {
+          "mesh_face": 11390,
+          "raw_cell_id": 7583,
+          "mesh_cell_id": 7583,
+          "face_center_match_error_m": 2.149572046805511e-09,
+          "wall_yplus": 90.37161218,
+          "domain_cell_yplus": 90.37161218,
+          "yplus_difference": 0.0,
+          "wall_pressure": -48.59096446,
+          "domain_cell_pressure": -48.59096446
+        },
+        {
+          "mesh_face": 11391,
+          "raw_cell_id": 379,
+          "mesh_cell_id": 379,
+          "face_center_match_error_m": 1.255637297105233e-09,
+          "wall_yplus": 111.5639993,
+          "domain_cell_yplus": 111.5639993,
+          "yplus_difference": 0.0,
+          "wall_pressure": -48.10386724,
+          "domain_cell_pressure": -48.10386724
+        },
+        {
+          "mesh_face": 11392,
+          "raw_cell_id": 7090,
+          "mesh_cell_id": 7090,
+          "face_center_match_error_m": 1.7835476259075937e-09,
+          "wall_yplus": 125.4450626,
+          "domain_cell_yplus": 125.4450626,
+          "yplus_difference": 0.0,
+          "wall_pressure": -66.71322045,
+          "domain_cell_pressure": -66.71322045
+        },
+        {
+          "mesh_face": 11393,
+          "raw_cell_id": 7541,
+          "mesh_cell_id": 7541,
+          "face_center_match_error_m": 1.6190908126073423e-09,
+          "wall_yplus": 103.2913462,
+          "domain_cell_yplus": 103.2913462,
+          "yplus_difference": 0.0,
+          "wall_pressure": -75.90195027,
+          "domain_cell_pressure": -75.90195027
+        },
+        {
+          "mesh_face": 11394,
+          "raw_cell_id": 7302,
+          "mesh_cell_id": 7302,
+          "face_center_match_error_m": 3.736855247684346e-09,
+          "wall_yplus": 96.70270438,
+          "domain_cell_yplus": 96.70270438,
+          "yplus_difference": 0.0,
+          "wall_pressure": -71.37016176,
+          "domain_cell_pressure": -71.37016176
+        },
+        {
+          "mesh_face": 11395,
+          "raw_cell_id": 7438,
+          "mesh_cell_id": 7438,
+          "face_center_match_error_m": 5.612278249348905e-10,
+          "wall_yplus": 73.31697825,
+          "domain_cell_yplus": 73.31697825,
+          "yplus_difference": 0.0,
+          "wall_pressure": -72.88654665,
+          "domain_cell_pressure": -72.88654665
+        },
+        {
+          "mesh_face": 11396,
+          "raw_cell_id": 7300,
+          "mesh_cell_id": 7300,
+          "face_center_match_error_m": 3.725755788068253e-09,
+          "wall_yplus": 88.42574419,
+          "domain_cell_yplus": 88.42574419,
+          "yplus_difference": 0.0,
+          "wall_pressure": -77.54832636,
+          "domain_cell_pressure": -77.54832636
+        },
+        {
+          "mesh_face": 11397,
+          "raw_cell_id": 7095,
+          "mesh_cell_id": 7095,
+          "face_center_match_error_m": 3.087958314351844e-09,
+          "wall_yplus": 100.2003291,
+          "domain_cell_yplus": 100.2003291,
+          "yplus_difference": 0.0,
+          "wall_pressure": -94.02597108,
+          "domain_cell_pressure": -94.02597108
+        },
+        {
+          "mesh_face": 11380,
+          "raw_cell_id": 7062,
+          "mesh_cell_id": 7062,
+          "face_center_match_error_m": 3.930009759579138e-09,
+          "wall_yplus": 112.9063666,
+          "domain_cell_yplus": 112.9063666,
+          "yplus_difference": 0.0,
+          "wall_pressure": -126.8324077,
+          "domain_cell_pressure": -126.8324077
+        },
+        {
+          "mesh_face": 11388,
+          "raw_cell_id": 7282,
+          "mesh_cell_id": 7282,
+          "face_center_match_error_m": 1.0070584500486378e-09,
+          "wall_yplus": 93.28601134,
+          "domain_cell_yplus": 93.28601134,
+          "yplus_difference": 0.0,
+          "wall_pressure": -52.91577864,
+          "domain_cell_pressure": -52.91577864
+        },
+        {
+          "mesh_face": 11387,
+          "raw_cell_id": 1034,
+          "mesh_cell_id": 1034,
+          "face_center_match_error_m": 5.237467713453246e-10,
+          "wall_yplus": 119.8534281,
+          "domain_cell_yplus": 119.8534281,
+          "yplus_difference": 0.0,
+          "wall_pressure": -42.01703499,
+          "domain_cell_pressure": -42.01703499
+        },
+        {
+          "mesh_face": 11386,
+          "raw_cell_id": 7308,
+          "mesh_cell_id": 7308,
+          "face_center_match_error_m": 9.227699398904283e-10,
+          "wall_yplus": 90.72009071,
+          "domain_cell_yplus": 90.72009071,
+          "yplus_difference": 0.0,
+          "wall_pressure": -40.7025779,
+          "domain_cell_pressure": -40.7025779
+        },
+        {
+          "mesh_face": 11385,
+          "raw_cell_id": 2209,
+          "mesh_cell_id": 2209,
+          "face_center_match_error_m": 4.31682214059978e-09,
+          "wall_yplus": 112.3910204,
+          "domain_cell_yplus": 112.3910204,
+          "yplus_difference": 0.0,
+          "wall_pressure": -35.74813224,
+          "domain_cell_pressure": -35.74813224
+        },
+        {
+          "mesh_face": 11384,
+          "raw_cell_id": 7374,
+          "mesh_cell_id": 7374,
+          "face_center_match_error_m": 4.68794883355125e-10,
+          "wall_yplus": 77.89869882,
+          "domain_cell_yplus": 77.89869882,
+          "yplus_difference": 0.0,
+          "wall_pressure": -21.30119693,
+          "domain_cell_pressure": -21.30119693
+        },
+        {
+          "mesh_face": 11383,
+          "raw_cell_id": 7235,
+          "mesh_cell_id": 7235,
+          "face_center_match_error_m": 3.566351870311564e-09,
+          "wall_yplus": 86.61948387,
+          "domain_cell_yplus": 86.61948387,
+          "yplus_difference": 0.0,
+          "wall_pressure": -37.48316012,
+          "domain_cell_pressure": -37.48316012
+        },
+        {
+          "mesh_face": 11382,
+          "raw_cell_id": 3171,
+          "mesh_cell_id": 3171,
+          "face_center_match_error_m": 3.2319135447639295e-10,
+          "wall_yplus": 108.9609626,
+          "domain_cell_yplus": 108.9609626,
+          "yplus_difference": 0.0,
+          "wall_pressure": -25.9083674,
+          "domain_cell_pressure": -25.9083674
+        },
+        {
+          "mesh_face": 11381,
+          "raw_cell_id": 7351,
+          "mesh_cell_id": 7351,
+          "face_center_match_error_m": 1.3470443858039713e-09,
+          "wall_yplus": 84.96669733,
+          "domain_cell_yplus": 84.96669733,
+          "yplus_difference": 0.0,
+          "wall_pressure": -19.7225736,
+          "domain_cell_pressure": -19.7225736
+        },
+        {
+          "mesh_face": 11379,
+          "raw_cell_id": 7191,
+          "mesh_cell_id": 7191,
+          "face_center_match_error_m": 4.2774232982910044e-09,
+          "wall_yplus": 106.4234296,
+          "domain_cell_yplus": 106.4234296,
+          "yplus_difference": 0.0,
+          "wall_pressure": -25.09699879,
+          "domain_cell_pressure": -25.09699879
+        },
+        {
+          "mesh_face": 11378,
+          "raw_cell_id": 7173,
+          "mesh_cell_id": 7173,
+          "face_center_match_error_m": 1.2641298196349503e-10,
+          "wall_yplus": 106.9021343,
+          "domain_cell_yplus": 106.9021343,
+          "yplus_difference": 0.0,
+          "wall_pressure": -14.22622472,
+          "domain_cell_pressure": -14.22622472
+        },
+        {
+          "mesh_face": 11377,
+          "raw_cell_id": 7331,
+          "mesh_cell_id": 7331,
+          "face_center_match_error_m": 1.5215780805995837e-09,
+          "wall_yplus": 106.7837079,
+          "domain_cell_yplus": 106.7837079,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2.208871467,
+          "domain_cell_pressure": -2.208871467
+        },
+        {
+          "mesh_face": 11376,
+          "raw_cell_id": 7479,
+          "mesh_cell_id": 7479,
+          "face_center_match_error_m": 4.239340252173831e-10,
+          "wall_yplus": 77.47959086,
+          "domain_cell_yplus": 77.47959086,
+          "yplus_difference": 0.0,
+          "wall_pressure": 1.165705483,
+          "domain_cell_pressure": 1.165705483
+        },
+        {
+          "mesh_face": 11375,
+          "raw_cell_id": 7305,
+          "mesh_cell_id": 7305,
+          "face_center_match_error_m": 8.612107356974208e-10,
+          "wall_yplus": 93.92681799,
+          "domain_cell_yplus": 93.92681799,
+          "yplus_difference": 0.0,
+          "wall_pressure": -6.914886494,
+          "domain_cell_pressure": -6.914886494
+        },
+        {
+          "mesh_face": 11374,
+          "raw_cell_id": 7045,
+          "mesh_cell_id": 7045,
+          "face_center_match_error_m": 3.218941337656646e-10,
+          "wall_yplus": 109.0888224,
+          "domain_cell_yplus": 109.0888224,
+          "yplus_difference": 0.0,
+          "wall_pressure": -2.709325254,
+          "domain_cell_pressure": -2.709325254
+        },
+        {
+          "mesh_face": 11373,
+          "raw_cell_id": 7202,
+          "mesh_cell_id": 7202,
+          "face_center_match_error_m": 3.4348061226200993e-10,
+          "wall_yplus": 120.1807077,
+          "domain_cell_yplus": 120.1807077,
+          "yplus_difference": 0.0,
+          "wall_pressure": 8.413379138,
+          "domain_cell_pressure": 8.413379138
+        },
+        {
+          "mesh_face": 11372,
+          "raw_cell_id": 7027,
+          "mesh_cell_id": 7027,
+          "face_center_match_error_m": 1.897226247619868e-09,
+          "wall_yplus": 120.2603639,
+          "domain_cell_yplus": 120.2603639,
+          "yplus_difference": 0.0,
+          "wall_pressure": 18.92122958,
+          "domain_cell_pressure": 18.92122958
+        },
+        {
+          "mesh_face": 11371,
+          "raw_cell_id": 7177,
+          "mesh_cell_id": 7177,
+          "face_center_match_error_m": 1.1538001406786124e-09,
+          "wall_yplus": 115.6190498,
+          "domain_cell_yplus": 115.6190498,
+          "yplus_difference": 0.0,
+          "wall_pressure": 22.54199935,
+          "domain_cell_pressure": 22.54199935
+        },
+        {
+          "mesh_face": 11370,
+          "raw_cell_id": 2076,
+          "mesh_cell_id": 2076,
+          "face_center_match_error_m": 2.8987036426926816e-10,
+          "wall_yplus": 116.7636638,
+          "domain_cell_yplus": 116.7636638,
+          "yplus_difference": 0.0,
+          "wall_pressure": 32.7255799,
+          "domain_cell_pressure": 32.7255799
+        },
+        {
+          "mesh_face": 11369,
+          "raw_cell_id": 7349,
+          "mesh_cell_id": 7349,
+          "face_center_match_error_m": 4.0734602244017836e-10,
+          "wall_yplus": 108.5585397,
+          "domain_cell_yplus": 108.5585397,
+          "yplus_difference": 0.0,
+          "wall_pressure": 42.47045179,
+          "domain_cell_pressure": 42.47045179
+        },
+        {
+          "mesh_face": 11368,
+          "raw_cell_id": 7068,
+          "mesh_cell_id": 7068,
+          "face_center_match_error_m": 5.603148300325062e-11,
+          "wall_yplus": 110.003987,
+          "domain_cell_yplus": 110.003987,
+          "yplus_difference": 0.0,
+          "wall_pressure": 44.40347841,
+          "domain_cell_pressure": 44.40347841
+        },
+        {
+          "mesh_face": 11367,
+          "raw_cell_id": 7029,
+          "mesh_cell_id": 7029,
+          "face_center_match_error_m": 1.863359665801889e-09,
+          "wall_yplus": 118.4546369,
+          "domain_cell_yplus": 118.4546369,
+          "yplus_difference": 0.0,
+          "wall_pressure": 60.99515027,
+          "domain_cell_pressure": 60.99515027
+        },
+        {
+          "mesh_face": 11366,
+          "raw_cell_id": 7338,
+          "mesh_cell_id": 7338,
+          "face_center_match_error_m": 1.393641141366063e-09,
+          "wall_yplus": 103.5082375,
+          "domain_cell_yplus": 103.5082375,
+          "yplus_difference": 0.0,
+          "wall_pressure": 66.94834153,
+          "domain_cell_pressure": 66.94834153
+        },
+        {
+          "mesh_face": 11365,
+          "raw_cell_id": 6357,
+          "mesh_cell_id": 6357,
+          "face_center_match_error_m": 4.45830106392475e-10,
+          "wall_yplus": 117.7459658,
+          "domain_cell_yplus": 117.7459658,
+          "yplus_difference": 0.0,
+          "wall_pressure": 75.44891956,
+          "domain_cell_pressure": 75.44891956
+        },
+        {
+          "mesh_face": 11364,
+          "raw_cell_id": 7039,
+          "mesh_cell_id": 7039,
+          "face_center_match_error_m": 4.013729770822471e-10,
+          "wall_yplus": 123.2748701,
+          "domain_cell_yplus": 123.2748701,
+          "yplus_difference": 0.0,
+          "wall_pressure": 91.19220583,
+          "domain_cell_pressure": 91.19220583
+        },
+        {
+          "mesh_face": 11363,
+          "raw_cell_id": 7124,
+          "mesh_cell_id": 7124,
+          "face_center_match_error_m": 7.117632113108967e-10,
+          "wall_yplus": 126.4359366,
+          "domain_cell_yplus": 126.4359366,
+          "yplus_difference": 0.0,
+          "wall_pressure": 108.3148974,
+          "domain_cell_pressure": 108.3148974
+        },
+        {
+          "mesh_face": 11362,
+          "raw_cell_id": 2877,
+          "mesh_cell_id": 2877,
+          "face_center_match_error_m": 1.0522155342734057e-10,
+          "wall_yplus": 130.3440732,
+          "domain_cell_yplus": 130.3440732,
+          "yplus_difference": 0.0,
+          "wall_pressure": 131.5160876,
+          "domain_cell_pressure": 131.5160876
+        },
+        {
+          "mesh_face": 11361,
+          "raw_cell_id": 7194,
+          "mesh_cell_id": 7194,
+          "face_center_match_error_m": 5.193272737333612e-10,
+          "wall_yplus": 126.3864449,
+          "domain_cell_yplus": 126.3864449,
+          "yplus_difference": 0.0,
+          "wall_pressure": 153.6760438,
+          "domain_cell_pressure": 153.6760438
+        },
+        {
+          "mesh_face": 11360,
+          "raw_cell_id": 1611,
+          "mesh_cell_id": 1611,
+          "face_center_match_error_m": 1.535852181765738e-10,
+          "wall_yplus": 123.0557774,
+          "domain_cell_yplus": 123.0557774,
+          "yplus_difference": 0.0,
+          "wall_pressure": 181.6943424,
+          "domain_cell_pressure": 181.6943424
+        },
+        {
+          "mesh_face": 11359,
+          "raw_cell_id": 2746,
+          "mesh_cell_id": 2746,
+          "face_center_match_error_m": 5.833842611181735e-10,
+          "wall_yplus": 116.136802,
+          "domain_cell_yplus": 116.136802,
+          "yplus_difference": 0.0,
+          "wall_pressure": 241.0988235,
+          "domain_cell_pressure": 241.0988235
+        },
+        {
+          "mesh_face": 11358,
+          "raw_cell_id": 6500,
+          "mesh_cell_id": 6500,
+          "face_center_match_error_m": 8.678190040750502e-10,
+          "wall_yplus": 115.480122,
+          "domain_cell_yplus": 115.480122,
+          "yplus_difference": 0.0,
+          "wall_pressure": 243.560754,
+          "domain_cell_pressure": 243.560754
+        },
+        {
+          "mesh_face": 11357,
+          "raw_cell_id": 2951,
+          "mesh_cell_id": 2951,
+          "face_center_match_error_m": 3.3860010159023056e-10,
+          "wall_yplus": 108.4797664,
+          "domain_cell_yplus": 108.4797664,
+          "yplus_difference": 0.0,
+          "wall_pressure": 292.8069766,
+          "domain_cell_pressure": 292.8069766
+        },
+        {
+          "mesh_face": 11356,
+          "raw_cell_id": 7328,
+          "mesh_cell_id": 7328,
+          "face_center_match_error_m": 7.166460183268814e-10,
+          "wall_yplus": 92.76007923,
+          "domain_cell_yplus": 92.76007923,
+          "yplus_difference": 0.0,
+          "wall_pressure": 349.2944208,
+          "domain_cell_pressure": 349.2944208
+        },
+        {
+          "mesh_face": 11355,
+          "raw_cell_id": 7273,
+          "mesh_cell_id": 7273,
+          "face_center_match_error_m": 1.8138433893704946e-10,
+          "wall_yplus": 89.26545551,
+          "domain_cell_yplus": 89.26545551,
+          "yplus_difference": 0.0,
+          "wall_pressure": 399.4757789,
+          "domain_cell_pressure": 399.4757789
+        },
+        {
+          "mesh_face": 11354,
+          "raw_cell_id": 5998,
+          "mesh_cell_id": 5998,
+          "face_center_match_error_m": 1.4327404732490988e-10,
+          "wall_yplus": 103.1160394,
+          "domain_cell_yplus": 103.1160394,
+          "yplus_difference": 0.0,
+          "wall_pressure": 494.9960053,
+          "domain_cell_pressure": 494.9960053
+        },
+        {
+          "mesh_face": 11353,
+          "raw_cell_id": 7375,
+          "mesh_cell_id": 7375,
+          "face_center_match_error_m": 1.826272222285816e-10,
+          "wall_yplus": 71.26701691,
+          "domain_cell_yplus": 71.26701691,
+          "yplus_difference": 0.0,
+          "wall_pressure": 578.1196657,
+          "domain_cell_pressure": 578.1196657
+        },
+        {
+          "mesh_face": 11352,
+          "raw_cell_id": 7284,
+          "mesh_cell_id": 7284,
+          "face_center_match_error_m": 3.607153312958124e-10,
+          "wall_yplus": 83.8571177,
+          "domain_cell_yplus": 83.8571177,
+          "yplus_difference": 0.0,
+          "wall_pressure": 678.8702532,
+          "domain_cell_pressure": 678.8702532
+        },
+        {
+          "mesh_face": 11351,
+          "raw_cell_id": 2876,
+          "mesh_cell_id": 2876,
+          "face_center_match_error_m": 7.359454069376347e-11,
+          "wall_yplus": 92.35592912,
+          "domain_cell_yplus": 92.35592912,
+          "yplus_difference": 0.0,
+          "wall_pressure": 825.5806287,
+          "domain_cell_pressure": 825.5806287
+        },
+        {
+          "mesh_face": 11350,
+          "raw_cell_id": 7147,
+          "mesh_cell_id": 7147,
+          "face_center_match_error_m": 2.3433608222327227e-10,
+          "wall_yplus": 88.11938573,
+          "domain_cell_yplus": 88.11938573,
+          "yplus_difference": 0.0,
+          "wall_pressure": 1009.534155,
+          "domain_cell_pressure": 1009.534155
+        },
+        {
+          "mesh_face": 11349,
+          "raw_cell_id": 3644,
+          "mesh_cell_id": 3644,
+          "face_center_match_error_m": 8.75686009080317e-11,
+          "wall_yplus": 77.36665092,
+          "domain_cell_yplus": 77.36665092,
+          "yplus_difference": 0.0,
+          "wall_pressure": 1268.245608,
+          "domain_cell_pressure": 1268.245608
+        },
+        {
+          "mesh_face": 11348,
+          "raw_cell_id": 5845,
+          "mesh_cell_id": 5845,
+          "face_center_match_error_m": 1.1060362487788797e-10,
+          "wall_yplus": 45.04417415,
+          "domain_cell_yplus": 45.04417415,
+          "yplus_difference": 0.0,
+          "wall_pressure": 1582.645047,
+          "domain_cell_pressure": 1582.645047
+        },
+        {
+          "mesh_face": 11347,
+          "raw_cell_id": 7387,
+          "mesh_cell_id": 7387,
+          "face_center_match_error_m": 2.2344623386428554e-10,
+          "wall_yplus": 68.29025732,
+          "domain_cell_yplus": 68.29025732,
+          "yplus_difference": 0.0,
+          "wall_pressure": 1032.293048,
+          "domain_cell_pressure": 1032.293048
+        }
+      ]
+    },
+    {
+      "file": "trailing_p_yplus.csv",
+      "zone": 5,
+      "rows": 1,
+      "mesh_faces": 1,
+      "all_faces_mapped_once": true,
+      "max_face_center_error_m": 4.818859056879729e-10,
+      "max_yplus_difference_domain_vs_wall": 0.0,
+      "records": [
+        {
+          "mesh_face": 11346,
+          "raw_cell_id": 7516,
+          "mesh_cell_id": 7516,
+          "face_center_match_error_m": 4.818859056879729e-10,
+          "wall_yplus": 40.29154163,
+          "domain_cell_yplus": 40.29154163,
+          "yplus_difference": 0.0,
+          "wall_pressure": -275.7476438,
+          "domain_cell_pressure": -275.7476438
+        }
+      ]
+    }
+  ],
+  "foil_face_count": 103,
+  "unique_foil_adjacent_cells": 103,
+  "multi_foil_face_cells": {},
+  "signed_velocity_ranges": {
+    "x-velocity": [
+      1.612503047,
+      79.01746895
+    ],
+    "y-velocity": [
+      -11.10605832,
+      58.03108502
+    ]
+  },
+  "interpretation": "Render vector origins using matched real cell centers and signed u/v. For cell y-plus use the actual domain-cell value after matching IDs; multi-face cells must not be blindly averaged or counted twice."
+}

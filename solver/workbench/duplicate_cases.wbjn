@@ -1,0 +1,29 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+out=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\workbench"
+f=open(out+r"\duplicate_workflow.txt","w")
+def log(s):
+    f.write(str(s)+'\n');f.flush()
+try:
+    template=GetTemplate(TemplateName="Fluid Flow")
+    case1=template.CreateSystem()
+    log('Case1 system '+str(case1))
+    log('Case1 system data '+str(case1.GetType()))
+    case1.DisplayText="Case 1 Spalart-Allmaras"
+    setup=case1.GetContainer(ComponentName="Setup")
+    log('Setup '+str(setup))
+    setup.Import(FileType="Case",FilePath=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\case01\case01_final.cas.h5")
+    log('Case1 actual solved case imported')
+    Save(FilePath=out+r"\coursework_cases.wbpj",Overwrite=True)
+    case2=case1.Duplicate()
+    case2.DisplayText="Case 2 k-epsilon standard"
+    log('Case2 Duplicate '+str(case2))
+    case3=case2.Duplicate()
+    case3.DisplayText="Case 3 RSM standard"
+    log('Case3 Duplicate '+str(case3))
+    Save(FilePath=out+r"\coursework_cases.wbpj",Overwrite=True)
+    log('WORKBENCH_DUPLICATES_SAVED')
+except:
+    log(traceback.format_exc())
+f.close()
+

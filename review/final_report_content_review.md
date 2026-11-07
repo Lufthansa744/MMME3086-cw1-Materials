@@ -1,0 +1,20 @@
+# Independent final source review
+
+Disposition: **content and source package accepted**, subject to the explicitly outstanding Overleaf compilation, page count and rendered layout checks. This is not approval of an uncompiled submission PDF.
+
+Reviewed `report/prepared/main.tex` SHA256 `d3c118e2faaaa9d281edd0aee3d9e4f2d4394ec59a97dcc71382c1e0bfec6cc8` and `verified_table.tex` SHA256 `479075ad21c4a6cfd8847c66d27978db5f4803c8168c8c052889f5e0f60108b5`. Machine-readable source/asset evidence is in `final_report_source_audit.json`.
+
+- All four required section headings are retained. No Fill/NA command, TODO or working-draft text remains.
+- The final five-case forces/coefficient precision is consistent with actual native histories. Cases 2/3 are flagged by asterisk and their missed additional continuity targets are expressly stated. Case 5 counts are correctly defined as new RSM updates after KE753, with global counterparts 1737/3689. First default crossings remain separate from final stopping counts.
+- C4's graph readings and reading allowances retain the actual specified brief curve identity, rather than substituting a different Sandia figure. Its five-times drag statement, enhanced-RSM +94% drag/+24% lift statements and Reynolds-number comparison are arithmetically correct at displayed precision. No case is falsely called experimentally validated.
+- C4 grid counts, effective spacing ratios, coefficients, 4.79% medium-to-fine drag change and nonmonotonic lift sequence agree with independently audited meshes and native solutions. Its refusal to infer grid independence or extrapolated uncertainty is appropriate.
+- C4 inlet-length coefficients and -32.8% drag/-5.99% lift changes match the actual single-BC-property contrast. Both its auxiliary role and strict continuity limitation are stated. No measurement or calibration is invented.
+- The summed absolute local mass-imbalance percentages match the actual dimensional kg/s field audited across all 7687 cells. They are appropriately distinguished from satisfying the scaled residual target or proving local accuracy.
+- C4 source text is approximately 450 words when numeric/math tokens are conservatively included and SI expressions count as quantity/unit pairs; safely below 550. Earlier per-question word counts are below their individual limits. Display equations have no terminal punctuation.
+- Thirteen prepared PNG assets independently hash-identically match their declared final source assets. Original prealignment figures/fields have not been relabelled as final aligned solutions.
+
+The Ansys references explicitly identify their newer 2025 R2/2026 R1 releases. Their official pages were reopened during this review and support generic near-wall theory, wall-function limitations and EWT discussion. They do not verify the installed 2022 R2 UI; the report's actual setup claims instead have native 2022 R2 evidence. Do not silently change the reference release numbers to 2022 without reading that edition. A short distinction between theory citations and native settings is optional if space permits.
+
+One minor wording nuance is retained for the author: “conventional wall-function range” in C3 is a descriptive diagnostic, not a universal suitability guarantee. Official documentation stresses dependence on overall Reynolds number and adequate cells across the boundary layer; even values in a common 30-300 band do not establish suitability. The report already states that low y-plus alone does not establish accuracy and reports appreciable grid sensitivity, so this does not overturn content acceptance.
+
+The AI log identifies four agents and actual Windows computation, and its companion record distinguishes earlier assistance from the November 7 continuation. Its official missing seven-point template and appendix page-accounting ambiguity are source limitations already recorded in `original_source_review.md`; the rendered appendix must still obey the supplied maximum two-page requirement. No local TeX compilation was performed by review.

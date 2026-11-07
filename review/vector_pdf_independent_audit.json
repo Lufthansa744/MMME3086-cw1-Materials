@@ -1,0 +1,307 @@
+{
+  "figures": [
+    {
+      "figure": 3,
+      "pdf_sha256": "83e03a53e9cee126cbdb808223ebb57de025d1220d5bc111d5bdc0c45f993f9b",
+      "source_svg_sha256": "c09ee876445ca9d6e3b0723c1f373fe68fbbe52e9b068b4bf0d3d9395e89c339",
+      "source_png_sha256": "615443e44a3b6babeb50da4fc1f7e11f1ae53ee56359f6b4dd324957fa154eb3",
+      "page_size_pt": [
+        468.0,
+        128.7
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig03_sa_convergence.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.6786773200757575
+    },
+    {
+      "figure": 4,
+      "pdf_sha256": "13abc11550dd40c87dbfbdbe4a546f3523553df44035aaa031368ed5816ca0b7",
+      "source_svg_sha256": "25807f5805b4d936e8b360c6861c605e200e097025b7308051890e0a1d9794b7",
+      "source_png_sha256": "586dca38dea05eca86beda14a8309b843803f7057673f38b37f935d238b87d48",
+      "page_size_pt": [
+        468.0,
+        184.275
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig04_rsm_vectors.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 1.063246693121693
+    },
+    {
+      "figure": 5,
+      "pdf_sha256": "61cfcbb6954077fcc6bbd9a0b91482ac6adc56bf1ea16c009b9ca87a615ed620",
+      "source_svg_sha256": "6b3844748caae06cb088966869d3fe9dcbcb23894af0a88af2498c451f861986",
+      "source_png_sha256": "b66d151970b759b80668d3ca05eec6fe57f1edcf33b152e28127f9e62b96cdb4",
+      "page_size_pt": [
+        468.0,
+        187.2
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig05_rsm_yplus.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.8183292643229167
+    },
+    {
+      "figure": 6,
+      "pdf_sha256": "3d262c7967e813dc1d0816584c9eb8ca8ecb4984b7af943cc3df00bdeea7fb51",
+      "source_svg_sha256": "3dbc70bd4611c204ded4a1230a446a871a15b726fbdf1e3f052411668f18254d",
+      "source_png_sha256": "ded8f98507d017b2d2ec1a8a8f3ffafe6fc328c761b90f7dbaa29cac66504945",
+      "page_size_pt": [
+        468.0,
+        201.825
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        },
+        {
+          "resource": "/F3+0",
+          "basefont": "/AAAAAA+SegoeUISymbol",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig06_enhanced_combined.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 1.6388335597826087
+    },
+    {
+      "figure": 7,
+      "pdf_sha256": "9a5a63b0bbff70a7266eb2af3264b2a3708e5a9f72124cfc0e510606a10dc78b",
+      "source_svg_sha256": "5758a4d28f324e67c45ceec8a78b8272d693db1d66d5dfd332851e09d0a5f15b",
+      "source_png_sha256": "985315f34f494e0fab495e3239deb3d80abae8cdd29845abbcdeef49188fd846",
+      "page_size_pt": [
+        468.0,
+        103.8375
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig07_velocity_midchord.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.7098201291079812
+    },
+    {
+      "figure": 8,
+      "pdf_sha256": "bd0c2f04ba0cde5b5d6cd22e2d10f33e65a3fac90f4315d85713d0ec6dd74d14",
+      "source_svg_sha256": "a192c5b77d8a15201d13ccc010b6f4cd9ce810972dbbf9f341effe3beebf9188",
+      "source_png_sha256": "e19e069eada046242e90e0d975ff5090a7832fce9e85ce1938ef8ebea6f67197",
+      "page_size_pt": [
+        468.0,
+        103.8375
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig08_velocity_trailingedge.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.710550176056338
+    },
+    {
+      "figure": 9,
+      "pdf_sha256": "2f4c86230a98ed001874713e6a2d698297bc268a9d14fae55b45e39c38b6d12b",
+      "source_svg_sha256": "ace66c737b1320b0b759d4f4ec82723326bddd2f7f18bb84befa1e770b6bdeb2",
+      "source_png_sha256": "fe686c2212e164177305eaeb3cf83ee40fa2c3842943ee76eafa4a9ac4215bcd",
+      "page_size_pt": [
+        468.0,
+        103.8375
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig09_velocity_downstream.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.6826957159624413
+    },
+    {
+      "figure": 10,
+      "pdf_sha256": "61e7329cdf22d17cc0430b07ba5d35305127eb71acc945deaeeb7c7a18e27a9a",
+      "source_svg_sha256": "59f46f30aca6dd1ee6ab64c8c67afddf6fc62204db64d6219f31a1c73a474843",
+      "source_png_sha256": "56665142c0e9f41cd3f46dfd26675719ccd42a0de15a80f0022987c330db8831",
+      "page_size_pt": [
+        226.98,
+        119.0261
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig10_pressure_pressure.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.6847206466250709
+    },
+    {
+      "figure": 11,
+      "pdf_sha256": "822d492f3a66a209a52dae694d9f4152fe39a41dbb3f5ee8737fc1b1078a0157",
+      "source_svg_sha256": "95a399fa17914adbd50eeb5849d72aed5679ee00c53c81ca4f7e93481d5886e2",
+      "source_png_sha256": "ef5558b3c52331c085b972be56ddb64f7c3aa87af3477567808d19276529b643",
+      "page_size_pt": [
+        226.98,
+        119.0261
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig11_pressure_suction.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.6857052372849309
+    },
+    {
+      "figure": 12,
+      "pdf_sha256": "b53d2f699391da265ef539343d22eb093c8eefba514dbba963156c7645241faf",
+      "source_svg_sha256": "3fcd3960b7295c50318f5e980f5feb19030172861bb4e5cab4651d9eab7a40b6",
+      "source_png_sha256": "c1bce152f8b901232736e85fbad163cdf8b4faf3ee4fe026c28af503bc53d4c8",
+      "page_size_pt": [
+        226.98,
+        119.0261
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig12_yplus_suction.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.7064085838532804
+    },
+    {
+      "figure": 13,
+      "pdf_sha256": "7710ce95f31edbf6660582ee79ead448949d030c8368aabeac6e1a52b65eb4bb",
+      "source_svg_sha256": "bc2d5e9fd0cb6ee60f56f2679d8663a6269d4151e06946fd4414046518eb7762",
+      "source_png_sha256": "bfcad5e38696a9825d173ec2a0831e5b2918e8c3f69e6cae4f3d8a72d0694763",
+      "page_size_pt": [
+        226.98,
+        119.0261
+      ],
+      "fonts": [
+        {
+          "resource": "/F1",
+          "basefont": "/Helvetica",
+          "embedded": false
+        },
+        {
+          "resource": "/F2+0",
+          "basefont": "/AAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "raster_images": 0,
+      "extractable_text_matches_all_source_text": true,
+      "text_chars_outside_page": 0,
+      "render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\vector_pdf_renders\\fig13_yplus_pressure.png",
+      "render_vs_source_png_mean_absolute_RGB_difference_0to255": 0.7438369729627529
+    }
+  ],
+  "limitation": "Source/PDF text, resource, physical box and independent raster comparisons. Small rasterizer/font antialiasing differences are expected. Final report pagination and Overleaf rendering are not checked."
+}

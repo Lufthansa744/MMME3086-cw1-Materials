@@ -1,0 +1,4 @@
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_first_1e3.cas.h5"
+/solve/monitors/residual/convergence-criteria 1e-5 1e-5 1e-5 1e-5 1e-5
+/solve/iterate 2000
+

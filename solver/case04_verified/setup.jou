@@ -1,0 +1,10 @@
+; Independent strict continuation from preserved first 1e-3 Case4 stop215.
+/file/read-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04/case04_final.cas.h5"
+/solve/report-files/edit forces file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04_verified/monitors/forces.out" q
+/solve/report-files/edit mass-balance file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04_verified/monitors/mass_balance.out" q
+/solve/monitors/residual/convergence-criteria 1e-5 1e-5 1e-5 1e-5 1e-5
+(for-each (lambda (k) (format #t "ACTUAL_RP ~a = ~a~%" k (rpgetvar k))) '(flow/scheme pressure/scheme mom/scheme k/scheme epsilon/scheme pressure/relax density/relax mom/relax k/relax epsilon/relax turb-viscosity/relax))
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04_verified/settings/case04_verified_configured.set"
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04_verified/case04_verified_initial_from_215.cas.h5"
+/solve/iterate 2000
+

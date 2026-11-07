@@ -1,0 +1,23 @@
+{
+  "read_only": true,
+  "modified_permission_files": false,
+  "scope": "Only exact Overleaf origins, no unrelated sites or secrets printed",
+  "observations": {
+    "global": {
+      "exists": true,
+      "overleaf_allowed": [
+        "https://www.overleaf.com"
+      ],
+      "overleaf_denied": [],
+      "interpretation": "Stored setting only; runtime denial remains the authoritative observed access outcome."
+    },
+    "current_conversation": {
+      "exists": true,
+      "overleaf_allowed": [],
+      "overleaf_denied": [
+        "https://www.overleaf.com"
+      ],
+      "interpretation": "Stored setting only; runtime denial remains the authoritative observed access outcome."
+    }
+  }
+}

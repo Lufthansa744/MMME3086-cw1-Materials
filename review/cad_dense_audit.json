@@ -1,0 +1,25 @@
+{
+  "source_path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\cad_edge_dense_coordinates_m.csv",
+  "source_sha256": "5c63c06be061c4a1117f794b91fff0ff022ce7cf78e6236715c4a8c9ec9af787",
+  "edge_samples": {
+    "0": 1001,
+    "1": 1001,
+    "2": 1001
+  },
+  "max_formula_error_and_unrotated_location_m": {
+    "1": [
+      7.419766571772223e-07,
+      3.2403205889190873e-06,
+      -0.00010190106835253262
+    ],
+    "2": [
+      7.419766571775476e-07,
+      3.240320588919072e-06,
+      0.00010190106835253271
+    ]
+  },
+  "dense_CAD_polygon_foil_area_m2": 0.0008220985002612213,
+  "analytic_foil_area_m2": 0.0008220999999999998,
+  "kernel_inferred_foil_area_m2": 0.0008227550931799998,
+  "interpretation": "Dense actual CAD edge coordinates independently match NACA formula; kernel surface area discrepancy does not imply a comparable curve shape deviation."
+}

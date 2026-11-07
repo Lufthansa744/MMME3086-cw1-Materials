@@ -1,0 +1,6 @@
+SurfaceArea_m2=0.14917724490682
+FaceCount=1
+EdgeCount=7
+Face0_loop_count=2
+fluid_ContainsPoint=True
+foil_interior_ContainsPoint=False

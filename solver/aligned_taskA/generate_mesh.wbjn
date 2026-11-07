@@ -1,0 +1,24 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+out=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\aligned_taskA"
+f=open(out+r"\workbench_generate_progress.txt","w")
+def log(s):
+    f.write(s+"\n"); f.flush()
+try:
+    Open(FilePath=out+r"\taskA.wbpj")
+    system1=GetSystem(Name="SYS")
+    mesh=system1.GetContainer(ComponentName="Mesh")
+    mesh.Edit(Interactive=False)
+    log("MESHER_OPEN")
+    mesh.SendCommand(Language="Python",Command="execfile(r'%s')"%(out+r"\configure_mesh.py"))
+    log("MESH_COMMAND_COMPLETED")
+    mesh.SendCommand(Language="Python",Command="execfile(r'%s')"%(out+r"\export_mesh_native.py"))
+    mesh.Exit()
+    Save(FilePath=out+r"\taskA.wbpj",Overwrite=True)
+except:
+    log(traceback.format_exc())
+f.close()
+
+
+
+

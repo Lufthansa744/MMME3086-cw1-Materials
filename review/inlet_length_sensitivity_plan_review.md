@@ -1,0 +1,24 @@
+# Review of the independent inlet-length-scale sensitivity check
+
+The main agent's proposed standard k–epsilon baseline-mesh contrast is appropriate after the prescribed sequence: retain actual inlet speed 50.9 m/s and intensity 5 percent, change only the selected length-scale input from 1 m to **0.01 m**, retain every other physical/numerical setting and save an independent case. The 0.01 m value is analyst-selected as 0.1 chord, not a measured tunnel property and not an additional assignment requirement. Preserve Case 2 and do not mix this extra case into the prescribed five-model Table 1.
+
+Use the same initialization policy and compare force histories, active residual criteria, mass balance, y-plus, pressure and wake outputs. Record actual exported inlet k/epsilon/viscosity fields for **both** k–epsilon cases: a common UI intensity/length pair does not excuse replacing native variables with assumed textbook conversions. An ordinary k–epsilon formula was previously used only as a conditional scale estimate; actual RSM native input fields show a different numeric relation and must take precedence.
+
+This contrast can show how sensitive this specific k–epsilon/mesh/duct setup is to the selected numerical inlet-length input. It cannot determine the experiment's true turbulence length, prove one length physically correct, or isolate model-form uncertainty across different turbulence closures. Do not choose or celebrate a value because a coefficient moves toward the experimental curve. Report signed changes and any deterioration as well as improvements.
+
+Case 2 stopped at its actual 1e-3 residual criteria, while its last-25 force ranges were approximately 0.123 percent drag and 0.252 percent lift; last-50 were 0.279/0.539 percent. Compare any length-induced change against such residual iteration drift. A change of comparable size needs consistently tighter independent baseline/sensitivity runs before calling it resolved. Preserve the original prescribed Case 2's terminal values and history.
+
+The S–A three-grid study is a separate experiment: hold turbulence inputs fixed while changing mesh, to assess spatial sensitivity. The k–epsilon length study instead holds mesh/closure fixed while changing an inlet assumption. Keep their filenames, tables, figures and conclusions separate.
+
+Following the alignment decision, this contrast must use the **final aligned Case 2** as its L=1 reference and the same aligned mesh for L=0.01. The original prealignment Case 2 is historical evidence and cannot be paired with a translated-geometry sensitivity run without reintroducing geometry confounding. Apply consistent verified residual/force goals and initialization policy to both branches. All three S–A grid levels likewise use the same aligned CAD placement.
+
+## Actual RSM inlet evidence already inspected
+
+`solver/case03/raw/inlet_turbulence.csv` has 15 actual inlet-face-centred samples, x=-0.5 m and y approximately -0.07 to +0.07 m. Actual k is 9.7155375 m²/s² and epsilon 30.28309428 m²/s³ at every sample. Exported dynamic turbulent viscosity is 0.1120326998–0.3429780945 Pa s, with ratio to laminar viscosity 6260.908671–19167.21217; these ratios agree with mu_t/mu to relative precision about 3.7e-10. Dividing actual mu_t by density gives nu_t approximately 0.09146–0.27998 m²/s. The input state thus carries very high model-reported turbulent viscosity relative to molecular viscosity.
+
+These are actual **RSM inlet-surface export values**, not experimental measurements, not yet an S–A/k–epsilon native export, and not proof of a universal Fluent length-scale conversion. The y variation of derived viscosity also cautions against claiming one constant turbulent viscosity from uniform k/epsilon alone. RSM transports Reynolds stresses, so its mean-flow response must not be reduced to an isotropic eddy-viscosity interpretation. The shared 1 m input remains a limitation in experimental comparability until independently measured turbulence data are available. Full native source/hash/ranges are in `review/case03_inlet_turbulence_audit.json`.
+
+
+## Final aligned baseline acceptance update
+
+The earlier original Case 2 stopping and drift paragraph is historical. The final aligned L=1 baseline is case02_aligned at 2225, accepted with a declared limitation: first default 1e-3 at 225, scaled continuity plateau 4.0118e-5 despite very stable integral forces and global mass balance. The analyst 1e-5 residual target is unmet. Any L=0.01 contrast must retain this limitation and compare actual force-window error scales against the observed change; it must not label both solutions as strictly converged. Source-bound acceptance is review/case02_aligned_qualified_acceptance.json. Optional native local mass-imbalance export is pending and must retain actual units/definition.

@@ -1,0 +1,145 @@
+{
+  "policy": "Only registered aligned/verified datasets are formal final cases; early stopping and prealignment datasets are retained separately.",
+  "cases": [
+    {
+      "logical_case": "case01",
+      "dataset": "case01_aligned",
+      "summary_path": "data\\case01_aligned\\case_summary.json",
+      "summary_sha256": "add911564c97b10b6aeead22ea7b4c9974725be5a552261330336a2eb1ae90f6",
+      "restorable_evidence": [
+        {
+          "path": "solver/case01_aligned/case01_aligned_final.cas.h5",
+          "sha256": "0ca57b4937ec820b3f93a59b92699c192c751ca126974a6f1e84546a44f43acf",
+          "bytes": 729324
+        },
+        {
+          "path": "solver/case01_aligned/case01_aligned_final.dat.h5",
+          "sha256": "b3c0c51d11f0654c0cb6b28856316de4bb08ef174299a49c4bbdb71bc45bb86e",
+          "bytes": 756795
+        },
+        {
+          "path": "solver/case01_aligned/settings/case01_aligned_final.set",
+          "sha256": "3aa01a334cac1d1adc80723d7d77ba8a5c7898ae0b066942f4ceadfc0e469991",
+          "bytes": 124632
+        },
+        {
+          "path": "solver/aligned_taskA/taskA_baseline.msh",
+          "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+          "bytes": 253242
+        }
+      ]
+    },
+    {
+      "logical_case": "case02",
+      "dataset": "case02_aligned",
+      "summary_path": "data\\case02_aligned\\case_summary.json",
+      "summary_sha256": "83272c1c455bfd51d7c927e688e755edfb005b1a2a2e28bbb53f0ba1d7673552",
+      "restorable_evidence": [
+        {
+          "path": "solver/case02_aligned/case02_aligned_final.cas.h5",
+          "sha256": "9871535a458212b6ec8efa4354fa145d7f3aa55f07d60ba7fcd542a27db97783",
+          "bytes": 729617
+        },
+        {
+          "path": "solver/case02_aligned/case02_aligned_final.dat.h5",
+          "sha256": "f94766153e69c78a83dc452736726e47abce7af09e6842addc000f6461cb73bc",
+          "bytes": 854503
+        },
+        {
+          "path": "solver/case02_aligned/settings/case02_aligned_final.set",
+          "sha256": "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115",
+          "bytes": 124962
+        },
+        {
+          "path": "solver/aligned_taskA/taskA_baseline.msh",
+          "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+          "bytes": 253242
+        }
+      ]
+    },
+    {
+      "logical_case": "case03",
+      "dataset": "case03_aligned",
+      "summary_path": "data\\case03_aligned\\case_summary.json",
+      "summary_sha256": "1bfb1505fdc67c3bd8a3556c2f6addfbabc3b7d2d5ee28523dfe81a7646d4b78",
+      "restorable_evidence": [
+        {
+          "path": "solver/case03_aligned/case03_aligned_final.cas.h5",
+          "sha256": "98f7cc369342e0b2166bda25f8eee286df3380f2ac366a04a64d92977558c8ef",
+          "bytes": 729785
+        },
+        {
+          "path": "solver/case03_aligned/case03_aligned_final.dat.h5",
+          "sha256": "396fb59e65583f92be92838fddfd97409c54b11bed0e6aaeab2522be6c9ade20",
+          "bytes": 1454213
+        },
+        {
+          "path": "solver/case03_aligned/settings/case03_aligned_final.set",
+          "sha256": "7a34da1426734aef17ae8bd980a36be3e4795a77c39bb52fa8e196f20a481324",
+          "bytes": 125458
+        },
+        {
+          "path": "solver/aligned_taskA/taskA_baseline.msh",
+          "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+          "bytes": 253242
+        }
+      ]
+    },
+    {
+      "logical_case": "case04",
+      "dataset": "case04_verified",
+      "summary_path": "data\\case04_verified\\case_summary.json",
+      "summary_sha256": "8e197b4ca20d215b811de28cab8fda0e4534a36a986ae3af947a976b0dd68e7b",
+      "restorable_evidence": [
+        {
+          "path": "solver/case04_verified/case04_verified_final.cas.h5",
+          "sha256": "dd2d1137d6f9d392255c0762a354367389f4830a869e979275ccf78522821b01",
+          "bytes": 1189807
+        },
+        {
+          "path": "solver/case04_verified/case04_verified_final.dat.h5",
+          "sha256": "b5276503e14a6fab615a378aa5979188efcab1fd1b83a11572b701c052f7e82a",
+          "bytes": 1914792
+        },
+        {
+          "path": "solver/case04_verified/settings/case04_verified_final.set",
+          "sha256": "f1eb7180a541dd79b04425a71d9ed8ea96d2f4122e3e4b5ec501f4ee596f77d8",
+          "bytes": 121498
+        },
+        {
+          "path": "inputs/Aerofoil8-degAoA-enhancedBL.msh",
+          "sha256": "3b823ee36532e037e1eb654a2306e9ad3e362d8bf60703ca0030ef85ae4bd47e",
+          "bytes": 1086513
+        }
+      ]
+    },
+    {
+      "logical_case": "case05",
+      "dataset": "case05_verified",
+      "summary_path": "data\\case05_verified\\case_summary.json",
+      "summary_sha256": "6afef5fb52315f697bf105fdf83cae639274f32058ad606bdad70dca01d4f1db",
+      "restorable_evidence": [
+        {
+          "path": "solver/case05_verified/case05_verified_final.cas.h5",
+          "sha256": "69ee26962427a78f05f9fbe2ad1c7b30e78c562e81457138316099cfb2f6d1ee",
+          "bytes": 1190108
+        },
+        {
+          "path": "solver/case05_verified/case05_verified_final.dat.h5",
+          "sha256": "2f5254c3a924ec61f75baec2aa44615be9c243ba78eedebb39069d1f6131842e",
+          "bytes": 3077806
+        },
+        {
+          "path": "solver/case05_verified/settings/case05_verified_final.set",
+          "sha256": "c60b6bfec3e8fefc20a48be7e6fa60877bef91b3d75e37a32786453c748ba5b1",
+          "bytes": 122224
+        },
+        {
+          "path": "inputs/Aerofoil8-degAoA-enhancedBL.msh",
+          "sha256": "3b823ee36532e037e1eb654a2306e9ad3e362d8bf60703ca0030ef85ae4bd47e",
+          "bytes": 1086513
+        }
+      ]
+    }
+  ]
+}

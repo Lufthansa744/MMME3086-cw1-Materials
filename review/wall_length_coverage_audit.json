@@ -1,0 +1,207 @@
+{
+  "case01_aligned": {
+    "coverage_source_sha256": "b166edcb34b589ae1fc1465ba57d870f900644e41cb9110183abbed0a32224b4",
+    "sides": {
+      "suction": {
+        "faces": 51,
+        "length_m": 0.10188636249433519,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0,
+          "from_30_to_300": 1.0,
+          "above_300": 0.0
+        }
+      },
+      "pressure": {
+        "faces": 51,
+        "length_m": 0.10188636941805808,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.019622528403120384,
+          "from_30_to_300": 0.9803774715968797,
+          "above_300": 0.0
+        }
+      },
+      "trailing": {
+        "faces": 1,
+        "length_m": 0.0002519999999999896,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      }
+    }
+  },
+  "case02_aligned": {
+    "coverage_source_sha256": "d29ffccd4c8fc4d767098fbbb721156375786e0966f9e5dc8d38ea6fe4ca45ad",
+    "sides": {
+      "suction": {
+        "faces": 51,
+        "length_m": 0.10188636249433519,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0,
+          "from_30_to_300": 1.0,
+          "above_300": 0.0
+        }
+      },
+      "pressure": {
+        "faces": 51,
+        "length_m": 0.10188636941805808,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0,
+          "from_30_to_300": 1.0,
+          "above_300": 0.0
+        }
+      },
+      "trailing": {
+        "faces": 1,
+        "length_m": 0.0002519999999999896,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0,
+          "from_30_to_300": 1.0,
+          "above_300": 0.0
+        }
+      }
+    }
+  },
+  "case03_aligned": {
+    "coverage_source_sha256": "de4a7e00a8002486469ed745832ff8ecc7d0e8928b8cbb8b01ee10d4b31897fc",
+    "sides": {
+      "suction": {
+        "faces": 51,
+        "length_m": 0.10188636249433519,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0973567804761745,
+          "from_30_to_300": 0.9026432195238255,
+          "above_300": 0.0
+        }
+      },
+      "pressure": {
+        "faces": 51,
+        "length_m": 0.10188636941805808,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0,
+          "from_30_to_300": 1.0,
+          "above_300": 0.0
+        }
+      },
+      "trailing": {
+        "faces": 1,
+        "length_m": 0.0002519999999999896,
+        "independent_length_fractions": {
+          "at_most_1": 0.0,
+          "above_1_to_5": 0.0,
+          "above_5": 1.0,
+          "below_30": 0.0,
+          "from_30_to_300": 1.0,
+          "above_300": 0.0
+        }
+      }
+    }
+  },
+  "case04_verified": {
+    "coverage_source_sha256": "5c0884b40d11e8db9021038f94e1202b1b687c93a3ccd84cf2052c85eae015b2",
+    "sides": {
+      "suction": {
+        "faces": 204,
+        "length_m": 0.10195490454051666,
+        "independent_length_fractions": {
+          "at_most_1": 0.10250898440316702,
+          "above_1_to_5": 0.885972854657125,
+          "above_5": 0.011518160939707893,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      },
+      "pressure": {
+        "faces": 204,
+        "length_m": 0.1019571370386993,
+        "independent_length_fractions": {
+          "at_most_1": 0.0023273477882749557,
+          "above_1_to_5": 0.9906599372149845,
+          "above_5": 0.007012714996740588,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      },
+      "trailing": {
+        "faces": 5,
+        "length_m": 0.0002519999999999973,
+        "independent_length_fractions": {
+          "at_most_1": 0.5999999999999986,
+          "above_1_to_5": 0.4000000000000014,
+          "above_5": 0.0,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      }
+    }
+  },
+  "case05_verified": {
+    "coverage_source_sha256": "827ef8ca519bab79a7b0384fde91692e0acd947d7109ebf80c45de3e13f386f0",
+    "sides": {
+      "suction": {
+        "faces": 204,
+        "length_m": 0.10195490454051666,
+        "independent_length_fractions": {
+          "at_most_1": 0.15194906837823688,
+          "above_1_to_5": 0.8402047039378596,
+          "above_5": 0.007846227683903492,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      },
+      "pressure": {
+        "faces": 204,
+        "length_m": 0.1019571370386993,
+        "independent_length_fractions": {
+          "at_most_1": 0.004341426453863117,
+          "above_1_to_5": 0.9886458585493962,
+          "above_5": 0.007012714996740588,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      },
+      "trailing": {
+        "faces": 5,
+        "length_m": 0.0002519999999999973,
+        "independent_length_fractions": {
+          "at_most_1": 0.7999999999999994,
+          "above_1_to_5": 0.2000000000000007,
+          "above_5": 0.0,
+          "below_30": 1.0,
+          "from_30_to_300": 0.0,
+          "above_300": 0.0
+        }
+      }
+    }
+  }
+}

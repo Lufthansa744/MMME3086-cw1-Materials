@@ -1,0 +1,8 @@
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/raw/suction_p_yplus.csv" aerofoil_suction () yes pressure y-plus () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/raw/pressure_p_yplus.csv" aerofoil_pressure () yes pressure y-plus () yes
+/surface/line-surface line-mid 0.05 -0.075 0.05 0.075
+/surface/line-surface line-te 0.1 -0.075 0.1 0.075
+/surface/line-surface line-wake 0.2 -0.075 0.2 0.075
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/raw/velocity_mid.csv" line-mid () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/raw/velocity_te.csv" line-te () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case01/raw/velocity_wake.csv" line-wake () yes velocity-magnitude () no

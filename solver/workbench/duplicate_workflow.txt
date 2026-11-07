@@ -1,0 +1,7 @@
+Case1 system /Schematic/System:FFF
+Case1 system data Ansys.Core.DataModel.DataReference
+Setup Setup
+Case1 actual solved case imported
+Case2 Duplicate /Schematic/System:FFF 1
+Case3 Duplicate /Schematic/System:FFF 2
+WORKBENCH_DUPLICATES_SAVED

@@ -1,0 +1,46 @@
+/file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sa_grid_medium/logs/setup.transcript"
+/file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/grid_medium_mesh/mesh.msh"
+/mesh/check
+/mesh/quality
+/define/materials/list-properties air
+/define/models/viscous/spalart-allmaras yes
+/define/boundary-conditions/velocity-inlet inlet no no yes yes no 50.9 no 0 no yes 5 1
+/solve/set/p-v-coupling 20
+/report/reference-values/area .1
+/report/reference-values/length .1
+/report/reference-values/velocity 50.9
+/report/reference-values/depth 1
+/solve/report-definitions/add drag-force drag
+thread-names aerofoil_te aerofoil_pressure aerofoil_suction ()
+force-vector 1 0
+scaled? no
+q
+/solve/report-definitions/add lift-force lift
+thread-names aerofoil_te aerofoil_pressure aerofoil_suction ()
+force-vector 0 1
+scaled? no
+q
+/solve/report-files/add forces
+file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sa_grid_medium/monitors/forces.out"
+report-defs drag-force lift-force ()
+frequency 1
+print? yes
+q
+/solve/report-definitions/add mass-net flux-massflow
+zone-names inlet outlet ()
+q
+/solve/report-files/add mass-balance
+file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sa_grid_medium/monitors/mass_balance.out"
+report-defs mass-net ()
+frequency 1
+print? yes
+q
+/solve/monitors/residual/n-save 10000
+/solve/monitors/residual/convergence-criteria 1e-5 1e-5 1e-5 1e-5
+(for-each (lambda (k) (format #t "ACTUAL_RP ~a = ~a~%" k (rpgetvar k))) '(flow/scheme pressure/scheme mom/scheme nut/scheme pressure/relax density/relax mom/relax nut/relax turb-viscosity/relax))
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sa_grid_medium/settings/sa_grid_medium_configured.set"
+/file/write-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sa_grid_medium/settings/sa_grid_medium_configured.cas.h5"
+/solve/initialize/hyb-initialization
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sa_grid_medium/sa_grid_medium_initialized.cas.h5"
+/solve/iterate 1500
+

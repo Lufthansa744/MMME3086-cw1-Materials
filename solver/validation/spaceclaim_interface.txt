@@ -1,0 +1,2 @@
+SPACECLAIM_SCRIPT_OK
+<SpaceClaim.Api.V22.Part object at 0x000000000000002B [SpaceClaim.Api.V22.Part]>

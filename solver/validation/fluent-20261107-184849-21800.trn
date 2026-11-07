@@ -1,0 +1,60 @@
+Auto-Transcript Start Time:  18:48:49, 07 Nov 2026 GMT 标准时间 
+Current Directory: "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation"
+
+              Welcome to ANSYS Fluent 2022 R2
+
+              Copyright 1987-2022 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 27 2022 08:53:57 EDT  Build Id: 10212  
+ 
+Connected License Server List:	1055@localhost
+
+*********************************************
+Info: Your license enables 4-way parallel execution.
+For faster simulations, please start the application with the appropriate parallel options.
+*********************************************
+
+Host spawning Node 0 on machine "DESKTOP-KUJ9RI4" (win64).
+
+-------------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                          
+-------------------------------------------------------------------------------------------------
+n0    DESKTOP-KUJ9RI4  1/8  Windows-x64  20028  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+host  DESKTOP-KUJ9RI4       Windows-x64  27360  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+
+MPI Option Selected: intel
+-------------------------------------------------------------------------------------------------
+
+
+
+Cleanup script file is C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\\cleanup-fluent-DESKTOP-KUJ9RI4-21800.bat
+
+Reading journal file verify.jou...
+
+> /file/start-transcript "validation.transcript"
+Opening input/output transcript to file "validation.transcript".
+
+-------------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                          
+-------------------------------------------------------------------------------------------------
+n0*   DESKTOP-KUJ9RI4  1/8  Windows-x64  20028  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+host  DESKTOP-KUJ9RI4       Windows-x64  27360  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------------------------
+
+
+> (format #t "MMME3086_JOURNAL_INTERFACE_OK~%")
+MMME3086_JOURNAL_INTERFACE_OK
+
+
+> /file/stop-transcript
+
+Transcript closed.
+
+> /exit Auto-Transcript Stop Time:  18:49:05, 07 Nov 2026 GMT 标准时间 
+Total Transcript Time: 0 Minute 16 Second.

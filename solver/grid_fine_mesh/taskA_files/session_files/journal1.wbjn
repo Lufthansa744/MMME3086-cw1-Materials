@@ -1,0 +1,20 @@
+# encoding: utf-8
+# 2022 R2
+SetScriptVersion(Version="22.2.192")
+template1 = GetTemplate(TemplateName="Mesh")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/aligned_taskA/taskA_geometry.scdoc"))
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+geometryProperties1.GeometryImportNamedSelections = True
+geometryProperties1.GeometryImportNamedSelectionsFilter = ""
+Save(Overwrite=True)
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit(Interactive=False)
+mesh1.SendCommand(
+    Command=r"""import System
+System.IO.File.WriteAllText(r'C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\aligned_taskA\mesher_interface.txt', str(ExtAPI.DataModel.Project.Model.Mesh)+'\n'+str(dir(ExtAPI.DataModel.Project.Model.Mesh)))""",
+    Language="Python")
+mesh1.Exit()
+Save(Overwrite=True)

@@ -1,0 +1,748 @@
+{
+  "purpose": "Compare the initial enhanced RSM attempt with the final relaxed/continued RSM Case5 using identical 25/50/100-update diagnostics",
+  "entries": [
+    {
+      "dataset": "initial_enhanced_rsm",
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\case_summary.json",
+      "sha256": "5a3c441ecdc7c87627cd31abaa0f8d3b7e22a8a00d00a2e128befe048badbcd3",
+      "solver_global_stop": 432,
+      "model_iteration_count": 432,
+      "first_default_global": 432,
+      "first_default_model_count": 432,
+      "current_residual_criteria": {
+        "continuity": 0.001,
+        "x-velocity": 0.001,
+        "y-velocity": 0.001,
+        "k": 0.001,
+        "epsilon": 0.001,
+        "uu-stress": 0.001,
+        "vv-stress": 0.001,
+        "ww-stress": 0.001,
+        "uv-stress": 0.001
+      },
+      "drag_N": 5.107296168194607,
+      "lift_N": 172.6515049094435,
+      "CD": 0.032184694067040935,
+      "CL": 1.087999536883901,
+      "stability_windows": {
+        "25": {
+          "sample_count": 25,
+          "first_iteration": 408,
+          "last_iteration": 432,
+          "forces": {
+            "drag": {
+              "minimum_N": 5.101671396649282,
+              "maximum_N": 5.109935970193879,
+              "mean_N": 5.105710657385914,
+              "range_N": 0.008264573544597198,
+              "range_over_mean_fraction": 0.0016186921075603212,
+              "range_over_terminal_fraction": 0.0016181896002163245
+            },
+            "lift": {
+              "minimum_N": 172.6515049094435,
+              "maximum_N": 173.0054460455389,
+              "mean_N": 172.8337616759378,
+              "range_N": 0.35394113609538636,
+              "range_over_mean_fraction": 0.0020478703504644173,
+              "range_over_terminal_fraction": 0.00205003215165156
+            }
+          },
+          "residuals": {
+            "continuity": {
+              "minimum": 0.00052521,
+              "maximum": 0.00080511,
+              "mean": 0.0006604684,
+              "terminal": 0.00075206,
+              "range": 0.00027990000000000003,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "x-velocity": {
+              "minimum": 1.2378e-06,
+              "maximum": 1.2536e-06,
+              "mean": 1.243884e-06,
+              "terminal": 1.2492e-06,
+              "range": 1.5799999999999916e-08,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "y-velocity": {
+              "minimum": 2.9718e-07,
+              "maximum": 3.469e-07,
+              "mean": 3.208628e-07,
+              "terminal": 3.3291e-07,
+              "range": 4.972e-08,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "k": {
+              "minimum": 4.011e-05,
+              "maximum": 5.4949e-05,
+              "mean": 4.46958e-05,
+              "terminal": 4.5001e-05,
+              "range": 1.4838999999999998e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "epsilon": {
+              "minimum": 0.00091066,
+              "maximum": 0.0015179,
+              "mean": 0.0012182464,
+              "terminal": 0.00091066,
+              "range": 0.00060724,
+              "criterion": 0.001,
+              "count_above_criterion": 24,
+              "threshold_crossings": 1
+            },
+            "uu-stress": {
+              "minimum": 8.9494e-05,
+              "maximum": 0.0001166,
+              "mean": 0.00010411016,
+              "terminal": 9.4893e-05,
+              "range": 2.7106000000000008e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "vv-stress": {
+              "minimum": 7.7312e-05,
+              "maximum": 0.00010902,
+              "mean": 9.0356e-05,
+              "terminal": 7.7312e-05,
+              "range": 3.1708e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "ww-stress": {
+              "minimum": 7.1019e-05,
+              "maximum": 8.1725e-05,
+              "mean": 7.62818e-05,
+              "terminal": 7.1055e-05,
+              "range": 1.0705999999999989e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uv-stress": {
+              "minimum": 3.8365e-05,
+              "maximum": 5.8934e-05,
+              "mean": 4.68886e-05,
+              "terminal": 4.2907e-05,
+              "range": 2.0569e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            }
+          }
+        },
+        "50": {
+          "sample_count": 50,
+          "first_iteration": 383,
+          "last_iteration": 432,
+          "forces": {
+            "drag": {
+              "minimum_N": 5.101671396649282,
+              "maximum_N": 5.119321350854687,
+              "mean_N": 5.109343467937083,
+              "range_N": 0.01764995420540494,
+              "range_over_mean_fraction": 0.00345444660672444,
+              "range_over_terminal_fraction": 0.0034558313487514218
+            },
+            "lift": {
+              "minimum_N": 172.6515049094435,
+              "maximum_N": 173.2282295530652,
+              "mean_N": 172.98571153217688,
+              "range_N": 0.5767246436217022,
+              "range_over_mean_fraction": 0.0033339438183275978,
+              "range_over_terminal_fraction": 0.0033403974319493874
+            }
+          },
+          "residuals": {
+            "continuity": {
+              "minimum": 0.00052521,
+              "maximum": 0.00080511,
+              "mean": 0.0006601626,
+              "terminal": 0.00075206,
+              "range": 0.00027990000000000003,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "x-velocity": {
+              "minimum": 1.2378e-06,
+              "maximum": 1.2809e-06,
+              "mean": 1.250926e-06,
+              "terminal": 1.2492e-06,
+              "range": 4.310000000000006e-08,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "y-velocity": {
+              "minimum": 2.667e-07,
+              "maximum": 3.469e-07,
+              "mean": 3.019432e-07,
+              "terminal": 3.3291e-07,
+              "range": 8.019999999999999e-08,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "k": {
+              "minimum": 4.011e-05,
+              "maximum": 5.4949e-05,
+              "mean": 4.400178e-05,
+              "terminal": 4.5001e-05,
+              "range": 1.4838999999999998e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "epsilon": {
+              "minimum": 0.00091066,
+              "maximum": 0.001732,
+              "mean": 0.0013227412,
+              "terminal": 0.00091066,
+              "range": 0.00082134,
+              "criterion": 0.001,
+              "count_above_criterion": 49,
+              "threshold_crossings": 1
+            },
+            "uu-stress": {
+              "minimum": 8.9494e-05,
+              "maximum": 0.00014476,
+              "mean": 0.00011699688,
+              "terminal": 9.4893e-05,
+              "range": 5.5265999999999996e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "vv-stress": {
+              "minimum": 7.7312e-05,
+              "maximum": 0.00011717,
+              "mean": 9.549596e-05,
+              "terminal": 7.7312e-05,
+              "range": 3.985800000000001e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "ww-stress": {
+              "minimum": 7.1019e-05,
+              "maximum": 9.4447e-05,
+              "mean": 8.199316e-05,
+              "terminal": 7.1055e-05,
+              "range": 2.3427999999999993e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uv-stress": {
+              "minimum": 3.8365e-05,
+              "maximum": 6.8491e-05,
+              "mean": 5.026898e-05,
+              "terminal": 4.2907e-05,
+              "range": 3.0126000000000003e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            }
+          }
+        },
+        "100": {
+          "sample_count": 100,
+          "first_iteration": 333,
+          "last_iteration": 432,
+          "forces": {
+            "drag": {
+              "minimum_N": 5.101671396649282,
+              "maximum_N": 5.17197563531942,
+              "mean_N": 5.125846173647427,
+              "range_N": 0.07030423867013802,
+              "range_over_mean_fraction": 0.013715635680130298,
+              "range_over_terminal_fraction": 0.013765451690065208
+            },
+            "lift": {
+              "minimum_N": 172.6515049094435,
+              "maximum_N": 173.2819631651883,
+              "mean_N": 173.10381380918733,
+              "range_N": 0.6304582557447986,
+              "range_over_mean_fraction": 0.0036420818344288703,
+              "range_over_terminal_fraction": 0.0036516232863158466
+            }
+          },
+          "residuals": {
+            "continuity": {
+              "minimum": 0.00052521,
+              "maximum": 0.00085442,
+              "mean": 0.0006803753,
+              "terminal": 0.00075206,
+              "range": 0.00032921000000000003,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "x-velocity": {
+              "minimum": 1.2378e-06,
+              "maximum": 1.6727e-06,
+              "mean": 1.347599e-06,
+              "terminal": 1.2492e-06,
+              "range": 4.3490000000000006e-07,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "y-velocity": {
+              "minimum": 2.5772e-07,
+              "maximum": 3.5584e-07,
+              "mean": 2.986598e-07,
+              "terminal": 3.3291e-07,
+              "range": 9.811999999999998e-08,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "k": {
+              "minimum": 4.011e-05,
+              "maximum": 7.1564e-05,
+              "mean": 4.820028e-05,
+              "terminal": 4.5001e-05,
+              "range": 3.1453999999999994e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "epsilon": {
+              "minimum": 0.00091066,
+              "maximum": 0.0023268,
+              "mean": 0.0015791686,
+              "terminal": 0.00091066,
+              "range": 0.00141614,
+              "criterion": 0.001,
+              "count_above_criterion": 99,
+              "threshold_crossings": 1
+            },
+            "uu-stress": {
+              "minimum": 8.9494e-05,
+              "maximum": 0.00020898,
+              "mean": 0.00014602074,
+              "terminal": 9.4893e-05,
+              "range": 0.000119486,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "vv-stress": {
+              "minimum": 7.7312e-05,
+              "maximum": 0.00014754,
+              "mean": 0.00010851389,
+              "terminal": 7.7312e-05,
+              "range": 7.022799999999999e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "ww-stress": {
+              "minimum": 7.1019e-05,
+              "maximum": 0.00012056,
+              "mean": 9.415886e-05,
+              "terminal": 7.1055e-05,
+              "range": 4.954099999999999e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uv-stress": {
+              "minimum": 3.8365e-05,
+              "maximum": 8.8358e-05,
+              "mean": 5.867707e-05,
+              "terminal": 4.2907e-05,
+              "range": 4.9992999999999994e-05,
+              "criterion": 0.001,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset": "case05_verified",
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\case_summary.json",
+      "sha256": "6afef5fb52315f697bf105fdf83cae639274f32058ad606bdad70dca01d4f1db",
+      "solver_global_stop": 3689,
+      "model_iteration_count": 2936,
+      "first_default_global": 1737,
+      "first_default_model_count": 984,
+      "current_residual_criteria": {
+        "continuity": 1e-05,
+        "x-velocity": 1e-05,
+        "y-velocity": 1e-05,
+        "k": 1e-05,
+        "epsilon": 1e-05,
+        "uu-stress": 1e-05,
+        "vv-stress": 1e-05,
+        "ww-stress": 1e-05,
+        "uv-stress": 1e-05
+      },
+      "drag_N": 5.232899341976225,
+      "lift_N": 158.8477374876382,
+      "CD": 0.03297620871371155,
+      "CL": 1.001012211925138,
+      "stability_windows": {
+        "25": {
+          "sample_count": 25,
+          "first_iteration": 3665,
+          "last_iteration": 3689,
+          "forces": {
+            "drag": {
+              "minimum_N": 5.232317220529378,
+              "maximum_N": 5.232899341976225,
+              "mean_N": 5.232609871760395,
+              "range_N": 0.0005821214468468838,
+              "range_over_mean_fraction": 0.00011124877663601588,
+              "range_over_terminal_fraction": 0.00011124262264655819
+            },
+            "lift": {
+              "minimum_N": 158.8477374876382,
+              "maximum_N": 158.8699088647235,
+              "mean_N": 158.85870717331997,
+              "range_N": 0.022171377085300037,
+              "range_over_mean_fraction": 0.0001395666468638093,
+              "range_over_terminal_fraction": 0.0001395762850385291
+            }
+          },
+          "residuals": {
+            "continuity": {
+              "minimum": 9.9828e-06,
+              "maximum": 1.058e-05,
+              "mean": 1.0289632e-05,
+              "terminal": 9.9828e-06,
+              "range": 5.972e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 24,
+              "threshold_crossings": 1
+            },
+            "x-velocity": {
+              "minimum": 3.1558e-08,
+              "maximum": 3.3329e-08,
+              "mean": 3.244012e-08,
+              "terminal": 3.1558e-08,
+              "range": 1.771000000000003e-09,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "y-velocity": {
+              "minimum": 1.1912e-08,
+              "maximum": 1.2706e-08,
+              "mean": 1.230524e-08,
+              "terminal": 1.1912e-08,
+              "range": 7.940000000000004e-10,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "k": {
+              "minimum": 4.6052e-07,
+              "maximum": 4.8387e-07,
+              "mean": 4.7199e-07,
+              "terminal": 4.6052e-07,
+              "range": 2.3349999999999954e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "epsilon": {
+              "minimum": 7.9895e-06,
+              "maximum": 8.2636e-06,
+              "mean": 8.126616e-06,
+              "terminal": 7.9895e-06,
+              "range": 2.7409999999999963e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uu-stress": {
+              "minimum": 1.2328e-06,
+              "maximum": 1.2839e-06,
+              "mean": 1.258364e-06,
+              "terminal": 1.2328e-06,
+              "range": 5.1099999999999816e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "vv-stress": {
+              "minimum": 8.2628e-07,
+              "maximum": 8.537e-07,
+              "mean": 8.400356e-07,
+              "terminal": 8.2628e-07,
+              "range": 2.7419999999999964e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "ww-stress": {
+              "minimum": 7.0795e-07,
+              "maximum": 7.3535e-07,
+              "mean": 7.2166e-07,
+              "terminal": 7.0795e-07,
+              "range": 2.739999999999994e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uv-stress": {
+              "minimum": 5.0676e-07,
+              "maximum": 5.2746e-07,
+              "mean": 5.17094e-07,
+              "terminal": 5.0676e-07,
+              "range": 2.0699999999999967e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            }
+          }
+        },
+        "50": {
+          "sample_count": 50,
+          "first_iteration": 3640,
+          "last_iteration": 3689,
+          "forces": {
+            "drag": {
+              "minimum_N": 5.231693792307333,
+              "maximum_N": 5.232899341976225,
+              "mean_N": 5.23230237624517,
+              "range_N": 0.0012055496688923029,
+              "range_over_mean_fraction": 0.0002304051987449233,
+              "range_over_terminal_fraction": 0.0002303789142706923
+            },
+            "lift": {
+              "minimum_N": 158.8477374876382,
+              "maximum_N": 158.8947491162822,
+              "mean_N": 158.8706964623088,
+              "range_N": 0.047011628644014536,
+              "range_over_mean_fraction": 0.000295911264259912,
+              "range_over_terminal_fraction": 0.00029595403363974926
+            }
+          },
+          "residuals": {
+            "continuity": {
+              "minimum": 9.9828e-06,
+              "maximum": 1.1198e-05,
+              "mean": 1.0589576e-05,
+              "terminal": 9.9828e-06,
+              "range": 1.2151999999999998e-06,
+              "criterion": 1e-05,
+              "count_above_criterion": 49,
+              "threshold_crossings": 1
+            },
+            "x-velocity": {
+              "minimum": 3.1558e-08,
+              "maximum": 3.5218e-08,
+              "mean": 3.337382e-08,
+              "terminal": 3.1558e-08,
+              "range": 3.660000000000001e-09,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "y-velocity": {
+              "minimum": 1.1912e-08,
+              "maximum": 1.3583e-08,
+              "mean": 1.27313e-08,
+              "terminal": 1.1912e-08,
+              "range": 1.6710000000000005e-09,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "k": {
+              "minimum": 4.6052e-07,
+              "maximum": 5.1138e-07,
+              "mean": 4.849258e-07,
+              "terminal": 4.6052e-07,
+              "range": 5.085999999999997e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "epsilon": {
+              "minimum": 7.9895e-06,
+              "maximum": 8.5486e-06,
+              "mean": 8.269264e-06,
+              "terminal": 7.9895e-06,
+              "range": 5.590999999999994e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uu-stress": {
+              "minimum": 1.2328e-06,
+              "maximum": 1.3371e-06,
+              "mean": 1.284986e-06,
+              "terminal": 1.2328e-06,
+              "range": 1.043e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "vv-stress": {
+              "minimum": 8.2628e-07,
+              "maximum": 8.8169e-07,
+              "mean": 8.541668e-07,
+              "terminal": 8.2628e-07,
+              "range": 5.540999999999999e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "ww-stress": {
+              "minimum": 7.0795e-07,
+              "maximum": 7.6385e-07,
+              "mean": 7.359254e-07,
+              "terminal": 7.0795e-07,
+              "range": 5.5899999999999965e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uv-stress": {
+              "minimum": 5.0676e-07,
+              "maximum": 5.4939e-07,
+              "mean": 5.279578e-07,
+              "terminal": 5.0676e-07,
+              "range": 4.2630000000000005e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            }
+          }
+        },
+        "100": {
+          "sample_count": 100,
+          "first_iteration": 3590,
+          "last_iteration": 3689,
+          "forces": {
+            "drag": {
+              "minimum_N": 5.230384336023484,
+              "maximum_N": 5.232899341976225,
+              "mean_N": 5.23166646270198,
+              "range_N": 0.002515005952741234,
+              "range_over_mean_fraction": 0.00048072750254080944,
+              "range_over_terminal_fraction": 0.0004806142423888918
+            },
+            "lift": {
+              "minimum_N": 158.8477374876382,
+              "maximum_N": 158.9494773943795,
+              "mean_N": 158.89637554542435,
+              "range_N": 0.10173990674130096,
+              "range_over_mean_fraction": 0.0006402909216278263,
+              "range_over_terminal_fraction": 0.0006404869741957674
+            }
+          },
+          "residuals": {
+            "continuity": {
+              "minimum": 9.9828e-06,
+              "maximum": 1.2639e-05,
+              "mean": 1.1275238e-05,
+              "terminal": 9.9828e-06,
+              "range": 2.6562e-06,
+              "criterion": 1e-05,
+              "count_above_criterion": 99,
+              "threshold_crossings": 1
+            },
+            "x-velocity": {
+              "minimum": 3.1558e-08,
+              "maximum": 3.91e-08,
+              "mean": 3.528126e-08,
+              "terminal": 3.1558e-08,
+              "range": 7.542000000000002e-09,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "y-velocity": {
+              "minimum": 1.1912e-08,
+              "maximum": 1.5484e-08,
+              "mean": 1.363444e-08,
+              "terminal": 1.1912e-08,
+              "range": 3.572000000000002e-09,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "k": {
+              "minimum": 4.6052e-07,
+              "maximum": 5.78e-07,
+              "mean": 5.145536e-07,
+              "terminal": 4.6052e-07,
+              "range": 1.1748000000000002e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "epsilon": {
+              "minimum": 7.9895e-06,
+              "maximum": 9.1145e-06,
+              "mean": 8.553442e-06,
+              "terminal": 7.9895e-06,
+              "range": 1.1250000000000002e-06,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uu-stress": {
+              "minimum": 1.2328e-06,
+              "maximum": 1.4472e-06,
+              "mean": 1.338817e-06,
+              "terminal": 1.2328e-06,
+              "range": 2.1440000000000001e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "vv-stress": {
+              "minimum": 8.2628e-07,
+              "maximum": 9.3759e-07,
+              "mean": 8.820806e-07,
+              "terminal": 8.2628e-07,
+              "range": 1.1130999999999996e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "ww-stress": {
+              "minimum": 7.0795e-07,
+              "maximum": 8.2122e-07,
+              "mean": 7.643619999999999e-07,
+              "terminal": 7.0795e-07,
+              "range": 1.1326999999999995e-07,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            },
+            "uv-stress": {
+              "minimum": 5.0676e-07,
+              "maximum": 5.9514e-07,
+              "mean": 5.502107e-07,
+              "terminal": 5.0676e-07,
+              "range": 8.837999999999995e-08,
+              "criterion": 1e-05,
+              "count_above_criterion": 0,
+              "threshold_crossings": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "interpretation_limit": "The runs also differ in initialization/seed and stopping precision. This is not an isolated test of relaxation alone. Initial attempt really reached first default residual threshold; no divergence is inferred."
+}

@@ -1,0 +1,7 @@
+MESHER_OPEN
+MESH_COMMAND_COMPLETED
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\taskA\generate_mesh.wbjn", line 15, in <module>
+    mesh.SendCommand(Command='DS.Script.doFileExport("C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/taskA/taskA_baseline.msh", "ID_FileExportFluentFilter");')
+Exception: Unable to update setup using new parameter values. 
+

@@ -1,0 +1,89 @@
+{
+  "run": "sa_grid_fine",
+  "final_iteration": 1016,
+  "native_rows": 1016,
+  "duplicate_reprints": [],
+  "native_first_default_1e3": 534,
+  "active_equations": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "nut"
+  ],
+  "final_residuals": [
+    9.981e-06,
+    8.3334e-09,
+    1.4357e-09,
+    4.351e-09
+  ],
+  "strict_residual_gate": true,
+  "force_gate": true,
+  "combined_gate": true,
+  "controls_verified_against_native_evidence": {
+    "flow/scheme": {
+      "value": 20.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "pressure/scheme": {
+      "value": 12.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "mom/scheme": {
+      "value": 1.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "nut/scheme": {
+      "value": 0.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "pressure/relax": {
+      "value": 0.3,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "density/relax": {
+      "value": 1.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "mom/relax": {
+      "value": 0.7,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "nut/relax": {
+      "value": 0.8,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "turb-viscosity/relax": {
+      "value": 1.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    }
+  },
+  "inlet_manifest": {
+    "speed_m_s": 50.9,
+    "intensity_fraction": 0.05,
+    "length_scale_m": 1.0,
+    "selected_method": "Intensity and Length Scale"
+  },
+  "CL": 0.9117482709490834,
+  "CD": 0.06891659133065572,
+  "force_window_100": {
+    "drag_N": {
+      "samples": 100,
+      "final": 10.93617488160429,
+      "mean": 10.936622543044399,
+      "range": 0.0010583680858005096,
+      "range_percent_mean": 0.009677284569664726,
+      "endpoint_drift_percent_mean": -0.009677284569664726
+    },
+    "lift_N": {
+      "samples": 100,
+      "final": 144.6827004437777,
+      "mean": 144.67503016718652,
+      "range": 0.01814363247598294,
+      "range_percent_mean": 0.012540956414535495,
+      "endpoint_drift_percent_mean": 0.012540956414535495
+    }
+  },
+  "mass_imbalance_percent": 5.603621314030657e-08,
+  "native_transcript_sha256": "a13708638b062e744b8bc1b39ff9f6d6c8fb7a831a18a0a947fd17d4bd1878f2",
+  "final_settings_sha256": "bc26b7fe039ab3eef3fb1e7b0279f35f31ca95b4d15b7e9d81962f92cfc23ca9"
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "case02",
+  "student_id": "20617209",
+  "mesh": "../taskA/taskA_baseline.msh",
+  "solver": "Fluent 2022 R2 Build 10212, 2ddp, 4 ranks",
+  "model": "standard k-epsilon",
+  "wall_treatment": "Standard Wall Function, explicitly confirmed by Fluent reset message",
+  "pressure_velocity_coupling": {
+    "code": 20,
+    "name": "SIMPLE"
+  },
+  "steady": true,
+  "air": {
+    "density_kg_m3": 1.225,
+    "dynamic_viscosity_kg_ms": 1.7894E-05,
+    "source": "logs/setup.transcript and settings/case02_final.set (inherited air constants verified in saved current-case material records)"
+  },
+  "inlet": {
+    "speed_m_s": 50.9,
+    "direction": "normal to inlet, global +x",
+    "turbulence_specification": "Intensity and Length Scale",
+    "intensity_percent": 5,
+    "length_scale_m": 1,
+    "selection": "actual Fluent defaults observed and retained"
+  },
+  "outlet": {
+    "gauge_pressure_Pa": 0,
+    "other_settings": "observed defaults retained"
+  },
+  "reference": {
+    "area_m2": 0.1,
+    "length_m": 0.1,
+    "velocity_m_s": 50.9,
+    "density_kg_m3": 1.225,
+    "viscosity_kg_ms": 1.7894E-05,
+    "depth_m": 1
+  },
+  "initialization": "Independently reinitialized with hybrid in Case2 after switching model; 10 steps, scalar final 1.324414e-9. Previous Case1 solved data were not read.",
+  "residual_criteria": {
+    "epsilon": 0.001,
+    "continuity": 0.001,
+    "x_velocity": 0.001,
+    "y_velocity": 0.001,
+    "k": 0.001
+  },
+  "iterations_to_automatic_residual_convergence": 258,
+  "final_residuals": {
+    "epsilon": 4.0195E-05,
+    "continuity": 0.00097262,
+    "x_velocity": 1.0183E-06,
+    "y_velocity": 3.1644E-07,
+    "k": 1.3482E-05
+  },
+  "force_report": {
+    "zones": [
+      "aerofoil_te",
+      "aerofoil_pressure",
+      "aerofoil_suction"
+    ],
+    "scaled": false,
+    "drag_vector": [
+      1,
+      0
+    ],
+    "lift_vector": [
+      0,
+      1
+    ],
+    "units": "N, Fluent 2D 1 m depth",
+    "drag_N": 14.12026066565978,
+    "lift_N": 133.0603249530288
+  },
+  "mass_report": {
+    "inlet_kg_s": 9.352875,
+    "outlet_kg_s": -9.3528714,
+    "net_kg_s": 3.6400967E-06
+  },
+  "surface_export": {
+    "suction": "raw/suction_p_yplus.csv",
+    "pressure": "raw/pressure_p_yplus.csv",
+    "location": "cell-centered wall-face sampling",
+    "fields": [
+      "x-coordinate",
+      "y-coordinate",
+      "pressure",
+      "y-plus"
+    ]
+  },
+  "velocity_lines": {
+    "source": "FAQ Q7 absolute positions",
+    "x_m": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "y_min_m": -0.075,
+    "y_max_m": 0.075,
+    "sampling": "native line-surface fluid intersections, node-interpolated velocity magnitude; retain hole gap"
+  },
+  "failed_attempts": "No failed solver iterations. The validated native setup was read from Case1 final configuration; Workbench Case2 Duplicate is separately preserved.",
+  "spatial_discretization": {
+    "gradient": "Least-Squares Cell-Based inherited",
+    "pressure": "Second Order (12)",
+    "epsilon": "First Order Upwind (0)",
+    "momentum": "Second Order Upwind (1)",
+    "k": "First Order Upwind (0)"
+  },
+  "source_setup_case": "../case01/case01_final.cas.h5 (configuration only, no .dat read)"
+}

@@ -1,0 +1,13 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+out=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\aligned_taskA"
+try:
+    Open(FilePath=out+r"\taskA.wbpj")
+    mesh=GetSystem(Name="SYS").GetContainer(ComponentName="Mesh")
+    mesh.Edit(Interactive=False)
+    mesh.SendCommand(Language="Python",Command="execfile(r'%s')"%(out+r"\export_mesh_native.py"))
+    mesh.Exit()
+    Save(FilePath=out+r"\taskA.wbpj",Overwrite=True)
+except:
+    open(out+r"\mesh_native_workbench_error.txt","w").write(traceback.format_exc())
+

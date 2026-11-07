@@ -1,0 +1,200 @@
+{
+  "run_id": "case04_verified",
+  "model": "standard k-epsilon",
+  "wall_treatment": "Enhanced Wall Treatment",
+  "mesh": "../../inputs/Aerofoil8-degAoA-enhancedBL.msh",
+  "source_state": "../case04/case04_final.cas.h5+dat.h5; original first1e-3stop215 preserved",
+  "initialization": "No reinitialization; strict continuation of saved KE215 with unchanged physical and solver parameters, only tighter residual target",
+  "actual_settings_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case04_verified\\settings\\case04_verified_final.set",
+  "native_log_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case04_verified\\logs\\setup.transcript",
+  "air": {
+    "density_kg_m3": 1.225,
+    "dynamic_viscosity_Pa_s": 1.7894e-05
+  },
+  "inlet": {
+    "speed_m_s": 50.9,
+    "intensity_fraction": 0.05,
+    "length_scale_m": 1.0,
+    "selected_method": "Intensity and Length Scale"
+  },
+  "reference": {
+    "area_m2": 0.1,
+    "length_m": 0.1
+  },
+  "actual_rp_readbacks": {
+    "flow/scheme": "20",
+    "pressure/scheme": "12",
+    "mom/scheme": "1",
+    "k/scheme": "0",
+    "epsilon/scheme": "0",
+    "pressure/relax": "0.3",
+    "density/relax": "1",
+    "mom/relax": "0.7",
+    "k/relax": "0.8",
+    "epsilon/relax": "0.8",
+    "turb-viscosity/relax": "1"
+  },
+  "native_auto_convergence_iterations": [
+    753
+  ],
+  "inherited_start_iteration": 215,
+  "inherited_state_convergence_markers": [
+    215
+  ],
+  "terminal_iteration": 753,
+  "new_model_monitored_iterations": 538,
+  "first_iteration_all_printed_active_residuals_le_1e3_after_seed": 216,
+  "force_window": {
+    "new_iterations": 100,
+    "range_over_absolute_mean": {
+      "drag": 0.00010064398064393012,
+      "lift": 0.0005541556674464436
+    },
+    "analyst_target_for_strict_runs": 0.001,
+    "strict_force_target_met": true
+  },
+  "final_residuals": {
+    "continuity": 9.9686e-06,
+    "x-velocity": 2.325e-08,
+    "y-velocity": 5.1256e-09,
+    "k": 3.7095e-07,
+    "epsilon": 2.736e-06
+  },
+  "residual_criteria": {
+    "continuity": 1e-05,
+    "x-velocity": 1e-05,
+    "y-velocity": 1e-05,
+    "k": 1e-05,
+    "epsilon": 1e-05
+  },
+  "force_report": {
+    "zones": [
+      "aerofoil-pressure",
+      "aerofoil-suction",
+      "aerofoil-trail"
+    ],
+    "drag_vector": [
+      1,
+      0
+    ],
+    "lift_vector": [
+      0,
+      1
+    ],
+    "scaled": false,
+    "depth_m": 1,
+    "units": "N",
+    "final_drag_N": 15.61123397381552,
+    "final_lift_N": 143.9712236674034
+  },
+  "mass_balance": {
+    "final_net_kg_s": 8.062672129938164e-08,
+    "prescribed_inlet_kg_s": 9.352875000000001,
+    "absolute_relative_net": 8.62052805146884e-09
+  },
+  "sampling": {
+    "line_x_m": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "y_limits_m": [
+      -0.075,
+      0.075
+    ],
+    "surface_values": "native cell-centered p/y-plus; cell-id when included",
+    "velocity_lines": "native node-interpolated magnitude; retain any actual fluid gap"
+  },
+  "evidence": [
+    {
+      "path": "case04_verified_final.cas.h5",
+      "bytes": 1189807,
+      "sha256": "dd2d1137d6f9d392255c0762a354367389f4830a869e979275ccf78522821b01"
+    },
+    {
+      "path": "case04_verified_final.dat.h5",
+      "bytes": 1914792,
+      "sha256": "b5276503e14a6fab615a378aa5979188efcab1fd1b83a11572b701c052f7e82a"
+    },
+    {
+      "path": "case04_verified_initial_from_215.cas.h5",
+      "bytes": 1189750,
+      "sha256": "6aba7c9b418e1b3c2e0114aa0a0b3a8291f43cfe10dc3df1b222e557aebd2273"
+    },
+    {
+      "path": "case04_verified_initial_from_215.dat.h5",
+      "bytes": 1875097,
+      "sha256": "fe926b4542250dc2790a5096203c0cc9e2dfb2cb123d32749c1013f86310efbe"
+    },
+    {
+      "path": "export.jou",
+      "bytes": 2021,
+      "sha256": "41ef4f46158baf5cf4045c4be38bbf60bf434890ecc24030c919ac6f2aaf852f"
+    },
+    {
+      "path": "monitors\\forces.out",
+      "bytes": 21528,
+      "sha256": "829f005766bdfcb1f68b54904bfa1efea6f522d208aa3f6d8ee9944344af2fd0"
+    },
+    {
+      "path": "monitors\\mass_balance.out",
+      "bytes": 14045,
+      "sha256": "f475bb98247153f00527c9701bae064808ba01145a2eb824b0b0e56478c2b62d"
+    },
+    {
+      "path": "raw\\domain_cell_fields.csv",
+      "bytes": 2674750,
+      "sha256": "e5198ebf840d367a1080d8962ff98bd0a0437bd384f9737eee8a8bfc81858268"
+    },
+    {
+      "path": "raw\\inlet_turbulence.csv",
+      "bytes": 4862,
+      "sha256": "3d1c4bfa7f80e4e1c3a194b015781927714f6bf496602a628a93bf42fda44224"
+    },
+    {
+      "path": "raw\\pressure_p_yplus.csv",
+      "bytes": 19680,
+      "sha256": "c243671a2514e7a4193ae4b2fd4f7aad20cb5086f7121e3b646c2d6fca3d9b03"
+    },
+    {
+      "path": "raw\\suction_p_yplus.csv",
+      "bytes": 19680,
+      "sha256": "f8830e0c47ef931d11b7360a99f6e357e7ed3e47f35e642d5f30177da55c7c31"
+    },
+    {
+      "path": "raw\\trailing_p_yplus.csv",
+      "bytes": 576,
+      "sha256": "57ecbc4974c006c4931c83c539741108ee10259bea4e2d45927290f5f84bbfe4"
+    },
+    {
+      "path": "raw\\velocity_mid.csv",
+      "bytes": 6202,
+      "sha256": "0179dfab1e8517848f1dd13612951dac16ba9477f42bf24d35797f97f7f0f3e3"
+    },
+    {
+      "path": "raw\\velocity_te.csv",
+      "bytes": 5210,
+      "sha256": "3bbe161a185917e2f2300907640518ece349376b5fcd514d28f5283a56ea2c9b"
+    },
+    {
+      "path": "raw\\velocity_wake.csv",
+      "bytes": 2668,
+      "sha256": "3e4768d52fce9096b895550602f3fba3c0a6f00b0518f8c73b3461681bf410f9"
+    },
+    {
+      "path": "settings\\case04_verified_configured.set",
+      "bytes": 121441,
+      "sha256": "cc4e34aa319af8d1114d36b2b1a71f5971b3c39322ac22d29060b9f9520dd008"
+    },
+    {
+      "path": "settings\\case04_verified_final.set",
+      "bytes": 121498,
+      "sha256": "f1eb7180a541dd79b04425a71d9ed8ea96d2f4122e3e4b5ec501f4ee596f77d8"
+    },
+    {
+      "path": "setup.jou",
+      "bytes": 1038,
+      "sha256": "58c01a24bc60e0f9b7379ce88928167051677ef48f80bcaa98696b2d8ea19e3d"
+    }
+  ]
+}

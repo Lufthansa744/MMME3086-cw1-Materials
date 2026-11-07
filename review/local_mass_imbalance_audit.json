@@ -1,0 +1,51 @@
+{
+  "units": "kg/s",
+  "unit_evidence": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02_mass_diagnostic\\logs\\native.transcript",
+  "unit_evidence_sha256": "d56bd703544fb252e6b17cc39f41c130399452e65268901bb547950007eaefe5",
+  "cases": {
+    "case02_aligned": {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02_mass_diagnostic\\raw\\cell_mass_imbalance.csv",
+      "sha256": "df0f44d5310f1dce22b837df8f712c4b3194711b0a123fdb1fb74b0ac8a5b10a",
+      "unique_cell_ids": 7687,
+      "max_center_mapping_error_m": 4.181932832179124e-08,
+      "cell_volume_vs_native_2D_area_max_relative_error": 4.988303282238013e-10,
+      "min_kg_s": -6.342979394e-07,
+      "max_kg_s": 3.739732161e-07,
+      "max_abs_kg_s": 6.342979394e-07,
+      "signed_sum_kg_s": 5.4212122055871155e-08,
+      "sum_abs_kg_s": 9.8475705203693e-06,
+      "max_abs_over_inlet_percent": 6.7818498525854345e-06,
+      "sum_abs_over_inlet_percent": 0.0001052892348114275,
+      "max_abs_cell": {
+        "cellnumber": 7643.0,
+        "x-coordinate": 0.2481075972,
+        "y-coordinate": -0.02804048173,
+        "cell-volume": 4.746303929e-05,
+        "cell-id": 5.0,
+        "mass-imbalance": -6.342979394e-07
+      }
+    },
+    "case03_aligned": {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\cell_mass_imbalance.csv",
+      "sha256": "1be5f363b5b0790356d86f336368b96dbf314e3d578cbda63bdc00a6fc007475",
+      "unique_cell_ids": 7687,
+      "max_center_mapping_error_m": 4.114716796186353e-08,
+      "cell_volume_vs_native_2D_area_max_relative_error": null,
+      "min_kg_s": -1.078602319e-06,
+      "max_kg_s": 1.013989949e-06,
+      "max_abs_kg_s": 1.078602319e-06,
+      "signed_sum_kg_s": 1.83551867337113e-07,
+      "sum_abs_kg_s": 3.926614967149449e-05,
+      "max_abs_over_inlet_percent": 1.1532307648717639e-05,
+      "sum_abs_over_inlet_percent": 0.0004198297279873246,
+      "max_abs_cell": {
+        "cellnumber": 3821.0,
+        "x-coordinate": 0.1005631611,
+        "y-coordinate": -0.008065872826,
+        "cell-id": 7515.0,
+        "mass-imbalance": -1.078602319e-06
+      }
+    }
+  },
+  "interpretation": "The exported local finite-volume mass imbalance is small relative to total inlet mass flow in these saved states. Signed summation checks cancellation against global net flux; sum of magnitudes reports local cancellation separately. These dimensional diagnostics neither prove the scaled residual target was achieved nor identify the mechanism of its plateau. Case 3 uses the same native field confirmed in the Case 2 native report; units are not inferred from the CSV header alone."
+}

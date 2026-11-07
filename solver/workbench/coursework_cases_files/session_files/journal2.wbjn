@@ -1,0 +1,33 @@
+# encoding: utf-8
+# 2022 R2
+SetScriptVersion(Version="22.2.192")
+system1 = GetSystem(Name="FFF")
+system1.DisplayText = "Prealignment Case1 SA"
+system2 = GetSystem(Name="FFF 1")
+system2.DisplayText = "Prealignment Case2 KE"
+system3 = GetSystem(Name="FFF 2")
+system3.DisplayText = "Prealignment Case3 RSM"
+template1 = GetTemplate(TemplateName="Fluid Flow")
+system4 = template1.CreateSystem()
+system4.DisplayText = "FINAL Case1 aligned SA"
+setup1 = system4.GetContainer(ComponentName="Setup")
+setup1.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case01_aligned/case01_aligned_final.cas.h5"),
+    FileType="Case")
+system5 = system4.Duplicate()
+system5.DisplayText = "FINAL Case2 aligned KE"
+system6 = system5.Duplicate()
+system6.DisplayText = "FINAL Case3 aligned RSM"
+system7 = template1.CreateSystem()
+system7.DisplayText = "FINAL Case4 verified KE EWT"
+setup2 = system7.GetContainer(ComponentName="Setup")
+setup2.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case04_verified/case04_verified_final.cas.h5"),
+    FileType="Case")
+system8 = system7.Duplicate()
+system8.DisplayText = "FINAL Case5 verified RSM EWT"
+setup3 = system8.GetContainer(ComponentName="Setup")
+setup3.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.cas.h5"),
+    FileType="Case")
+Save(Overwrite=True)

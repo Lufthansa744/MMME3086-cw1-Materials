@@ -1,0 +1,160 @@
+Auto-Transcript Start Time:  20:27:07, 07 Nov 2026 GMT 标准时间 
+Current Directory: "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\case02_mass_diagnostic"
+
+              Welcome to ANSYS Fluent 2022 R2
+
+              Copyright 1987-2022 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 27 2022 08:53:57 EDT  Build Id: 10212  
+ 
+Connected License Server List:	1055@localhost
+
+*********************************************
+Info: Your license enables 4-way parallel execution.
+For faster simulations, please start the application with the appropriate parallel options.
+*********************************************
+
+Host spawning Node 0 on machine "DESKTOP-KUJ9RI4" (win64).
+
+-------------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                          
+-------------------------------------------------------------------------------------------------
+n0    DESKTOP-KUJ9RI4  1/8  Windows-x64  18092  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+host  DESKTOP-KUJ9RI4       Windows-x64  24536  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+
+MPI Option Selected: intel
+-------------------------------------------------------------------------------------------------
+
+
+
+Cleanup script file is C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\case02_mass_diagnostic\\cleanup-fluent-DESKTOP-KUJ9RI4-2976.bat
+
+Reading journal file C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\case02_mass_diagnostic\read_only.jou...
+
+> /file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_mass_diagnostic/logs/native.transcript"
+Opening input/output transcript to file "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_mass_diagnostic/logs/native.transcript".
+
+-------------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                          
+-------------------------------------------------------------------------------------------------
+n0*   DESKTOP-KUJ9RI4  1/8  Windows-x64  18092  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+host  DESKTOP-KUJ9RI4       Windows-x64  24536  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------------------------
+
+
+> /file/read-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.cas.h5"Fast-loading "D:\ANSYS Inc\v222\fluent\fluent22.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+DESKTOP-KUJ9RI4 is already loaded (97.8559).                       Process affinity not being set.
+
+Reading from DESKTOP-KUJ9RI4:"C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+        7687 cells,     1 cell zone  ...
+           7687 triangular cells,  zone id: 2
+       11716 faces,     8 face zones ...
+          11345 2D interior faces,  zone id: 1
+              1 2D wall face ,  zone id: 5
+             51 2D wall faces,  zone id: 6
+             51 2D wall faces,  zone id: 7
+             15 2D velocity-inlet faces,  zone id: 8
+            119 2D wall faces,  zone id: 9
+             15 2D pressure-outlet faces,  zone id: 10
+            119 2D wall faces,  zone id: 11
+        4029 nodes,     1 node zone  ...
+Warning: reading 4 partition grid onto 1 compute node machine.
+         Combining every 4 partitions.
+  Done.
+
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	wall_top
+	outlet
+	wall_bottom
+	inlet
+	aerofoil_suction
+	aerofoil_pressure
+	aerofoil_te
+	interior-sys_fluid
+	sys_fluid
+     parallel,
+Done.
+
+Reading from DESKTOP-KUJ9RI4:"C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+
+> /file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_mass_diagnostic/raw/cell_mass_imbalance.csv" full-domain () yes mass-imbalance cell-id cell-volume ()
+ yes
+
+Writing "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_mass_diagnostic/raw/cell_mass_imbalance.csv"...
+
+Writing information to ascii file ...
+Done.
+
+
+> /report/volume-integrals/maximum
+()
+cell zone id/name(1) [()] 
+max of> 
+Error: eval: unbound variable
+Error Object: list-functions
+
+Warning: An error or interrupt occurred while reading the journal file.
+Some commands may not have been completed.
+
+
+> sys_fluid
+invalid command [sys_fluid]
+
+> ()()
+
+
+> mass-imbalance
+invalid command [mass-imbalance]
+
+> /report/volume-integrals/maximum
+()
+cell zone id/name(1) [()] sys_fluid
+cell zone id/name(2) [()] ()
+
+max of> mass-imbalance
+Write to File? [no] no
+
+                             Max
+                  Mass Imbalance               [kg/s]
+-------------------------------- --------------------
+                       sys_fluid        3.7397322e-07
+                ---------------- --------------------
+                             Net        3.7397322e-07
+
+> /report/volume-integrals/minimum sys_fluid () mass-imbalance no
+
+                             Min
+                  Mass Imbalance               [kg/s]
+-------------------------------- --------------------
+                       sys_fluid       -6.3429794e-07
+                ---------------- --------------------
+                             Net       -6.3429794e-07
+
+> /file/stop-transcript
+
+Transcript closed.
+
+> /exit Auto-Transcript Stop Time:  20:31:44, 07 Nov 2026 GMT 标准时间 
+Total Transcript Time: 4 Minute 37 Second.

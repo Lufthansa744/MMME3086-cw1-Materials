@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-11-07T21:07:44.9923078+00:00",
+  "snapshot": "D:\\iCloud\\iCloudDrive\\iCloudDrive\\Documents\\Codex\\MMME3086 cw1 (Windows)\\snapshot_06_final_numerical_and_reviewed_source",
+  "method": "Read-only file inventory, XML path inspection, byte lengths, existing prior import-hash verification, process enumeration. No software launch, raw rehash, copying, deletion or moving.",
+  "project": "solver/workbench/final_coursework_cases.wbpj",
+  "project_bytes": 62576,
+  "project_companion": "solver/workbench/final_coursework_cases_files",
+  "indices_present": [
+    {
+      "path": "solver/final_case_registry.json",
+      "exists": true
+    },
+    {
+      "path": "coordination/final_case_index.json",
+      "exists": true
+    },
+    {
+      "path": "solver/workbench/final_project_sources.json",
+      "exists": true
+    },
+    {
+      "path": "solver/workbench/final_import_hash_verification.json",
+      "exists": true
+    }
+  ],
+  "case_pair_checks": [
+    {
+      "logical_case": "Case1",
+      "source": "solver\\case01_aligned\\case01_aligned_final.cas.h5",
+      "source_bytes": 729324,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 729324,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case1",
+      "source": "solver\\case01_aligned\\case01_aligned_final.dat.h5",
+      "source_bytes": 756795,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 756795,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case2",
+      "source": "solver\\case02_aligned\\case02_aligned_final.cas.h5",
+      "source_bytes": 729617,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 729617,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case2",
+      "source": "solver\\case02_aligned\\case02_aligned_final.dat.h5",
+      "source_bytes": 854503,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 854503,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case3",
+      "source": "solver\\case03_aligned\\case03_aligned_final.cas.h5",
+      "source_bytes": 729785,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 729785,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case3",
+      "source": "solver\\case03_aligned\\case03_aligned_final.dat.h5",
+      "source_bytes": 1454213,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 1454213,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case4",
+      "source": "solver\\case04_verified\\case04_verified_final.cas.h5",
+      "source_bytes": 1189807,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 1189807,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case4",
+      "source": "solver\\case04_verified\\case04_verified_final.dat.h5",
+      "source_bytes": 1914792,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 1914792,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case5",
+      "source": "solver\\case05_verified\\case05_verified_final.cas.h5",
+      "source_bytes": 1190108,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 1190108,
+      "size_matches": true
+    },
+    {
+      "logical_case": "Case5",
+      "source": "solver\\case05_verified\\case05_verified_final.dat.h5",
+      "source_bytes": 3077806,
+      "imported_copy_count": 1,
+      "imported_copy_bytes": 3077806,
+      "size_matches": true
+    }
+  ],
+  "independent_recovery_files_complete": true,
+  "relocation_caveat": "Ten Solution H5 files are project-relative. Five Setup source CASE references retain original absolute C: workspace paths. When moving the snapshot, keep the complete _files directory beside the WBPJ and relink missing Setup CASE paths to the corresponding solver/case folders in the snapshot, or restore the original workspace path. Reopening was not tested in this audit.",
+  "active_numerical_processes": [],
+  "preserved_user_processes": "Existing RunWB2 PID23072 / AnsysFWW PID22620, started18:28:21; license services retained. These are not active solver jobs.",
+  "temporary_storage": {
+    "WB_A320N_15140_2_files": 0,
+    "WB_A320N_22620_2_bytes": 116,
+    "ansys_temp_log_bytes": 1402865,
+    "observation": "Known task Workbench temp directory is empty; observed .ansys logs total about1.4MB and include retained user-process logs. No large task temporary cleanup candidate was found in these targeted locations. No user files removed or moved."
+  },
+  "c_free_bytes": 54048530432,
+  "archive_status": "No native WBPZ created; earlier Archive IncludeExternalFiles argument was rejected, with log retained. The WBPJ plus complete companion directory and source CASE/DATA files are the recovery deliverable."
+}

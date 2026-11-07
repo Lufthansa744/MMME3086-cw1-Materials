@@ -1,0 +1,52 @@
+{
+  "case_id": "sensitivity_ke_length_001",
+  "first_default_threshold_iteration": 332,
+  "final_iteration": 2500,
+  "unique_residual_rows": 2500,
+  "identical_reprinted_iterations": [],
+  "residual_column_order": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon"
+  ],
+  "final_residuals": [
+    7.635e-05,
+    3.235e-09,
+    1.5157e-08,
+    1.517e-08,
+    5.9056e-08
+  ],
+  "last100_continuity_range": [
+    7.635e-05,
+    7.635e-05
+  ],
+  "last100_force_stats": {
+    "drag_N": {
+      "samples": 100,
+      "final": 9.611724524166886,
+      "mean": 9.611719319836077,
+      "range": 1.0408661644589756e-05,
+      "range_percent_mean": 0.0001082913607673603,
+      "endpoint_drift_percent_mean": 0.00010829136012051985
+    },
+    "lift_N": {
+      "samples": 100,
+      "final": 123.2621287983879,
+      "mean": 123.26205904697565,
+      "range": 0.00013950282460939434,
+      "range_percent_mean": 0.0001131758025851485,
+      "endpoint_drift_percent_mean": 0.00011317580242374282
+    }
+  },
+  "last100_mass_net_range_kg_s": [
+    -3.654374580719377e-10,
+    3.653415348026101e-10
+  ],
+  "last100_mass_sign_alternates": true,
+  "strict_residual_target_met": false,
+  "force_stability_target_met": true,
+  "native_flux_imbalance_percent": 3.906194991407563e-09,
+  "interpretation": "Qualified acceptance for the separate analyst-selected inlet-length sensitivity comparison. Native default 1e-3 was met at 332. The predeclared continuation cap of 2500 was reached with scaled continuity at 7.635e-5, above the analyst 1e-5 target. Stable integral forces and small global net mass flux do not establish local continuity satisfaction, spatial accuracy, physical unsteadiness, or a floating-point floor mechanism."
+}

@@ -1,0 +1,166 @@
+MMME3086 Computational Modelling Techniques
+Computational Fluid Dynamics
+Name: 
+Student ID:
+Task 
+A
+ Geometry
+ 
+[16]
+Include 
+a brief summary
+ of how you went about producing the geometry and refer to 
+Figure 
+1
+ when doing so.
+Figure 
+1
+: An appropriately captioned view of your geometry.
+ 
+[4]
+Figure 
+2
+ Description of the mesh 
+and boundary conditions
+[12]
+Task 
+B
+ 
+Solution and data extraction
+ 
+[
+3
+4]
+B0:
+State the 
+required properties and conditions
+. 
+[
+6
+]
+B1:
+Figure 
+3
+ statement of method used
+, convergence and forces.
+[
+5
+]
+B2:
+Figure 
+4
+ showing 
+RSM model velocity vectors and descriptive caption as required.
+[5]
+Figure 
+5
+ y+ for the RSM model and descriptive caption as required.
+[5]
+B3:
+Description of the enhanced models as required in 
+no more than 150 words.
+[
+6
+]
+Figure 
+6
+ Graphics for 
+RSM enhanced 
+model case with description as required within 
+150 words.
+[6]
+Task C Analysis
+ 
+[50]
+C1: analysis of 
+velocity on the lines
+ 
+[10]
+Figure 
+7
+ mid chord caption
+Mid chord 
+explanation 
+100 words
+Figure 
+8
+ 
+trailing edge line velocity
+Trailing edge explanation 100 words maximum
+Figure 
+9
+ 
+100 mm line
+100 mm line explanation 100 words maximum
+C2: 
+pressure on aerofoil 
+[10]
+Figure 
+10
+ pressure side static pressure figure
+Explanation pressure
+ side
+ 100 words maximum.
+Figure 
+11
+ suction side
+Explanation suction side
+ 100 words maximum.
+C
+3
+ 
+:
+ 
+Comparison of y+ 
+[10]
+ 
+Figure 
+12
+ y+ 
+suction
+ side
+Figure 
+13
+ y+ pressure side
+Explanation y+
+ less than 100 words for both figures.
+Task 
+C
+ 
+Boundary Conditions and Results
+C4:
+ Analysis of data [20]
+Table 
+1
+ Lift and drag from each of the models:
+S-A
+k-
+RSM
+k-
+ Enhanced
+RSM Enhanced
+Lift N
+Drag N
+N iterations
+C
+D
+C
+L
+[5]
+Indicative calculation of C
+D
+ and C
+L
+. 
+[2]
+D
+iscussion of comparison with the 
+literature
+ validation
+ result.
+ 
+[
+5
+]
+Comparison of the different CFD approaches attempted.
+[8]

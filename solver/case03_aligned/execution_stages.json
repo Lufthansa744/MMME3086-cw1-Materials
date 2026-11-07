@@ -1,0 +1,10 @@
+{
+  "first_native_1e3_stop_iteration": 419,
+  "first_stop_checkpoint": "case03_aligned_first_1e3.cas.h5 + .dat.h5",
+  "continuation_target": 1E-05,
+  "analyst_force_window_target_fraction": 0.001,
+  "window_new_iterations": 100,
+  "initialization_between_stages": "none; same physical solution continues",
+  "final_stopping_iteration": 2919,
+  "stop_reason": "Completed the predeclared2500iteration strict continuation; scaled continuity remains bounded near2.8063e-4 above1e-5 while other active residuals and terminal force/mass have stabilized. No physical time interpretation or numerical mechanism asserted."
+}

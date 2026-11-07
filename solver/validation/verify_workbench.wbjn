@@ -1,0 +1,6 @@
+SetScriptVersion(Version="22.2.192")
+system1 = GetTemplate(TemplateName="Fluid Flow", Solver="Fluent").CreateSystem()
+Save(FilePath=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\wb_interface.wbpj", Overwrite=True)
+f=open(r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\workbench_interface.txt","w")
+f.write("WORKBENCH_SCRIPT_OK\n"+str(system1))
+f.close()

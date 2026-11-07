@@ -1,0 +1,85 @@
+{
+  "student_id": "20617209",
+  "inlet_speed_m_s": 50.9,
+  "inlet_speed_source": "Current user instruction",
+  "density_kg_m3": 1.225,
+  "dynamic_viscosity_pa_s": 1.7894e-05,
+  "inlet_turbulence": {
+    "method": "intensity and length scale",
+    "intensity_percent": 5.0,
+    "length_scale_m": 1.0,
+    "source": "actual saved final settings; software input, not measured experiment"
+  },
+  "physical_parameter_policy": "Read actual saved Fluent settings; do not infer defaults",
+  "validated_interface": "Fluent 2022 R2 native Journal",
+  "fluent_executable": "D:\\ANSYS Inc\\v222\\fluent\\ntbin\\win64\\fluent.exe",
+  "overleaf_project": "https://www.overleaf.com/project/6aed174c208587f797ee667b",
+  "overleaf_status": "Edge extension and target tab confirmed. After user explicitly reported removing saved blocking rule, fresh observation was again denied by origin gate. No workaround attempted; upload/compile/layout remain unverified.",
+  "source_status": "Actual supplied PDF, Word, marking workbook, enhanced mesh and FAQ preserved under inputs with hashes.",
+  "section_headings": [
+    "Task A Geometry [16]",
+    "Task B Solution and data extraction [34]",
+    "Task C Analysis [50]",
+    "Task C Boundary Conditions and Results"
+  ],
+  "sequence": [
+    "Task A",
+    "Case 1 full setup-solve-export-plot-review",
+    "Case 2",
+    "Case 3",
+    "Initial enhanced RSM attempt",
+    "Case 4 k-epsilon EWT",
+    "Case 5 relaxed RSM EWT"
+  ],
+  "owners": {
+    "coordination_and_overleaf": "root",
+    "fluent_and_workbench": "solver",
+    "processing_and_plots": "data",
+    "independent_review": "review"
+  },
+  "report_rules": [
+    "Retain approved AIAA template and required sections",
+    "Compile only in Overleaf",
+    "No working draft or TODO in submitted prose",
+    "No punctuation after displayed equations",
+    "Trace every numerical result to raw evidence"
+  ],
+  "cloud_project_directory": "D:\\iCloud\\iCloudDrive\\iCloudDrive\\Documents\\Codex\\MMME3086 cw1 (Windows)",
+  "taskA_status": "Aligned native CAD/7687-cell mesh and Figures1/2 independently verified; final sources solver/aligned_taskA.",
+  "material_value_evidence": "All five final saved cases/settings; see coordination/final_case_index.json and independent reviews.",
+  "baseline_geometry_registration": {
+    "status": "Completed: aligned CAD, mesh and all three baseline reruns independently accepted",
+    "translation_m": [
+      0.00048367698354395,
+      0.00691690311771526
+    ],
+    "source": "review/enhanced_naca_profile_fit_audit.json",
+    "reason": "Match supplied enhanced mesh physical aerofoil placement; remove avoidable passage-clearance confounding",
+    "final_case_sources": {
+      "case01": "solver/case01_aligned",
+      "case02": "solver/case02_aligned",
+      "case03": "solver/case03_aligned"
+    },
+    "prealignment_policy": "Retain original solver/case01,case02,case03 and their data; exclude from final five-case comparison"
+  },
+  "final_case_registry": "data/dataset_registry.json",
+  "formal_cases_complete": 5,
+  "supplementary_studies_complete": [
+    "S-A medium/fine mesh refinement",
+    "k-epsilon inlet L=0.01m against formal L=1m"
+  ],
+  "report_status": {
+    "source_preflight_passed": true,
+    "independent_content_review_passed": true,
+    "overleaf_compiled": false,
+    "final_page_layout_verified": false,
+    "print_source_review_passed": true,
+    "vector_scientific_figures": 11,
+    "retained_original_figures": 13,
+    "natural_pagination_prepared": true,
+    "latest_independent_package_review": "review/final_print_package_audit.json"
+  },
+  "storage_cleanup": "Completed; see coordination/storage_cleanup_status.json; C free approximately 49.6GiB",
+  "next_execution_environment": "Mac conversation; user-requested GitHub material transfer",
+  "github_repository": "https://github.com/Lufthansa744/MMME3086-cw1-Materials"
+}

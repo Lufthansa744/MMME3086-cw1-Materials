@@ -1,0 +1,93 @@
+{
+  "renderer": "sharp",
+  "versions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "densityDpi": 144,
+  "records": [
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure10_pressure_pressure.svg",
+      "sourceSha256": "59f46f30aca6dd1ee6ab64c8c67afddf6fc62204db64d6219f31a1c73a474843",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure10_pressure_pressure.png",
+      "outputSha256": "56665142c0e9f41cd3f46dfd26675719ccd42a0de15a80f0022987c330db8831",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure11_pressure_suction.svg",
+      "sourceSha256": "95a399fa17914adbd50eeb5849d72aed5679ee00c53c81ca4f7e93481d5886e2",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure11_pressure_suction.png",
+      "outputSha256": "ef5558b3c52331c085b972be56ddb64f7c3aa87af3477567808d19276529b643",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure12_yplus_suction.svg",
+      "sourceSha256": "3fcd3960b7295c50318f5e980f5feb19030172861bb4e5cab4651d9eab7a40b6",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure12_yplus_suction.png",
+      "outputSha256": "c1bce152f8b901232736e85fbad163cdf8b4faf3ee4fe026c28af503bc53d4c8",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure13_yplus_pressure.svg",
+      "sourceSha256": "bc2d5e9fd0cb6ee60f56f2679d8663a6269d4151e06946fd4414046518eb7762",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure13_yplus_pressure.png",
+      "outputSha256": "bfcad5e38696a9825d173ec2a0831e5b2918e8c3f69e6cae4f3d8a72d0694763",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure7_velocity_mid.svg",
+      "sourceSha256": "5758a4d28f324e67c45ceec8a78b8272d693db1d66d5dfd332851e09d0a5f15b",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure7_velocity_mid.png",
+      "outputSha256": "985315f34f494e0fab495e3239deb3d80abae8cdd29845abbcdeef49188fd846",
+      "width": 3200,
+      "height": 710
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure8_velocity_te.svg",
+      "sourceSha256": "a192c5b77d8a15201d13ccc010b6f4cd9ce810972dbbf9f341effe3beebf9188",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure8_velocity_te.png",
+      "outputSha256": "e19e069eada046242e90e0d975ff5090a7832fce9e85ce1938ef8ebea6f67197",
+      "width": 3200,
+      "height": 710
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure9_velocity_wake.svg",
+      "sourceSha256": "ace66c737b1320b0b759d4f4ec82723326bddd2f7f18bb84befa1e770b6bdeb2",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure9_velocity_wake.png",
+      "outputSha256": "fe686c2212e164177305eaeb3cf83ee40fa2c3842943ee76eafa4a9ac4215bcd",
+      "width": 3200,
+      "height": 710
+    }
+  ]
+}

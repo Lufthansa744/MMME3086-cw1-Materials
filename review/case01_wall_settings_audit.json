@@ -1,0 +1,47 @@
+{
+  "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case01\\settings\\case01_final.set",
+  "sha256": "91e8c7b7c22912c97d1811b6162c87dfbe2a643a025c639a558e704e96394541",
+  "walls": {
+    "aerofoil_te": [
+      "(motion-bc . 0)",
+      "(shear-bc . 0)",
+      "(rough-bc . 0)",
+      "(vmag (constant . 0) (profile \"\" \"\"))",
+      "(roughness-height (constant . 0) (profile \"\" \"\"))",
+      "(roughness-const (constant . 0.5) (profile \"\" \"\"))"
+    ],
+    "aerofoil_pressure": [
+      "(motion-bc . 0)",
+      "(shear-bc . 0)",
+      "(rough-bc . 0)",
+      "(vmag (constant . 0) (profile \"\" \"\"))",
+      "(roughness-height (constant . 0) (profile \"\" \"\"))",
+      "(roughness-const (constant . 0.5) (profile \"\" \"\"))"
+    ],
+    "aerofoil_suction": [
+      "(motion-bc . 0)",
+      "(shear-bc . 0)",
+      "(rough-bc . 0)",
+      "(vmag (constant . 0) (profile \"\" \"\"))",
+      "(roughness-height (constant . 0) (profile \"\" \"\"))",
+      "(roughness-const (constant . 0.5) (profile \"\" \"\"))"
+    ],
+    "wall_bottom": [
+      "(motion-bc . 0)",
+      "(shear-bc . 0)",
+      "(rough-bc . 0)",
+      "(vmag (constant . 0) (profile \"\" \"\"))",
+      "(roughness-height (constant . 0) (profile \"\" \"\"))",
+      "(roughness-const (constant . 0.5) (profile \"\" \"\"))"
+    ],
+    "wall_top": [
+      "(motion-bc . 0)",
+      "(shear-bc . 0)",
+      "(rough-bc . 0)",
+      "(vmag (constant . 0) (profile \"\" \"\"))",
+      "(roughness-height (constant . 0) (profile \"\" \"\"))",
+      "(roughness-const (constant . 0.5) (profile \"\" \"\"))"
+    ]
+  },
+  "limitation": "Stationary/no-slip labels require actual text-to-code mapping; roughness height is explicit numeric0."
+}

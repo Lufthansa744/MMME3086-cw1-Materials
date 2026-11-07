@@ -1,0 +1,65 @@
+# Recovered from prior Mac chat command output; original files not yet present on Windows.
+# Thread: 01a1ae21-c25b-7a70-a293-a810c5f7b17a
+# Command: /bin/zsh -lc 'cat work/word_template.txt'
+
+[Title] MMME3086 Computational Modelling Techniques
+[Subtitle] Computational Fluid Dynamics
+[Normal] 
+[Normal] Name: 
+[Normal] 
+[Normal] Student ID:
+[Normal] 
+[Heading1] Task A Geometry [16]
+[Normal] 
+[Normal] Include a brief summary of how you went about producing the geometry and refer to Figure 1 when doing so.
+[Normal] 
+[Caption] Figure 1: An appropriately captioned view of your geometry. [4]
+[Caption] Figure 2 Description of the mesh and boundary conditions[12]
+[Normal] 
+[Heading1] Task B Solution and data extraction [34]
+[Normal] B0:
+[Normal] State the required properties and conditions. [6]
+[Normal] 
+[Normal] B1:
+[Caption] Figure 3 statement of method used, convergence and forces.
+[Normal] [5]
+[Normal] B2:
+[Caption] Figure 4 showing RSM model velocity vectors and descriptive caption as required.
+[Normal] [5]
+[Caption] Figure 5 y+ for the RSM model and descriptive caption as required.
+[Normal] [5]
+[Normal] B3:
+[Normal] Description of the enhanced models as required in no more than 150 words.[6]
+[Caption] Figure 6 Graphics for RSM enhanced model case with description as required within 150 words.[6]
+[Heading1] Task C Analysis [50]
+[Normal] C1: analysis of velocity on the lines [10]
+[Caption] Figure 7 mid chord caption
+[Normal] Mid chord explanation 100 words
+[Caption] Figure 8 trailing edge line velocity
+[Normal] Trailing edge explanation 100 words maximum
+[Caption] Figure 9 100 mm line
+[Normal] 100 mm line explanation 100 words maximum
+[Normal] C2: pressure on aerofoil [10]
+[Caption] Figure 10 pressure side static pressure figure
+[Normal] Explanation pressure side 100 words maximum.
+[Caption] Figure 11 suction side
+[Normal] Explanation suction side 100 words maximum.
+[Normal] C3 : Comparison of y+ [10] 
+[Caption] Figure 12 y+ suction side
+[Caption] Figure 13 y+ pressure side
+[Normal] Explanation y+ less than 100 words for both figures.
+[Normal] 
+[Heading1] Task C Boundary Conditions and Results
+[Normal] C4: Analysis of data [20]
+[Caption] Table 1 Lift and drag from each of the models:
+[Normal] [5]
+[Normal] Indicative calculation of CD and CL. [2]
+[Normal] Discussion of comparison with the literature validation result. [5]
+[Normal] Comparison of the different CFD approaches attempted.[8]
+[TABLE]
+ | S-A | k- | RSM | k-  Enhanced | RSM Enhanced
+Lift N |  |  |  |  | 
+Drag N |  |  |  |  | 
+N iterations |  |  |  |  | 
+C D |  |  |  |  | 
+C L |  |  |  |  | 

@@ -1,0 +1,17 @@
+AI assistance record, 5–6 November 2026
+Tool: OpenAI Codex desktop app
+
+Original user request, verbatim text (excluding the attachment listing):
+由于已经得到latex批准（但必须section相同),[https://www.overleaf.com/latex/templates/preparation-of-papers-for-aiaa-technical-conferences/rsssbwthkptn ](https://www.overleaf.com/latex/templates/preparation-of-papers-for-aiaa-technical-conferences/rsssbwthkptn)请直接使用该aiaa模版，让其和word文档使用相同的section heading,在电脑Safari已经打开的overleaf中新建新文档，把顶尖完美无缺的代码填入其中，再给出一个最快行动方案，确保我们可以最快速度拿到这个coursework的满分，世界顶尖标准。如果有公式的话公示后不要加标点符号。把能填的东西全部填到满分
+
+Clarification, verbatim:
+已确认assessment brie按照新版的来，取消了对ai代写正文的限制
+
+Identity confirmation:
+The user confirmed that Yang LIU, student ID 20617209, applies to this CFD assignment.
+
+Summary of assistance:
+Read the supplied Word headings, PDF brief, marking workbook and enhanced Fluent mesh. Created a separate project from the specified official Overleaf AIAA template. Prepared LaTeX formatting, equations, known input requirements, draft theoretical discussion, explicit evidence placeholders, AI-use record and an execution plan. No CFD solver was run. No lift, drag, residual histories, wall y+ fields, experimental coefficients or result-specific observations were invented.
+
+Student completion required:
+Keep the actual chat transcript and updated AI guidance. Add personal critical reflection, actual modifications, original Fluent evidence and final review. This prompt record supplements the report log; it is not a claim that the student's own reflection is already complete.

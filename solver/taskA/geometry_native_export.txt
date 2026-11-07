@@ -1,0 +1,2 @@
+NATIVE_WINDOW_PNG_EXPORTED
+<SpaceClaim.Api.V22.Window object at 0x000000000000002B [SpaceClaim.Api.V22.Window]>

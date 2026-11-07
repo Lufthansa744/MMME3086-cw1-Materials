@@ -1,0 +1,14 @@
+{
+  "archive": "LIU_Yang_20617209_CFD_Overleaf_Source.zip",
+  "sha256": "527ef3cc1616a087a4b57c23a75a55348ba6d9c5bf577c5c1eb63bb961aaad95",
+  "source_preflight_passed": true,
+  "latex_compiled": false,
+  "final_page_layout_verified": false,
+  "remaining_action": "Continue in Mac: upload to the existing approved Overleaf project, compile only there, inspect all rendered pages and required eight-page limit.",
+  "independent_print_package_review": "review/final_print_package_audit.json",
+  "figure_formats": {
+    "PNG": 2,
+    "vector_PDF": 11
+  },
+  "approved_AIAA_class_unchanged": true
+}

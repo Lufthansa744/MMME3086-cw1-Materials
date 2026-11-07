@@ -1,0 +1,52 @@
+{
+  "aerofoil-suction": {
+    "node_count": 205,
+    "x_body_range_m": [
+      0.0,
+      0.09999999999999996
+    ],
+    "rms_normal_residual_m": 2.534689655174553e-10,
+    "max_abs_normal_residual_m": 1.0215151701950531e-09,
+    "worst_point": {
+      "node": 20731,
+      "xb": 0.04523235976995153,
+      "yb": 0.0055687584683616915,
+      "error": 1.0215151701950531e-09
+    }
+  },
+  "aerofoil-pressure": {
+    "node_count": 205,
+    "x_body_range_m": [
+      0.0,
+      0.09999999999999996
+    ],
+    "rms_normal_residual_m": 2.4753762876304455e-10,
+    "max_abs_normal_residual_m": 9.081533285798526e-10,
+    "worst_point": {
+      "node": 20940,
+      "xb": 0.04568707371424443,
+      "yb": -0.005544918544208351,
+      "error": -9.081533285798526e-10
+    }
+  },
+  "translation_m": [
+    0.0004836769835439499,
+    0.006916903117715257
+  ],
+  "implied_pivot_if_unrotated_LE_was_origin_m": [
+    0.049700000000000036,
+    2.4370211721930417e-17
+  ],
+  "LE_definition": "Unique node shared by the two named side-zone path endpoint sets, not min-x",
+  "LE_node": [
+    20633
+  ],
+  "enhanced_chord_vector_m": [
+    0.099026806874157,
+    -0.013917310096006552
+  ],
+  "baseline_chord_vector_m": [
+    0.09902680687415705,
+    -0.013917310096006545
+  ]
+}

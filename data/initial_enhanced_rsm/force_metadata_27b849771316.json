@@ -1,0 +1,81 @@
+{
+  "case_id": "Initial RSM EWT",
+  "density_kg_m3": 1.225,
+  "reference_speed_m_s": 50.9,
+  "reference_area_m2": 0.1,
+  "drag_direction": [
+    1,
+    0,
+    0
+  ],
+  "lift_direction": [
+    0,
+    1,
+    0
+  ],
+  "force_definition": "Total pressure plus viscous fluid force on aerofoil-trail, aerofoil-pressure, aerofoil-suction; global +x drag/+y lift; 2D depth 1 m",
+  "evidence": {
+    "density_kg_m3": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\settings\\initial_enhanced_rsm_final.set",
+      "locator": "materials/air/density/constant"
+    },
+    "reference_speed_m_s": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\settings\\initial_enhanced_rsm_final.set",
+      "locator": "bc/inlet/vmag constant and reference-velocity"
+    },
+    "reference_area_m2": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\settings\\initial_enhanced_rsm_final.set",
+      "locator": "reference-area"
+    },
+    "drag_direction": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\settings\\initial_enhanced_rsm_final.set",
+      "locator": "monitor/report-definitions drag-force force-vector (1 0), global, scaled? #f"
+    },
+    "lift_direction": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\settings\\initial_enhanced_rsm_final.set",
+      "locator": "monitor/report-definitions lift-force force-vector (0 1), global, scaled? #f"
+    },
+    "force_definition": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\settings\\initial_enhanced_rsm_final.set",
+      "locator": "Actual drag/lift report definitions: total force on aerofoil-trail, aerofoil-pressure, aerofoil-suction; 2D rp-3d? #f; depth 1 m recorded in setup transcript"
+    },
+    "native_force_source": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\monitors\\forces.out",
+      "locator": "header (Iteration drag-force lift-force); all numeric records"
+    },
+    "conversion_script": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\initial_enhanced_rsm\\native\\conversion_27b849771316.py",
+      "locator": "monitor() and main() mapping native drag/lift to Fx/Fy; Fz=0 from actual 2D setup"
+    }
+  },
+  "conversion": {
+    "mode": "script",
+    "column_mapping": {
+      "iteration": {
+        "source": "Iteration",
+        "expression": "Iteration",
+        "source_units": "iteration",
+        "target_units": "iteration"
+      },
+      "Fx_N": {
+        "source": "drag-force",
+        "expression": "+drag-force",
+        "source_units": "N",
+        "target_units": "N"
+      },
+      "Fy_N": {
+        "source": "lift-force",
+        "expression": "+lift-force",
+        "source_units": "N",
+        "target_units": "N"
+      },
+      "Fz_N": {
+        "source": "2D case model",
+        "expression": "0, because rp-3d? is #f",
+        "source_units": "N",
+        "target_units": "N"
+      }
+    },
+    "row_filter": "Keep native iteration > 0; inherited initial rows remain preserved in native source"
+  }
+}

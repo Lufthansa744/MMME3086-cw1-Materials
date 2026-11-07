@@ -1,0 +1,67 @@
+{
+  "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\inputs\\Aerofoil8-degAoA-enhancedBL.msh",
+  "bytes": 1086513,
+  "sha256": "3b823ee36532e037e1eb654a2306e9ad3e362d8bf60703ca0030ef85ae4bd47e",
+  "counts": {
+    "nodes": 21053,
+    "cells": 20574,
+    "faces": 41627
+  },
+  "zones": [
+    {
+      "zone_id_as_written": "1",
+      "type": "interior",
+      "name": "interior-fff_surface",
+      "byte_offset": 1086224
+    },
+    {
+      "zone_id_as_written": "2",
+      "type": "fluid",
+      "name": "fff_surface",
+      "byte_offset": 1086265
+    },
+    {
+      "zone_id_as_written": "5",
+      "type": "velocity-inlet",
+      "name": "inlet",
+      "byte_offset": 1086294
+    },
+    {
+      "zone_id_as_written": "6",
+      "type": "pressure-outlet",
+      "name": "outlet",
+      "byte_offset": 1086326
+    },
+    {
+      "zone_id_as_written": "7",
+      "type": "wall",
+      "name": "duct-roof",
+      "byte_offset": 1086360
+    },
+    {
+      "zone_id_as_written": "8",
+      "type": "wall",
+      "name": "duct-floor",
+      "byte_offset": 1086386
+    },
+    {
+      "zone_id_as_written": "9",
+      "type": "wall",
+      "name": "aerofoil-pressure",
+      "byte_offset": 1086413
+    },
+    {
+      "zone_id_as_written": "10",
+      "type": "wall",
+      "name": "aerofoil-suction",
+      "byte_offset": 1086447
+    },
+    {
+      "zone_id_as_written": "11",
+      "type": "wall",
+      "name": "aerofoil-trail",
+      "byte_offset": 1086481
+    }
+  ],
+  "limitation": "Header counts and zone declarations only; not a solver import, quality check, boundary-value read or solved result."
+}

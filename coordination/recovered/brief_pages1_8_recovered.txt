@@ -1,0 +1,245 @@
+# Recovered from prior Mac chat command output; original files not yet present on Windows.
+# Thread: 01a1ae21-c25b-7a70-a293-a810c5f7b17a
+# Command: /bin/zsh -lc "sed -n '1,240p' work/MMME3086-CFD-V2.0.pdf.txt"
+
+=== PAGE 1 ===
+MMME3086: COMPUTER MODELLING 
+TECHNIQUES 
+CFD ASSIGNMENT 
+10 Credits from a 20 credit module 
+Set: 29th October 2026 | Due: 12th November 2026 
+Staff Contact: Dr Donald Giddings 
+
+
+=== PAGE 2 ===
+1 EC regulaƟ ons: hƩ ps://www.noƫ ngham.ac.uk/qualitymanual/assessment-awards-and-deg-classiĮ caƟ on/ext-circumstances.aspx 
+2 Support plans: https://www.nottingham.ac.uk/studentservices/servicedetails/disability-support-services/disability-support-
+services.aspx  
+3 Details of the University’s policy procedures on Academic Misconduct and disciplinary procedures: 
+MODULE CODE MODULE TITLE 
+MMME3086 Computer Modelling Techniques 
+ASSESSMENT TITLE 
+CFD assignment 
+ASSESSMENT TYPE WEIGHT (INDICATIVE EFFORT) 
+Individual Coursework 10 credits 20 hours 
+DEADLINE DATE DEADLINE TIME SUBMISSION METHOD 
+Thursday 12th November 2026 15:00 Moodle submission box 
+STAFF MEMBER RESPONSIBLE 
+Dr Donald Giddings Donald.giddings@nottingham.ac.uk 
+FEEDBACK DETAILS 
+A mark, and comments on Moodle will be provided by Thursday 3 rd December 2026 
+LEARNING OUTCOMES ASSESSED 
+LO1 
+LO2 
+LO3 
+LO4 
+LO5 
+Understand the theoretical background of numerical methods used in engineering 
+analysis, Finite Element and Computational Fluid Dynamics techniques. - AHEP4: 
+1, 2 
+Identify and apply appropriate computer modelling techniques to solve specific 
+engineering problems. - AHEP4: 3   
+Demonstrate an understanding of how computer programmes can be used to solve 
+practical solid and fluid mechanics problems in engineering. - AHEP4: 3 
+Evaluate the accuracy and sources of error in solving solid and fluid mechanics 
+problems in engineering using computational models. - AHEP4: 2   
+Gain hands-on experience of running state of the art FEA and CFD software codes 
+widely used in industry - AHEP4: 13 
+KEY SUBMISSION REQUIREMENTS 
+• An 8 page report with strict length limits
+• Graphic and text representation of ideas communicated
+NO EVIDENCE EC ELIGIBLE?1 EC OUTCOME 
+(No) Extension or First sit depending situation 
+Before submitting an EC, please discuss with your tutor. 
+SUPPORT PLAN EXTENSION2 
+If you have an existing support plan and require a support plan extension for this assessment, you should 
+email EZ-M3-DLO@exmail.nottingham.ac.uk. Please include module code, assessment name, original 
+deadline including time, and requested extension (usually one working week).  
+MISCONDUCT INFORMATION3 
+
+=== PAGE 3 ===
+| Context
+The learning outcome(s) of the coursework assessment is to develop a 2D CFD model that represents the 
+flow around an aerofoil in a duct. This will help you to develop aspects of all the learning outcomes of the 
+module. 
+The CFD assessment provides an opportunity to learn how to use a commercially available CFD software 
+package. You will set up the model, solve the fluid flow and analyse the data produced. The procedure will 
+involve establishing that a proper CFD investigation has been done including mesh dependence check, 
+numerical convergence and analysis of physical representation according to validation data available in the 
+literature. 
+| Building on Previous work 
+This assessment builds upon knowledge, skills, and feedback gained throughout your degree programme. 
+Before starting the assessment, you are encouraged to review the following: 
+• Fluid mechanics modules in year 1 and year 2
+| Supporting your future development 
+The knowledge, skills, and feedback gained will support your development in future assessments and 
+learning opportunities, including project work as appropriate and further analysis of any fluid flow situation. 
+| Workload breakdown 
+This assessment is worth 10 credits of a 20 credit module – ~20 hours of work to complete.
+| Use of Artificial Intelligence 
+| Declaration of AI usage 
+A log: Students must provide a summary of the AI usage log in an appendix, maximum [2] pages, 
+addressing all seven points in the AI usage log template.  
+| Guidance on AI usage 
+All assessments must include an AI guidance table.  
+Detailed guidance on AI usage is provided in the table in Appendix 1 
+| Submission information 
+Naming File: Last-name_First-name_Student-ID-number_CFDAssignment.PDF 
+File Type Required: PDF 
+Title of Submission box on Moodle: CFD Assignment Submission box 
+
+=== PAGE 4 ===
+  
+Students must submit their work using the correct naming convention, and in the file type listed above. 
+Failure to do this may result in penalties if staff are unable to make an appropriate judgement on your work 
+due to incorrect file types.  
+Your submission deadline is 3 pm on 12th November 2026. 
+You should use the template provided for your submission, completing the Word document available on 
+Moodle. Please do not change the format of the document. You can print the relevant pages directly to pdf 
+to be uploaded. There are word counts for specific parts of the assignment, please observe the word count 
+so that you complete a precise and concise report. 
+It is your responsibility to check the file you have uploaded to ensure that it has uploaded correctly. 
+Late submission shall incur the normal university penalties: Any assessment uploaded after 15:00:00 on the 
+submission date will be counted as late and will receive a 5% penalty.  An additional 5% penalty will be 
+applied for each additional working day that it is late.  Please ensure you upload your work well prior to 
+the submission deadline to ensure upload issues do not create an unexpected late penalty. Similarly, 
+it is important that you read through all the documentation for this assessment and ask any questions in 
+plenty of time ahead of the deadline. Raising an issue the day or an hour before the deadline is not a 
+suitable time frame. We recommend storing your final document on OneDrive in a secure location to 
+preserve the date of completion in case of unpredictable complications upon submission. 
+If you have submitted an EC but have not had a response from the panel at the time of the deadline, you 
+must submit the current work you have completed, even if this is not finished, with the words EC 
+PENDING in the title. You should then: 
+• notify the staff member responsible for the assessment that you have submitted an EC and your 
+proposed deadline (do not exceed the maximum extension for an EC as stated on the moodle page) 
+• continue to work to, and submit by, the extension date requested in your EC claim. 
+If you are then granted an extension, your later submission will be marked. 
+ 
+ 
+
+=== PAGE 5 ===
+  
+| Brief 
+Date issued: Thursday 29/10/2026 , 15:00 
+ 
+Deadline for 
+submission: 
+Thursday 12/11/2026, 15:00 
+ 
+Submission format: - Online only on Moodle (not a paper copy) using the template provided on 
+Moodle, the format is figures with captions and tables and indicated text 
+commentary boxes.  Each item of text (caption or text box) should be no 
+greater than the stated word count.  Obvious overlength will have a 
+penalty for inefficient communication.  Save as pdf. 
+Marks allocated: 
+ 
+50% of the MMME3086 module mark 
+ 
+How to access Ansys 
+Workbench:  
+- Ansys Workbench is available on the Virtual Engineering Desktop, this is 
+the 2026 R1 version. 
+- Note: You may download a free “Student Edition” of Ansys for home use: 
+https://www.ansys.com/en-gb/academic/free-student-products 
+- Ansys Workbench is also available in departmental computer rooms 
+Timetabled sessions: - This coursework assignment does not require supervision.  
+There are no timetabled computer sessions, but there is the 2nd hour of the 
+Thursday practical sessions in which support tutors will assist with specific 
+questions. 
+Estimated time to be 
+spent on this 
+assignment: 
+- Approximately 20 hours 
+ 
+Feedback and Marks 
+Individual feedback will be provided on 03/12/2026. This will be available on Moodle in the submissions 
+Grade box in the form of a mark and an assessment rubric with generic and specific commentary. An 
+announcement will be made when feedback and marks are available. 
+ 
+
+=== PAGE 6 ===
+  
+| Structure 
+ 
+Task (A) – generating a geometry and mesh [16% of coursework 
+marks] 
+The purpose of this task is to gain some hands-on experience of setting up a geometry using Ansys Discovery 
+and various computational meshes in Ansys Mesher. 
+Using the step-by-step consolidation method (available on Echo360) 
+A1. Generate your own 150 mm by 1 m duct with a NACA0012 aerofoil at an 8 angle of attack. Illustrate the 
+geometry with a short descriptive caption in Figure 1.        [4] 
+ 
+A2. Generate and illustrate in Figure 2  a mesh with 10 mm triangular cells on the duct, but with 2 mm cell 
+Sizing associated with the walls of the aerofoil only and a growth rate of 1.05 of the cells away from the 
+aerofoil.  In the caption (<100 words) add a comment on your consideration of the model about the CFD 
+theory of the mesh. Display the local region around the aerofoil in an inset image.  
+[8] 
+A3. Add appropriate names to all of the boundaries of the model and label them in your figure from part A2.  
+[4] 
+ 
+
+=== PAGE 7 ===
+  
+Task (B) – generating boundary conditions and solving 
+[34% of coursework marks] 
+Set up a case using the aerofoil mesh you have generated .  Set the velocity inlet magnitude to the value 
+(n/100)10+50 m/s, where n is the number formed by the last two digits of your student ID number (should 
+produce Re = O(10 5) based on chord length of 100 mm) and use the default pressure outlet boundary 
+condition.  On models, select under viscous model the settings for each of the 5 cases described in sections 
+B1 and B2 below. 
+B0. Note in your report            [6]: 
+a. density of air 
+b. viscosity of air 
+c. turbulence intensity and isotropic RMS velocity of turbulent fluctuations at inlet 
+d. velocity at inlet 
+e. calculated Reynolds number based on chord length 
+B1. Case 1 : Use the Spalart-Allmaras one equation turbulence mode l using standard wall function  
+together with the SIMPLE pressure-velocity coupling method. Initialise the case and set the calculation  
+and run it until convergence is achieved .  Print a graphic, in Figure 3, showing the residual history and 
+note in the caption what happened to the convergence of the case and what you think it might indicate.  
+              [5] 
+ 
+Note the number of iterations to convergence. From the data , extract to an Excel spreadsheet the 
+following:  
+1. static pressure and y+ on suction side,  
+2. static pressure and y+ on pressure side.  
+3. Insert three lines, across the duct, one at mid chord, one at trailing edge and one 100 mm 
+downstream from the trailing edge. Extract to Excel the velocity magnitude for the three lines.  
+4. Record the total drag and lift on the aerofoil  and the convergence criterion and iterations to 
+convergence.  
+5. Record this data for all subsequent models also. 
+ 
+Case 2: Set up a new case with the same mesh by the ‘Duplicate’ method in Workbench. Run it with k- 
+turbulence model, standard wall function and SIMPLE pressure-velocity coupling and record the data 
+for this model. 
+Case 3: Duplicate the setup  again, and run the RSM model, with standard wall function , and with 
+SIMPLE pressure-velocity coupling method. Record the data. 
+ 
+B2. Results analysis: For the RSM Case 3, present a vector plot around the aerofoil showing the wake 
+region clearly in Figure 4.  In the caption state what it is you are showing and what it is that you see in 
+the flow pattern and state the lift and drag for this case. State the lift and drag forces and the iterations to 
+convergence and the convergence criterion.         [6]  
+In Figure 5, present a contour plot of y+ values on the cells in touch with the aerofoil for Case 3, showing 
+the cell values and showing the legend to indicate range of values of the cells in contact with the aerofoil. 
+Indicate any unusual regions stating why you have highlighted them with reference to the wall function 
+that was applied.             [5]  
+ 
+B3. Load the mesh Aerofoil8-degAoA-enhancedBL.msh into Fluent directly. Run the Case 4 with RSM and 
+enhanced wall treatment with SIMPLE, state what you observe. Run the Case 4 again with SIMPLE, 
+k- turbulence model, and use enhanced wall treatment in the turbulence model. Note the convergence 
+rate and the drag and lift forces and record its data as for the models in B1. Duplicate and set up a new 
+Case 5 to change the turbulence method back to RSM, alter the under-relaxation on Reynolds stresses 
+to 0.25, all other turbulent and momentum under-relaxation parameters to 0.5, and then continue to run 
+the case until convergence or until it doesn’t change. Collect the data. Report the drag and lift forces and 
+describe how the residuals behave for each of Case 4 and Case 5 and comment what changed between 
+the two RSM cases here.            [6].  
+Present a graphic in Figure 6 containing both a graphic showing the velocity vectors and another graphic 
+of the y+ for the RSM case and describe in the caption what you can see and interpret the outcome with 
+respect to CFD theory.           [6] 
+
+=== PAGE 8 ===
+  
+Task (C) – using post processing skills and turbulence 
+models [50% of coursework marks] 
+ 
+

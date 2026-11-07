@@ -1,0 +1,224 @@
+{
+  "main_tex_sha256": "93391df3f80c4e90e85a5af5c1f13c2fbd26d03f4823f23ecbadc02831a34898",
+  "class_sha256": "aead59d4596beda8879a84d074722e16ef3152ee625087d8e25337f1750f759f",
+  "class_approved_identity": true,
+  "sections": [
+    "Task A Geometry [16]",
+    "Task B Solution and data extraction [34]",
+    "Task C Analysis [50]",
+    "Task C Boundary Conditions and Results"
+  ],
+  "artificial_pagebreaks": 0,
+  "environment_nesting_balanced": true,
+  "assets": [
+    {
+      "name": "fig01_geometry.png",
+      "sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712",
+      "source": "data/taskA/figure1_native_compact.png",
+      "accepted_vector_identity": false
+    },
+    {
+      "name": "fig02_mesh_bc.png",
+      "sha256": "e355048540a77294c8564788954eb2ae55717d6cfc38bcf055592f287897bde0",
+      "source": "data/taskA/figure2_mesh_compact.png",
+      "accepted_vector_identity": false
+    },
+    {
+      "name": "fig03_sa_convergence.pdf",
+      "sha256": "83e03a53e9cee126cbdb808223ebb57de025d1220d5bc111d5bdc0c45f993f9b",
+      "source": "data/print_assets/fig03_sa_convergence.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig04_rsm_vectors.pdf",
+      "sha256": "13abc11550dd40c87dbfbdbe4a546f3523553df44035aaa031368ed5816ca0b7",
+      "source": "data/print_assets/fig04_rsm_vectors.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig05_rsm_yplus.pdf",
+      "sha256": "61cfcbb6954077fcc6bbd9a0b91482ac6adc56bf1ea16c009b9ca87a615ed620",
+      "source": "data/print_assets/fig05_rsm_yplus.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig06_enhanced_combined.pdf",
+      "sha256": "3d262c7967e813dc1d0816584c9eb8ca8ecb4984b7af943cc3df00bdeea7fb51",
+      "source": "data/print_assets/fig06_enhanced_combined.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig07_velocity_midchord.pdf",
+      "sha256": "9a5a63b0bbff70a7266eb2af3264b2a3708e5a9f72124cfc0e510606a10dc78b",
+      "source": "data/print_assets/fig07_velocity_midchord.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig08_velocity_trailingedge.pdf",
+      "sha256": "bd0c2f04ba0cde5b5d6cd22e2d10f33e65a3fac90f4315d85713d0ec6dd74d14",
+      "source": "data/print_assets/fig08_velocity_trailingedge.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig09_velocity_downstream.pdf",
+      "sha256": "2f4c86230a98ed001874713e6a2d698297bc268a9d14fae55b45e39c38b6d12b",
+      "source": "data/print_assets/fig09_velocity_downstream.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig10_pressure_pressure.pdf",
+      "sha256": "61e7329cdf22d17cc0430b07ba5d35305127eb71acc945deaeeb7c7a18e27a9a",
+      "source": "data/print_assets/fig10_pressure_pressure.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig11_pressure_suction.pdf",
+      "sha256": "822d492f3a66a209a52dae694d9f4152fe39a41dbb3f5ee8737fc1b1078a0157",
+      "source": "data/print_assets/fig11_pressure_suction.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig12_yplus_suction.pdf",
+      "sha256": "b53d2f699391da265ef539343d22eb093c8eefba514dbba963156c7645241faf",
+      "source": "data/print_assets/fig12_yplus_suction.pdf",
+      "accepted_vector_identity": true
+    },
+    {
+      "name": "fig13_yplus_pressure.pdf",
+      "sha256": "7710ce95f31edbf6660582ee79ead448949d030c8368aabeac6e1a52b65eb4bb",
+      "source": "data/print_assets/fig13_yplus_pressure.pdf",
+      "accepted_vector_identity": true
+    }
+  ],
+  "zip_path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\LIU_Yang_20617209_CFD_Overleaf_Source.zip",
+  "zip_sha256": "527ef3cc1616a087a4b57c23a75a55348ba6d9c5bf577c5c1eb63bb961aaad95",
+  "zip_member_count": 20,
+  "zip_members": [
+    {
+      "name": "AI_prompt_record.txt",
+      "bytes": 3001,
+      "sha256": "8cb546b9468a7820a18e392124199c45d812dace95d945a30870eb9fc7d34f48",
+      "matches_prepared": true
+    },
+    {
+      "name": "asset_manifest.json",
+      "bytes": 2671,
+      "sha256": "8b6fde33f9546a9b3667d14190612b81413ca37e269c1e1bce37d05971ffbf3c",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig01_geometry.png",
+      "bytes": 123287,
+      "sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig02_mesh_bc.png",
+      "bytes": 1184963,
+      "sha256": "e355048540a77294c8564788954eb2ae55717d6cfc38bcf055592f287897bde0",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig03_sa_convergence.pdf",
+      "bytes": 58928,
+      "sha256": "83e03a53e9cee126cbdb808223ebb57de025d1220d5bc111d5bdc0c45f993f9b",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig04_rsm_vectors.pdf",
+      "bytes": 98526,
+      "sha256": "13abc11550dd40c87dbfbdbe4a546f3523553df44035aaa031368ed5816ca0b7",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig05_rsm_yplus.pdf",
+      "bytes": 102656,
+      "sha256": "61cfcbb6954077fcc6bbd9a0b91482ac6adc56bf1ea16c009b9ca87a615ed620",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig06_enhanced_combined.pdf",
+      "bytes": 106356,
+      "sha256": "3d262c7967e813dc1d0816584c9eb8ca8ecb4984b7af943cc3df00bdeea7fb51",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig07_velocity_midchord.pdf",
+      "bytes": 46167,
+      "sha256": "9a5a63b0bbff70a7266eb2af3264b2a3708e5a9f72124cfc0e510606a10dc78b",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig08_velocity_trailingedge.pdf",
+      "bytes": 45945,
+      "sha256": "bd0c2f04ba0cde5b5d6cd22e2d10f33e65a3fac90f4315d85713d0ec6dd74d14",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig09_velocity_downstream.pdf",
+      "bytes": 43856,
+      "sha256": "2f4c86230a98ed001874713e6a2d698297bc268a9d14fae55b45e39c38b6d12b",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig10_pressure_pressure.pdf",
+      "bytes": 47457,
+      "sha256": "61e7329cdf22d17cc0430b07ba5d35305127eb71acc945deaeeb7c7a18e27a9a",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig11_pressure_suction.pdf",
+      "bytes": 47436,
+      "sha256": "822d492f3a66a209a52dae694d9f4152fe39a41dbb3f5ee8737fc1b1078a0157",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig12_yplus_suction.pdf",
+      "bytes": 46989,
+      "sha256": "b53d2f699391da265ef539343d22eb093c8eefba514dbba963156c7645241faf",
+      "matches_prepared": true
+    },
+    {
+      "name": "fig13_yplus_pressure.pdf",
+      "bytes": 47160,
+      "sha256": "7710ce95f31edbf6660582ee79ead448949d030c8368aabeac6e1a52b65eb4bb",
+      "matches_prepared": true
+    },
+    {
+      "name": "main.tex",
+      "bytes": 25559,
+      "sha256": "93391df3f80c4e90e85a5af5c1f13c2fbd26d03f4823f23ecbadc02831a34898",
+      "matches_prepared": true
+    },
+    {
+      "name": "new-aiaa.bst",
+      "bytes": 34008,
+      "sha256": "d775b64b4093261829304e7a70b3446e5fd0985ec697072f4f856e2896430f3b",
+      "matches_prepared": true
+    },
+    {
+      "name": "new-aiaa.cls",
+      "bytes": 2938,
+      "sha256": "aead59d4596beda8879a84d074722e16ef3152ee625087d8e25337f1750f759f",
+      "matches_prepared": true
+    },
+    {
+      "name": "verified_results.json",
+      "bytes": 151058,
+      "sha256": "1242f575b5c6a2de55d230cfdfb2c7958702be1b2469c89c9c20762b3e549737",
+      "matches_prepared": true
+    },
+    {
+      "name": "verified_table.tex",
+      "bytes": 529,
+      "sha256": "479075ad21c4a6cfd8847c66d27978db5f4803c8168c8c052889f5e0f60108b5",
+      "matches_prepared": true
+    }
+  ],
+  "status": "Final source/vector/package identity PASS; not compiled",
+  "outstanding": [
+    "Allowed Overleaf compilation",
+    "Actual page/appendix count",
+    "Rendered page breaks/overflow/legibility"
+  ]
+}

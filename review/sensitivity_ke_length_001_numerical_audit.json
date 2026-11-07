@@ -1,0 +1,99 @@
+{
+  "run": "sensitivity_ke_length_001",
+  "final_iteration": 2500,
+  "native_rows": 2500,
+  "duplicate_reprints": [],
+  "native_first_default_1e3": 332,
+  "active_equations": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon"
+  ],
+  "final_residuals": [
+    7.635e-05,
+    3.235e-09,
+    1.5157e-08,
+    1.517e-08,
+    5.9056e-08
+  ],
+  "strict_residual_gate": false,
+  "force_gate": true,
+  "combined_gate": false,
+  "controls_verified_against_native_evidence": {
+    "flow/scheme": {
+      "value": 20.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "pressure/scheme": {
+      "value": 12.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "mom/scheme": {
+      "value": 1.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "k/scheme": {
+      "value": 0.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "epsilon/scheme": {
+      "value": 0.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "pressure/relax": {
+      "value": 0.3,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "density/relax": {
+      "value": 1.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "mom/relax": {
+      "value": 0.7,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "k/relax": {
+      "value": 0.8,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "epsilon/relax": {
+      "value": 0.8,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    },
+    "turb-viscosity/relax": {
+      "value": 1.0,
+      "source": "actual native rpgetvar readback; default omitted from set"
+    }
+  },
+  "inlet_manifest": {
+    "speed_m_s": 50.9,
+    "intensity_fraction": 0.05,
+    "length_scale_m": 0.01,
+    "selected_method": "Intensity and Length Scale"
+  },
+  "CL": 0.776762062504527,
+  "CD": 0.06057029063508157,
+  "force_window_100": {
+    "drag_N": {
+      "samples": 100,
+      "final": 9.611724524166886,
+      "mean": 9.611719319836077,
+      "range": 1.0408661644589756e-05,
+      "range_percent_mean": 0.0001082913607673603,
+      "endpoint_drift_percent_mean": 0.00010829136012051985
+    },
+    "lift_N": {
+      "samples": 100,
+      "final": 123.2621287983879,
+      "mean": 123.26205904697565,
+      "range": 0.00013950282460939434,
+      "range_percent_mean": 0.0001131758025851485,
+      "endpoint_drift_percent_mean": 0.00011317580242374282
+    }
+  },
+  "mass_imbalance_percent": 3.906194991407563e-09,
+  "native_transcript_sha256": "f58a93a4d9faec84c71a795d7907b6165dbef9eb26c0fdb01b5973f872664fd6",
+  "final_settings_sha256": "fa7a04807d3646f0db6a3b0bf5dd7c0384647476810c809ee4689b4b58c961ef"
+}

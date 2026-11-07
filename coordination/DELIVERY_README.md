@@ -1,0 +1,15 @@
+# CFD delivery and remaining verification
+
+Student 20617209; actual inlet speed 50.9 m/s. The prescribed Task A/B/C numerical and data work is complete. The report source/content has independent approval, but no final PDF is claimed: upload, compilation and page-by-page layout verification in the approved Overleaf project remain blocked by its saved origin permission rule.
+
+- Overleaf source ZIP: `report/LIU_Yang_20617209_CFD_Overleaf_Source.zip`. Preserve the existing approved project and its AIAA class. The package contains main.tex, the verified result table, thirteen real-data figures and provenance manifests. It has not been compiled locally.
+- Final physical datasets: `solver/case01_aligned`, `case02_aligned`, `case03_aligned`, `case04_verified`, `case05_verified`. Authoritative logical mapping: `data/dataset_registry.json`. Original exports, settings, journals, monitors and case/data files remain in their respective folders.
+- Final Workbench project: `solver/workbench/final_coursework_cases.wbpj` plus the entire matching `_files` directory. All ten imported H5 files were independently hashed against final source files. No native .wbpz archive was generated; the attempted API failure is retained without substituting a renamed ZIP.
+- Verified numerical/Excel/figure delivery: `data/final_data_manifest.json`. It identifies five formal and three auxiliary workbooks with source hashes, thirteen report graphics, numerical checks and explicit limitations. Earlier workbooks/figures are historical evidence, not replacements for the registered final files.
+- Independent source review: `review/final_report_content_review.md`, `review/final_report_source_audit.json`. Broader numerical limitations: `review/final_quality_status.md`.
+
+Cases 1, 4 and 5 meet the supplementary strict residual and force-stability targets. Cases 2 and 3 have explicitly qualified acceptance with continuity plateaus; their strict flags remain false. Case 5 iteration counts in the report are additional RSM updates after the KE seed, and the corresponding global counts are specified. Three-mesh sensitivity does not establish spatial independence. The auxiliary inlet-length contrast is a sensitivity to an input assumption, not a calibrated tunnel condition. The graphical experimental reference is approximate and has different confinement.
+
+Only Overleaf compilation is authorised. Before submission, verify eight-page requirements, all thirteen figures, readable axes/legends, table fit, references, equation punctuation, compile errors and overfull content against the actual rendered PDF. Browser access, a connected extension or a source-preflight pass alone does not establish these outcomes.
+
+Storage policy: preserve original raw evidence; do not follow the data/node_modules runtime junction when copying. New scratch and uninstall logs use D. The separate user-authorised 3DEXPERIENCE uninstall uses official vendor/Windows Installer commands, not deletion of user projects or unrelated applications.

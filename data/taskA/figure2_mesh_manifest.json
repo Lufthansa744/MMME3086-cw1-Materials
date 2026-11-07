@@ -1,0 +1,50 @@
+{
+  "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\taskA\\taskA_baseline.msh",
+  "source_sha256": "9f1acf4d40a4f1cf3f203403db57427eebce629bae9e8558298b5eae7e633158",
+  "source_bytes": 254074,
+  "counts": {
+    "nodes": 4042,
+    "cells": 7713,
+    "faces": 11755
+  },
+  "parser_reference": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\verify_baseline_mesh.py",
+    "sha256": "346d89c4a7937d5d8d47cc8c29f60ad130f418c5d7b4749cbd9f01d215ea2f2d"
+  },
+  "script": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\plot_taskA_mesh.py",
+    "sha256": "e37d0923823f3d114bd2b103987d3162878e532a372939c6b2805a3fc4bfe07a"
+  },
+  "method": "Read little-endian binary 3010 double node coordinates and 2013 integer face connectivity; draw exact face segments. No smoothing, reconstruction or point triangulation.",
+  "coordinate_units": "m",
+  "display_axis_units": "mm",
+  "full_equal_scale_pixels_per_m": 1200,
+  "local_equal_scale_pixels_per_m": 9000,
+  "full_bounds_m": [
+    -0.5,
+    0.5,
+    -0.075,
+    0.075
+  ],
+  "local_bounds_m": [
+    -0.012,
+    0.115,
+    -0.035,
+    0.02
+  ],
+  "full_unique_faces_drawn": 11755,
+  "local_faces_with_intersecting_bounding_box": 3212,
+  "boundary_faces": {
+    "inlet": 15,
+    "outlet": 15,
+    "wall_top": 116,
+    "wall_bottom": 122,
+    "aerofoil_suction": 51,
+    "aerofoil_pressure": 51,
+    "aerofoil_te": 1
+  },
+  "figure": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_baseline_mesh.svg",
+    "sha256": "ca733d0f070208f9f2f44d62a7fbe164ea254fa14c5731cb0a1112212e482558"
+  }
+}

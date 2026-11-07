@@ -1,0 +1,18 @@
+{
+  "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\monitors\\forces.out",
+  "sha256": "79ce189fff1d2096eba5c685eb721311dd21fe24693ed428a30bf1976092d0a4",
+  "total_rows": 2937,
+  "seed_rows": 1,
+  "first_RSM_iteration": 754.0,
+  "last_global_iteration": 3689.0,
+  "RSM_updates": 2936,
+  "contiguous": true,
+  "final_D_N": 5.232899341976225,
+  "final_L_N": 158.8477374876382,
+  "CD": 0.03297620871371155,
+  "CL": 1.001012211925138,
+  "last100_ranges_percent": {
+    "D": 0.04807275025408094,
+    "L": 0.06402909216278263
+  }
+}

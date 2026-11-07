@@ -1,0 +1,8 @@
+Case1 system /Schematic/System:FFF
+Case1 system data Ansys.Core.DataModel.DataReference
+Setup Setup
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\workbench\duplicate_cases.wbjn", line 15, in <module>
+    setup.Import(FilePath=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\case01\case01_final.cas.h5")
+ValueError: The following required arguments for command/query Fluent.Import are missing or null: FileType
+

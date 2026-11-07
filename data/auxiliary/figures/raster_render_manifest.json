@@ -1,0 +1,53 @@
+{
+  "renderer": "sharp",
+  "versions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "densityDpi": 144,
+  "records": [
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\auxiliary\\figures\\length_sensitivity_suction.svg",
+      "sourceSha256": "fb3168e9ea5c522be9d13f0fa4e780e1aca42208abe81e03874b7a4c678a6fcd",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\auxiliary\\figures\\length_sensitivity_suction.png",
+      "outputSha256": "23d71748b3d90e754abe68490fe76ab72fe713640601970d135a4fbd20f97438",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\auxiliary\\figures\\length_sensitivity_wake.svg",
+      "sourceSha256": "b85152c985ac167274c6ce1fb0e1772b9a494c14c6511769017cbc60030c42cd",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\auxiliary\\figures\\length_sensitivity_wake.png",
+      "outputSha256": "2009f8d9216e789ef8bda94317f3cf33977c41da25b07a431397bd1fc3eed3cd",
+      "width": 3200,
+      "height": 710
+    }
+  ]
+}

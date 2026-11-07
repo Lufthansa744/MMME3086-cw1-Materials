@@ -1,0 +1,13 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+root=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\workbench"
+f=open(root+r"\archive_native.log","w")
+try:
+    Open(FilePath=root+r"\final_coursework_cases.wbpj")
+    f.write(str(Archive.__doc__)+"\n");f.flush()
+    Archive(FilePath=root+r"\final_coursework_cases.wbpz",IncludeExternalFiles=True)
+    f.write("NATIVE_ARCHIVE_COMPLETE\n");f.flush()
+except:
+    f.write(traceback.format_exc());f.flush()
+f.close()
+

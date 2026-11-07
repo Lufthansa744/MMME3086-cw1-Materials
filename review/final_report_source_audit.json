@@ -1,0 +1,98 @@
+{
+  "main_tex_sha256": "d3c118e2faaaa9d281edd0aee3d9e4f2d4394ec59a97dcc71382c1e0bfec6cc8",
+  "verified_table_sha256": "479075ad21c4a6cfd8847c66d27978db5f4803c8168c8c052889f5e0f60108b5",
+  "source_words_C4_approx_numeric_tokens_included": 450,
+  "C4_limit": 550,
+  "sections": [
+    "Task A Geometry [16]",
+    "Task B Solution and data extraction [34]",
+    "Task C Analysis [50]",
+    "Task C Boundary Conditions and Results"
+  ],
+  "assets": [
+    {
+      "asset": "fig01_geometry.png",
+      "sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712",
+      "original": "data/taskA/figure1_native_compact.png",
+      "identical": true
+    },
+    {
+      "asset": "fig02_mesh_bc.png",
+      "sha256": "e355048540a77294c8564788954eb2ae55717d6cfc38bcf055592f287897bde0",
+      "original": "data/taskA/figure2_mesh_compact.png",
+      "identical": true
+    },
+    {
+      "asset": "fig03_sa_convergence.png",
+      "sha256": "615443e44a3b6babeb50da4fc1f7e11f1ae53ee56359f6b4dd324957fa154eb3",
+      "original": "data/case01_aligned/figures/figure3_residuals_compact.png",
+      "identical": true
+    },
+    {
+      "asset": "fig04_rsm_vectors.png",
+      "sha256": "586dca38dea05eca86beda14a8309b843803f7057673f38b37f935d238b87d48",
+      "original": "data/case03_aligned/figures/figure4_velocity_vectors.png",
+      "identical": true
+    },
+    {
+      "asset": "fig05_rsm_yplus.png",
+      "sha256": "b66d151970b759b80668d3ca05eec6fe57f1edcf33b152e28127f9e62b96cdb4",
+      "original": "data/case03_aligned/figures/figure5_wall_cell_yplus.png",
+      "identical": true
+    },
+    {
+      "asset": "fig06_enhanced_combined.png",
+      "sha256": "ded8f98507d017b2d2ec1a8a8f3ffafe6fc328c761b90f7dbaa29cac66504945",
+      "original": "data/case05_verified/figures/figure6_combined_compact.png",
+      "identical": true
+    },
+    {
+      "asset": "fig07_velocity_midchord.png",
+      "sha256": "985315f34f494e0fab495e3239deb3d80abae8cdd29845abbcdeef49188fd846",
+      "original": "data/comparison/figures/figure7_velocity_mid.png",
+      "identical": true
+    },
+    {
+      "asset": "fig08_velocity_trailingedge.png",
+      "sha256": "e19e069eada046242e90e0d975ff5090a7832fce9e85ce1938ef8ebea6f67197",
+      "original": "data/comparison/figures/figure8_velocity_te.png",
+      "identical": true
+    },
+    {
+      "asset": "fig09_velocity_downstream.png",
+      "sha256": "fe686c2212e164177305eaeb3cf83ee40fa2c3842943ee76eafa4a9ac4215bcd",
+      "original": "data/comparison/figures/figure9_velocity_wake.png",
+      "identical": true
+    },
+    {
+      "asset": "fig10_pressure_pressure.png",
+      "sha256": "56665142c0e9f41cd3f46dfd26675719ccd42a0de15a80f0022987c330db8831",
+      "original": "data/comparison/figures/figure10_pressure_pressure.png",
+      "identical": true
+    },
+    {
+      "asset": "fig11_pressure_suction.png",
+      "sha256": "ef5558b3c52331c085b972be56ddb64f7c3aa87af3477567808d19276529b643",
+      "original": "data/comparison/figures/figure11_pressure_suction.png",
+      "identical": true
+    },
+    {
+      "asset": "fig12_yplus_suction.png",
+      "sha256": "c1bce152f8b901232736e85fbad163cdf8b4faf3ee4fe026c28af503bc53d4c8",
+      "original": "data/comparison/figures/figure12_yplus_suction.png",
+      "identical": true
+    },
+    {
+      "asset": "fig13_yplus_pressure.png",
+      "sha256": "bfcad5e38696a9825d173ec2a0831e5b2918e8c3f69e6cae4f3d8a72d0694763",
+      "original": "data/comparison/figures/figure13_yplus_pressure.png",
+      "identical": true
+    }
+  ],
+  "status": "Independent content/source acceptance; not compiled, uploaded or rendered acceptance",
+  "unverified": [
+    "Overleaf compile success",
+    "Final page count and appendix pagination",
+    "Final rendered captions/text and figure legibility"
+  ]
+}

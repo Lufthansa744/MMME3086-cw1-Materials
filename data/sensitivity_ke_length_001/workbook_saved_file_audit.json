@@ -1,0 +1,34 @@
+{
+  "case": "sensitivity_ke_length_001",
+  "xlsx": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\sensitivity_ke_length_001_data.xlsx",
+  "sha256": "bfb04bb458205004c3ecd2e7bb97cfa0591b21634d35d19e3bf01e44c935d98b",
+  "summary_sha256": "c1e01a1c8a3e1c4e4a05cec98e538ad1312fab75e6dc36c602e08931330a5ffc",
+  "sheet_names": [
+    "Summary",
+    "Monitors",
+    "Surfaces",
+    "Profiles",
+    "Residuals",
+    "Acceptance"
+  ],
+  "formula_count": 5013,
+  "monitor_rows": 2500,
+  "verified_summary_cells": {
+    "B11": 348454.7893148542,
+    "B12": 2.545,
+    "B14": 158.6871125,
+    "B18": 2500,
+    "B19": 9.611724524166886,
+    "B20": 123.2621287983879,
+    "B21": 0.06057029063508157,
+    "B22": 0.776762062504527,
+    "B28": 332,
+    "B29": 332,
+    "B30": 2500,
+    "B31": 1.0829136076736031e-06,
+    "B32": 1.131758025851485e-06
+  },
+  "formula_error_count": 0,
+  "acceptance_and_qualified_flags_match": true,
+  "scope": "Saved XLSX ZIP/XML and formula caches checked independently against source-derived summary; no claim of testing in a native Excel UI."
+}

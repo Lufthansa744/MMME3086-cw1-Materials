@@ -1,0 +1,67 @@
+[
+  {
+    "figure": 1,
+    "prepared_png": "report\\prepared\\fig01_geometry.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 2,
+    "prepared_png": "report\\prepared\\fig02_mesh_bc.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 3,
+    "prepared_png": "report\\prepared\\fig03_sa_convergence.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 4,
+    "prepared_png": "report\\prepared\\fig04_rsm_vectors.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 5,
+    "prepared_png": "report\\prepared\\fig05_rsm_yplus.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 6,
+    "prepared_png": "report\\prepared\\fig06_enhanced_combined.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 7,
+    "prepared_png": "report\\prepared\\fig07_velocity_midchord.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 8,
+    "prepared_png": "report\\prepared\\fig08_velocity_trailingedge.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 9,
+    "prepared_png": "report\\prepared\\fig09_velocity_downstream.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 10,
+    "prepared_png": "report\\prepared\\fig10_pressure_pressure.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 11,
+    "prepared_png": "report\\prepared\\fig11_pressure_suction.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 12,
+    "prepared_png": "report\\prepared\\fig12_yplus_suction.png",
+    "matches_audited_source": true
+  },
+  {
+    "figure": 13,
+    "prepared_png": "report\\prepared\\fig13_yplus_pressure.png",
+    "matches_audited_source": true
+  }
+]

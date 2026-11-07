@@ -1,0 +1,14 @@
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/suction_p_yplus.csv" aerofoil_suction () yes pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/pressure_p_yplus.csv" aerofoil_pressure () yes pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/trailing_p_yplus.csv" aerofoil_te () yes pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/velocity_mid.csv" line-mid () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/velocity_te.csv" line-te () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/velocity_wake.csv" line-wake () yes velocity-magnitude () no
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/domain_cell_fields.csv" full-domain () yes x-velocity y-velocity pressure y-plus cell-id () yes
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/inlet_turbulence.csv" inlet () yes viscosity-ratio viscosity-turb turb-kinetic-energy turb-diss-rate () yes
+/report/forces/wall-forces no aerofoil_te aerofoil_pressure aerofoil_suction () 1 0 yes "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/drag_breakdown.txt"
+/report/forces/wall-forces no aerofoil_te aerofoil_pressure aerofoil_suction () 0 1 yes "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/raw/lift_breakdown.txt"
+/report/fluxes/mass-flow no inlet outlet () no
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/settings/sensitivity_ke_length_001_final.set"
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/sensitivity_ke_length_001_final.cas.h5"
+

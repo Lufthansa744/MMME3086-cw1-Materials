@@ -1,0 +1,17 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+root=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver"
+f=open(root+r"\workbench\pair_import_probe3.txt","w")
+def log(s): f.write(str(s)+'\n');f.flush()
+try:
+    s=GetTemplate(TemplateName="Fluid Flow").CreateSystem()
+    s.GetContainer(ComponentName="Setup").Import(FileType="Case",FilePath=root+r"\case01_aligned\case01_aligned_final.cas.h5")
+    log('CASE_SETUP_IMPORTED')
+    sol=s.GetContainer(ComponentName="Solution")
+    sol.ImportFinalData(FilePath=root+r"\case01_aligned\case01_aligned_final.dat.h5")
+    log('SOLUTION_FINAL_DATA_IMPORTED')
+    Save(FilePath=root+r"\workbench\pair_import_probe3.wbpj",Overwrite=True)
+    log('PAIRED_CASE_DATA_PROJECT_SAVED')
+except:
+    log(traceback.format_exc())
+f.close()

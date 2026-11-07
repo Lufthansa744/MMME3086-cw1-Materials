@@ -1,0 +1,11 @@
+# encoding: utf-8
+# 2022 R2
+SetScriptVersion(Version="22.2.192")
+system1 = GetSystem(Name="SYS")
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit(Interactive=False)
+mesh1.SendCommand(
+    Command=r"execfile(r'C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\taskA\export_mesh_native.py')",
+    Language="Python")
+mesh1.Exit()
+Save(Overwrite=True)

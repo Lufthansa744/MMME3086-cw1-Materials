@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="29" fill="#222">
+<path d="M140,320.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="329.0" text-anchor="end">0</text>
+<path d="M140,250.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="259.0" text-anchor="end">50</text>
+<path d="M140,180.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="189.0" text-anchor="end">100</text>
+<path d="M140,110.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="119.0" text-anchor="end">150</text>
+<text x="140.0" y="363" text-anchor="middle">0</text>
+<text x="269.0" y="363" text-anchor="middle">20</text>
+<text x="398.0" y="363" text-anchor="middle">40</text>
+<text x="527.0" y="363" text-anchor="middle">60</text>
+<text x="656.0" y="363" text-anchor="middle">80</text>
+<text x="785.0" y="363" text-anchor="middle">100</text>
+<path d="M140,75V320H785" fill="none" stroke="#222" stroke-width="2"/>
+<text x="462.5" y="418" text-anchor="middle" font-size="32">x (mm)</text>
+<text x="35" y="197.5" text-anchor="middle" transform="rotate(-90,35,197.5)" font-size="32">Wall y+</text>
+<polyline points="145.6046,251.0949 153.1486,280.4643 163.8638,221.4079 175.4240,194.5050 187.3697,180.5202 199.5391,187.4816 211.8553,203.5938 224.2776,153.3499 236.7791,172.8674 249.3415,166.7532 261.9530,139.5134 274.6047,125.3627 287.2895,127.0355 300.0019,115.7050 312.7377,110.1113 325.4934,103.8773 338.2661,110.2562 351.0535,116.0826 363.8537,125.7918 376.6649,149.4888 389.4858,125.3422 402.3150,139.4889 415.1515,142.5419 427.9945,129.2279 440.8431,131.7101 453.6969,124.6388 466.5550,125.8960 479.4172,144.5125 492.2829,169.4906 505.1517,195.7332 518.0234,146.9593 530.8977,147.9092 543.7742,149.9572 556.6534,184.4079 569.5345,144.5673 582.4169,181.7571 595.3007,196.0136 608.1859,138.1186 621.0724,174.1429 633.9601,125.4643 646.8489,169.7755 659.7388,157.3847 672.6296,175.4693 685.5212,140.4210 698.4136,117.9032 711.3067,155.1550 724.2004,167.5066 737.0947,205.2916 749.9893,180.8147 762.8843,162.3761 775.5307,143.2897" fill="none" stroke="#0072b2" stroke-width="2.7"/>
+<path d="M140,40h38" stroke="#0072b2" stroke-width="3"/>
+<text x="188" y="49" font-size="28">S-A</text>
+</g></svg>

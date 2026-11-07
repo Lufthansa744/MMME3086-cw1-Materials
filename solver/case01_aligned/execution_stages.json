@@ -1,0 +1,14 @@
+{
+  "first_native_1e3_stop_iteration": 293,
+  "first_stop_checkpoint": "case01_aligned_first_1e3.cas.h5 + .dat.h5",
+  "continuation_target": 1E-05,
+  "analyst_force_window_target_fraction": 0.001,
+  "window_new_iterations": 100,
+  "initialization_between_stages": "none; same physical solution continues",
+  "baseline_geometry": "exact translated pose matching supplied enhanced mesh; independent run, prealignment Case1 preserved",
+  "final_strict_stop_iteration": 489,
+  "final_force_window_range_percent": {
+    "lift": 0.0021052354568631922,
+    "drag": 0.00828571534867725
+  }
+}

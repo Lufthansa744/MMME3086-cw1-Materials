@@ -1,0 +1,5 @@
+Source aligned baseline; analyst-selected supplemental mesh, not assignment input
+GlobalSize=0.0070710678118654753 [m] FoilSize=0.0014142135623730952 [m] growth=1.05 foilgrowth=1.05
+Sizing zoneIDs=[6, 7, 8]
+MESH_GENERATED nodes=6451 elements=12410
+NATIVE_FLUENT_EXPORT_COMPLETE

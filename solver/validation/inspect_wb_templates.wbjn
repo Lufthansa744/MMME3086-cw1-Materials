@@ -1,0 +1,13 @@
+SetScriptVersion(Version="22.2.192")
+out=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation"
+f=open(out+r"\workbench_template_commands.txt","w")
+f.write('\n'.join(sorted([str(k) for k in globals().keys() if 'Template' in str(k) or 'System' in str(k)])))
+f.close()
+f=open(out+r"\workbench_other_fluent_templates.txt","w")
+for name in ["FLUENT","Fluid Flow","Fluid Flow (FLUENT)","Fluid Flow (Fluent with Fluent Meshing)"]:
+    try:
+        t=GetTemplate(TemplateName=name)
+        f.write(name+' '+str(t)+'\n'); f.flush()
+    except Exception as e:
+        f.write(name+' '+str(e)+'\n'); f.flush()
+f.close()

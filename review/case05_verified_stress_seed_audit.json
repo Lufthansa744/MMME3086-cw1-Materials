@@ -1,0 +1,40 @@
+{
+  "initial_cell_fields.csv": {
+    "sha256": "bf1b43846782dabfffd4623d50d2b973cb83919401ae41d18ab89005ed374358",
+    "rows": 20574,
+    "initial_isotropic_normal_max_error_m2_s2": 6.666670060440083e-08,
+    "uv_max_abs": 0.0,
+    "relative_trace_k_max_error": 6.661118649978799e-10,
+    "normal_minima": {
+      "uu-reynolds-stress": 0.08165454474,
+      "vv-reynolds-stress": 0.08165454474,
+      "ww-reynolds-stress": 0.08165454474
+    },
+    "min_2d_covariance_eigenvalue": 0.08165454474,
+    "negative_eigenvalue_count": 0
+  },
+  "final_stress_fields.csv": {
+    "sha256": "f164d630c47f4e7a27c6f015e0d61905b12e0d4fd9d29087d7e2d730ec2877b3",
+    "rows": 20574,
+    "initial_isotropic_normal_max_error_m2_s2": 135.36316866666667,
+    "uv_max_abs": 98.33958666,
+    "relative_trace_k_max_error": 7.369252467714874e-10,
+    "normal_minima": {
+      "uu-reynolds-stress": 0.02904380727,
+      "vv-reynolds-stress": 0.007233291155,
+      "ww-reynolds-stress": 0.02995184931
+    },
+    "min_2d_covariance_eigenvalue": 0.002543347451874671,
+    "negative_eigenvalue_count": 0
+  },
+  "seed_hash_matches_retained_files": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case04_verified\\case04_verified_final.cas.h5",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case04_verified\\case04_verified_final.dat.h5",
+      "match": true
+    }
+  ]
+}

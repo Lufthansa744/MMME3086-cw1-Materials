@@ -1,0 +1,38 @@
+{
+  "case02_aligned": {
+    "turb-diss-rate": [
+      30.28309428,
+      30.28309428
+    ],
+    "turb-kinetic-energy": [
+      9.7155375,
+      9.7155375
+    ],
+    "viscosity-turb": [
+      0.1100914105,
+      0.3430599971
+    ],
+    "viscosity-ratio": [
+      6152.420391,
+      19171.78926
+    ]
+  },
+  "sensitivity_ke_length_001": {
+    "turb-diss-rate": [
+      3028.309428,
+      3028.309428
+    ],
+    "turb-kinetic-energy": [
+      9.7155375,
+      9.7155375
+    ],
+    "viscosity-turb": [
+      0.003416000002,
+      0.003428688596
+    ],
+    "viscosity-ratio": [
+      190.9019784,
+      191.6110761
+    ]
+  }
+}

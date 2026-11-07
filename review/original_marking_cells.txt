@@ -1,0 +1,72 @@
+xl/worksheets/sheet1.xml
+G1 Marking and Feedback
+A2 MMME3086 CFD COURSEWORK marking scheme
+A5 Part
+B5 Elements for Consideration
+C5 Weight
+D5 Poor
+G5 Less than Acceptable
+J5 Acceptable
+M5 Good
+P5 Excellent
+S5 Outstanding
+A6 A
+B6 Demonstrate ability with geometry  construction.  Present figures showing the required developments on each part with good consideration of the presentation and with descriptive captions of appropriate length.  Format of template is used appropriately.
+C6 20
+D6 Poor attempt at the skills required is presented or the report is very poorly presented with problems on figures or captions or understanding or a combination of each.  Not enough work to assess well.
+G6 The skills may not be well developed or well presented or well described, or a product of problems inconsistent across the aspects required.
+J6 The skills required have been well attempted generally but may have some errors or omissions or displaying limitations and the descriptions in the captions may be improved by simple changes.
+M6 The skills required are demonstrated with perhaps some errors in understanding the task or in confusion over presentation and description.  Overall well presented and described reasonably well.
+P6 All skills on geometry and mesh are generated and demonstrated.  Captions describe the developments well.  All elements well described and presented in appropriate format.
+S6 An exceptional approach to the work demonstrating a highly skilled practice with the CFD software and an excellent understanding of aspects of the graphics obtained together with outstanding description and presentation.
+C7 Marks
+D7 0-39
+G7 40-49
+J7 50-59
+M7 60-69
+P7 70-79
+S7 80-100
+C9 Award
+V9 0
+W9  
+A10 B
+B10 Demonstrate ability with presenting CFD data. Good illustration of figures and descriptive captions. Good consideration of CFD aspects observed from the models.
+C10 30
+D10 Poor attempt at the skills required is presented or the report is very poorly presented with problems on figures or captions or understanding or a combination of each.  Not enough work to assess well.
+G10 The skills may not be well developed or well presented or well described, or a product of problems inconsistent across the aspects required.
+J10 The skills required have been well attempted generally but may have some errors or omissions or displaying limitations and the descriptions in the captions may be improved by simple changes.
+M10 The skills required are demonstrated with perhaps some errors in understanding the task or in confusion over presentation and description.  Overall well presented and described reasonably well.
+P10 All skills on geometry and mesh are generated and demonstrated.  Captions describe the developments well.  All elements well described and presented in appropriate format.
+S10 An exceptional approach to the work demonstrating a highly skilled practice with the CFD software and an excellent understanding of aspects of the graphics and data obtained together with outstanding description and presentation.
+C11 Marks
+D11 0-39
+G11 40-49
+J11 50-59
+M11 60-69
+P11 70-79
+S11 80-100
+C13 Award
+V13 0
+W13  
+A14 C
+B14 Demonstrate acquisition of CFD skills as required in the tasks and the post-processing required.  Present appropriately clearly with considered brief captions and text explaining the figures.  Correct understanding of the aspects asked and questions posed.
+C14 50
+D14 There is little or no coherent approach to the tasks and presentation.  This generally reflects insufficient work done for some reason.
+G14 Attempted work has aspects that require improvement in various parts.  Although some skills are acquired and some attention to presentation is demonstrated, the overall impression is that things can be improved in general.
+J14 There is a good attempt at all aspects and some areas for improvement in the demonstration of the required points and few areas for improvement.  The graphics are clear but have room for improvement, the data statements are mostly correct and the captions support the figures reasonably well.
+M14 The work is attempted in every aspect with good presentation of figures, and captions capturing most of the description and data that is correctly acquired.  There is room for some improvement on areas of presentation or understanding or skills demonstrated in data acquisition.
+P14 Required data, graphics and captions are well generated with clear demonstration of underlying understanding and skills acquired.  Figures and captions are well presented with only small areas for improvement.  Knowledge and understanding of the acquired CFD data are nearly entirely demonstrated with some small areas for improvement in presentation or combination of aspects.
+S14 All required data, figure generation and descriptive captions demonstrate clearly high level of skill and understanding in using the CFD.  Figures and captions are complete and knowledge and understanding of the required tasks is clearly demonstrated with little or no room for improvement.  Aspects of style that elevate the mark are apparent together with exceptional overall approach.
+C15 Marks
+D15 0-39
+G15 40-49
+J15 50-59
+M15 60-69
+P15 70-79
+S15 80-100
+C17 Award
+V17 0
+W17  
+B18 Total
+C18 100
+V18 0

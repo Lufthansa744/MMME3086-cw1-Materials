@@ -1,0 +1,38 @@
+{
+  "TaskA mesh caption": {
+    "approximate_words_conservative_source": 67,
+    "limit": 100
+  },
+  "B3 description": {
+    "approximate_words_conservative_source": 125,
+    "limit": 150
+  },
+  "B3 caption": {
+    "approximate_words_conservative_source": 85,
+    "limit": 150
+  },
+  "C1 mid": {
+    "approximate_words_conservative_source": 69,
+    "limit": 100
+  },
+  "C1 TE": {
+    "approximate_words_conservative_source": 72,
+    "limit": 100
+  },
+  "C1 wake": {
+    "approximate_words_conservative_source": 77,
+    "limit": 100
+  },
+  "C2 pressure": {
+    "approximate_words_conservative_source": 68,
+    "limit": 100
+  },
+  "C2 suction": {
+    "approximate_words_conservative_source": 75,
+    "limit": 100
+  },
+  "C3 combined": {
+    "approximate_words_conservative_source": 85,
+    "limit": 100
+  }
+}

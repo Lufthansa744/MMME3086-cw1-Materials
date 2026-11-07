@@ -1,0 +1,202 @@
+{
+  "run_id": "sa_grid_fine",
+  "model": "Spalart-Allmaras",
+  "wall_treatment": "Native Spalart-Allmaras treatment",
+  "mesh": "solver/grid_fine_mesh/mesh.msh",
+  "source_state": "Independent aligned CAD fine native Mesher refinement",
+  "initialization": "Independent hybrid initialization; identical formal Case1 physics and strict residual target",
+  "actual_settings_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sa_grid_fine\\settings\\sa_grid_fine_final.set",
+  "native_log_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sa_grid_fine\\logs\\setup.transcript",
+  "air": {
+    "density_kg_m3": 1.225,
+    "dynamic_viscosity_Pa_s": 1.7894e-05
+  },
+  "inlet": {
+    "speed_m_s": 50.9,
+    "intensity_fraction": 0.05,
+    "length_scale_m": 1.0,
+    "selected_method": "Intensity and Length Scale"
+  },
+  "reference": {
+    "area_m2": 0.1,
+    "length_m": 0.1
+  },
+  "actual_rp_readbacks": {
+    "flow/scheme": "20",
+    "pressure/scheme": "12",
+    "mom/scheme": "1",
+    "nut/scheme": "0",
+    "pressure/relax": "0.3",
+    "density/relax": "1",
+    "mom/relax": "0.7",
+    "nut/relax": "0.8",
+    "turb-viscosity/relax": "1"
+  },
+  "native_auto_convergence_iterations": [
+    1016
+  ],
+  "inherited_start_iteration": 0,
+  "inherited_state_convergence_markers": [],
+  "terminal_iteration": 1016,
+  "new_model_monitored_iterations": 1016,
+  "reprinted_native_iteration_rows_excluded_from_update_count": 0,
+  "first_iteration_all_printed_active_residuals_le_1e3_after_seed": 534,
+  "force_window": {
+    "new_iterations": 100,
+    "range_over_absolute_mean": {
+      "drag": 9.677284569664726e-05,
+      "lift": 0.00012540956414535496
+    },
+    "analyst_target_for_strict_runs": 0.001,
+    "strict_force_target_met": true
+  },
+  "final_residuals": {
+    "continuity": 9.981e-06,
+    "x-velocity": 8.3334e-09,
+    "y-velocity": 1.4357e-09,
+    "nut": 4.351e-09
+  },
+  "residual_criteria": {
+    "continuity": 1e-05,
+    "x-velocity": 1e-05,
+    "y-velocity": 1e-05,
+    "nut": 1e-05
+  },
+  "final_residual_target_met": true,
+  "combined_strict_target_met": true,
+  "force_report": {
+    "zones": [
+      "aerofoil_te",
+      "aerofoil_pressure",
+      "aerofoil_suction"
+    ],
+    "drag_vector": [
+      1,
+      0
+    ],
+    "lift_vector": [
+      0,
+      1
+    ],
+    "scaled": false,
+    "depth_m": 1,
+    "units": "N",
+    "final_drag_N": 10.93617488160429,
+    "final_lift_N": 144.6827004437777
+  },
+  "mass_balance": {
+    "final_net_kg_s": 5.240996969746448e-09,
+    "prescribed_inlet_kg_s": 9.352875000000001,
+    "absolute_relative_net": 5.603621314030657e-10
+  },
+  "sampling": {
+    "line_x_m": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "y_limits_m": [
+      -0.075,
+      0.075
+    ],
+    "surface_values": "native cell-centered p/y-plus; cell-id when included",
+    "velocity_lines": "native node-interpolated magnitude; retain any actual fluid gap"
+  },
+  "evidence": [
+    {
+      "path": "exports.jou",
+      "bytes": 2156,
+      "sha256": "ad3c901a306cb356efab9f0343e37d8dad0fc6cc597b7da819a7115b256856f3"
+    },
+    {
+      "path": "monitors\\forces.out",
+      "bytes": 40394,
+      "sha256": "ec91652e43f93577e4406396cdfd26335c69bd1e127fd5a0881433eb99ea4abc"
+    },
+    {
+      "path": "monitors\\mass_balance.out",
+      "bytes": 26596,
+      "sha256": "cb2203bc9ac8b5af9a7a6f5de3b9d9941c77f81240e2d102fa40e310b0930618"
+    },
+    {
+      "path": "raw\\domain_cell_fields.csv",
+      "bytes": 2625480,
+      "sha256": "438e8a7bef0ad8e9deac1cf33d3dc02106b1043f951a52e5db3ec55a69e96498"
+    },
+    {
+      "path": "raw\\inlet_turbulence.csv",
+      "bytes": 2978,
+      "sha256": "004581b0f26575d0add2b510c5fec1553cc7a0858c47c884f17de5f3daaa19b2"
+    },
+    {
+      "path": "raw\\pressure_p_yplus.csv",
+      "bytes": 9888,
+      "sha256": "971e358d51535c11573a2d0714126fe23a992cff9eb40728aef6c44bffdaa2a4"
+    },
+    {
+      "path": "raw\\suction_p_yplus.csv",
+      "bytes": 9888,
+      "sha256": "930545e16c810c7797bf5a2d70c6927cea8f86a08023d5a27e5ff93edbdd317e"
+    },
+    {
+      "path": "raw\\trailing_p_yplus.csv",
+      "bytes": 192,
+      "sha256": "de131a3acfbf762825251ceb4d6b743bcf94466f63c6bf8ea48aa5e6638f6440"
+    },
+    {
+      "path": "raw\\velocity_mid.csv",
+      "bytes": 8062,
+      "sha256": "12ccf0c8b12ba1d6ac8cbef21840d6d806395b3d9b053526c31bc999f1c1eaa6"
+    },
+    {
+      "path": "raw\\velocity_te.csv",
+      "bytes": 7876,
+      "sha256": "1f14d298f3bdf59919bcfdd93dbc2e01aa9115385b3956def2824c00e2df5926"
+    },
+    {
+      "path": "raw\\velocity_wake.csv",
+      "bytes": 3970,
+      "sha256": "3140398bc6aa49ef2b2d9a4e3c708c7024c2f3aebbf99375d0a2a51a8199b9eb"
+    },
+    {
+      "path": "sa_grid_fine_final.cas.h5",
+      "bytes": 1022367,
+      "sha256": "93c6ac19328256f624bb0d31d0289f01e367d9359cb004bfec818c2b78a3bfde"
+    },
+    {
+      "path": "sa_grid_fine_final.dat.h5",
+      "bytes": 1658908,
+      "sha256": "cd518f7ed3542ab3c82f8b1fcc51aadb03b6deeca72ed85b6b8ea7f2d137640a"
+    },
+    {
+      "path": "sa_grid_fine_initialized.cas.h5",
+      "bytes": 1020111,
+      "sha256": "f87dc03244c80d7c210135533a468eae5f53bd5b5dec6bc04be8ae3fc5eeb1e8"
+    },
+    {
+      "path": "sa_grid_fine_initialized.dat.h5",
+      "bytes": 873413,
+      "sha256": "67dfe307c587fc1b7b68bd3d8022e5abcd7cc76ec81ae1bf8b9eaf2f848ffa63"
+    },
+    {
+      "path": "settings\\sa_grid_fine_configured.cas.h5",
+      "bytes": 1020061,
+      "sha256": "0f2f5546e12b73b3b8ba9d9dfc4a66d30477f20f489fd6c4aa6783ad1e88b8f8"
+    },
+    {
+      "path": "settings\\sa_grid_fine_configured.set",
+      "bytes": 121898,
+      "sha256": "ca71fd4174c3cfc4a552af506ac29a6c113327e34f77b369754ef690b18ce00e"
+    },
+    {
+      "path": "settings\\sa_grid_fine_final.set",
+      "bytes": 124672,
+      "sha256": "bc26b7fe039ab3eef3fb1e7b0279f35f31ca95b4d15b7e9d81962f92cfc23ca9"
+    },
+    {
+      "path": "setup_and_solve.jou",
+      "bytes": 2042,
+      "sha256": "18560ecc20b88d6199456f8679ec7db9ce9420abeb63133f3cd45419aff25875"
+    }
+  ]
+}

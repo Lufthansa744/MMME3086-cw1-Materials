@@ -1,0 +1,261 @@
+% !TeX program = pdflatex
+% Official AIAA class retained from the user-specified Overleaf template.
+% All four numbered section headings match the Word template verbatim.
+% No displayed equation has terminal punctuation.
+\documentclass[conf]{new-aiaa}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,amsmath,booktabs,tabularx,array,float}
+\usepackage{siunitx,caption,hyperref,needspace}
+\hypersetup{hidelinks,pdfauthor={Yang LIU},pdftitle={MMME3086 Computational Fluid Dynamics}}
+% Match the supplied MMME2058 report's AIAA typography and caption treatment.
+\captionsetup{font={normalsize,bf},labelfont=bf,labelsep=quad,skip=7pt,hypcap=false}
+\captionsetup[figure]{justification=justified,singlelinecheck=true}
+\captionsetup[table]{justification=centering,position=top,skip=9pt}
+\titlespacing{\section}{0pt}{12pt}{5pt}
+\setlength{\parindent}{1.5em}
+\setlength{\fboxsep}{0pt}
+\setlength{\fboxrule}{0.25pt}
+\newcommand{\taskheading}[1]{\par\addvspace{8pt}\Needspace{3\baselineskip}%
+  \noindent{\normalsize\bfseries #1}\par\nobreak\vspace{3pt}}
+\sisetup{per-mode=symbol,group-digits=false}
+\setlength{\parskip}{0pt}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.24}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\evidence}[3]{%
+  \includegraphics[width=\linewidth,height=#1,keepaspectratio]{#2}}
+\newcommand{\caseKE}{\ensuremath{k\!\text{--}\!\varepsilon}}
+\newcommand{\caseKEE}{\ensuremath{k\!\text{--}\!\varepsilon}\ EWT}
+\newcommand{\caseRSME}{RSM EWT}
+\title{MMME3086 Computational Modelling Techniques\\Computational Fluid Dynamics}
+\author{Yang LIU\footnote{Student ID: 20617209}}
+\affil{University of Nottingham\\Faculty of Engineering}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Task A Geometry [16]}
+SpaceClaim V22 scripts constructed the planar fluid domain from a rectangular outer profile and a closed NACA0012 inner profile. The upper and lower aerofoil curves were joined by a finite trailing-edge segment and rotated clockwise by \SI{8}{\degree} and positioned to match the supplied enhanced mesh at the common leading and trailing edges. For inlet flow along $+x$, this gives positive \SI{8}{\degree} incidence (Fig.~\ref{fig:geometry}). The leading edge is at $(0.484,6.917)$ mm and duct corners at $(\pm500,\pm75)$ mm. 
+\begin{figure}[H]
+\centering\evidence{48mm}{fig01_geometry.png}{Original dimensioned Discovery geometry}
+\caption{NACA0012 geometry in the duct, with \SI{100}{\milli\metre} chord, \SI{8}{\degree} incidence, \SI{1000}{\milli\metre} duct length and \SI{150}{\milli\metre} duct height. The flow direction and aerofoil orientation define the aerodynamic incidence.}
+\label{fig:geometry}
+\end{figure}
+\begin{figure}[H]
+\centering\evidence{77mm}{fig02_mesh_bc.png}{Baseline mesh with local inset and boundary labels}
+\caption{Baseline mesh with nominal \SI{10}{\milli\metre} global sizing, \SI{2}{\milli\metre} aerofoil-edge sizing and growth rate 1.05: 7,687 triangular cells and 4,029 nodes. Minimum orthogonal quality is 0.186. The enlarged view shows refinement around the aerofoil; labels identify all seven boundaries. Local refinement represents curvature and steep gradients, while smooth size transitions reduce abrupt resolution changes. Near-wall suitability still requires assessment of the solved $y^+$ distribution.}
+\label{fig:mesh}
+\end{figure}
+
+\section{Task B Solution and data extraction [34]}
+\taskheading{B0: Properties and conditions.}
+The last two student-ID digits determine the inlet speed. Coefficient normalisation uses a unit span and the aerofoil planform area
+\begin{equation}
+\begin{aligned}
+ n&=09 & U_{\infty}&=50+0.1n=\SI{50.9}{\metre\per\second}\\[3pt]
+ c&=\SI{0.100}{\metre} & S&=cb=\SI{0.100}{\metre\squared}
+\end{aligned}
+\label{eq:inlet}
+\end{equation}
+\begin{table}[H]
+\centering
+\caption*{Properties and boundary conditions}
+\begin{tabular}{@{}m{0.40\linewidth}C{0.18\linewidth}C{0.14\linewidth}@{}}
+\toprule
+Quantity & Value & Unit\\\midrule
+Air density, $\rho$ & 1.225 & \si{\kilogram\per\metre\cubed}\\
+Dynamic viscosity, $\mu$ & $1.7894\times10^{-5}$ & \si{\pascal\second}\\
+Inlet turbulence intensity, $I$ & 5 & \%\\
+Inlet turbulent length scale & 1 & \si{\metre}\\
+Outlet gauge pressure & 0 & \si{\pascal}\\
+Operating pressure & 101325 & \si{\pascal}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For isotropic inlet fluctuations, the RMS of one velocity component and the chord Reynolds number follow from the actual inlet intensity expressed as a fraction
+\begin{equation}
+\begin{gathered}
+ u'_{\mathrm{rms}}=I U_{\infty}=2.545\ \si{\metre\per\second}
+\\[5pt]
+ Re_c=\frac{\rho U_{\infty}c}{\mu}=3.485\times10^5
+\end{gathered}
+\label{eq:re}
+\end{equation}
+
+\taskheading{B1: Solution method and convergence.}
+Cases 1--3 use S--A, standard \caseKE{} and RSM on the common baseline mesh, with SIMPLE coupling. The FAQ clarifies that S--A needs no separately selectable wall-function option; standard wall functions are used for \caseKE{} and RSM. The first crossing of all active residuals below $10^{-3}$ is recorded separately from the final result. Additional numerical checks target terminal residuals below $10^{-5}$ and both force ranges, divided by the absolute window mean, below 0.1\% over 100 consecutive updates. These targets were selected for this analysis, not specified by the coursework; any unmet target is reported explicitly. They address iterative error, not physical validation.
+\begin{figure}[H]
+\centering\evidence{46mm}{fig03_sa_convergence.pdf}{S--A scaled residual histories}
+\caption{S--A residuals after hybrid initialisation. Continuity controls the first $10^{-3}$ crossing at iteration 293 and the stricter $10^{-5}$ crossing at 489; the other residuals are substantially lower. Final lift is \SI{142.13}{\newton} and drag \SI{12.81}{\newton}. Separate force monitors show final 100-update ranges relative to the mean of 0.00211\% and 0.00829\%, respectively. Absolute net mass flow divided by inlet mass flow is $1.47\times10^{-7}$\%. These checks support iterative stabilisation, not mesh independence or physical accuracy.}
+\label{fig:convergence}
+\end{figure}
+Calculations use double precision, stationary no-slip walls and zero roughness height. Least-squares cell-based gradients, second-order pressure and second-order upwind momentum are retained; transported turbulence variables use first-order upwind. Baseline pressure and momentum relaxation factors are 0.3 and 0.7. Model-specific settings and the enhanced RSM restart are recorded separately.
+
+\taskheading{B2: RSM flow field and wall resolution.}
+\begin{figure}[H]
+\centering\evidence{70mm}{fig04_rsm_vectors.pdf}{Baseline RSM vectors including wake}
+\caption{Final baseline RSM cell-centred velocity vectors, coloured by speed, show passage acceleration, flow deflection and a low-speed wake. Lift is \SI{120.73}{\newton} and drag \SI{8.428}{\newton}. All nine residuals first satisfy $10^{-3}$ at iteration 419. At the final stop of 2,919, continuity oscillates near $2.81\times10^{-4}$, above the additional $10^{-5}$ target, with final 100-update relative force ranges of 0.00535\% for drag and 0.00490\% for lift. No exported cell centre has negative streamwise velocity; this does not exclude unresolved near-wall reverse flow.}
+\label{fig:rsm-vectors}
+\end{figure}
+\begin{figure}[H]
+\centering\evidence{68mm}{fig05_rsm_yplus.pdf}{RSM wall-adjacent y plus with cell values and legend}
+\caption{Actual wall-adjacent RSM cell $y^+$ mapped to the original triangles: range 19.57--170.94. Five of 51 suction-side cells, at $x=89.0$--\SI{98.6}{\milli\metre}, have $y^+<30$; the pressure-side range is 45.04--130.34 and the trailing-edge wall cell has $y^+=40.29$. The low suction-side values warrant caution for standard wall functions. Since $y^+$ depends on predicted shear as well as wall distance, these values alone establish neither adequate resolution nor separation\cite{ansys-wall}.}
+\label{fig:rsm-yplus}
+\end{figure}
+Here $y_P$ is the wall-normal distance to the first cell centre, $u_\tau$ is friction velocity and $\tau_w$ is wall shear stress
+\begin{equation}
+ y^+=\frac{\rho u_\tau y_P}{\mu}\qquad
+ u_\tau=\sqrt{\frac{|\tau_w|}{\rho}}
+\label{eq:yplus}
+\end{equation}
+
+\taskheading{B3: Enhanced models.}
+Enhanced wall treatment (EWT) combines a two-layer near-wall description with blended wall functions\cite{ansys-wall}. The supplied mesh has 20,535 quadrilateral and 39 triangular cells. The initial hybrid-initialised RSM run first crossed $10^{-3}$ after 432 updates, with lift \SI{172.65}{\newton} and drag \SI{5.107}{\newton}; its near-terminal dissipation history fluctuated across the threshold. Enhanced \caseKE{} first crossed at 215 iterations and required 753 for the stricter verification. Final RSM continued that state without reinitialisation, with Reynolds-stress relaxation 0.25 and momentum, $k$, $\varepsilon$ and turbulent-viscosity relaxation 0.5. It crossed $10^{-3}$ after 984 new RSM updates and met the stricter verification after 2,936. Different starting fields and stopping precision prevent attributing differences from the initial RSM solely to relaxation; relaxation changes iterative updates, not the turbulence closure.
+\begin{figure}[H]
+\centering\evidence{72mm}{fig06_enhanced_combined.pdf}{Enhanced RSM vectors and actual wall-adjacent cells}
+\caption{Final enhanced RSM: (a) cell-centred velocity vectors and wake; (b) an equal-scale local view of actual wall-adjacent cells around the maximum $y^+$, located in (a). All nine residuals satisfy $10^{-5}$ after 2,936 RSM updates from the verified \caseKE{} state. Lift is \SI{158.85}{\newton} and drag \SI{5.233}{\newton}. Foil-adjacent $y^+$ ranges from 0.147 to 6.586: 57 of 413 cells have $y^+\leq1$, 354 lie in $(1,5]$, and two exceed 5. EWT accommodates this near-wall range, but these values alone do not establish spatial accuracy.}
+\label{fig:enhanced}
+\end{figure}
+
+\taskheading{Data extraction.}
+Following the coursework FAQ, the three vertical cuts are fixed at $x=0.05$, $0.10$ and \SI{0.20}{\metre} and extend across the fluid passages. Any solid interval is excluded from the profiles. The actual geometric chord midpoint and finite trailing edge are recorded separately, so these prescribed sampling coordinates are not replaced by geometry-derived stations. Surface data retain separate pressure- and suction-side identities and a common pressure datum. Wake-core minima are sampled within $-40\leq y\leq20$ mm, excluding duct-wall layers; no interpolated minima are introduced.
+
+Total aerodynamic forces include pressure and viscous contributions from the pressure surface, suction surface and finite trailing-edge wall. In the supplied mesh these are \texttt{aerofoil-pressure}, \texttt{aerofoil-suction} and \texttt{aerofoil-trail}. Drag is parallel to the inlet flow and lift perpendicular to it. For flow along $+x$, the reporting directions are $(1,0)$ for drag and $(0,1)$ for lift. The geometric incidence is therefore not applied a second time to the force directions.
+
+\section{Task C Analysis [50]}
+\taskheading{C1: Analysis of velocity on the lines [10].}
+\begin{figure}[H]
+\centering\evidence{38mm}{fig07_velocity_midchord.pdf}{Five-model mid-chord velocity}
+\caption{Velocity magnitude across the prescribed $x=\SI{0.05}{\metre}$ cut near mid-chord for the five models. The aerofoil-interior interval is excluded.}
+\label{fig:midchord}
+\end{figure}
+Upper-passage peaks range from \SI{62.24}{\metre\per\second} to \SI{65.69}{\metre\per\second}, above the \SI{50.9}{\metre\per\second} inlet. Enhanced \caseKE{} and RSM locate these peaks at $y=57.0$ and \SI{11.0}{\milli\metre}, respectively; lower-passage peaks are 50.16--\SI{54.52}{\metre\per\second}. Thus peak position distinguishes the profiles as well as magnitude. Comparisons on the shared enhanced mesh are better controlled; baseline-to-enhanced differences also change mesh and wall treatment. Native sampling limits the precision of reported peak locations.
+
+\begin{figure}[H]
+\centering\evidence{38mm}{fig08_velocity_trailingedge.pdf}{Five-model trailing-edge velocity}
+\caption{Velocity magnitude on the prescribed $x=\SI{0.10}{\metre}$ cut near the trailing edge for the five models.}
+\label{fig:trailingedge}
+\end{figure}
+Sampled wake-core minima range from \SI{1.58}{\metre\per\second} for baseline RSM to \SI{11.09}{\metre\per\second} for enhanced \caseKE{}, near $y=-6.9$ to \SI{-6.3}{\milli\metre}. This distinguishes the merging boundary layers and initial wake. Adjacent native sample gaps near these minima are about \SI{0.16}{\milli\metre} on the enhanced mesh and up to \SI{1.71}{\milli\metre} on the baseline mesh. These are sampled extrema with unequal spatial certainty; narrow deficits may remain under-resolved. Reversal requires signed velocity evidence.
+
+\begin{figure}[H]
+\centering\evidence{38mm}{fig09_velocity_downstream.pdf}{Five-model downstream velocity}
+\caption{Velocity magnitude across the prescribed downstream cut at $x=\SI{0.20}{\metre}$ for all five models.}
+\label{fig:downstream}
+\end{figure}
+At $x=\SI{0.20}{\metre}$, core minima are 42.60--\SI{45.86}{\metre\per\second}, giving deficits of 5.04--\SI{8.30}{\metre\per\second} relative to the inlet. Enhanced RSM has the weakest sampled deficit and enhanced \caseKE{} the strongest, reversing their trailing-edge ordering. Nearby sample gaps of 3.75--\SI{7.15}{\milli\metre} limit inferred wake centres and depths. The profiles reflect wake transport and duct-wall layers. Recovering drag would additionally require pressure, signed velocity and a consistent momentum balance; this magnitude cut alone cannot validate the force.
+
+\taskheading{C2: Pressure on aerofoil [10].}
+\par\medskip\noindent
+\begin{minipage}[t]{0.485\linewidth}\vspace{0pt}\centering
+\evidence{49mm}{fig10_pressure_pressure.pdf}{Five-model pressure-side static pressure}
+\captionof{figure}{Pressure-surface gauge static pressure for all five models.}
+\label{fig:pressure-side}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.485\linewidth}\vspace{0pt}\centering
+\evidence{49mm}{fig11_pressure_suction.pdf}{Five-model suction-side static pressure}
+\captionof{figure}{Suction-surface gauge static pressure for all five models.}
+\label{fig:suction-side}
+\end{minipage}
+\par\medskip
+Pressure-side maxima range from \SI{1.58}{\kilo\pascal} for baseline RSM to \SI{2.75}{\kilo\pascal} for enhanced \caseKE{}, close to the leading edge. On the shared enhanced mesh, RSM predicts \SI{1.75}{\kilo\pascal}. Outlet gauge pressure is fixed; inlet static pressure follows from the solution, so model-dependent duct losses also affect these levels. Lift depends on integrated surface-pressure differences and viscous contributions, not the pressure-side peak alone. Different leading-edge sampling resolutions limit peak comparisons between meshes.
+
+\medskip
+Suction minima range from \SI{-4.04}{\kilo\pascal} for baseline \caseKE{} to \SI{-6.75}{\kilo\pascal} for enhanced RSM. On the enhanced mesh, the RSM peak magnitude is about 62\% larger than the \caseKE{} value of \SI{4.17}{\kilo\pascal}; their minima occur at $x=1.15$ and \SI{1.85}{\milli\metre}. Subsequent pressure recovery imposes an adverse gradient, making near-wall modelling important. A pressure plateau alone does not establish separation; wall shear and signed velocities provide additional evidence. Baseline-to-enhanced changes combine mesh and wall-treatment effects.
+
+\taskheading{C3: Comparison of y+ [10].}
+\par\medskip\noindent
+\begin{minipage}[t]{0.485\linewidth}\vspace{0pt}\centering
+\evidence{46mm}{fig12_yplus_suction.pdf}{Five-model suction-side wall y plus}
+\captionof{figure}{Suction-surface wall $y^+$ for all five models.}
+\label{fig:yplus-suction}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.485\linewidth}\vspace{0pt}\centering
+\evidence{46mm}{fig13_yplus_pressure.pdf}{Five-model pressure-side wall y plus}
+\captionof{figure}{Pressure-surface wall $y^+$ for all five models.}
+\label{fig:yplus-pressure}
+\end{minipage}
+\par\medskip
+Baseline \caseKE{} ranges of 49.7--267 on the suction surface and 77.5--170 on the pressure surface lie in the conventional wall-function range. Baseline RSM has 9.74\% of suction-side arc length below $y^+=30$, while its pressure-side range is 45.0--130. S--A uses a different near-wall treatment, so identical thresholds cannot rank its quality\cite{ansys-overview}. Enhanced surface values are below 7, but only 15.2\% of RSM and 10.3\% of \caseKE{} suction-side length has $y^+\leq1$; most lies in $(1,5]$. Low $y^+$ alone does not establish accuracy.
+
+\section{Task C Boundary Conditions and Results}
+\taskheading{C4: Analysis of data [20].}
+\begin{table}[H]
+\caption{Final total forces and coefficients for unit span, with first $10^{-3}$ crossing and final iteration counts. Forces include pressure and viscosity on all three aerofoil walls. RSM EWT is the final relaxed run.}
+\label{tab:forces}
+\centering\small
+\input{verified_table.tex}
+\end{table}
+{\footnotesize\noindent $^*$Cases 2 and 3 reached the iteration cap with continuity plateaus near $4.01\times10^{-5}$ and $2.81\times10^{-4}$, respectively; they did not meet the additional $10^{-5}$ target. Their final 100-update drag/lift ranges are 0.0000133/0.000000415\% and 0.00535/0.00490\%. Case 5 counts are new RSM updates after the converged KE state at 753; corresponding global counts are 1737 and 3689.\par}
+\taskheading{Indicative calculation of $C_D$ and $C_L$ [2].}
+The reference denominator uses freestream dynamic pressure and planform area
+\begin{equation}
+\begin{aligned}
+ q_{\infty}&=\tfrac12\rho U_{\infty}^{2} & S&=cb=\SI{0.100}{\metre\squared}\\[5pt]
+ C_D&=\frac{D}{q_{\infty}S} & C_L&=\frac{L}{q_{\infty}S}
+\end{aligned}
+\label{eq:coefficients}
+\end{equation}
+For the S--A case, the force denominator and resulting coefficients are
+\begin{equation}
+\begin{gathered}
+ q_{\infty}S=158.687\ \si{\newton}\\[5pt]
+ C_D=\frac{12.8108}{158.687}=0.08073\qquad
+ C_L=\frac{142.133}{158.687}=0.8957
+\end{gathered}
+\end{equation}
+
+\taskheading{Comparison with literature and CFD approaches [13].}
+The brief's reproduced Sheldahl curve, also identified by Mart\'{i}nez-Aranda et al.\cite{martinez}, represents two-dimensional NACA0012 data at $Re_c=3.6\times10^5$. At \SI{8}{\degree}, manual readings are $C_L\approx0.81$ and $C_D\approx0.017$, with estimated reading allowances of $\pm0.02$ and $\pm0.003$, respectively. These allowances describe graphical resolution, not statistical confidence. The present Reynolds number is $3.485\times10^5$, 3.21\% lower. Baseline \caseKE{} gives $C_L=0.8263$, within the reading allowance, but $C_D=0.09015$ is over five times the reference. Enhanced RSM gives the lowest computed drag coefficient, 0.03298, still approximately 94\% above the central reading, while its lift coefficient, 1.001, is 24\% higher. No case reproduces both coefficients.
+
+Confinement limits direct validation. The brief gives a \SI{150}{\milli\metre} reference chord, \SI{900}{\milli\metre} span and \SI{2.1}{\metre} tunnel height, compared with the present \SI{100}{\milli\metre} chord and \SI{150}{\milli\metre} duct. Chord-to-height ratios are 0.0714 and 0.667: confinement indicators, not blockage corrections. Close walls alter passage acceleration and pressure recovery. The original reference used two-dimensional inserts and end plates\cite{sheldahl}; its span does not imply free wing tips. Unit span here defines force normalisation. The reproduced Sheldahl curve is distinct from the cited paper's own low-aspect-ratio experiment.
+
+Closure comparisons on the common baseline mesh control geometry and discretisation. S--A transports modified viscosity, \caseKE{} uses an eddy-viscosity closure and RSM transports Reynolds stresses. Enhanced cases change both mesh and wall treatment, preventing separate attribution. Greater complexity does not guarantee accuracy. Cases 2 and 3 retain continuity plateaus despite stable forces. Their summed absolute cell mass imbalances divided by inlet flow are 0.000105\% and 0.000420\%; these dimensional checks support qualified use, without satisfying the residual target or proving local solution accuracy.
+
+A supplementary S--A study retained geometry, settings and growth rate while refining nominal global/aerofoil sizing from 10/2 to 7.071/1.414 and 5/1 mm. The meshes contain 7,687, 12,410 and 20,195 cells. Effective spacing ratios are 1.271 and 1.276. Drag coefficients decrease from 0.08073 to 0.07238 to 0.06892; the last change is 4.79\%. Lift coefficients are 0.8957, 0.9147 and 0.9117, a non-monotonic sequence. All three pass the iterative targets, but these results do not establish grid independence or justify an extrapolated uncertainty.
+
+The observed inlet length scale, \SI{1}{\metre}, is a software default rather than a measured tunnel condition. Changing only this scale to \SI{0.01}{\metre} in baseline \caseKE{} changes $C_D$ to 0.06057 and $C_L$ to 0.7768, reductions of 32.8\% and 5.99\%. This auxiliary run also retains a continuity plateau and is not an experimental calibration. Boundary-condition sensitivity, spatial error, confinement and fully turbulent model assumptions therefore remain material. Stable forces and small mass imbalance verify aspects of a numerical solution; comparison with physically matched measurements is still required for validation.
+
+\begingroup\small
+\begin{thebibliography}{3}
+\bibitem{ansys-overview} Ansys, Inc., ``Overview of Near-Wall Treatments,'' \textit{Fluent Theory Guide}, Release 2026 R1, Sec.~4.18.1, \href{https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/flu_th/flu_th_sec_turb_near_wall_overview.html}{Ansys Help}.
+\bibitem{ansys-wall} Ansys, Inc., ``Wall Treatment for $\varepsilon$-based Models,'' \textit{Fluent Theory Guide}, Release 2025 R2, Sec.~4.18.2, \href{https://ansyshelp.ansys.com/public/views/secured/corp/v252/en/flu_th/ch04s18s02.html}{Ansys Help}.
+\bibitem{martinez} Mart\'{i}nez-Aranda, S., Garc\'{i}a-Gonz\'{a}lez, A.~L., Parras, L., Vel\'{a}zquez-Navarro, J.~F., and del Pino, C., ``Comparison of the Aerodynamic Characteristics of the NACA0012 Airfoil at Low-to-Moderate Reynolds Numbers for any Aspect Ratio,'' \textit{International Journal of Aerospace Sciences}, Vol.~4, No.~1, 2016, pp.~1--8, doi:10.5923/j.aerospace.20160401.01.
+\bibitem{sheldahl} Sheldahl, R.~E., and Klimas, P.~C., ``Aerodynamic Characteristics of Seven Symmetrical Airfoil Sections through 180-Degree Angle of Attack for Use in Aerodynamic Analysis of Vertical Axis Wind Turbines,'' Sandia National Laboratories, Report SAND80-2114, 1981, doi:10.2172/6548367.
+\end{thebibliography}
+\endgroup
+
+\section*{Appendix AI usage log}
+\begin{center}\begin{tabularx}{0.94\linewidth}{@{}>{\raggedright\arraybackslash}m{0.19\linewidth}Y@{}}
+\toprule
+Field & Record\\\midrule
+1. Tool & OpenAI Codex desktop app with four agents; Windows Fluent 2022 R2, SpaceClaim V22, Ansys Mesher and Overleaf\\
+2. Date & 5--7 November 2026\\
+3. Exact prompts & Verbatim Chinese prompts and the revised-guidance clarification are retained in the accompanying \texttt{AI\_prompt\_record.txt} and original chat transcript\\
+4. Key response & AIAA formatting, required headings, CFD automation scripts, traceable data processing, plots and independent technical checks\\
+5. How used & Report preparation; scripted geometry and mesh construction; solver setup, calculations and raw exports; coefficient calculations and plotting; independent checks of settings, convergence and physical interpretation\\
+6. Critical reflection & AI-generated prose cannot establish that a CFD calculation converged or reproduced an experiment. Numerical conclusions were checked against saved settings, native histories and raw exports. Iterative convergence alone does not establish mesh independence or physical agreement\\
+7. Modifications made & The Word heading structure and official AIAA class were retained. Display equations use no terminal punctuation. Table alignment, unit columns, caption typography and inter-object spacing were revised against the supplied report\\
+\bottomrule
+\end{tabularx}\end{center}
+
+\taskheading{AI guidance table.}
+\par\begin{center}\begin{tabularx}{0.94\linewidth}{@{}>{\raggedright\arraybackslash}m{0.25\linewidth}Y@{}}
+\toprule
+Activity & Application\\\midrule
+LaTeX presentation & Approved format subject to retaining the Word section headings\\
+Report preparation & Updated assessment guidance, as confirmed by the student, permits AI-assisted drafting\\
+Input inspection & Mesh metadata and solver parameters were read from actual files and recorded\\
+Results and interpretation & Numerical claims require original solver evidence and appropriate verification and validation\\
+\bottomrule
+\end{tabularx}\end{center}
+
+\taskheading{Source provenance.}
+Task requirements are from \textit{MMME3086-CFD-V2.0.pdf}; section headings and figure order are from the supplied Word template. The enhanced-mesh metadata are from \textit{Aerofoil8-degAoA-enhancedBL.msh}. The experimental reference readings are approximate values read from the Sheldahl curves reproduced in the assessment brief.
+\end{document}

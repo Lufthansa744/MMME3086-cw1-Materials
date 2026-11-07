@@ -1,0 +1,36 @@
+; Observed continuation; no reinitialization is performed.
+/file/read-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case04_verified/case04_verified_final.cas.h5"
+/define/models/viscous/reynolds-stress-model yes
+/define/models/viscous/near-wall-treatment/enhanced-wall-treatment? yes
+/solve/set/under-relaxation
+mom 0.5
+k 0.5
+epsilon 0.5
+turb-viscosity 0.5
+drsm 0.25
+mom
+
+k
+
+epsilon
+
+turb-viscosity
+
+drsm
+
+pressure
+
+density
+
+body-force
+
+q
+/solve/report-files/edit forces file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/monitors/forces.out" q
+/solve/report-files/edit mass-balance file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/monitors/mass_balance.out" q
+(for-each (lambda (k) (format #t "ACTUAL_RP ~a = ~a~%" k (rpgetvar k))) '(flow/scheme pressure/scheme mom/scheme k/scheme epsilon/scheme drsm/scheme pressure/relax density/relax mom/relax k/relax epsilon/relax drsm/relax turb-viscosity/relax))
+/solve/monitors/residual/convergence-criteria 1e-5 1e-5 1e-5 1e-5 1e-5 1e-5 1e-5 1e-5 1e-5
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/settings/case05_verified_configured.set"
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_initial_from_verified_case04.cas.h5"
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/raw/initial_cell_fields.csv" full-domain () yes x-velocity y-velocity pressure turb-kinetic-energy turb-diss-rate uu-reynolds-stress vv-reynolds-stress ww-reynolds-stress uv-reynolds-stress cell-id () yes
+/solve/iterate 3000
+

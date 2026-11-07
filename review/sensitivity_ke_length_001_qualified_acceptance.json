@@ -1,0 +1,21 @@
+{
+  "case_id": "sensitivity_ke_length_001",
+  "accepted_with_limitation": true,
+  "numeric_final_gate": false,
+  "numeric_strict_gate": false,
+  "reason": "Qualified acceptance for the separate analyst-selected inlet-length sensitivity comparison. Native default 1e-3 was met at 332. The predeclared continuation cap of 2500 was reached with scaled continuity at 7.635e-5, above the analyst 1e-5 target. Stable integral forces and small global net mass flux do not establish local continuity satisfaction, spatial accuracy, physical unsteadiness, or a floating-point floor mechanism.",
+  "first_default_threshold_iteration": 332,
+  "final_iteration": 2500,
+  "stop_reason": "predeclared continuation cap; scaled continuity plateau above analyst strict target",
+  "native_forces_sha256": "db14f4ffbdf6edcc26594caa34d5bcec16749c624840879adc5af4a98fa58ce1",
+  "native_final_settings_sha256": "fa7a04807d3646f0db6a3b0bf5dd7c0384647476810c809ee4689b4b58c961ef",
+  "review_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\sensitivity_ke_length_001_qualified_audit.json",
+  "review_source_sha256": "fbc10468f9dbfa18af1f3369ff4616f0a65899cb1c784acaa943126daede9e23",
+  "raw_audit_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\sensitivity_ke_length_001_raw_audit.json",
+  "field_mapping_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\sensitivity_ke_length_001_field_mapping_audit.json",
+  "report_requirements": [
+    "Retain first 1e-3 iteration 332 separately from final 2500*",
+    "Flag strict 1e-5 continuity target as unmet",
+    "This auxiliary run is excluded from the prescribed five-case model table"
+  ]
+}

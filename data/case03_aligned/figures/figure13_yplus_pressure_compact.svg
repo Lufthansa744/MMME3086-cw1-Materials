@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="29" fill="#222">
+<path d="M140,320.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="329.0" text-anchor="end">0</text>
+<path d="M140,250.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="259.0" text-anchor="end">40</text>
+<path d="M140,180.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="189.0" text-anchor="end">80</text>
+<path d="M140,110.0H785" stroke="#ddd" fill="none"/>
+<text x="125" y="119.0" text-anchor="end">120</text>
+<text x="140.0" y="363" text-anchor="middle">0</text>
+<text x="269.0" y="363" text-anchor="middle">20</text>
+<text x="398.0" y="363" text-anchor="middle">40</text>
+<text x="527.0" y="363" text-anchor="middle">60</text>
+<text x="656.0" y="363" text-anchor="middle">80</text>
+<text x="785.0" y="363" text-anchor="middle">100</text>
+<path d="M140,75V320H785" fill="none" stroke="#222" stroke-width="2"/>
+<text x="462.5" y="418" text-anchor="middle" font-size="32">x (mm)</text>
+<text x="35" y="197.5" text-anchor="middle" transform="rotate(-90,35,197.5)" font-size="32">Wall y+</text>
+<polyline points="145.6046,200.4920 153.1486,241.1727 163.8638,184.6084 175.4240,165.7911 187.3697,158.3771 199.5391,173.2500 211.8553,195.2827 224.2776,139.5469 236.7791,163.7855 249.3415,157.6699 261.9530,130.1604 274.6047,117.9098 287.2895,116.7606 300.0019,104.6524 312.7377,98.8237 325.4934,91.8979 338.2661,98.7371 351.0535,104.2690 363.8537,113.9446 376.6649,138.8606 389.4858,112.7044 402.3150,127.4930 415.1515,130.0226 427.9945,115.6636 440.8431,117.6667 453.6969,109.5444 466.5550,109.6838 479.4172,129.0946 492.2829,155.6281 505.1517,184.4107 518.0234,133.1285 530.8977,132.9213 543.7742,133.7590 556.6534,171.3083 569.5345,129.3183 582.4169,168.4159 595.3007,183.6773 608.1859,123.3157 621.0724,161.2398 633.9601,110.2565 646.8489,156.7495 659.7388,142.8249 672.6296,161.8497 685.5212,124.7630 698.4136,100.4711 711.3067,139.2401 724.2004,150.7703 737.0947,191.6953 749.9893,165.2549 762.8843,144.6494 775.5307,122.4139" fill="none" stroke="#0072b2" stroke-width="2.7"/>
+<path d="M140,40h38" stroke="#0072b2" stroke-width="3"/>
+<text x="188" y="49" font-size="28">RSM</text>
+</g></svg>

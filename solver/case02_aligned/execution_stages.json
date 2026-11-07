@@ -1,0 +1,14 @@
+{
+  "first_native_1e3_stop_iteration": 225,
+  "first_stop_checkpoint": "case02_aligned_first_1e3.cas.h5 + .dat.h5",
+  "continuation_target": 1E-05,
+  "analyst_force_window_target_fraction": 0.001,
+  "window_new_iterations": 100,
+  "initialization_between_stages": "none; same physical solution continues",
+  "final_stopping_iteration": 2225,
+  "stop_reason": "Completed the predeclared2000iteration strict continuation block; scaled continuity plateau around4.0118e-5 remains above1e-5, while other active residuals, forces and mass balance are stable. No physical cause or floating point mechanism is asserted.",
+  "final_force_window_range_percent": {
+    "lift": 4.1456016606114767E-07,
+    "drag": 1.325084948279835E-05
+  }
+}

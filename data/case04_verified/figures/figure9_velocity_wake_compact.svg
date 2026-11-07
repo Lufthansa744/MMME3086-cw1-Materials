@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="355" viewBox="0 0 1600 355">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="29" fill="#222">
+<path d="M155,255.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="264.0" text-anchor="end">0</text>
+<path d="M155,195.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="204.0" text-anchor="end">20</text>
+<path d="M155,135.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="144.0" text-anchor="end">40</text>
+<path d="M155,75.0H1540" stroke="#ddd" fill="none"/>
+<text x="140" y="84.0" text-anchor="end">60</text>
+<text x="155.0" y="298" text-anchor="middle">-75</text>
+<text x="385.8333333333333" y="298" text-anchor="middle">-50</text>
+<text x="616.6666666666666" y="298" text-anchor="middle">-25</text>
+<text x="847.5" y="298" text-anchor="middle">0</text>
+<text x="1078.3333333333333" y="298" text-anchor="middle">25</text>
+<text x="1309.1666666666667" y="298" text-anchor="middle">50</text>
+<text x="1540.0" y="298" text-anchor="middle">75</text>
+<path d="M155,75V255H1540" fill="none" stroke="#222" stroke-width="2"/>
+<text x="847.5" y="343" text-anchor="middle" font-size="32">y (mm)</text>
+<text x="35" y="165.0" text-anchor="middle" transform="rotate(-90,35,165.0)" font-size="32">Velocity (m/s)</text>
+<polyline points="155.0000,255.0000 163.3716,145.5751 173.4174,129.1752 210.3508,108.6093 247.2841,99.7377 284.2174,96.8411 321.1508,95.9158 358.0841,95.4815 395.0174,95.2055 431.9508,94.9712 468.8841,94.7089 505.8174,94.3562 542.7508,93.8461 579.6841,93.1239 616.6174,92.2210 653.5508,91.5252 689.5211,92.5585 725.3097,99.9723 760.2199,115.6173 795.2607,127.2134 829.8928,125.7138 863.7927,118.9682 898.5746,112.9240 933.8215,108.6396 969.1523,105.7437 1005.0692,103.5607 1041.4492,101.7089 1078.3826,100.0480 1115.3159,98.5955 1152.2492,97.3659 1189.1826,96.3621 1226.1159,95.5749 1263.0492,94.9917 1299.9826,94.6040 1336.9159,94.4217 1373.8492,94.4983 1410.7826,95.0609 1447.7159,97.7562 1484.6492,109.7721 1521.5826,135.6114 1531.6284,153.7875 1540.0000,255.0000" fill="none" stroke="#0072b2" stroke-width="2.7"/>
+<path d="M155,40h38" stroke="#0072b2" stroke-width="3"/>
+<text x="203" y="49" font-size="28">k-e EWT</text>
+</g></svg>

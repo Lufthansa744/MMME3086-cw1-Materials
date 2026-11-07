@@ -1,0 +1,16 @@
+SetScriptVersion(Version="22.2.192")
+f=open(r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\workbench_templates.txt","w")
+try:
+    f.write(str(GetAllTemplates())+"\n")
+except Exception as e:
+    f.write(str(e)+"\n")
+for name in ["Fluid Flow (Fluent)","Fluent","Mesh","Meshing"]:
+    try:
+        template=GetTemplate(TemplateName=name)
+        f.write(name+": "+str(template)+"\n")
+        if name=="Fluid Flow (Fluent)":
+            system1=template.CreateSystem()
+            Save(FilePath=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\wb_interface.wbpj",Overwrite=True)
+    except Exception as e:
+        f.write(name+": "+str(e)+"\n")
+f.close()

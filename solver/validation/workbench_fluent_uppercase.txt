@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\verify_fluent_template.wbjn", line 7, in <module>
+    t=GetTemplate(TemplateName="Fluid Flow",Solver=solver)
+  File "D:\ANSYS Inc\v222\Addins\PythonScriptingEngine\PythonFiles\CommandBindings.py", line 54, in __call__
+    asyncResult.Wait()
+Exception: Template Fluid Flow (FLUENT) not found in Project.
+
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation\verify_fluent_template.wbjn", line 7, in <module>
+    t=GetTemplate(TemplateName="Fluid Flow",Solver=solver)
+  File "D:\ANSYS Inc\v222\Addins\PythonScriptingEngine\PythonFiles\CommandBindings.py", line 54, in __call__
+    asyncResult.Wait()
+Exception: Template Fluid Flow (Fluent) not found in Project.
+

@@ -1,0 +1,15 @@
+{
+  "decision": "The main agent confirmed aligned baseline reruns as the final logical Cases 1 to 3. Original baseline runs remain prealignment archives and are excluded from final five-case comparison.",
+  "alignment_evidence": "review/enhanced_naca_profile_fit_audit.json",
+  "baseline_translation_m": [0.00048367698354395, 0.00691690311771526],
+  "final_logical_cases": {
+    "case01": {"dataset_folder": "case01_aligned", "role": "formal aligned baseline S-A"},
+    "case02": {"dataset_folder": "case02_aligned", "role": "formal aligned baseline standard k-epsilon"},
+    "case03": {"dataset_folder": "case03_aligned", "role": "formal aligned baseline RSM"},
+    "case04": {"dataset_folder": "case04_verified", "role": "formal enhanced k-epsilon EWT with strict convergence verification", "prior_default_criterion_dataset": "case04"},
+    "case05": {"dataset_folder": "case05_verified", "role": "formal enhanced RSM EWT continued from strictly verified Case4 with prescribed relaxation"}
+  },
+  "excluded_archives": ["case01", "case02", "case03", "case04", "case05"],
+  "separate_diagnostics": ["initial_enhanced_rsm"],
+  "comparison_policy": "The initial enhanced RSM attempt is not Case 4. Missing aligned or verified datasets stay unavailable; no fallback to prealignment or early-threshold datasets is permitted. Final verification normally uses residual criteria at most 1e-5 and both force ranges/absolute means at most 0.1% over the last 100 updates. An independently qualified residual-floor exception requires an explicit native-source-hash-bound review record; its strict numerical gate remains false and its limitation must be reported."
+}

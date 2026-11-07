@@ -1,0 +1,119 @@
+Auto-Transcript Start Time:  20:01:37, 07 Nov 2026 GMT 标准时间 
+Current Directory: "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1"
+
+              Welcome to ANSYS Fluent 2022 R2
+
+              Copyright 1987-2022 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 27 2022 08:53:57 EDT  Build Id: 10212  
+ 
+Connected License Server List:	1055@localhost
+
+*********************************************
+Info: Your license enables 4-way parallel execution.
+For faster simulations, please start the application with the appropriate parallel options.
+*********************************************
+
+Host spawning Node 0 on machine "DESKTOP-KUJ9RI4" (win64).
+
+-------------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                          
+-------------------------------------------------------------------------------------------------
+n0    DESKTOP-KUJ9RI4  1/8  Windows-x64  22616  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+host  DESKTOP-KUJ9RI4       Windows-x64  15712  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+
+MPI Option Selected: intel
+-------------------------------------------------------------------------------------------------
+
+
+
+Cleanup script file is C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\\cleanup-fluent-DESKTOP-KUJ9RI4-22696.bat
+
+Reading journal file C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\grid_medium_mesh\fluent_mesh_audit.jou...
+
+> /file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/grid_medium_mesh/fluent_mesh_audit.transcript"
+Opening input/output transcript to file "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/grid_medium_mesh/fluent_mesh_audit.transcript".
+
+-------------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                          
+-------------------------------------------------------------------------------------------------
+n0*   DESKTOP-KUJ9RI4  1/8  Windows-x64  22616  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+host  DESKTOP-KUJ9RI4       Windows-x64  15712  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------------------------
+ /file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/grid_medium_mesh/mesh.msh"
+DESKTOP-KUJ9RI4 is already loaded (45.7143).                       Process affinity not being set.
+
+Reading "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/grid_medium_mesh/mesh.msh"...
+
+Buffering for file scan...
+
+    5959 nodes, binary.
+     492 nodes, binary.
+   18369 2D interior faces, zone  1, binary.
+       1 2D wall faces, zone  5, binary.
+      72 2D wall faces, zone  6, binary.
+      72 2D wall faces, zone  7, binary.
+      21 2D velocity-inlet faces, zone  8, binary.
+     153 2D wall faces, zone  9, binary.
+      21 2D pressure-outlet faces, zone 10, binary.
+     152 2D wall faces, zone 11, binary.
+   12410 triangular cells, zone  2, binary.
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+     zones,
+	wall_top
+	outlet
+	wall_bottom
+	inlet
+	aerofoil_suction
+	aerofoil_pressure
+	aerofoil_te
+	sys_fluid
+	interior-sys_fluid
+     parallel,
+Done.
+ /mesh/check 
+ Domain Extents:
+   x-coordinate: min (m) = -5.000000e-01, max (m) = 5.000000e-01
+   y-coordinate: min (m) = -7.500000e-02, max (m) = 7.500000e-02
+ Volume statistics:
+   minimum volume (m3): 1.484507e-07
+   maximum volume (m3): 4.838919e-05
+     total volume (m3): 1.491785e-01
+ Face area statistics:
+   minimum face area (m2): 2.520000e-04
+   maximum face area (m2): 1.114530e-02
+ Checking mesh............................
+Done.
+ /mesh/quality 
+Mesh Quality:
+
+Minimum Orthogonal Quality =  3.10523e-01 cell 7242 on zone 2 (ID: 12120 on partition: 0) at location ( 9.99069e-02, -7.00177e-03)
+
+Maximum Aspect Ratio =  9.71483e+00 cell 7242 on zone 2 (ID: 12120 on partition: 0) at location ( 9.99069e-02, -7.00177e-03)
+/define/boundary-conditions/list-zones   id  name                       type                material              kind
+----  -------------------------  ------------------  --------------------  ----
+   2  sys_fluid                  fluid               air                   cell
+   1  interior-sys_fluid         interior                                  face
+   5  aerofoil_te                wall                air                   face
+   6  aerofoil_pressure          wall                air                   face
+   7  aerofoil_suction           wall                air                   face
+   8  inlet                      velocity-inlet                            face
+   9  wall_bottom                wall                air                   face
+  10  outlet                     pressure-outlet                           face
+  11  wall_top                   wall                air                   face
+/exit yes
+
+Transcript closed.
+Auto-Transcript Stop Time:  20:01:58, 07 Nov 2026 GMT 标准时间 
+Total Transcript Time: 0 Minute 21 Second.

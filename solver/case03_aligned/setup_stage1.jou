@@ -1,0 +1,10 @@
+/solve/report-files/edit forces file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case03_aligned/monitors/forces.out" q
+/solve/report-files/edit mass-balance file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case03_aligned/monitors/mass_balance.out" q
+/solve/monitors/residual/convergence-criteria .001 .001 .001 .001 .001 .001 .001 .001 .001
+(for-each (lambda (k) (format #t "ACTUAL_RP ~a = ~a~%" k (rpgetvar k))) '(flow/scheme pressure/scheme mom/scheme k/scheme epsilon/scheme drsm/scheme pressure/relax density/relax mom/relax k/relax epsilon/relax drsm/relax turb-viscosity/relax))
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case03_aligned/settings/case03_aligned_configured.set"
+/file/write-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case03_aligned/settings/case03_aligned_configured.cas.h5"
+/solve/initialize/hyb-initialization
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case03_aligned/case03_aligned_initialized.cas.h5"
+/solve/iterate 1800
+

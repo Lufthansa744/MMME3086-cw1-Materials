@@ -1,0 +1,762 @@
+{
+  "case": "case05",
+  "logical_case_id": "case05",
+  "source_folder": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05",
+  "dataset_role": "early-threshold enhanced archive",
+  "label": "Early Case 5 RSM EWT",
+  "iteration": 1208,
+  "first_recorded_iteration": 216,
+  "iterations_recorded_in_this_run": 993,
+  "terminal_solver_iteration": 1208,
+  "inherited_start_iteration": 215,
+  "additional_solver_iterations": 993,
+  "inherited_iteration": 215,
+  "model_start_iteration": 215,
+  "model_iteration_count": 993,
+  "model_first_new_iteration": 216,
+  "inherited_force_row_count_excluded": 1,
+  "inherited_residual_rows_excluded": [
+    {
+      "iteration": 215,
+      "headers": [
+        "continuity",
+        "x-velocity",
+        "y-velocity",
+        "k",
+        "epsilon",
+        "uu-stress",
+        "vv-stress",
+        "ww-stress",
+        "uv-stress",
+        "drag-force",
+        "lift-force",
+        "mass-net"
+      ],
+      "values": [
+        0.00099029,
+        2.8704e-06,
+        7.5806e-07,
+        3.5874e-05,
+        0.00034207,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        16.454,
+        151.18,
+        -4.219e-06
+      ],
+      "source_transcript_line": 211
+    }
+  ],
+  "solver_converged_flag": true,
+  "stop_status": "Fluent residual auto-convergence",
+  "residual_threshold": 0.001,
+  "residual_criteria": {
+    "continuity": 0.001,
+    "x-velocity": 0.001,
+    "y-velocity": 0.001,
+    "k": 0.001,
+    "epsilon": 0.001,
+    "uu-stress": 0.001,
+    "vv-stress": 0.001,
+    "ww-stress": 0.001,
+    "uv-stress": 0.001
+  },
+  "equation_names": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon",
+    "uu-stress",
+    "vv-stress",
+    "ww-stress",
+    "uv-stress"
+  ],
+  "residual_native_headers": [
+    "continuity",
+    "x-velocity",
+    "y-velocity",
+    "k",
+    "epsilon",
+    "uu-stress",
+    "vv-stress",
+    "ww-stress",
+    "uv-stress",
+    "drag-force",
+    "lift-force",
+    "mass-net"
+  ],
+  "residual_headers": [
+    "iteration",
+    "continuity",
+    "x_velocity",
+    "y_velocity",
+    "k",
+    "epsilon",
+    "uu_stress",
+    "vv_stress",
+    "ww_stress",
+    "uv_stress",
+    "drag_N",
+    "lift_N",
+    "mass_net_kg_s",
+    "source_transcript_line"
+  ],
+  "last_scaled_residuals": {
+    "continuity": 0.00099733,
+    "x-velocity": 4.1076e-07,
+    "y-velocity": 7.5878e-08,
+    "k": 0.00016851,
+    "epsilon": 0.00030821,
+    "uu-stress": 9.2075e-05,
+    "vv-stress": 6.704e-05,
+    "ww-stress": 6.8688e-05,
+    "uv-stress": 2.9026e-05
+  },
+  "drag_N": 5.258931915912255,
+  "lift_N": 164.6942793097377,
+  "CD": 0.033140258418353,
+  "CL": 1.037855416959192,
+  "mass_net_kg_s": 9.439566639457553e-08,
+  "nominal_inlet_mass_flow_kg_s": 9.352875000000001,
+  "mass_imbalance_fraction_of_uniform_inlet": 1.009268983008706e-08,
+  "last50": {
+    "drag": {
+      "mean_N": 5.281071073560588,
+      "range_N": 0.046347665338949184,
+      "range_over_final_fraction": 0.008813132795789267
+    },
+    "lift": {
+      "mean_N": 164.78858736766128,
+      "range_N": 0.17827840719900223,
+      "range_over_final_fraction": 0.0010824808727188215
+    }
+  },
+  "parameters": {
+    "rho_kg_m3": 1.225,
+    "mu_Pa_s": 1.7894e-05,
+    "U_m_s": 50.9,
+    "TI_fraction": 0.05,
+    "chord_m": 0.1,
+    "area_m2": 0.1,
+    "Re": 348454.7893148542,
+    "RMS_fluctuation_m_s": 2.545,
+    "q_Pa": 1586.8711250000001,
+    "qS_N": 158.6871125
+  },
+  "surface_summary": {
+    "suction": {
+      "samples": 204,
+      "yplus_min": 0.64192319,
+      "yplus_max": 6.61876863,
+      "pressure_min_Pa": -6938.304425,
+      "pressure_max_Pa": 193.7105946,
+      "yplus_below_30_count": 204,
+      "yplus_30_to_300_count": 0,
+      "yplus_above_300_count": 0,
+      "yplus_at_most_1_count": 37
+    },
+    "pressure": {
+      "samples": 204,
+      "yplus_min": 0.4750171452,
+      "yplus_max": 6.54245156,
+      "pressure_min_Pa": -1125.187482,
+      "pressure_max_Pa": 1754.957418,
+      "yplus_below_30_count": 204,
+      "yplus_30_to_300_count": 0,
+      "yplus_above_300_count": 0,
+      "yplus_at_most_1_count": 2
+    }
+  },
+  "profile_summary": {
+    "mid": {
+      "x_m": 0.05,
+      "maximum_exported_x_deviation_m": 3.229999996634536e-09,
+      "coordinate_check_tolerance_m": 1e-06,
+      "samples": 99,
+      "minimum_velocity_m_s": 0.0,
+      "maximum_velocity_m_s": 65.98269899,
+      "global_peak_y_m": 0.01101852725,
+      "number_of_fluid_segments": 2,
+      "wake_core_window_m": null,
+      "wake_core_minimum_m_s": null,
+      "wake_minimum_y_m": null,
+      "deficit_relative_to_inlet_m_s": null,
+      "sample_spacing_below_core_min_m": null,
+      "sample_spacing_above_core_min_m": null,
+      "local_outer_reference_samples": null,
+      "passages": {
+        "lower": {
+          "samples": 50,
+          "peak_velocity_m_s": 49.8594335,
+          "peak_y_m": -0.00842108123
+        },
+        "upper": {
+          "samples": 49,
+          "peak_velocity_m_s": 65.98269899,
+          "peak_y_m": 0.01101852725
+        }
+      }
+    },
+    "te": {
+      "x_m": 0.1,
+      "maximum_exported_x_deviation_m": 7.399999987778294e-09,
+      "coordinate_check_tolerance_m": 1e-06,
+      "samples": 83,
+      "minimum_velocity_m_s": 0.0,
+      "maximum_velocity_m_s": 56.70555517,
+      "global_peak_y_m": 0.05300533333,
+      "number_of_fluid_segments": 1,
+      "wake_core_window_m": [
+        -0.04,
+        0.02
+      ],
+      "wake_core_minimum_m_s": 9.082339274,
+      "wake_minimum_y_m": -0.006934385759,
+      "deficit_relative_to_inlet_m_s": 41.817660726,
+      "sample_spacing_below_core_min_m": 0.00016302869699999934,
+      "sample_spacing_above_core_min_m": 0.00016383923900000017,
+      "local_outer_reference_samples": [
+        {
+          "requested_y_m": -0.04,
+          "actual_y_m": -0.04100533332,
+          "velocity_m_s": 50.18205977,
+          "deficit_from_this_sample_m_s": 41.099720496
+        },
+        {
+          "requested_y_m": 0.02,
+          "actual_y_m": 0.02126304969,
+          "velocity_m_s": 55.01940786,
+          "deficit_from_this_sample_m_s": 45.937068586
+        }
+      ]
+    },
+    "wake": {
+      "x_m": 0.2,
+      "maximum_exported_x_deviation_m": 4.869999999934649e-07,
+      "coordinate_check_tolerance_m": 1e-06,
+      "samples": 42,
+      "minimum_velocity_m_s": 0.0,
+      "maximum_velocity_m_s": 52.86590459,
+      "global_peak_y_m": 0.04100533334,
+      "number_of_fluid_segments": 1,
+      "wake_core_window_m": [
+        -0.04,
+        0.02
+      ],
+      "wake_core_minimum_m_s": 46.33037808,
+      "wake_minimum_y_m": -0.009452721142,
+      "deficit_relative_to_inlet_m_s": 4.569621919999996,
+      "sample_spacing_below_core_min_m": 0.0037808899280000006,
+      "sample_spacing_above_core_min_m": 0.0037950376929999996,
+      "local_outer_reference_samples": [
+        {
+          "requested_y_m": -0.04,
+          "actual_y_m": -0.04100533333,
+          "velocity_m_s": 52.10750264,
+          "deficit_from_this_sample_m_s": 5.777124559999997
+        },
+        {
+          "requested_y_m": 0.02,
+          "actual_y_m": 0.02100533334,
+          "velocity_m_s": 52.64392256,
+          "deficit_from_this_sample_m_s": 6.313544479999997
+        }
+      ]
+    }
+  },
+  "midline_solid_interval_m": [
+    -0.005340138619,
+    0.005350714507
+  ],
+  "report_value_policy": "Terminal values at the actual declared stop status. Last50 ranges retained to show remaining force drift. No claim of grid independence or physical validation.",
+  "sources": [
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\monitors\\forces.out",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\monitors\\forces.out",
+      "sha256": "e9677c023cd4eab3b872ccc20c50360bbefc1397bd4786924a6a548e108d93ec",
+      "bytes": 39854
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\monitors\\mass_balance.out",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\monitors\\mass_balance.out",
+      "sha256": "77f815db825ad86b3bd4ae655cf25653bb0b2139f5c285bccad1950621f459f9",
+      "bytes": 26630
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\settings\\case05_final.set",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\settings\\case05_final.set",
+      "sha256": "0ce8cb9458fe674f309d51a716eb5734be1696b15e3a874010e9d8f06a5e468a",
+      "bytes": 121893
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\logs\\setup.transcript",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\logs\\setup.transcript",
+      "sha256": "4aa2856d80d4048722ea5ec634b9daf2575d9f4ebda8218172be69c54495fdc0",
+      "bytes": 194507
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\suction_p_yplus.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\suction_p_yplus.csv",
+      "sha256": "5ab482c51e4e57d2650d8edb20f35da7979a926a7c7ef9fcfd36457908e19e5a",
+      "bytes": 19680
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\pressure_p_yplus.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\pressure_p_yplus.csv",
+      "sha256": "7a843b8306c1dea5745657412be5c4385549d7b1bce6ad94b6e72367e0536fa2",
+      "bytes": 19680
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\velocity_mid.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\velocity_mid.csv",
+      "sha256": "913c23e7f13041468b48d5e2d8c3260c35560745103d3bba433881fd9d7e7413",
+      "bytes": 6202
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\velocity_te.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\velocity_te.csv",
+      "sha256": "731108d6af14b851517f7e00e1db235078677dd160a426296958df845bf5eabf",
+      "bytes": 5210
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\velocity_wake.csv",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\velocity_wake.csv",
+      "sha256": "330e2525c7596c685406c538c8a258f43f5250f4dbe91e63a1b56b1c07a15afb",
+      "bytes": 2668
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\drag_breakdown.txt",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\drag_breakdown.txt",
+      "sha256": "83c8fd5b3d2fa07845d8bc0614a9bc50f15d81e30664a01ef939e7cd7f2c7423",
+      "bytes": 3081
+    },
+    {
+      "original": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05\\raw\\lift_breakdown.txt",
+      "preserved": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\lift_breakdown.txt",
+      "sha256": "b0b3ea0dfe3e637c3cf86758fbed70db71a1262d96bc1f213047cbca9d38e542",
+      "bytes": 3081
+    }
+  ],
+  "script": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\process_case.py",
+    "sha256": "0c7eb15ef2aa94a849df6c61ec38a9ae13fe5dc0f96218d38cdc61559e34da85"
+  },
+  "force_breakdown": {
+    "drag": {
+      "pressure_N": 3.338843,
+      "viscous_N": 1.9200889,
+      "total_N_rounded_in_native_report": 5.2589319,
+      "native_pressure_coefficient": 0.021040417,
+      "native_viscous_coefficient": 0.012099842,
+      "native_total_coefficient": 0.033140258,
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\drag_breakdown.txt",
+      "sha256": "83c8fd5b3d2fa07845d8bc0614a9bc50f15d81e30664a01ef939e7cd7f2c7423",
+      "line_one_based": 19
+    },
+    "lift": {
+      "pressure_N": 164.62158,
+      "viscous_N": 0.072696073,
+      "total_N_rounded_in_native_report": 164.69428,
+      "native_pressure_coefficient": 1.0373973,
+      "native_viscous_coefficient": 0.0004581095,
+      "native_total_coefficient": 1.0378554,
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\raw\\lift_breakdown.txt",
+      "sha256": "b0b3ea0dfe3e637c3cf86758fbed70db71a1262d96bc1f213047cbca9d38e542",
+      "line_one_based": 19
+    }
+  },
+  "stability_windows": {
+    "25": {
+      "sample_count": 25,
+      "first_iteration": 1184,
+      "last_iteration": 1208,
+      "forces": {
+        "drag": {
+          "minimum_N": 5.258931915912255,
+          "maximum_N": 5.28035780035276,
+          "mean_N": 5.269260685809655,
+          "range_N": 0.02142588444050464,
+          "range_over_mean_fraction": 0.004066203157912734,
+          "range_over_terminal_fraction": 0.004074189356906314
+        },
+        "lift": {
+          "minimum_N": 164.6942793097377,
+          "maximum_N": 164.7908988249233,
+          "mean_N": 164.74305081774503,
+          "range_N": 0.09661951518557998,
+          "range_over_mean_fraction": 0.0005864861352632713,
+          "range_over_terminal_fraction": 0.0005866598135073612
+        }
+      },
+      "residuals": {
+        "continuity": {
+          "minimum": 0.00099733,
+          "maximum": 0.0011528,
+          "mean": 0.0011121892,
+          "terminal": 0.00099733,
+          "range": 0.00015547,
+          "criterion": 0.001,
+          "count_above_criterion": 24,
+          "threshold_crossings": 1
+        },
+        "x-velocity": {
+          "minimum": 4.1076e-07,
+          "maximum": 4.4483e-07,
+          "mean": 4.2723839999999997e-07,
+          "terminal": 4.1076e-07,
+          "range": 3.406999999999999e-08,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "y-velocity": {
+          "minimum": 7.5293e-08,
+          "maximum": 7.6429e-08,
+          "mean": 7.589096e-08,
+          "terminal": 7.5878e-08,
+          "range": 1.1360000000000043e-09,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "k": {
+          "minimum": 0.00016746,
+          "maximum": 0.00018264,
+          "mean": 0.00017472,
+          "terminal": 0.00016851,
+          "range": 1.518e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "epsilon": {
+          "minimum": 0.00030809,
+          "maximum": 0.00033925,
+          "mean": 0.0003226664,
+          "terminal": 0.00030821,
+          "range": 3.1159999999999966e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "uu-stress": {
+          "minimum": 9.2075e-05,
+          "maximum": 0.0001024,
+          "mean": 9.715076e-05,
+          "terminal": 9.2075e-05,
+          "range": 1.0324999999999993e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "vv-stress": {
+          "minimum": 6.704e-05,
+          "maximum": 7.3471e-05,
+          "mean": 7.027716e-05,
+          "terminal": 6.704e-05,
+          "range": 6.431000000000007e-06,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "ww-stress": {
+          "minimum": 6.8688e-05,
+          "maximum": 7.593e-05,
+          "mean": 7.226336e-05,
+          "terminal": 6.8688e-05,
+          "range": 7.241999999999996e-06,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "uv-stress": {
+          "minimum": 2.9026e-05,
+          "maximum": 3.2222e-05,
+          "mean": 3.060128e-05,
+          "terminal": 2.9026e-05,
+          "range": 3.195999999999998e-06,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        }
+      }
+    },
+    "50": {
+      "sample_count": 50,
+      "first_iteration": 1159,
+      "last_iteration": 1208,
+      "forces": {
+        "drag": {
+          "minimum_N": 5.258931915912255,
+          "maximum_N": 5.305279581251204,
+          "mean_N": 5.281071073560588,
+          "range_N": 0.046347665338949184,
+          "range_over_mean_fraction": 0.008776186628312276,
+          "range_over_terminal_fraction": 0.008813132795789267
+        },
+        "lift": {
+          "minimum_N": 164.6942793097377,
+          "maximum_N": 164.8725577169367,
+          "mean_N": 164.78858736766128,
+          "range_N": 0.17827840719900223,
+          "range_over_mean_fraction": 0.001081861371875491,
+          "range_over_terminal_fraction": 0.0010824808727188215
+        }
+      },
+      "residuals": {
+        "continuity": {
+          "minimum": 0.00099733,
+          "maximum": 0.0012615,
+          "mean": 0.0011237666,
+          "terminal": 0.00099733,
+          "range": 0.00026417,
+          "criterion": 0.001,
+          "count_above_criterion": 49,
+          "threshold_crossings": 1
+        },
+        "x-velocity": {
+          "minimum": 4.1076e-07,
+          "maximum": 4.8456e-07,
+          "mean": 4.460708e-07,
+          "terminal": 4.1076e-07,
+          "range": 7.380000000000004e-08,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "y-velocity": {
+          "minimum": 7.4343e-08,
+          "maximum": 7.6429e-08,
+          "mean": 7.549579999999999e-08,
+          "terminal": 7.5878e-08,
+          "range": 2.0859999999999963e-09,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "k": {
+          "minimum": 0.00016746,
+          "maximum": 0.0001936,
+          "mean": 0.0001814262,
+          "terminal": 0.00016851,
+          "range": 2.613999999999999e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "epsilon": {
+          "minimum": 0.00030809,
+          "maximum": 0.00035954,
+          "mean": 0.0003351816,
+          "terminal": 0.00030821,
+          "range": 5.144999999999998e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "uu-stress": {
+          "minimum": 9.2075e-05,
+          "maximum": 0.00011249,
+          "mean": 0.00010221158,
+          "terminal": 9.2075e-05,
+          "range": 2.0415e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "vv-stress": {
+          "minimum": 6.704e-05,
+          "maximum": 8.0103e-05,
+          "mean": 7.351182e-05,
+          "terminal": 6.704e-05,
+          "range": 1.3063000000000007e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "ww-stress": {
+          "minimum": 6.8688e-05,
+          "maximum": 8.2861e-05,
+          "mean": 7.577392e-05,
+          "terminal": 6.8688e-05,
+          "range": 1.4173000000000001e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "uv-stress": {
+          "minimum": 2.9026e-05,
+          "maximum": 3.5722e-05,
+          "mean": 3.228922e-05,
+          "terminal": 2.9026e-05,
+          "range": 6.696000000000002e-06,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        }
+      }
+    },
+    "100": {
+      "sample_count": 100,
+      "first_iteration": 1109,
+      "last_iteration": 1208,
+      "forces": {
+        "drag": {
+          "minimum_N": 5.258931915912255,
+          "maximum_N": 5.371887509990584,
+          "mean_N": 5.3092248696972755,
+          "range_N": 0.11295559407832911,
+          "range_over_mean_fraction": 0.02127534562022981,
+          "range_over_terminal_fraction": 0.02147880898335132
+        },
+        "lift": {
+          "minimum_N": 164.6942793097377,
+          "maximum_N": 164.9935289576177,
+          "mean_N": 164.86425216671395,
+          "range_N": 0.2992496478800035,
+          "range_over_mean_fraction": 0.0018151275606879073,
+          "range_over_terminal_fraction": 0.0018170008644757469
+        }
+      },
+      "residuals": {
+        "continuity": {
+          "minimum": 0.00099733,
+          "maximum": 0.0015537,
+          "mean": 0.0012640633,
+          "terminal": 0.00099733,
+          "range": 0.00055637,
+          "criterion": 0.001,
+          "count_above_criterion": 99,
+          "threshold_crossings": 1
+        },
+        "x-velocity": {
+          "minimum": 4.1076e-07,
+          "maximum": 5.7916e-07,
+          "mean": 4.881375e-07,
+          "terminal": 4.1076e-07,
+          "range": 1.6839999999999995e-07,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "y-velocity": {
+          "minimum": 7.4343e-08,
+          "maximum": 1.0671e-07,
+          "mean": 8.088283e-08,
+          "terminal": 7.5878e-08,
+          "range": 3.236699999999999e-08,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "k": {
+          "minimum": 0.00016746,
+          "maximum": 0.00022006,
+          "mean": 0.0001938596,
+          "terminal": 0.00016851,
+          "range": 5.2600000000000005e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "epsilon": {
+          "minimum": 0.00030809,
+          "maximum": 0.00041579,
+          "mean": 0.000362033,
+          "terminal": 0.00030821,
+          "range": 0.00010769999999999996,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "uu-stress": {
+          "minimum": 9.2075e-05,
+          "maximum": 0.00013793,
+          "mean": 0.00011377719,
+          "terminal": 9.2075e-05,
+          "range": 4.5855e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "vv-stress": {
+          "minimum": 6.704e-05,
+          "maximum": 9.6136e-05,
+          "mean": 8.078694000000001e-05,
+          "terminal": 6.704e-05,
+          "range": 2.9096000000000007e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "ww-stress": {
+          "minimum": 6.8688e-05,
+          "maximum": 0.00010042,
+          "mean": 8.37323e-05,
+          "terminal": 6.8688e-05,
+          "range": 3.1732e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        },
+        "uv-stress": {
+          "minimum": 2.9026e-05,
+          "maximum": 4.43e-05,
+          "mean": 3.615036e-05,
+          "terminal": 2.9026e-05,
+          "range": 1.5274e-05,
+          "criterion": 0.001,
+          "count_above_criterion": 0,
+          "threshold_crossings": 0
+        }
+      }
+    }
+  },
+  "first_default_global_iteration": 1208,
+  "first_default_criterion_iteration": 993,
+  "first_default_criterion_evidence": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05\\native\\logs\\setup.transcript",
+    "locator": "First current-model row with all printed solved-equation residuals <=1e-3; inherited rows excluded",
+    "sha256": "4aa2856d80d4048722ea5ec634b9daf2575d9f4ebda8218172be69c54495fdc0"
+  },
+  "final_stopping_global_iteration": 1208,
+  "final_stopping_iteration": 993,
+  "final_current_residual_criteria_passed": true,
+  "final_strict_residual_gate_passed": false,
+  "final_last100_force_gate_passed": false,
+  "numeric_final_acceptance_gate_passed": false,
+  "final_acceptance_reason": "Not a final accepted dataset: strict residual and/or last100 force-stability gate not met",
+  "independent_review_status": "Data processor reports numerical gates; independent review is recorded separately",
+  "brief_reference_comparison": {
+    "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\brief_reference_reading.json",
+    "sha256": "9060c49def33a9ffb8b3fe811c08440e598361eb4b368d0a6ff7a360d984e591",
+    "reference_Re": 360000,
+    "Re_relative_difference_fraction": -0.03207002968096058,
+    "scope": "Comparison with the actual coursework reproduction at 8 degrees. Graphical reading allowances are not statistical confidence intervals. Convergence is separate from physical validation.",
+    "CL": {
+      "CFD": 1.037855416959192,
+      "brief_graph_approx": 0.81,
+      "graphical_reading_allowance": 0.02,
+      "signed_relative_difference_fraction": 0.281302983900237,
+      "ratio_to_reference": 1.281302983900237,
+      "relative_difference_range_from_graphical_allowance": [
+        0.25042821320384573,
+        0.3137410341255595
+      ]
+    },
+    "CD": {
+      "CFD": 0.033140258418353,
+      "brief_graph_approx": 0.017,
+      "graphical_reading_allowance": 0.003,
+      "signed_relative_difference_fraction": 0.9494269657854703,
+      "ratio_to_reference": 1.9494269657854704,
+      "relative_difference_range_from_graphical_allowance": [
+        0.6570129209176498,
+        1.3671613155966422
+      ]
+    }
+  }
+}

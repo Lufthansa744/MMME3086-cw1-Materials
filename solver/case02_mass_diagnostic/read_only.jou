@@ -1,0 +1,4 @@
+/file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_mass_diagnostic/logs/native.transcript"
+/file/read-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.cas.h5"
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_mass_diagnostic/raw/cell_mass_imbalance.csv" full-domain () yes mass-imbalance cell-id cell-volume () yes
+/report/volume-integrals/maximum

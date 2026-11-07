@@ -1,0 +1,14 @@
+figure,svg_width,svg_height,png_width,png_height,print_width_mm,print_height_mm,effective_dpi,min_base_font_pt,vector_pdf
+1,1600.0,530.0,3200,1060,144.9056603773585,48.0,560.9166666666666,8.215124052889616,Not exported
+2,1600.0,740.0,3200,1480,165.1,76.35875,492.3076923076923,8.19,Not exported
+3,1600.0,440.0,3200,880,165.1,45.4025,492.3076923076923,7.897499999999999,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig03_sa_convergence.pdf
+4,1600.0,630.0,3200,1260,165.1,65.008125,492.3076923076923,7.897499999999999,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig04_rsm_vectors.pdf
+5,1600.0,640.0,3200,1280,165.1,66.04,492.3076923076923,8.19,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig05_rsm_yplus.pdf
+6,1600.0,690.0,3200,1380,165.1,71.199375,492.3076923076923,7.897499999999999,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig06_enhanced_combined.pdf
+7,1600.0,355.0,3200,710,165.1,36.6315625,492.3076923076923,8.19,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig07_velocity_midchord.pdf
+8,1600.0,355.0,3200,710,165.1,36.6315625,492.3076923076923,8.19,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig08_velocity_trailingedge.pdf
+9,1600.0,355.0,3200,710,165.1,36.6315625,492.3076923076923,8.19,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig09_velocity_downstream.pdf
+10,820.0,430.0,1640,860,80.0735,41.98976219512195,520.2220459952418,7.750536585365853,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig10_pressure_pressure.pdf
+11,820.0,430.0,1640,860,80.0735,41.98976219512195,520.2220459952418,7.750536585365853,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig11_pressure_suction.pdf
+12,820.0,430.0,1640,860,80.0735,41.98976219512195,520.2220459952418,7.750536585365853,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig12_yplus_suction.pdf
+13,820.0,430.0,1640,860,80.0735,41.98976219512195,520.2220459952418,7.750536585365853,C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\data\print_assets\fig13_yplus_pressure.pdf

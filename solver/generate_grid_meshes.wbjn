@@ -1,0 +1,18 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+root=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver"
+f=open(root+r"\grid_mesh_generation.txt","w")
+def log(s): f.write(str(s)+'\n');f.flush()
+for folder in ["grid_medium_mesh","grid_fine_mesh"]:
+    try:
+        Open(FilePath=root+r"\aligned_taskA\taskA.wbpj")
+        Save(FilePath=root+'\\'+folder+r"\taskA.wbpj",Overwrite=True)
+        mesh=GetSystem(Name="SYS").GetContainer(ComponentName="Mesh")
+        mesh.Edit(Interactive=False)
+        mesh.SendCommand(Language="Python",Command="execfile(r'%s')"%(root+'\\'+folder+r"\configure_mesh.py"))
+        mesh.Exit()
+        Save(FilePath=root+'\\'+folder+r"\taskA.wbpj",Overwrite=True)
+        log(folder+' COMPLETE')
+    except:
+        log(folder+' '+traceback.format_exc())
+f.close()

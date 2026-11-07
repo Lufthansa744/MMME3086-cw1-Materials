@@ -1,0 +1,4 @@
+/file/start-transcript "validation.transcript"
+(format #t "MMME3086_JOURNAL_INTERFACE_OK~%")
+/file/stop-transcript
+/exit yes

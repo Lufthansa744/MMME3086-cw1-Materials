@@ -1,0 +1,45 @@
+# encoding: utf-8
+# 2022 R2
+SetScriptVersion(Version="22.2.192")
+template1 = GetTemplate(TemplateName="Fluid Flow")
+system1 = template1.CreateSystem()
+system1.DisplayText = "Case 1 - aligned SA"
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case01_aligned/case01_aligned_final.cas.h5"),
+    FileType="Case")
+solution1 = system1.GetContainer(ComponentName="Solution")
+solution1.ImportFinalData(FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case01_aligned/case01_aligned_final.dat.h5"))
+system2 = system1.Duplicate()
+system2.DisplayText = "Case 2 - aligned standard k-epsilon"
+setup2 = system2.GetContainer(ComponentName="Setup")
+setup2.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.cas.h5"),
+    FileType="Case")
+solution2 = system2.GetContainer(ComponentName="Solution")
+solution2.ImportFinalData(FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.dat.h5"))
+system3 = system2.Duplicate()
+system3.DisplayText = "Case 3 - aligned RSM"
+setup3 = system3.GetContainer(ComponentName="Setup")
+setup3.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case03_aligned/case03_aligned_final.cas.h5"),
+    FileType="Case")
+solution3 = system3.GetContainer(ComponentName="Solution")
+solution3.ImportFinalData(FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case03_aligned/case03_aligned_final.dat.h5"))
+system4 = template1.CreateSystem()
+system4.DisplayText = "Case 4 - enhanced k-epsilon EWT"
+setup4 = system4.GetContainer(ComponentName="Setup")
+setup4.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case04_verified/case04_verified_final.cas.h5"),
+    FileType="Case")
+solution4 = system4.GetContainer(ComponentName="Solution")
+solution4.ImportFinalData(FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case04_verified/case04_verified_final.dat.h5"))
+system5 = system4.Duplicate()
+system5.DisplayText = "Case 5 - enhanced relaxed RSM EWT"
+setup5 = system5.GetContainer(ComponentName="Setup")
+setup5.Import(
+    FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.cas.h5"),
+    FileType="Case")
+solution5 = system5.GetContainer(ComponentName="Solution")
+solution5.ImportFinalData(FilePath=GetAbsoluteUserPathName("ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.dat.h5"))
+Save(Overwrite=True)

@@ -1,0 +1,309 @@
+{
+  "case_id": "sensitivity_ke_length_001",
+  "normalizing_force_N": 158.6871125,
+  "foil_frame_origin_m": [
+    0.00048367698354395,
+    0.00691690311771526
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\exports.jou",
+      "bytes": 2152,
+      "sha256": "ee759201f516cd975e3a64d2ce263dcb78dfae03644c487669197bbfe33b0571"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\logs\\setup.transcript",
+      "bytes": 334076,
+      "sha256": "f58a93a4d9faec84c71a795d7907b6165dbef9eb26c0fdb01b5973f872664fd6"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\manifest.json",
+      "bytes": 6755,
+      "sha256": "f84b0e4a375b7c1df402c48bcb3256b7cea9ec06cc9df6c3b9b02b6d607c1d28"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\monitors\\forces.out",
+      "bytes": 100978,
+      "sha256": "db14f4ffbdf6edcc26594caa34d5bcec16749c624840879adc5af4a98fa58ce1"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\monitors\\mass_balance.out",
+      "bytes": 67575,
+      "sha256": "74d032c08a65c3cda97f78b9ddca31c8dca90bb5a93409cd2737ac81c13f5fe8"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\domain_cell_fields.csv",
+      "bytes": 999440,
+      "sha256": "3f54e1fff65c2998e5d72f4d20e434cbc910b885e60b9bea58c7fe46f72c88fc"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\drag_breakdown.txt",
+      "bytes": 3081,
+      "sha256": "2fa5bcdb24010a17cc6345feace6b8fae83e898d12c295029a98eb37e6c11e2b"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\inlet_turbulence.csv",
+      "bytes": 1811,
+      "sha256": "d7532e9c0bbf21d7718af9854a4f1b8c7f963f79165ca2d6aee5c1cbdf52fab3"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\lift_breakdown.txt",
+      "bytes": 3081,
+      "sha256": "be1f4075b49529c40d87771b727b4c4302d816b80f9859a43b690b71a3de0e57"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\pressure_p_yplus.csv",
+      "bytes": 4992,
+      "sha256": "211f9a113c496863f8fd464c1a0ee91560105ee3ad12c16c5bf36eb14456996f"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\suction_p_yplus.csv",
+      "bytes": 4992,
+      "sha256": "dff9733ac43545741f7196ff76d0ccd89f9a3a7840bd7f6cf11dee76cbb96000"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\trailing_p_yplus.csv",
+      "bytes": 192,
+      "sha256": "35a520744ca02d2329f6b502aa0ef4f7f824271aa514d3e6e89754e61518f2db"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\velocity_mid.csv",
+      "bytes": 5520,
+      "sha256": "2c95c89bda205f2bccd2a2a013b606b437bef41f686c6740158c6a700341bafc"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\velocity_te.csv",
+      "bytes": 5644,
+      "sha256": "9c3264babd373329953d05fcd238fc76e19a639133ae8b59a412bfc14380f9b9"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\raw\\velocity_wake.csv",
+      "bytes": 2668,
+      "sha256": "068ae73b399914a52940f832ba22f2c9b406c72c60a6772c36fefeaf39faae81"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\settings\\sensitivity_ke_length_001_configured.set",
+      "bytes": 124751,
+      "sha256": "37a4f6751e9983b79951dcd3b4caa4553e46af7247749ea7e2c9c82bdf3c8312"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\settings\\sensitivity_ke_length_001_final.set",
+      "bytes": 125010,
+      "sha256": "fa7a04807d3646f0db6a3b0bf5dd7c0384647476810c809ee4689b4b58c961ef"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\setup_and_solve.jou",
+      "bytes": 1492,
+      "sha256": "316cf8c8e7beb3841a4a50b5bb6caf1f8b157e747d2a49def85fab4d3b60676f"
+    }
+  ],
+  "suction_p_yplus.csv": {
+    "rows": 51,
+    "x_range": [
+      0.00110830646,
+      0.09860375524
+    ],
+    "y_range": [
+      -0.006612428464,
+      0.01017872617
+    ],
+    "foil_frame_y_range": [
+      0.00025801050060577507,
+      0.005998623781398054
+    ],
+    "yplus_range": [
+      18.07588666,
+      227.2408483
+    ],
+    "pressure_range": [
+      -4480.039742,
+      -141.8414099
+    ]
+  },
+  "pressure_p_yplus.csv": {
+    "rows": 51,
+    "x_range": [
+      0.0008689285023,
+      0.09853189439
+    ],
+    "y_range": [
+      -0.007123426534,
+      0.005994487554
+    ],
+    "foil_frame_y_range": [
+      -0.005998625159616812,
+      -0.00025801566863591953
+    ],
+    "yplus_range": [
+      54.53845395,
+      137.2181223
+    ],
+    "pressure_range": [
+      -82.87750872,
+      1640.57644
+    ]
+  },
+  "velocity_mid.csv": {
+    "rows": 88,
+    "x_range": [
+      0.04999999773,
+      0.05000000343
+    ],
+    "y_range": [
+      -0.07499999776,
+      0.07499999776
+    ],
+    "velocity_range": [
+      0.0,
+      63.26672471
+    ],
+    "largest_y_gaps": [
+      [
+        0.01068960615,
+        -0.005339803367,
+        0.005349802783
+      ],
+      [
+        0.0047513956699999985,
+        -0.04911060796,
+        -0.04435921229
+      ],
+      [
+        0.00405511586,
+        -0.05326982102,
+        -0.04921470516
+      ]
+    ]
+  },
+  "velocity_te.csv": {
+    "rows": 90,
+    "x_range": [
+      0.0999999966,
+      0.1000000079
+    ],
+    "y_range": [
+      -0.07499999944,
+      0.075
+    ],
+    "velocity_range": [
+      0.0,
+      56.60915367
+    ],
+    "largest_y_gaps": [
+      [
+        0.005834706169999995,
+        0.06916529383,
+        0.075
+      ],
+      [
+        0.005709487960000009,
+        0.06258166215,
+        0.06829115011
+      ],
+      [
+        0.00410611746000001,
+        -0.06454965025,
+        -0.06044353279
+      ]
+    ]
+  },
+  "velocity_wake.csv": {
+    "rows": 42,
+    "x_range": [
+      0.1999999947,
+      0.2000000144
+    ],
+    "y_range": [
+      -0.075,
+      0.07500000224
+    ],
+    "velocity_range": [
+      0.0,
+      53.23316851
+    ],
+    "largest_y_gaps": [
+      [
+        0.008396146579999998,
+        -0.02400975799,
+        -0.01561361141
+      ],
+      [
+        0.008377391670000005,
+        -0.0513232059,
+        -0.04294581423
+      ],
+      [
+        0.007722517326,
+        0.005457756754,
+        0.01318027408
+      ]
+    ]
+  },
+  "iteration_origin": 0,
+  "native_force_rows_at_or_before_origin": 0,
+  "first_force_iteration": 1.0,
+  "new_model_force_sample_count": 2500,
+  "force_window_stats": {
+    "25": {
+      "drag_N": {
+        "samples": 25,
+        "final": 9.611724524166886,
+        "mean": 9.611719528009308,
+        "range": 1.0408661612615333e-05,
+        "range_percent_mean": 0.00010829135808929582,
+        "endpoint_drift_percent_mean": 5.174723560988915e-13
+      },
+      "lift_N": {
+        "samples": 25,
+        "final": 123.2621287983879,
+        "mean": 123.26206183703212,
+        "range": 0.00013950282450991836,
+        "range_percent_mean": 0.00011317579994269328,
+        "endpoint_drift_percent_mean": 1.614056775034864e-13
+      }
+    },
+    "50": {
+      "drag_N": {
+        "samples": 50,
+        "final": 9.611724524166886,
+        "mean": 9.611719319836075,
+        "range": 1.0408661628602545e-05,
+        "range_percent_mean": 0.00010829136060102992,
+        "endpoint_drift_percent_mean": 0.00010829136023140681
+      },
+      "lift_N": {
+        "samples": 50,
+        "final": 123.2621287983879,
+        "mean": 123.26205904697564,
+        "range": 0.00013950282450991836,
+        "range_percent_mean": 0.00011317580250444567,
+        "endpoint_drift_percent_mean": 0.00011317580242374284
+      }
+    },
+    "100": {
+      "drag_N": {
+        "samples": 100,
+        "final": 9.611724524166886,
+        "mean": 9.611719319836077,
+        "range": 1.0408661644589756e-05,
+        "range_percent_mean": 0.0001082913607673603,
+        "endpoint_drift_percent_mean": 0.00010829136012051985
+      },
+      "lift_N": {
+        "samples": 100,
+        "final": 123.2621287983879,
+        "mean": 123.26205904697565,
+        "range": 0.00013950282460939434,
+        "range_percent_mean": 0.0001131758025851485,
+        "endpoint_drift_percent_mean": 0.00011317580242374282
+      }
+    }
+  },
+  "last_force_iteration": 2500.0,
+  "CD_final": 0.06057029063508157,
+  "CL_final": 0.776762062504527,
+  "mass_denominator_definition": "uniform prescribed inlet rho*U*height*depth from the manifest; check against native flux report separately",
+  "mass_imbalance_fraction": 3.9061949914075625e-11,
+  "mass_imbalance_percent": 3.906194991407563e-09,
+  "limitation": "Native values and finite-window diagnostics, not independent acceptance of convergence or experimental accuracy. Foil-frame side check uses the explicitly recorded LE origin and verified clockwise eight-degree chord orientation."
+}

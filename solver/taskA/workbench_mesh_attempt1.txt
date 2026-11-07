@@ -1,0 +1,7 @@
+Mesh system created
+Geometry assigned
+Traceback (most recent call last):
+  File "C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\taskA\verify_mesh.wbjn", line 15, in <module>
+    props.GeometryImportAnalysisType="AnalysisType2D"
+ValueError: Error validating the property to be set. Entity: "/Geometry/Geometry:GeometryDataObject", Property: "GeometryImportAnalysisType", New value: "AnalysisType2D" --> Cannot convert value AnalysisType2D from String to enumAnalysisType.
+

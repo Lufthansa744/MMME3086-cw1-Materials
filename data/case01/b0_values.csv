@@ -1,0 +1,13 @@
+quantity,value
+density_kg_m3,1.225
+dynamic_viscosity_Pa_s,1.7894e-05
+inlet_speed_m_s,50.9
+inlet_turbulence_intensity_fraction,0.05
+inlet_turbulence_intensity_percent,5
+inlet_turbulent_length_scale_m,1
+chord_m,0.1
+reference_area_m2,0.1
+Reynolds_number,348454.789314854
+isotropic_component_RMS_fluctuation_m_s,2.545
+dynamic_pressure_Pa,1586.871125
+force_normalisation_N,158.6871125

@@ -1,0 +1,126 @@
+{
+  "case_id": "case03",
+  "student_id": "20617209",
+  "mesh": "../taskA/taskA_baseline.msh",
+  "solver": "Fluent 2022 R2 Build 10212, 2ddp, 4 ranks",
+  "model": "Reynolds Stress Model",
+  "wall_treatment": "Standard Wall Function, explicitly confirmed by Fluent reset message",
+  "pressure_velocity_coupling": {
+    "code": 20,
+    "name": "SIMPLE"
+  },
+  "steady": true,
+  "air": {
+    "density_kg_m3": 1.225,
+    "dynamic_viscosity_kg_ms": 1.7894E-05,
+    "source": "logs/setup.transcript and settings/case03_final.set"
+  },
+  "inlet": {
+    "speed_m_s": 50.9,
+    "direction": "normal to inlet, global +x",
+    "turbulence_specification": "Intensity and Length Scale",
+    "intensity_percent": 5,
+    "length_scale_m": 1,
+    "selection": "actual Fluent defaults observed and retained"
+  },
+  "outlet": {
+    "gauge_pressure_Pa": 0,
+    "other_settings": "observed defaults retained"
+  },
+  "reference": {
+    "area_m2": 0.1,
+    "length_m": 0.1,
+    "velocity_m_s": 50.9,
+    "density_kg_m3": 1.225,
+    "viscosity_kg_ms": 1.7894E-05,
+    "depth_m": 1
+  },
+  "initialization": "Independently hybrid initialized after switching Case3 model; 10 scalar steps, final 1.324414e-9.",
+  "residual_criteria": {
+    "continuity": 0.001,
+    "k": 0.001,
+    "vv_stress": 0.001,
+    "uu_stress": 0.001,
+    "x_velocity": 0.001,
+    "uv_stress": 0.001,
+    "y_velocity": 0.001,
+    "ww_stress": 0.001,
+    "epsilon": 0.001
+  },
+  "iterations_to_automatic_residual_convergence": 610,
+  "final_residuals": {
+    "continuity": 0.00099366,
+    "k": 4.5697E-06,
+    "vv_stress": 1.2357E-05,
+    "uu_stress": 1.9119E-05,
+    "x_velocity": 4.0436E-07,
+    "uv_stress": 8.4581E-06,
+    "y_velocity": 1.6871E-07,
+    "ww_stress": 1.0208E-05,
+    "epsilon": 2.8982E-05
+  },
+  "force_report": {
+    "zones": [
+      "aerofoil_te",
+      "aerofoil_pressure",
+      "aerofoil_suction"
+    ],
+    "scaled": false,
+    "drag_vector": [
+      1,
+      0
+    ],
+    "lift_vector": [
+      0,
+      1
+    ],
+    "units": "N, Fluent 2D 1 m depth",
+    "drag_N": 9.262282269406931,
+    "lift_N": 117.7043273643232
+  },
+  "mass_report": {
+    "inlet_kg_s": 9.352875,
+    "outlet_kg_s": -9.3528747,
+    "net_kg_s": 3.2550378E-07
+  },
+  "surface_export": {
+    "suction": "raw/suction_p_yplus.csv",
+    "pressure": "raw/pressure_p_yplus.csv",
+    "location": "cell-centered wall-face sampling",
+    "fields": [
+      "x-coordinate",
+      "y-coordinate",
+      "pressure",
+      "y-plus"
+    ]
+  },
+  "velocity_lines": {
+    "source": "FAQ Q7 absolute positions",
+    "x_m": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "y_min_m": -0.075,
+    "y_max_m": 0.075,
+    "sampling": "native line-surface fluid intersections, node-interpolated velocity magnitude; retain hole gap"
+  },
+  "failed_attempts": "Initial read command encountered unsaved-state confirmation after the prior wall-query; actual Case2 case was then read and RSM activated, as preserved in transcript. No solver parameters adjusted to obtain convergence.",
+  "spatial_discretization": {
+    "gradient": "Least-Squares Cell-Based inherited",
+    "pressure": "Second Order (12)",
+    "epsilon": "First Order Upwind (0)",
+    "momentum": "Second Order Upwind (1)",
+    "k": "First Order Upwind (0)",
+    "reynolds_stresses": "First Order Upwind (0)"
+  },
+  "source_setup_case": "../case02/case02_final.cas.h5 (configuration only; independent hybrid reinitialization, no .dat read)",
+  "actual_urfs": {
+    "epsilon": 0.8,
+    "reynolds_stresses": 0.5,
+    "k": 0.8,
+    "pressure": 0.3,
+    "momentum": 0.7
+  },
+  "cell_field_export": "raw/domain_cell_fields.csv: 7713 unique cell-id records with cell-center coordinates, signed u/v, pressure and cell y-plus; wall/TE exports include matching cell-id"
+}

@@ -1,0 +1,77 @@
+{
+  "source_url": "https://digital.library.unt.edu/ark:/67531/metadc1191254/m2/1/high_res_d/6548367.pdf",
+  "files": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_drag_positive_detail.png",
+      "bytes": 6041,
+      "sha256": "160e507f2f53adc3d501e0df8d21d8c4c879dac1f3007451e00c950541f33639"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_klimas_1981.pdf",
+      "bytes": 4415726,
+      "sha256": "af5cb8e9f564121155014b7c88d3b41ef75cd0655bcdc41690cd4f5b6b38bb97"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_lift_positive_detail.png",
+      "bytes": 9672,
+      "sha256": "d6448901d945b165315b621df1c1c2f6be27840b26646a7bae068c7b008a109c"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_pdf_page_12.png",
+      "bytes": 71349,
+      "sha256": "f469899308b586a06c80af3cb73b21b7e2fb53e9d260e6b222588b4f79769a7a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_pdf_page_13.png",
+      "bytes": 84631,
+      "sha256": "4f539e9d8bb08d53cb570d7af4ee7acc752e32271e34f0392bd698f494f6e3ee"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_pdf_page_80.png",
+      "bytes": 33675,
+      "sha256": "dad2252270910108bd2873603966b659b94c051b20c421942b58312b792484bf"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_pdf_page_81.png",
+      "bytes": 34084,
+      "sha256": "28b5b1877e8488d6214f646ef4ec02de9f0cbc44c271ed9938935fdaf15bc2f1"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\sheldahl_pdf_page_91.png",
+      "bytes": 24856,
+      "sha256": "554b5a79cd6231d9fb9472e94beac8e2fa7b92a7e4cfd30c5074ea3b4cebec0e"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\reference_review.md",
+      "bytes": 6057,
+      "sha256": "e58a45313b43911374b254f64062ff4b9c54cea559df8fdb014983e44930c5d6"
+    }
+  ],
+  "rendering": {
+    "library": "pdfplumber",
+    "full_pages_resolution_dpi": 150,
+    "detail_resolution_dpi": 300,
+    "pdf_page_numbers_one_based": [
+      12,
+      13,
+      80,
+      81,
+      91
+    ],
+    "lift_crop_pdf_points": [
+      290,
+      165,
+      450,
+      295
+    ],
+    "drag_crop_pdf_points": [
+      440,
+      190,
+      550,
+      360
+    ]
+  },
+  "reading_status": "preliminary original-Sandia graphical readings; brief curve identity not verified",
+  "independent_review_status": "Review agent independently inspected original experiment figures and apparatus; preliminary reading allowances agreed; brief curve identity still unresolved",
+  "brief_reference_status": "Actual brief page8 now inspected; black-circle Re3.6e5 curve CL approx.81/CD approx.017 with stated reading allowances"
+}

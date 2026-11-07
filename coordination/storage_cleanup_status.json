@@ -1,0 +1,36 @@
+{
+  "completed_products": [
+    "Dassault Systemes Cloud 3DEXPERIENCE R2026x i0629",
+    "Dassault Systemes Chromium Embedded Framework 3DEXPERIENCE R2026x",
+    "3DEXPERIENCE Marketplace for SOLIDWORKS",
+    "3DEXPERIENCE Exchange for SOLIDWORKS",
+    "3DEXPERIENCE Launcher"
+  ],
+  "method": "Registered official vendor uninstallers and Windows Installer; verified unregistered program/launcher installation-cache residual directories removed after path/link/process checks.",
+  "initial_cloud_vendor_exit": 145,
+  "initial_cloud_note": "Product unregistered and main files removed; vendor self-cleanup left program residuals. Residuals subsequently verified and removed.",
+  "remaining_products_exit_codes": [
+    {
+      "ExitCode": 0,
+      "Product": "3DEXPERIENCE CEF"
+    },
+    {
+      "ExitCode": 0,
+      "Product": "3DEXPERIENCE Marketplace"
+    },
+    {
+      "ExitCode": 0,
+      "Product": "3DEXPERIENCE Exchange"
+    },
+    {
+      "ExitCode": 0,
+      "Product": "3DEXPERIENCE Launcher"
+    }
+  ],
+  "C_free_before_bytes": 10618703872,
+  "C_free_after_bytes": 53254225920,
+  "C_free_increase_GiB": 39.70742416381836,
+  "log_directory": "D:\\CFD_WorkScratch\\3dexperience_uninstall",
+  "preservation": "ANSYS, SOLIDWORKS, shared VC/VBA prerequisites, user engineering documents and CFD raw evidence retained. User PLM caches/settings outside the uninstalled launcher cache were not deleted.",
+  "verification": "No 3DEXPERIENCE uninstall entries, related running processes/services, autorun entries or scheduled tasks found in final checks."
+}

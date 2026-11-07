@@ -1,0 +1,6 @@
+/file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/aligned_taskA/fluent_mesh_audit.transcript"
+/file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/aligned_taskA/taskA_baseline.msh"
+/mesh/check
+/mesh/quality
+/define/boundary-conditions/list-zones
+/exit yes

@@ -1,0 +1,15 @@
+/file/stop-transcript
+/file/start-transcript "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/logs/setup.transcript"
+/file/read-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case02_aligned/case02_aligned_final.cas.h5"
+/define/materials/list-properties air
+/define/boundary-conditions/velocity-inlet inlet no no yes yes no 50.9 no 0 no yes 5 .01
+/solve/report-files/edit forces file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/monitors/forces.out" q
+/solve/report-files/edit mass-balance file-name "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/monitors/mass_balance.out" q
+/solve/monitors/residual/convergence-criteria 1e-5 1e-5 1e-5 1e-5 1e-5
+(for-each (lambda (k) (format #t "ACTUAL_RP ~a = ~a~%" k (rpgetvar k))) '(flow/scheme pressure/scheme mom/scheme k/scheme epsilon/scheme pressure/relax density/relax mom/relax k/relax epsilon/relax turb-viscosity/relax))
+/file/write-settings "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/settings/sensitivity_ke_length_001_configured.set"
+/file/write-case "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/settings/sensitivity_ke_length_001_configured.cas.h5"
+/solve/initialize/hyb-initialization
+/file/write-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/sensitivity_ke_length_001/sensitivity_ke_length_001_initialized.cas.h5"
+/solve/iterate 2500
+

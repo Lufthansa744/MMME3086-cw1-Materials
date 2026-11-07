@@ -1,0 +1,105 @@
+{
+  "case_id": "case01",
+  "student_id": "20617209",
+  "mesh": "../taskA/taskA_baseline.msh",
+  "solver": "Fluent 2022 R2 Build 10212, 2ddp, 4 ranks",
+  "model": "Spalart-Allmaras",
+  "wall_treatment": "native S-A; no selectable standard wall function, per FAQ oversight",
+  "pressure_velocity_coupling": {
+    "code": 20,
+    "name": "SIMPLE"
+  },
+  "steady": true,
+  "air": {
+    "density_kg_m3": 1.225,
+    "dynamic_viscosity_kg_ms": 1.7894E-05,
+    "source": "logs/setup.transcript and settings/case01_final.set"
+  },
+  "inlet": {
+    "speed_m_s": 50.9,
+    "direction": "normal to inlet, global +x",
+    "turbulence_specification": "Intensity and Length Scale",
+    "intensity_percent": 5,
+    "length_scale_m": 1,
+    "selection": "actual Fluent defaults observed and retained"
+  },
+  "outlet": {
+    "gauge_pressure_Pa": 0,
+    "other_settings": "observed defaults retained"
+  },
+  "reference": {
+    "area_m2": 0.1,
+    "length_m": 0.1,
+    "velocity_m_s": 50.9,
+    "density_kg_m3": 1.225,
+    "viscosity_kg_ms": 1.7894E-05,
+    "depth_m": 1
+  },
+  "initialization": "hybrid, completed 10 steps; scalar final 1.324414e-9",
+  "residual_criteria": {
+    "continuity": 0.001,
+    "x_velocity": 0.001,
+    "y_velocity": 0.001,
+    "nut": 0.001
+  },
+  "iterations_to_automatic_residual_convergence": 324,
+  "final_residuals": {
+    "continuity": 0.00098983,
+    "x_velocity": 4.4436E-07,
+    "y_velocity": 9.4074E-08,
+    "nut": 4.2365E-07
+  },
+  "force_report": {
+    "zones": [
+      "aerofoil_te",
+      "aerofoil_pressure",
+      "aerofoil_suction"
+    ],
+    "scaled": false,
+    "drag_vector": [
+      1,
+      0
+    ],
+    "lift_vector": [
+      0,
+      1
+    ],
+    "units": "N, Fluent 2D 1 m depth",
+    "drag_N": 12.99779272904642,
+    "lift_N": 141.3685779316481
+  },
+  "mass_report": {
+    "inlet_kg_s": 9.352875,
+    "outlet_kg_s": -9.3528765,
+    "net_kg_s": -1.509178E-06
+  },
+  "surface_export": {
+    "suction": "raw/suction_p_yplus.csv",
+    "pressure": "raw/pressure_p_yplus.csv",
+    "location": "cell-centered wall-face sampling",
+    "fields": [
+      "x-coordinate",
+      "y-coordinate",
+      "pressure",
+      "y-plus"
+    ]
+  },
+  "velocity_lines": {
+    "source": "FAQ Q7 absolute positions",
+    "x_m": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "y_min_m": -0.075,
+    "y_max_m": 0.075,
+    "sampling": "native line-surface fluid intersections, node-interpolated velocity magnitude; retain hole gap"
+  },
+  "failed_attempts": "Initial relative settings writes failed; absolute paths succeeded. First foil_surfaces.csv is suction pressure only after invalid wall-yplus field; formal exports use validated y-plus field. All evidence retained.",
+  "spatial_discretization": {
+    "pressure": "Second Order (12)",
+    "modified_viscosity": "First Order Upwind (0)",
+    "gradient": "Least-Squares Cell-Based, observed current TUI defaults retained",
+    "momentum": "Second Order Upwind (1)"
+  }
+}

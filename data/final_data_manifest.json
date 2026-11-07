@@ -1,0 +1,352 @@
+{
+  "scope": "Formal five-case and separate auxiliary data delivery; report integration, Overleaf compilation and submission are owned by the main agent.",
+  "registry": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\dataset_registry.json",
+    "sha256": "03245aa4fa1a99609df2f621a83174b2173771e6f877f9b56a8381dd7161cba8",
+    "bytes": 1655
+  },
+  "cases": [
+    {
+      "logical_case": "case01",
+      "physical_dataset": "case01_aligned",
+      "numeric_strict_gate": true,
+      "reviewed_with_limitation": false,
+      "global_final_iteration": 489,
+      "model_iteration_count": 489,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\case_summary.json",
+          "sha256": "add911564c97b10b6aeead22ea7b4c9974725be5a552261330336a2eb1ae90f6",
+          "bytes": 21372
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\workbook_input.json",
+          "sha256": "a820a939eb76cd8e492948734cb17458c0c5a77424a9af02ed06ae00d16be9c1",
+          "bytes": 169561
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\wall_length_coverage.json",
+          "sha256": "b166edcb34b589ae1fc1465ba57d870f900644e41cb9110183abbed0a32224b4",
+          "bytes": 19920
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\workbook_saved_file_audit.json",
+          "sha256": "60f1b5bc87bae1169c43a4dcc3a1bacebd45786084e4e2526acffaba5213c48a",
+          "bytes": 1120
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\case01_aligned_data.xlsx",
+          "sha256": "470511e61df0b9cdde99990cb5eefab1213ace5f75025f8da2d25d8bf11fb3d1",
+          "bytes": 97011
+        }
+      ]
+    },
+    {
+      "logical_case": "case02",
+      "physical_dataset": "case02_aligned",
+      "numeric_strict_gate": false,
+      "reviewed_with_limitation": true,
+      "global_final_iteration": 2225,
+      "model_iteration_count": 2225,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\case_summary.json",
+          "sha256": "83272c1c455bfd51d7c927e688e755edfb005b1a2a2e28bbb53f0ba1d7673552",
+          "bytes": 24476
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\workbook_input.json",
+          "sha256": "12a1f63f95740fe038d5dd67387ca192c8ac58a89f171429cfcab0788e4a988c",
+          "bytes": 600302
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\wall_length_coverage.json",
+          "sha256": "d29ffccd4c8fc4d767098fbbb721156375786e0966f9e5dc8d38ea6fe4ca45ad",
+          "bytes": 19887
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case02_aligned\\workbook_saved_file_audit.json",
+          "sha256": "95008cc8d8db0b41f6d56ae42d404e0c5c2d015ffebf0262b62e7c6d2d9840d5",
+          "bytes": 1124
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\case02_aligned_data.xlsx",
+          "sha256": "a1d6eb91c1790cdba4fdd602c923237b6f1e354adc748fda43db85fd8efe9d49",
+          "bytes": 267498
+        }
+      ]
+    },
+    {
+      "logical_case": "case03",
+      "physical_dataset": "case03_aligned",
+      "numeric_strict_gate": false,
+      "reviewed_with_limitation": true,
+      "global_final_iteration": 2919,
+      "model_iteration_count": 2919,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\case_summary.json",
+          "sha256": "1bfb1505fdc67c3bd8a3556c2f6addfbabc3b7d2d5ee28523dfe81a7646d4b78",
+          "bytes": 29268
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\workbook_input.json",
+          "sha256": "e51b2ae449085884832c2a055e17520f41d0c9a6a69a9d73ecb16504c4644586",
+          "bytes": 910723
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\wall_length_coverage.json",
+          "sha256": "de4a7e00a8002486469ed745832ff8ecc7d0e8928b8cbb8b01ee10d4b31897fc",
+          "bytes": 19934
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\workbook_saved_file_audit.json",
+          "sha256": "66fdb271ebd686df54d3c9d4afdea70019fee8726e78cebd53bb2484cb6df127",
+          "bytes": 1125
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\case03_aligned_data.xlsx",
+          "sha256": "937f65df1ea29aa573d3b72dd34ac0691c57298358369d075878ee074e27d9bc",
+          "bytes": 471357
+        }
+      ]
+    },
+    {
+      "logical_case": "case04",
+      "physical_dataset": "case04_verified",
+      "numeric_strict_gate": true,
+      "reviewed_with_limitation": false,
+      "global_final_iteration": 753,
+      "model_iteration_count": 753,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case04_verified\\case_summary.json",
+          "sha256": "8e197b4ca20d215b811de28cab8fda0e4534a36a986ae3af947a976b0dd68e7b",
+          "bytes": 22255
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case04_verified\\workbook_input.json",
+          "sha256": "66189963d8ab2893ea6547120dfd7b921a040ee31baf8030d34ff61d2f773a3b",
+          "bytes": 234938
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case04_verified\\wall_length_coverage.json",
+          "sha256": "5c0884b40d11e8db9021038f94e1202b1b687c93a3ccd84cf2052c85eae015b2",
+          "bytes": 72358
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case04_verified\\workbook_saved_file_audit.json",
+          "sha256": "7eb7b239ef35d1f62caf626a1d77dbd5dca622a3a8a4bc7b90bd5899788d1d83",
+          "bytes": 1125
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\case04_verified_data.xlsx",
+          "sha256": "9057d621cb4c6e8dcb263a776d1ff2dcbb6e9726a906860734d1dbd0781cde8e",
+          "bytes": 125736
+        }
+      ]
+    },
+    {
+      "logical_case": "case05",
+      "physical_dataset": "case05_verified",
+      "numeric_strict_gate": true,
+      "reviewed_with_limitation": false,
+      "global_final_iteration": 3689,
+      "model_iteration_count": 2936,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\case_summary.json",
+          "sha256": "6afef5fb52315f697bf105fdf83cae639274f32058ad606bdad70dca01d4f1db",
+          "bytes": 26734
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\workbook_input.json",
+          "sha256": "b97084a39baa683ad723d19546a0b4ead808078c3032fcd7135c402bf7e6aa72",
+          "bytes": 958971
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\wall_length_coverage.json",
+          "sha256": "827ef8ca519bab79a7b0384fde91692e0acd947d7109ebf80c45de3e13f386f0",
+          "bytes": 72363
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\workbook_saved_file_audit.json",
+          "sha256": "8a425e9abc22e0dbb24efbbfc23d8aa55f42219d0ceb6f9359d1e908cdd87872",
+          "bytes": 1128
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\case05_verified_data.xlsx",
+          "sha256": "99d03b569758928ba626a5bdf77f037236c8394c3d9a8b4b4cbf3326e79e7551",
+          "bytes": 569076
+        }
+      ]
+    }
+  ],
+  "report_figure_candidates": {
+    "1": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_compact.png",
+      "sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712",
+      "bytes": 123287
+    },
+    "2": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.png",
+      "sha256": "e355048540a77294c8564788954eb2ae55717d6cfc38bcf055592f287897bde0",
+      "bytes": 1184963
+    },
+    "3": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\figures\\figure3_residuals_compact.png",
+      "sha256": "615443e44a3b6babeb50da4fc1f7e11f1ae53ee56359f6b4dd324957fa154eb3",
+      "bytes": 140864
+    },
+    "4": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure4_velocity_vectors.png",
+      "sha256": "586dca38dea05eca86beda14a8309b843803f7057673f38b37f935d238b87d48",
+      "bytes": 377724
+    },
+    "5": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure5_wall_cell_yplus.png",
+      "sha256": "b66d151970b759b80668d3ca05eec6fe57f1edcf33b152e28127f9e62b96cdb4",
+      "bytes": 573693
+    },
+    "6": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\figures\\figure6_combined_compact.png",
+      "sha256": "ded8f98507d017b2d2ec1a8a8f3ffafe6fc328c761b90f7dbaa29cac66504945",
+      "bytes": 313177
+    },
+    "7": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure7_velocity_mid.png",
+      "sha256": "985315f34f494e0fab495e3239deb3d80abae8cdd29845abbcdeef49188fd846",
+      "bytes": 126900
+    },
+    "8": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure8_velocity_te.png",
+      "sha256": "e19e069eada046242e90e0d975ff5090a7832fce9e85ce1938ef8ebea6f67197",
+      "bytes": 141136
+    },
+    "9": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure9_velocity_wake.png",
+      "sha256": "fe686c2212e164177305eaeb3cf83ee40fa2c3842943ee76eafa4a9ac4215bcd",
+      "bytes": 119640
+    },
+    "10": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure10_pressure_pressure.png",
+      "sha256": "56665142c0e9f41cd3f46dfd26675719ccd42a0de15a80f0022987c330db8831",
+      "bytes": 86752
+    },
+    "11": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure11_pressure_suction.png",
+      "sha256": "ef5558b3c52331c085b972be56ddb64f7c3aa87af3477567808d19276529b643",
+      "bytes": 89932
+    },
+    "12": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure12_yplus_suction.png",
+      "sha256": "c1bce152f8b901232736e85fbad163cdf8b4faf3ee4fe026c28af503bc53d4c8",
+      "bytes": 93529
+    },
+    "13": {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure13_yplus_pressure.png",
+      "sha256": "bfcad5e38696a9825d173ec2a0831e5b2918e8c3f69e6cae4f3d8a72d0694763",
+      "bytes": 104969
+    }
+  },
+  "comparison": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\case_comparison.csv",
+      "sha256": "6435dd0a40462ebe26382d2a1579d4b8d31fc8c043b442ef9bc0d30ac09cbdf6",
+      "bytes": 4814
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\comparison_audit.json",
+      "sha256": "c5b3e71cf65cc3820ad01763ee813c2445429d3a1b34041a2e3a800f9164d7c3",
+      "bytes": 152553
+    }
+  ],
+  "auxiliary_datasets": [
+    {
+      "physical_dataset": "sa_grid_medium",
+      "excluded_from_formal_five_cases": true,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\sa_grid_medium\\case_summary.json",
+          "sha256": "aca804b29b981f7d4db49648a9549af8a0ab73fdc14ce2ba938cdb382bdb4ab4",
+          "bytes": 20868
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\sa_grid_medium\\workbook_saved_file_audit.json",
+          "sha256": "6e9661c383988e48d26b8d9b7b4f47258d31c0cb8e275e7362b868b61b45f334",
+          "bytes": 1122
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\sa_grid_medium_data.xlsx",
+          "sha256": "3cb182d3e0cf29d88da9b7a0af700606f5951c5f84ea7a374cf03becbb4dd053",
+          "bytes": 137425
+        }
+      ]
+    },
+    {
+      "physical_dataset": "sa_grid_fine",
+      "excluded_from_formal_five_cases": true,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\sa_grid_fine\\case_summary.json",
+          "sha256": "d871694622acda78fcbd8ee2d7c45bbdbffcf4a50e8914a2ec8914fffdc7b42f",
+          "bytes": 20820
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\sa_grid_fine\\workbook_saved_file_audit.json",
+          "sha256": "4ac55cf1021c8431afb006b569d9b53c91cdefe60286506313e263ff84769a5b",
+          "bytes": 1122
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\sa_grid_fine_data.xlsx",
+          "sha256": "f597dc1ce43acc0182f05a7c965156b97c633617bb0d2bccbe87d8a6f4de9f10",
+          "bytes": 182116
+        }
+      ]
+    },
+    {
+      "physical_dataset": "sensitivity_ke_length_001",
+      "excluded_from_formal_five_cases": true,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\sensitivity_ke_length_001\\case_summary.json",
+          "sha256": "c1e01a1c8a3e1c4e4a05cec98e538ad1312fab75e6dc36c602e08931330a5ffc",
+          "bytes": 24478
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\sensitivity_ke_length_001\\workbook_saved_file_audit.json",
+          "sha256": "d8d9869f9e673d8e1f56a06d151ff62b2522d0d081ee6180bb315b3ea05f8002",
+          "bytes": 1147
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\sensitivity_ke_length_001_data.xlsx",
+          "sha256": "bfb04bb458205004c3ecd2e7bb97cfa0591b21634d35d19e3bf01e44c935d98b",
+          "bytes": 321399
+        }
+      ]
+    }
+  ],
+  "auxiliary_analysis": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\auxiliary\\grid_comparison.csv",
+      "sha256": "10a1cb3e5790e992fd58bf62b4c29449da69540b0e5cf6adba53e669de98babb",
+      "bytes": 411
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\auxiliary\\auxiliary_comparison.json",
+      "sha256": "abf72622380ef406cead42c23e2dc029ac77289623da2064d2f003f471d323bf",
+      "bytes": 136983
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\enhanced_rsm_diagnostic_comparison.json",
+      "sha256": "b927099b1fc979090ddb5864b8efa1b4591f742cda7dd040ab569403fbbafa7b",
+      "bytes": 27076
+    }
+  ],
+  "limitations": [
+    "Cases 2 and 3 meet the original 1e-3 residual target and force-stability check but not the additional 1e-5 continuity target; both have independent qualified acceptance bound to native hashes.",
+    "Raw data and archived prealignment/early-stop datasets remain preserved. No archived fields enter the final five-case comparison.",
+    "Saved XLSX formulas/caches and rendered previews were checked with the bundled spreadsheet engine and ZIP/XML inspection; no native Excel UI test is claimed.",
+    "Graph reading allowances are manual resolution allowances, not statistical confidence intervals. Convergence and model complexity do not establish experimental accuracy."
+  ]
+}

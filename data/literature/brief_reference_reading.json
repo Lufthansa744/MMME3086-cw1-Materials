@@ -1,0 +1,46 @@
+{
+  "source": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\inputs\\MMME3086-CFD-V2.0.pdf",
+    "sha256": "3eb61eb7db6e72fed00e224457db5a4a6d8e1be5f0da112e1ab50db6b122f3c9",
+    "printed_page": 8,
+    "pdf_page_one_based": 8
+  },
+  "series": "Sheldahl black filled circles; NACA0012 - 2D",
+  "Re": 360000,
+  "angle_deg": 8,
+  "CL_approx": 0.81,
+  "CL_manual_reading_allowance": 0.02,
+  "CD_approx": 0.017,
+  "CD_manual_reading_allowance": 0.003,
+  "uncertainty_kind": "Conservative graphical reading allowance, not experimental statistical confidence interval",
+  "render_method": "pdfplumber; page 180 dpi; graph crops 450 dpi; no curve modification",
+  "crop_boxes_pdf_points": {
+    "drag": [
+      54,
+      378.05,
+      257.25,
+      609.8
+    ],
+    "lift": [
+      257.25,
+      363.8,
+      471.75,
+      609.8
+    ]
+  },
+  "images": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\brief_page8.png",
+      "sha256": "53cb05f6f8af1a314a6449a672e3890d5076acdb81b93926713114f06e1738a7"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\brief_C4_lift.png",
+      "sha256": "02a6778932a5c9e6fa07341386039691f584284bb43339402819fc0affb89706"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\literature\\brief_C4_drag.png",
+      "sha256": "a38632ab12e136f2dfbdcabfe02a84a15df7762bedcb21f959065c80ed401ea0"
+    }
+  ],
+  "source_distinction": "These values are read from the actual coursework reproduction; original Sandia experiment figures and Eppler/hybrid table are separate sources and not substituted."
+}

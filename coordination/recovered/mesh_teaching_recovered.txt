@@ -1,0 +1,195 @@
+# Recovered from prior Mac chat command output; original files not yet present on Windows.
+# Thread: 01a1ae21-c25b-7a70-a293-a810c5f7b17a
+# Command: /bin/zsh -lc "sed -n '1,190p' work/teaching/CFDPracticaMeshGeneration2026.pdf.txt"
+
+=== PAGE 1 ===
+Notes for practical implementation in Ansys Workbench 
+Part 1 – mesh generation 
+1. Learn the Workbench environment 
+2. Commence a Project 
+3. Generate 2D geometry in Spaceclaim 
+4. Generate a mesh for the 2D geometry and learn methods to refine the mesh 
+5. Add other models to the same Project and duplicate the first model to adapt it 
+6. Generate two further geometry and mesh model of a 2D duct with airfoil in duct 
+ 
+
+=== PAGE 2 ===
+1. Hurdle 1: How to access Ansys Workbench 
+Ansys workbench is a comprehensively large piece of software with many attributes.  We only use 
+SpaceClaim, Mesher and Fluent. 
+How to download: 
+Click on the Ansys Student icon on the website link below.  Download the zip file.  Extract and on the 
+extracted files click on the setup.exe file. 
+You can either download Ansys Workbench 2026 R1 (takes about 15 mins to download and 20 mins 
+to install)  
+Figure 1 the icon used on the Ansys download link 
+Or go to one of the engineering desktops in the faculty or register to use the virtual engineering 
+desktop using the Windows App on your own computer if you choose to work on your own 
+machine. 
+If the screen resolution is unusually small, then you can try the following: right click on the 
+Workbench start icon/item in task menu and select ‘open file location’; locate the Workbench start 
+exe file and right click and click on ‘properties’ and on the ‘compatibility’ tab select ‘change high DPI 
+settings’ and select the ‘override high DPI….’ And try system enhanced or system. 
+2. Hurdle 1a: where to save to. 
+Open Ansys workbench from All Programs.  Before you begin, if you are using the virtual Engineering 
+Desktop, save the project to your own OneDrive.  Or if you are using a desktop or laptop you can 
+save to the desktop or to your OneDrive, which should appear on the list of files on the file explorer.  
+If Workbench crashes at any time on the virtual desktop, type ‘task manager’ into the task bar and 
+close the program in the usual way for crashed programs. 
+And one thing further before you begin, whenever it looks like Workbench is doing nothing and you 
+don’t know what is happening, look at the bottom left of the Workbench window – it says what it is 
+doing at that time.  The virtual desktop can take unusually long (order of 5 minutes) at times for 
+some reason. 
+
+
+=== PAGE 3 ===
+3. Hurdle 1a: How to make a geometry. 
+On the left-hand side of the screen you will see a selection of modelling options.  Choose Fluid Flow 
+(Fluent), and the new Project Schematic will appear in the main window on the right – as shown in 
+Figure 2.  Avoid using the version with (Fluent with Fluent Meshing), we are not using that version. 
+If at any step in the process that follows, there is an error that you can’t resolve, get back to this 
+part, and on any components in the model, right click and select ‘reset’ to restore the default 
+condition.  This will resolve any problems with ‘lightning strike’ icons indicating problems. 
+Select Geometry by right click, and select Discovery from the list, and it appears in a separate 
+window (can take a few seconds).  Don’t use DesignModeller at this stage.  If it’s taking a while, 
+check the box at the bottom left of the Workbench main window and it will say what the progress is. 
+Watch out if the Discovery box appears on the Windows Taskbar, click on it to see if a query is 
+awaiting your response – click yes if it is. 
+Create a 2D rectangular shape, 1000 mm by 100 mm, centred on the centrelines of the sketch 
+plane: 
+Click on plan view on the icon at bottom right of the screen.  
+ 
+Figure 3 View icons 
+A plane is ready to develop a model on; to draw on it select the rectangular icon in the top menu 
+(Figure 3), click and drag on the plane in view to create a rectangular element.  Select the dimension 
+tool (Figure 3), which allows resizing of objects on the sketch 
+1. select the length and on the dimension number that appears on the dimension arrow, type 
+1000 for 1000 mm (Figure 4) 
+2. set the other dimensions as indicated in Figure 5 
+ 
+Figure 2 screen shot of the Fluid Flow (Fluent) choice in its context on the left and the subsequent 
+model tree on the right 
+
+=== PAGE 4 ===
+ 
+ 
+Figure 4 top menu of the SpaceClaim GUI showing rectangular shape and dimension setting tool 
+ 
+Figure 5 rectangular shape with sizes defined by the dimension tool 
+If you get lost on the screen, select the Home icon at the bottom left, and then click on plan view 
+again. You can zoom by ctrl and press and drag middle mouse button. Or go File/Settings/Navigation 
+and find the zoom by mouse wheel radio button and check it. 
+Mouse controls are:  
+1. wheel to zoom if you have it selected  
+2. press drag wheel with ctrl to zoom 
+3. press drag wheel with shift to move  
+Next check it is 3D (Figure 4) – despite being a 2D model, all fluid spaces are considered 3D because 
+they must be to have a continuum of fluid contained in the domain.  By creating a 3D shape that is in 
+fact drawn 2D, Fluent will assume that it has infinite depth and will calculate results for a 1 m depth 
+section regarding flow rates of energy and mass. 
+Activate the 3D mode if it is not already active which is on the Design tab (Figure 3), and the view 
+changes to represent a solid 2D shape.  Fluent will take this as a solid with 1 m depth. 
+Now File and Save the project and exit Spaceclaim. 
+Look on the Workbench screen, and you will see that the Geometry is completed, as indicated by a 
+tick (Figure 6 the model tree shows Geometry is completed with a tick.   
+ 
+rectangular selection Dimension setting tool 
+3D selection 
+
+=== PAGE 5 ===
+4. Mesh generation 
+Now turn attention to the computational mesh.  Double click on Mesh and your geometry will 
+appear in a new ‘mesher’ window.  It takes about a minute to open fully, when you will see the 
+geometry appear. 
+ 
+Figure 6 the model tree shows Geometry is completed with a tick 
+Click on the z-axis on the coordinate directions icon. Click on the ‘Surface Body’ on the left, and 
+below that check that the ‘Material’ has registered Fluid – if not this is an opportunity to change it. 
+  
+Figure 7 the Mesher panel (left) shows the geometry contains a surface FFF\Surface; the top menu contains a strip with 
+selection type, point, edge (circled), surface and volume 
+
+
+=== PAGE 6 ===
+Select edge selection tool (Figure 7) and select one of the edges with left click, then right click and 
+select ‘create named selection’ from the list that appears, and choose an appropriate name for that 
+boundary – this will become an item for setting a boundary condition on.  Select each bounding edge 
+in turn giving it a boundary name: in this case opposing short edges are ‘inlet’ and ‘outlet’, and 
+opposing long edges are ‘wall1’ and ‘wall2’.  Click on named selections in the panel on the left to see 
+them. 
+ 
+Figure 8 project panel on the left of screen, where Named Selections can be clicked on and seen on the model, and where 
+the Mesh creator can be selected, and the Details of “Mesh” panel that appears below when Mesh is selected 
+Click on Mesh in the outline panel on the left, and you will see the mesh details panel below (Figure 
+8).  Right click on Mesh and click on Generate Mesh – there will be a notice at the bottom left of the 
+GUI that it is meshing.  Notice that the mesh is very coarse after generation.  In order to have a flow 
+represented by a CFD model there must be on the smallest flow cross-section at least 5 volume cells 
+across in order to allow for zero slip at the wall and a flow profile to be represented. 
+There are various options under in the Details of “Mesh” panel for controlling how refined or dense 
+the mesh is.  Select ‘Element Size’ on the ‘Defaults’ section (Figure 8) and type in a new size of cell 
+edge length defined in the units shown in the box to the right (try 10 mm, i.e. 0.01 m – you should 
+see the unit to the right of the number you have typed in) and see what happens to the mesh (to 
+regenerate and see the mesh, right click on the mesh in the model tree and ‘clear generated data’ 
+and then again ‘generate mesh’ or just ‘update mesh’).  To see the mesh again, select the geometry 
+
+
+=== PAGE 7 ===
+surface in the project panel, and the mesh in the project panel.  Click on Views in the top in the 
+Display tab, and choose one that sets the geometry clearly in the screen.  Significantly refined mesh 
+results are observed. 
+ 
+Figure 9 select Views and choose the type to make the mesh appear in different orientations 
+Now we turn attention to controlling the mesh.  Although automatic mesh generation is quick and 
+easy, it isn’t usually best. 
+There are quadrilateral cells and triangle cells, or a combination of them.  Right click ‘Mesh’ in the 
+panel on the left and Insert and Method; click in ‘Geometry’ (Figure 10 at the top) and right click on 
+the model geometry in the window using the ‘face’ selection tool , and click 
+‘Apply’; select Method and choose Triangles.  Now right click on Mesh and select ‘clear data’ and  
+‘generate mesh’.  The mesh regenerates with triangular elements – left click on ‘mesh’ and if still not 
+visible then somewhere in the view screen to see it. 
+ 
+ 
+Figure 10 Mesh type set to All Triangles Method using the Method in the panel and the mesh produced 
+Errors to watch out for here would be the presence of more than one mesh if you have adapted a 
+previous model; then making sure that you clear the existing mesh data, ‘clear generated data’ by 
+right click on mesh prior to ‘update’ or ‘generate’ mesh. The mesh generated is shown in Figure 10. 
+
+
+=== PAGE 8 ===
+Now we experiment with the node distribution on the edges.  This is quite tricky, it’s important to 
+get the steps right. 
+Right click on ‘Mesh’ in the left panel to adjust the mesh you just created and ‘clear generated data’.  
+And delete the triangle method by right click on it and delete in the panel under Mesh.  Then to 
+refine an edge select the edge selection tool (Figure 7 again) and: 
+1. left click on one of the long edges of the model and it should turn green,  
+2. right click it and then left click on Insert and Sizing and an edge length control will appear in 
+the panel on the left,  
+3. It should say edge sizing on the menu item which appears on the left panel underneath 
+‘Mesh’ 
+4. Left click on the edge sizing item and the details appear on the panel below it on which you 
+can select an edge cell element size,  
+‘Type’ allows you to choose an option about how the scale of the cells will be set (e.g. by 
+element size, number of divisions on the edge, sphere of influence) and see what happens when 
+you generate the mesh with a 5 mm element size.  Note that the element size must be smaller 
+than the global cell size already selected on the surface method previously (Figure 8).  You can 
+have edge sizing selections for each of your edges.  Apply 5 mm on the long wall edges and see 
+the effect  Update Mesh to see the result and to translate to the setup for Fluent (the next 
+step).  The mesh structure is a bit of a mess, and generally a more smoothly transitioning mesh 
+structure would be desirable to improve the solution accuracy.  Try it again with the triangular 
+cell method.  And finally try it with a Growth Rate of 1.05 on the edge sizing setting pane.  You 
+will see that you have some control over the appearance of the mesh.   
+The Update step on the Mesh (right click on Mesh and select Update) is important because it 
+translates the mesh to Fluent. 
+Close Mesh and you will see that the Mesh has now a tick to show it is successfully done. 
+Lastly you can update the mesh to ensure that it exports to Fluent, if you didn’t already, from the 
+Workbench panel by right clicking on the Mesh and selecting Update.  A green tick should be by the 
+side of the Mesh on the Workbench panel when it is successful. 
+5. Further geometry skills – part 2 of CFD method 
+Some extra tips: to add components to the model, for example to make a right angled bend in a 
+duct, use the sketch tool in 2D mode (not 3D for this course), make the added ducts using the 
+automatic location of points on the corner of the initial rectangle and make three rectangles as 
+shown in Figure 12; once they are made, they may be still separate until you use the Combine tool 
+on the Design tab and use Ctrl and click on the items to be joined together to make a seamless fluid 
+path: 
+
+

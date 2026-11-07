@@ -1,0 +1,34 @@
+{
+  "case": "case05_verified",
+  "xlsx": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\outputs\\01a1b755-05b7-7841-9420-c1bed337cfa6\\case05_verified_data.xlsx",
+  "sha256": "99d03b569758928ba626a5bdf77f037236c8394c3d9a8b4b4cbf3326e79e7551",
+  "summary_sha256": "6afef5fb52315f697bf105fdf83cae639274f32058ad606bdad70dca01d4f1db",
+  "sheet_names": [
+    "Summary",
+    "Monitors",
+    "Surfaces",
+    "Profiles",
+    "Residuals",
+    "Acceptance"
+  ],
+  "formula_count": 5885,
+  "monitor_rows": 2936,
+  "verified_summary_cells": {
+    "B11": 348454.7893148542,
+    "B12": 2.545,
+    "B14": 158.6871125,
+    "B18": 3689,
+    "B19": 5.232899341976225,
+    "B20": 158.8477374876382,
+    "B21": 0.03297620871371155,
+    "B22": 1.001012211925138,
+    "B28": 1737,
+    "B29": 984,
+    "B30": 2936,
+    "B31": 0.00048072750254080944,
+    "B32": 0.0006402909216278263
+  },
+  "formula_error_count": 0,
+  "acceptance_and_qualified_flags_match": true,
+  "scope": "Saved XLSX ZIP/XML and formula caches checked independently against source-derived summary; no claim of testing in a native Excel UI."
+}

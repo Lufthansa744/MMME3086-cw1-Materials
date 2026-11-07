@@ -1,0 +1,14 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+out=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\validation"
+f=open(out+r"\workbench_fluent_uppercase.txt","w")
+for solver in ["FLUENT","Fluent"]:
+    try:
+        t=GetTemplate(TemplateName="Fluid Flow",Solver=solver)
+        f.write(solver+" "+str(t)+"\n"); f.flush()
+        if solver=="FLUENT":
+            s=t.CreateSystem()
+            Save(FilePath=out+r"\fluent_workflow.wbpj",Overwrite=True)
+    except:
+        f.write(traceback.format_exc()+"\n"); f.flush()
+f.close()

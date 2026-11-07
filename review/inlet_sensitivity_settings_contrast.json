@@ -1,0 +1,24 @@
+{
+  "baseline": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case02_aligned\\settings\\case02_aligned_final.set",
+  "sensitivity": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\sensitivity_ke_length_001\\settings\\sensitivity_ke_length_001_final.set",
+  "hashes": [
+    "d9258343099d235d6f2d6489ed536daff563e0ffc05443dbab7de0bcf676d115",
+    "fa7a04807d3646f0db6a3b0bf5dd7c0384647476810c809ee4689b4b58c961ef"
+  ],
+  "bc_blocks": 9,
+  "only_changed_bc_property": [
+    {
+      "header": "(bc (inlet velocity-inlet mixture) (",
+      "unified_diff": [
+        "--- \n",
+        "+++ \n",
+        "@@ -20,3 +20,3 @@\n",
+        " (turb-intensity . 0.05)",
+        "-(turb-length-scale . 1.)",
+        "+(turb-length-scale . 0.01)",
+        " (turb-hydraulic-diam . 1)"
+      ]
+    }
+  ],
+  "material_definitions_byte_equal": true
+}

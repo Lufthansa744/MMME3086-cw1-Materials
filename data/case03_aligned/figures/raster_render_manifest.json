@@ -1,0 +1,101 @@
+{
+  "renderer": "sharp",
+  "versions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "densityDpi": 144,
+  "records": [
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure10_pressure_pressure_compact.svg",
+      "sourceSha256": "921566105c4ee7cc94bbd554ff04da2df0327ef417ba926480b6e3af177d1a29",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure10_pressure_pressure_compact.png",
+      "outputSha256": "25b8617db8c22ca518d3df7f27b308ba6841297760ec3a31013a1ea91be9d072",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure11_pressure_suction_compact.svg",
+      "sourceSha256": "4b5c5cb9a4336ed103fa8395f0a5bd3d48473bf6b1382957a0f0637fd2a319df",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure11_pressure_suction_compact.png",
+      "outputSha256": "399afcab37cb2f44036548224c450e9b30b7d88786db2557b83681982d7e90fc",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure12_yplus_suction_compact.svg",
+      "sourceSha256": "b877aebf1a2946bee255a6338b1ce0ea331fcf1bc6a6ed4c72faa7c98ce80054",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure12_yplus_suction_compact.png",
+      "outputSha256": "da9796ee0f50db4f84fb9d8c3d23881df1d673c065a9e3ba39c8cfc13cc76839",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure13_yplus_pressure_compact.svg",
+      "sourceSha256": "3d4ea604665fc865133f7fe5d3d8235ecad9c1355d5f6be85abde7011c872f34",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure13_yplus_pressure_compact.png",
+      "outputSha256": "5c69eb1e396c3fbf741a3b3b3d3c15eaf38184924933c5658d462dec12653685",
+      "width": 1640,
+      "height": 860
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure3_residuals_compact.svg",
+      "sourceSha256": "964a71e52afec108f45c8181afb5bd023dd0e57cb42cf79cb8a045675eb277f2",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure3_residuals_compact.png",
+      "outputSha256": "0fbf32f21a061d81d902e78d25420fb8a843620bef4a8822132b3aec6785e834",
+      "width": 3200,
+      "height": 880
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure7_velocity_mid_compact.svg",
+      "sourceSha256": "d698a97ce6944f9785d34452d9de03f9c8cce544d7dddeb6597b1754b09ddada",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure7_velocity_mid_compact.png",
+      "outputSha256": "f55805a12abaffc774de7fed8503ceff8adef0378c67ce1434a5a7ad2ba34626",
+      "width": 3200,
+      "height": 710
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure8_velocity_te_compact.svg",
+      "sourceSha256": "6fae1577054f5a927bfbf42b9e3e70ab0b55307a7e5d57fa2baa06ad8c6ed69b",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure8_velocity_te_compact.png",
+      "outputSha256": "6ae75ea1824954fc3bf69bc6acf4836bde0c5394c75ee855d34044b8d59ccd97",
+      "width": 3200,
+      "height": 710
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure9_velocity_wake_compact.svg",
+      "sourceSha256": "a8ff2189ec0b0bee75e91af2ed81369cdd5ea4d8a35c7cd54ffbd65cb782c1f1",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure9_velocity_wake_compact.png",
+      "outputSha256": "395d619fa0c50980b34208a9ecf372983e9d36d8fc0cad8a35124c395f27c661",
+      "width": 3200,
+      "height": 710
+    }
+  ]
+}

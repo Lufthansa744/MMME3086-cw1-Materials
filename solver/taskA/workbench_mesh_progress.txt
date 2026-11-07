@@ -1,0 +1,6 @@
+Mesh system created
+Geometry assigned
+2D import set
+Starting Meshing
+Meshing opened
+Mesher Python command sent

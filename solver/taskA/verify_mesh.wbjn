@@ -1,0 +1,32 @@
+SetScriptVersion(Version="22.2.192")
+import traceback
+out=r"C:\Users\A320N\Documents\ChatGPT\MMME3086 cw1\solver\taskA"
+f=open(out+r"\workbench_mesh_progress.txt","w")
+def log(s):
+    f.write(s+"\n")
+    f.flush()
+try:
+    system1=GetTemplate(TemplateName="Mesh").CreateSystem()
+    log("Mesh system created")
+    geometry=system1.GetContainer(ComponentName="Geometry")
+    geometry.SetFile(FilePath=out+r"\taskA_geometry.scdoc")
+    log("Geometry assigned")
+    props=geometry.GetGeometryProperties()
+    props.GeometryImportAnalysisType="AnalysisType_2D"
+    props.GeometryImportNamedSelections=True
+    props.GeometryImportNamedSelectionsFilter=""
+    log("2D import set")
+    Save(FilePath=out+r"\taskA.wbpj",Overwrite=True)
+    mesh=system1.GetContainer(ComponentName="Mesh")
+    log("Starting Meshing")
+    mesh.Edit(Interactive=False)
+    log("Meshing opened")
+    cmd="import System\nSystem.IO.File.WriteAllText(r'%s', str(ExtAPI.DataModel.Project.Model.Mesh)+'\\n'+str(dir(ExtAPI.DataModel.Project.Model.Mesh)))"%(out+r"\mesher_interface.txt")
+    mesh.SendCommand(Language="Python",Command=cmd)
+    log("Mesher Python command sent")
+    mesh.Exit()
+    Save(FilePath=out+r"\taskA.wbpj",Overwrite=True)
+except:
+    log(traceback.format_exc())
+f.close()
+
