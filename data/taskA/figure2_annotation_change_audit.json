@@ -1,0 +1,364 @@
+{
+  "scope": "Figure2 dimensions annotation only. Original mesh and all other report figures protected.",
+  "before": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\make_taskA_compact.py",
+      "sha256": "f109bb27f304efec88d3515583cb0503dfdd307b77a17e415883c774c4adaf1e",
+      "snapshot": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\annotation_history\\make_taskA_compact.before_f109bb27f304.py"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.svg",
+      "sha256": "38ccff545368ce9d58580fdc0c6f69767b64b093565a82f85ddc641bfd372c6d",
+      "snapshot": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\annotation_history\\figure2_mesh_compact.before_38ccff545368.svg"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.png",
+      "sha256": "e355048540a77294c8564788954eb2ae55717d6cfc38bcf055592f287897bde0",
+      "snapshot": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\annotation_history\\figure2_mesh_compact.before_e355048540a7.png"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\compact_figures_manifest.json",
+      "sha256": "7bcb269bea25008bde02d75abeaf22d3246d3f9e18a7eef1c3bb608cb5390746",
+      "snapshot": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\annotation_history\\compact_figures_manifest.before_7bcb269bea25.json"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\final_data_manifest.json",
+      "sha256": "547b7b400689e310e0a98662ffa0a77e1b9ab62ea1979fde6f85ceaa3f9262cb",
+      "snapshot": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\annotation_history\\final_data_manifest.before_547b7b400689.json"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_compact.png",
+      "sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case01_aligned\\figures\\figure3_residuals_compact.png",
+      "sha256": "615443e44a3b6babeb50da4fc1f7e11f1ae53ee56359f6b4dd324957fa154eb3"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure4_velocity_vectors.png",
+      "sha256": "586dca38dea05eca86beda14a8309b843803f7057673f38b37f935d238b87d48"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case03_aligned\\figures\\figure5_wall_cell_yplus.png",
+      "sha256": "b66d151970b759b80668d3ca05eec6fe57f1edcf33b152e28127f9e62b96cdb4"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\case05_verified\\figures\\figure6_combined_compact.png",
+      "sha256": "ded8f98507d017b2d2ec1a8a8f3ffafe6fc328c761b90f7dbaa29cac66504945"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure7_velocity_mid.png",
+      "sha256": "985315f34f494e0fab495e3239deb3d80abae8cdd29845abbcdeef49188fd846"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure8_velocity_te.png",
+      "sha256": "e19e069eada046242e90e0d975ff5090a7832fce9e85ce1938ef8ebea6f67197"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure9_velocity_wake.png",
+      "sha256": "fe686c2212e164177305eaeb3cf83ee40fa2c3842943ee76eafa4a9ac4215bcd"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure10_pressure_pressure.png",
+      "sha256": "56665142c0e9f41cd3f46dfd26675719ccd42a0de15a80f0022987c330db8831"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure11_pressure_suction.png",
+      "sha256": "ef5558b3c52331c085b972be56ddb64f7c3aa87af3477567808d19276529b643"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure12_yplus_suction.png",
+      "sha256": "c1bce152f8b901232736e85fbad163cdf8b4faf3ee4fe026c28af503bc53d4c8"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\comparison\\figures\\figure13_yplus_pressure.png",
+      "sha256": "bfcad5e38696a9825d173ec2a0831e5b2918e8c3f69e6cae4f3d8a72d0694763"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+      "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\boundary_edges.csv",
+      "sha256": "fe34d171d4d2db50fb751f2f49450757c4502646c2a33c82b10babf835fb74d3"
+    }
+  ],
+  "status": "Independent final review PASS: outlet dimension clear, x-axis text fully visible, 50 tick separate; geometry and other figure content unchanged",
+  "after": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\make_taskA_compact.py",
+      "sha256": "92a756987c99911757ea665b3167f1317d004fcb7c5ab0bff8c91579df4128b4",
+      "bytes": 11914
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\render_figure2_compact.mjs",
+      "sha256": "ebd05079c59a5a05896de7c8d4edf9a07e240a61150ba136c4e7945cd5e1a4c1",
+      "bytes": 1153
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.svg",
+      "sha256": "3338c73028e169a401135087184f65fbc97b3d043481179e49d31f545be7baaf",
+      "bytes": 539020
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.png",
+      "sha256": "6d1f52775cef64a532b3e533d15e9cbd314e7e40a4743fac1b17f0666ac96b7f",
+      "bytes": 1185371
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\compact_figures_manifest.json",
+      "sha256": "c37af7680e040cc83016c306c8662d1b3c1cd907e39f0498547231bd99a89b55",
+      "bytes": 5672
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\raster_render_manifest.json",
+      "sha256": "b3571aafa3c2f740af13ba4f7ae09e8c999d59b563872840fe794a5537a21283",
+      "bytes": 1211
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\final_data_manifest.json",
+      "sha256": "e3d64632dc79528425f97b10dbc0ca114072e99ca1a930ccb7acb4ea967c4045",
+      "bytes": 16512
+    }
+  ],
+  "changes": {
+    "removed_svg_lines": [
+      "<path d=\"M1490.000,80.000L1490.000,275.000\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\" marker-start=\"url(#arr)\" marker-end=\"url(#arr)\"/>",
+      "<text x=\"1510\" y=\"236\" font-size=\"28\" text-anchor=\"start\" fill=\"#222\">150</text>",
+      "<text x=\"1510\" y=\"267\" font-size=\"28\" text-anchor=\"start\" fill=\"#222\">mm</text>",
+      "<text x=\"817.5\" y=\"736\" font-size=\"28\" text-anchor=\"middle\" fill=\"#222\">x (mm)</text>"
+    ],
+    "added_svg_lines": [
+      "<path d=\"M1425.000,80.000L1550.000,80.000\" fill=\"none\" stroke=\"#777\" stroke-width=\"1.5\"/>",
+      "<path d=\"M1425.000,275.000L1550.000,275.000\" fill=\"none\" stroke=\"#777\" stroke-width=\"1.5\"/>",
+      "<path d=\"M1540.000,80.000L1540.000,275.000\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\" marker-start=\"url(#arr)\" marker-end=\"url(#arr)\"/>",
+      "<text x=\"1585\" y=\"177.5\" font-size=\"28\" text-anchor=\"middle\" transform=\"rotate(-90,1585,177.5)\">150 mm</text>",
+      "<text x=\"817.5\" y=\"730\" font-size=\"28\" text-anchor=\"middle\" fill=\"#222\">x (mm)</text>"
+    ],
+    "only_dimension_annotation_xml_changed": false,
+    "mesh_geometry_scales_labels_fonts_unchanged": true,
+    "figure1_manifest_and_all_other_report_pngs_unchanged": true,
+    "final_data_manifest_only_figure2_record_changed": true,
+    "canvas_svg_px": [
+      1600,
+      740
+    ],
+    "canvas_png_px": [
+      3200,
+      1480
+    ],
+    "actual_print_width_mm": 165.1,
+    "actual_print_height_mm": 76.35875,
+    "height_label_font_pt": 8.190000000000001,
+    "x_axis_label_baseline_change_svg_px": [
+      736,
+      730
+    ],
+    "only_requested_dimension_and_axis_baseline_xml_changed": true
+  },
+  "historical_records_not_overwritten": [
+    "data/print_assets/print_asset_audit.json",
+    "data/print_assets/delivery_validation.json",
+    "data/print_assets/prepared_png_source_match.json"
+  ],
+  "history_note": "These earlier print snapshots describe the pre-correction Figure2 hashes. Their all-13-unchanged assertions are historical, not current post-annotation assertions. Figures3\u201313 vector PDFs and their independent review remain unchanged.",
+  "snapshot_policy": "annotation_history contains local before snapshots only; do not copy these or review before-images into the new GitHub commit. Git history already retains the old figure.",
+  "reproduction": {
+    "svg_command": "& 'C:\\Users\\A320N\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' data/make_taskA_compact.py --source solver/aligned_taskA --figure 2",
+    "png_command": "& 'C:\\Users\\A320N\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe' data/render_figure2_compact.mjs",
+    "final_manifest_command": "python data/make_final_manifest.py",
+    "guard": "Use --figure 2 with the explicit aligned source. Do not run the historical all-figures default for this change; Figure1 is not regenerated."
+  },
+  "raster_difference_check": {
+    "comparison": "Exact decoded RGB before/after, no resize",
+    "changed_pixels": 13999,
+    "changed_pixel_bbox": [
+      1548,
+      156,
+      3171,
+      1480
+    ],
+    "annotation_rois_px": [
+      [
+        2840,
+        140,
+        3200,
+        570
+      ],
+      [
+        1500,
+        1400,
+        1780,
+        1480
+      ]
+    ],
+    "changed_pixels_outside_annotation_rois": 0,
+    "original_mesh_and_all_other_image_pixels_equal": true
+  },
+  "axis_label_fix": {
+    "reason": "Independent review found pre-existing baseline736 clipped lower parenthesis pixels; baseline moved to730 at unchanged28px type.",
+    "fontsize_svg_px": 28,
+    "size_px": [
+      3200,
+      1480
+    ],
+    "ink_last_y_in_label_region_before": 1479,
+    "ink_last_y_in_label_region_after": 1471
+  },
+  "independent_review": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\figure2_annotation_review_audit.json",
+    "sha256": "c31f20426ec84e9c964f8aaaf237b6b8cc977115b63d892ea1b9ac5623dcd06a",
+    "record": {
+      "svg_sha256": "3338c73028e169a401135087184f65fbc97b3d043481179e49d31f545be7baaf",
+      "png_sha256": "6d1f52775cef64a532b3e533d15e9cbd314e7e40a4743fac1b17f0666ac96b7f",
+      "mesh_sha256_unchanged": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+      "SVG_non_annotation_XML_byte_identical": true,
+      "annotation_elements_removed_for_comparison": [
+        {
+          "before": true,
+          "tag": "path",
+          "attributes": {
+            "d": "M1490.000,80.000L1490.000,275.000",
+            "fill": "none",
+            "stroke": "#333",
+            "stroke-width": "1.5",
+            "marker-start": "url(#arr)",
+            "marker-end": "url(#arr)"
+          },
+          "text": ""
+        },
+        {
+          "before": true,
+          "tag": "text",
+          "attributes": {
+            "x": "1510",
+            "y": "236",
+            "font-size": "28",
+            "text-anchor": "start",
+            "fill": "#222"
+          },
+          "text": "150"
+        },
+        {
+          "before": true,
+          "tag": "text",
+          "attributes": {
+            "x": "1510",
+            "y": "267",
+            "font-size": "28",
+            "text-anchor": "start",
+            "fill": "#222"
+          },
+          "text": "mm"
+        },
+        {
+          "before": true,
+          "tag": "text",
+          "attributes": {
+            "x": "817.5",
+            "y": "736",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "text": "x (mm)"
+        },
+        {
+          "before": false,
+          "tag": "path",
+          "attributes": {
+            "d": "M1425.000,80.000L1550.000,80.000",
+            "fill": "none",
+            "stroke": "#777",
+            "stroke-width": "1.5"
+          },
+          "text": ""
+        },
+        {
+          "before": false,
+          "tag": "path",
+          "attributes": {
+            "d": "M1425.000,275.000L1550.000,275.000",
+            "fill": "none",
+            "stroke": "#777",
+            "stroke-width": "1.5"
+          },
+          "text": ""
+        },
+        {
+          "before": false,
+          "tag": "path",
+          "attributes": {
+            "d": "M1540.000,80.000L1540.000,275.000",
+            "fill": "none",
+            "stroke": "#333",
+            "stroke-width": "1.5",
+            "marker-start": "url(#arr)",
+            "marker-end": "url(#arr)"
+          },
+          "text": ""
+        },
+        {
+          "before": false,
+          "tag": "text",
+          "attributes": {
+            "x": "1585",
+            "y": "177.5",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "transform": "rotate(-90,1585,177.5)"
+          },
+          "text": "150 mm"
+        },
+        {
+          "before": false,
+          "tag": "text",
+          "attributes": {
+            "x": "817.5",
+            "y": "730",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "text": "x (mm)"
+        }
+      ],
+      "canvas_and_PNG_unchanged": [
+        1600,
+        740,
+        3200,
+        1480
+      ],
+      "PNG_changed_pixel_bbox": [
+        1548,
+        156,
+        3171,
+        1480
+      ],
+      "pixel_changes_outside_two_exact_annotation_ROIs": 0,
+      "dimension_label_ink_bounds_svg_px": [
+        1565.0,
+        126.5,
+        1585.0,
+        228.5
+      ],
+      "axis_label_ink_bounds_svg_px": [
+        774.5,
+        710.0,
+        860.5,
+        736.0
+      ],
+      "axis_label_last_ink_PNG_row": 1471,
+      "blank_PNG_rows_below_axis_label": 8,
+      "outlet_ink_right_svg_px": 1509,
+      "arrow_x_svg_px": 1540,
+      "conservative_arrow_left_svg_px": 1535,
+      "outlet_to_arrow_clearance_svg_px": 26,
+      "minimum_label_font_at_165p1mm_pt": 8.19,
+      "preview": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\figure2_annotation_review_print_165mm_300dpi.png",
+      "status": "Structural/pixel/source checks PASS; updated print-size preview requires independent image inspection"
+    }
+  }
+}

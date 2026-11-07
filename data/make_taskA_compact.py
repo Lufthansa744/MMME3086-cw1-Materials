@@ -116,7 +116,11 @@ def figure2():
     line(svg,(120,38),(1420,38),arrows=True);text(svg,770,29,'1000 mm',30,'middle')
     text(svg,770,72,'wall_top',30,'middle');text(svg,770,312,'wall_bottom',30,'middle')
     text(svg,110,190,'inlet',30,'end',colors['inlet']);text(svg,1434,190,'outlet',30,color=colors['outlet'])
-    line(svg,(1490,80),(1490,275),arrows=True);text(svg,1510,236,'150',28);text(svg,1510,267,'mm',28)
+    # Keep the outlet label clear of the duct-height dimension without changing
+    # the plot, boundary labels, scales or type size.
+    line(svg,(1425,80),(1550,80),'#777');line(svg,(1425,275),(1550,275),'#777')
+    line(svg,(1540,80),(1540,275),arrows=True)
+    svg.append('<text x="1585" y="177.5" font-size="28" text-anchor="middle" transform="rotate(-90,1585,177.5)">150 mm</text>')
     a,b=full((bounds[0],bounds[3])),full((bounds[1],bounds[2]))
     svg.append(f'<rect x="{a[0]}" y="{a[1]}" width="{b[0]-a[0]}" height="{b[1]-a[1]}" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>')
     local_count=draw(sorted(faces),local,'#777',.65,True)
@@ -127,7 +131,7 @@ def figure2():
     for ymm in [20,10,0,-10,-20,-30]:
         if not bounds[2]<=ymm/1000<=bounds[3]:continue
         x,y=local((bounds[0],ymm/1000));line(svg,(x-7,y),(x,y));text(svg,x-15,y+10,str(ymm),28,'end')
-    text(svg,lx+lw/2,736,'x (mm)',28,'middle')
+    text(svg,lx+lw/2,730,'x (mm)',28,'middle')
     svg.append('<text x="190" y="515" font-size="28" text-anchor="middle" transform="rotate(-90,190,515)">y (mm)</text>')
     def mid(n):
         f=faces[zones[n]['faces'][len(zones[n]['faces'])//2]]
@@ -143,9 +147,15 @@ def figure2():
 
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--source',default='solver/taskA');parser.add_argument('--detail-centre-y',type=float,default=-.007);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--source',default='solver/taskA');parser.add_argument('--detail-centre-y',type=float,default=-.007);parser.add_argument('--figure',choices=['all','2'],default='all');args=parser.parse_args()
     SRC=ROOT/args.source;DETAIL_CENTRE_Y=args.detail_centre_y
     OUT.mkdir(parents=True,exist_ok=True)
-    result={'figure1':figure1(),'figure2':figure2(),'script':{'path':str(Path(__file__).resolve()),'sha256':sha(Path(__file__))}}
+    if args.figure=='2':
+        result=json.loads((OUT/'compact_figures_manifest.json').read_text())
+        result['figure2']=figure2()
+        result['figure2']['annotation']={'height_dimension_x_px':1540,'height_label':'150 mm','label_position_px':[1585,177.5],'label_rotation_deg':-90,'label_font_px':28,'witness_lines':'(1425,80)-(1550,80) and (1425,275)-(1550,275); stroke 1.5 px',
+                                          'generator_script':{'path':str(Path(__file__).resolve()),'sha256':sha(Path(__file__))}}
+    else:
+        result={'figure1':figure1(),'figure2':figure2(),'script':{'path':str(Path(__file__).resolve()),'sha256':sha(Path(__file__))}}
     (OUT/'compact_figures_manifest.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
-    print('Compact native geometry and exact mesh SVGs saved')
+    print('Only Figure2 compact mesh SVG saved' if args.figure=='2' else 'Compact native geometry and exact mesh SVGs saved')

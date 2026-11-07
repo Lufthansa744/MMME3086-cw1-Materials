@@ -1,0 +1,151 @@
+{
+  "svg_sha256": "3338c73028e169a401135087184f65fbc97b3d043481179e49d31f545be7baaf",
+  "png_sha256": "6d1f52775cef64a532b3e533d15e9cbd314e7e40a4743fac1b17f0666ac96b7f",
+  "mesh_sha256_unchanged": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+  "SVG_non_annotation_XML_byte_identical": true,
+  "annotation_elements_removed_for_comparison": [
+    {
+      "before": true,
+      "tag": "path",
+      "attributes": {
+        "d": "M1490.000,80.000L1490.000,275.000",
+        "fill": "none",
+        "stroke": "#333",
+        "stroke-width": "1.5",
+        "marker-start": "url(#arr)",
+        "marker-end": "url(#arr)"
+      },
+      "text": ""
+    },
+    {
+      "before": true,
+      "tag": "text",
+      "attributes": {
+        "x": "1510",
+        "y": "236",
+        "font-size": "28",
+        "text-anchor": "start",
+        "fill": "#222"
+      },
+      "text": "150"
+    },
+    {
+      "before": true,
+      "tag": "text",
+      "attributes": {
+        "x": "1510",
+        "y": "267",
+        "font-size": "28",
+        "text-anchor": "start",
+        "fill": "#222"
+      },
+      "text": "mm"
+    },
+    {
+      "before": true,
+      "tag": "text",
+      "attributes": {
+        "x": "817.5",
+        "y": "736",
+        "font-size": "28",
+        "text-anchor": "middle",
+        "fill": "#222"
+      },
+      "text": "x (mm)"
+    },
+    {
+      "before": false,
+      "tag": "path",
+      "attributes": {
+        "d": "M1425.000,80.000L1550.000,80.000",
+        "fill": "none",
+        "stroke": "#777",
+        "stroke-width": "1.5"
+      },
+      "text": ""
+    },
+    {
+      "before": false,
+      "tag": "path",
+      "attributes": {
+        "d": "M1425.000,275.000L1550.000,275.000",
+        "fill": "none",
+        "stroke": "#777",
+        "stroke-width": "1.5"
+      },
+      "text": ""
+    },
+    {
+      "before": false,
+      "tag": "path",
+      "attributes": {
+        "d": "M1540.000,80.000L1540.000,275.000",
+        "fill": "none",
+        "stroke": "#333",
+        "stroke-width": "1.5",
+        "marker-start": "url(#arr)",
+        "marker-end": "url(#arr)"
+      },
+      "text": ""
+    },
+    {
+      "before": false,
+      "tag": "text",
+      "attributes": {
+        "x": "1585",
+        "y": "177.5",
+        "font-size": "28",
+        "text-anchor": "middle",
+        "transform": "rotate(-90,1585,177.5)"
+      },
+      "text": "150 mm"
+    },
+    {
+      "before": false,
+      "tag": "text",
+      "attributes": {
+        "x": "817.5",
+        "y": "730",
+        "font-size": "28",
+        "text-anchor": "middle",
+        "fill": "#222"
+      },
+      "text": "x (mm)"
+    }
+  ],
+  "canvas_and_PNG_unchanged": [
+    1600,
+    740,
+    3200,
+    1480
+  ],
+  "PNG_changed_pixel_bbox": [
+    1548,
+    156,
+    3171,
+    1480
+  ],
+  "pixel_changes_outside_two_exact_annotation_ROIs": 0,
+  "dimension_label_ink_bounds_svg_px": [
+    1565.0,
+    126.5,
+    1585.0,
+    228.5
+  ],
+  "axis_label_ink_bounds_svg_px": [
+    774.5,
+    710.0,
+    860.5,
+    736.0
+  ],
+  "axis_label_last_ink_PNG_row": 1471,
+  "blank_PNG_rows_below_axis_label": 8,
+  "outlet_ink_right_svg_px": 1509,
+  "arrow_x_svg_px": 1540,
+  "conservative_arrow_left_svg_px": 1535,
+  "outlet_to_arrow_clearance_svg_px": 26,
+  "minimum_label_font_at_165p1mm_pt": 8.19,
+  "preview": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\figure2_annotation_review_print_165mm_300dpi.png",
+  "status": "PASS: height-dimension collision and pre-existing bottom-axis-label clip corrected; scientific SVG/mesh and pixels outside two annotation ROIs unchanged",
+  "print_size_preview_visually_reviewed": true
+}

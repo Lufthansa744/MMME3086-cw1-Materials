@@ -1,5 +1,5 @@
 {
-  "source_archive_sha256": "527ef3cc1616a087a4b57c23a75a55348ba6d9c5bf577c5c1eb63bb961aaad95",
+  "source_archive_sha256": "c5dc8011ef42776aa974af32d0231151d66f38d11e8118abfc779f1c3f5292c5",
   "prepared_main_sha256": "93391df3f80c4e90e85a5af5c1f13c2fbd26d03f4823f23ecbadc02831a34898",
   "zip_members_match_prepared": true,
   "report_figure_count": 13,
@@ -94,5 +94,11 @@
   "historical_numerical_snapshot": "snapshot_06_final_numerical_and_reviewed_source retains the earlier reviewed PNG source, not the current vector print package",
   "latex_compiled": false,
   "rendered_pdf_verified": false,
-  "remaining": "Mac continuation: authorised Overleaf upload/compile and rendered-PDF verification"
+  "remaining": "Mac continuation: replace Figure2 asset or use updated source ZIP, compile only in Overleaf and inspect rendered pages.",
+  "latest_artwork_change": {
+    "figure": 2,
+    "description": "outlet/150mm separation and bottom axis-label clearance",
+    "png_sha256": "6d1f52775cef64a532b3e533d15e9cbd314e7e40a4743fac1b17f0666ac96b7f",
+    "independent_review": "review/figure2_annotation_review_audit.json"
+  }
 }

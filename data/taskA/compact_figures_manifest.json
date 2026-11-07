@@ -129,11 +129,26 @@
     "minimum_font_px": 28,
     "font_at_170mm_width_pt": 8.433070866141733,
     "figure": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.svg",
-    "figure_sha256": "38ccff545368ce9d58580fdc0c6f69767b64b093565a82f85ddc641bfd372c6d",
+    "figure_sha256": "3338c73028e169a401135087184f65fbc97b3d043481179e49d31f545be7baaf",
     "size_svg_px": [
       1600,
       740
-    ]
+    ],
+    "annotation": {
+      "height_dimension_x_px": 1540,
+      "height_label": "150 mm",
+      "label_position_px": [
+        1585,
+        177.5
+      ],
+      "label_rotation_deg": -90,
+      "label_font_px": 28,
+      "witness_lines": "(1425,80)-(1550,80) and (1425,275)-(1550,275); stroke 1.5 px",
+      "generator_script": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\make_taskA_compact.py",
+        "sha256": "92a756987c99911757ea665b3167f1317d004fcb7c5ab0bff8c91579df4128b4"
+      }
+    }
   },
   "script": {
     "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\make_taskA_compact.py",

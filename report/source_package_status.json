@@ -1,14 +1,16 @@
 {
   "archive": "LIU_Yang_20617209_CFD_Overleaf_Source.zip",
-  "sha256": "527ef3cc1616a087a4b57c23a75a55348ba6d9c5bf577c5c1eb63bb961aaad95",
+  "sha256": "c5dc8011ef42776aa974af32d0231151d66f38d11e8118abfc779f1c3f5292c5",
   "source_preflight_passed": true,
   "latex_compiled": false,
   "final_page_layout_verified": false,
-  "remaining_action": "Continue in Mac: upload to the existing approved Overleaf project, compile only there, inspect all rendered pages and required eight-page limit.",
+  "remaining_action": "Mac continuation: use the corrected Figure2 asset or updated source ZIP; compile only in the approved Overleaf project and verify rendered pages.",
   "independent_print_package_review": "review/final_print_package_audit.json",
+  "latest_figure2_review": "review/figure2_annotation_review.md",
   "figure_formats": {
     "PNG": 2,
     "vector_PDF": 11
   },
-  "approved_AIAA_class_unchanged": true
+  "approved_AIAA_class_unchanged": true,
+  "latest_change": "Figure2 outlet/height-dimension separation and bottom axis-label clearance; artwork-only update"
 }

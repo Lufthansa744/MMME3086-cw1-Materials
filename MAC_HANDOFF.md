@@ -9,6 +9,8 @@
 
 ## Preserve these requirements
 
+The latest Figure 2 correction is available as `report/prepared/fig02_mesh_bc.png` and `data/taskA/figure2_mesh_compact.svg`. To update a report already edited in Overleaf, replace the existing `fig02_mesh_bc.png` with this corrected asset. The updated source ZIP also includes it.
+
 - Approved `new-aiaa.cls`, the four prescribed section headings, figure numbering/order and reported values. Natural continuous pagination now replaces seven forced page breaks; actual page count is not yet verified.
 - No `working draft`, `TODO` or unresolved fields in submitted prose. No punctuation after displayed equations.
 - Course word limits: mesh caption <100; B3 explanation/caption <150 each; C1 each plot analysis <100; C2 each analysis <100; C3 combined explanation <100; C4 comparison <550. Current text has passed source review.

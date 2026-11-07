@@ -6,6 +6,8 @@ Student **20617209** · inlet **50.9 m/s** · five prescribed cases complete.
 
 ## Current report
 
+Figure 2 artwork was corrected on 7 November: the outlet label and 150 mm dimension are separated, and the bottom axis label has clear canvas margins. Mac can replace the single active asset, `report/prepared/fig02_mesh_bc.png`; the source ZIP includes the same correction. See `review/figure2_annotation_review.md`.
+
 - [Overleaf source ZIP](report/LIU_Yang_20617209_CFD_Overleaf_Source.zip) — upload to the existing approved project; do not substitute an older snapshot or create a different template.
 - [Prepared main source](report/prepared/main.tex) and [result table](report/prepared/verified_table.tex).
 - [Source package status](report/source_package_status.json), [independent content review](review/final_report_content_review.md), [vector/layout review](review/layout_and_vector_review.md).
