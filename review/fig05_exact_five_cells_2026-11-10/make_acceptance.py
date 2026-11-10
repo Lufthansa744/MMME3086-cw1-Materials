@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,hashlib
+root=Path(__file__).resolve().parents[2];out=Path(__file__).parent;delivery=root/'report/native_fluent_2026-11-10-exact-cells';previous=root/'report/native_fluent_2026-11-10-centered'
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+audit=json.loads((out/'final_pdf_identity_audit.json').read_text());p=delivery/'fig05_rsm_yplus.pdf';assert audit['PDF']==str(p) and audit['sha256']==sha(p)
+unchanged=[]
+for stem in ['fig02_mesh_bc','fig04_rsm_vectors','fig06_enhanced_combined']:
+ for suffix in ['.pdf','.png','_print300.png']:
+  a=delivery/(stem+suffix);b=previous/a.name;assert a.read_bytes()==b.read_bytes();unchanged.append({'path':str(a),'sha256':sha(a)})
+r={'overall':'ACCEPT','scope':'Exact-five-cell Figure5 annotation correction; four-figure delivery set retains Figures2/4/6 byte-for-byte','date':'2026-11-10','fig5':{'accepted':True,'decision':'ACCEPT','path':str(p),'sha256':sha(p),'bytes':p.stat().st_size,'size_pt':[468,187.2],'size_mm':[165.1,66.04],'actual_selected_cell_ids':[7588,7316,69,7251,2573],'false_positive_cells':0,'false_negative_cells':0,'red_outline_stroke_pt':.35,'red_polygons_match_actual_mesh_vertices':True,'native_scientific_RGB_unchanged':True,'axes_and_centering_unchanged':True,'print_review':'ACCEPT: independently rendered final-current-byte300dpi preview; five exact individual red triangles readable, no observed text/leader collision or clipping.'},'unchanged_other_assets':unchanged,'source_evidence':'exact_five_cells.json','PDF_content_evidence':'final_pdf_identity_audit.json','source_finding':'SOURCE_FINDING.md','supersedes':'The old global-projection bracket visual gate is withdrawn for Figure5: it covered two additional suction-side triangle projections. The count5 and original CFD values were correct. Historical records remain historical.','annotation_type':'Five individual post-export red empty triangle outlines on native mesh edges; native scientific colours remain unchanged.','limitations':['No Fluent operation, solution iteration, geometry or data changes performed.','Standalone artwork acceptance does not certify integrated report pagination. Final report compilation remains Overleaf-only.']}
+for n,stem in [(2,'fig02_mesh_bc'),(4,'fig04_rsm_vectors'),(6,'fig06_enhanced_combined')]:
+ a=delivery/(stem+'.pdf');r[f'fig{n}']={'accepted':True,'sha256':sha(a),'path':str(a),'unchanged_from_centered_accepted_set':True}
+(out/'final_acceptance.json').write_text(json.dumps(r,indent=2));print(json.dumps({'overall':r['overall'],'fig5_sha256':sha(p),'false_positive':0,'false_negative':0},indent=2))

@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-10",
+  "scope": "Correct Figure 5 identification only; Figures 2/4/6 are unchanged copies",
+  "repository": "https://github.com/Lufthansa744/MMME3086-cw1-Materials",
+  "annotation_correction": "Remove the global range bracket; identify five non-contiguous actual cells individually",
+  "selected_cell_ids": [
+    69,
+    2573,
+    7251,
+    7316,
+    7588
+  ],
+  "false_positive_cells": 0,
+  "false_negative_cells": 0,
+  "native_scientific_source": {
+    "path": "solver/native_figures_2026-11-10-centered/case03/yplus_native_context_centered.png",
+    "bytes": 430280,
+    "sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7"
+  },
+  "native_source_RGB_embedded_exactly_unchanged": true,
+  "new_red_marks": "Five 0.35-pt empty triangle outlines; factual post-export annotations",
+  "prior_bracket_visual_acceptance_superseded": true,
+  "Fluent_started_for_this_correction": false,
+  "solution_or_physical_settings_changed": false,
+  "latex_compiled": false,
+  "integrated_report_layout_checked": false,
+  "independent_acceptance": {
+    "path": "review/fig05_exact_five_cells_2026-11-10/final_acceptance.json",
+    "bytes": 6038,
+    "sha256": "3d8b49c78728f37571f72c08efebdf69f903a83bee29ecf9ea050ae7ed4fe41b"
+  },
+  "source_finding": {
+    "path": "review/fig05_exact_five_cells_2026-11-10/SOURCE_FINDING.md",
+    "bytes": 1809,
+    "sha256": "f14a0a76deaf926a6e022bbe76f2dfc226e1543d66d5d2001ae68648aff2defb"
+  },
+  "artwork": [
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+      "physical_size_mm": [
+        159.9974222222222,
+        73.99880777777777
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+      "physical_size_mm": [
+        165.1,
+        65.008125
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig05_rsm_yplus.pdf",
+      "bytes": 484867,
+      "sha256": "55b51ca829d3ca012339edf61e634059bb96eee40fea5eee676aca95c04cbb8f",
+      "physical_size_mm": [
+        165.1,
+        66.03999999999999
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+      "physical_size_mm": [
+        165.1,
+        143.0000001027778
+      ]
+    }
+  ],
+  "delivery_files": [
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig02_mesh_bc.png",
+      "bytes": 814099,
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig02_mesh_bc_print300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig04_rsm_vectors.png",
+      "bytes": 361605,
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig04_rsm_vectors_print300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md",
+      "bytes": 3471,
+      "sha256": "35b83a7d27ba1947993b82d2bc9798fe491a61a3fcb15d77a1a046ab647c2bf9"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig05_rsm_yplus.pdf",
+      "bytes": 484867,
+      "sha256": "55b51ca829d3ca012339edf61e634059bb96eee40fea5eee676aca95c04cbb8f"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig05_rsm_yplus.png",
+      "bytes": 675467,
+      "sha256": "39ebe467fd84cca09f40a9775c7de1259dc8fd0134dbf38c297677b76864b078"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig05_rsm_yplus_print300.png",
+      "bytes": 449521,
+      "sha256": "2911b080fe29d4da9dad3368add44a981b98d33b0f020d4aa31137fe2cd012da"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig06_enhanced_combined.png",
+      "bytes": 430975,
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/fig06_enhanced_combined_print300.png",
+      "bytes": 244063,
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/MAC_PATCH_PROMPT.txt",
+      "bytes": 2184,
+      "sha256": "da9476fe1df6dbb2a3aba15c5e6e48f050072ab5642bee75773ebf3b894c9b2a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-exact-cells/native_assets_manifest.json",
+      "bytes": 11975,
+      "sha256": "3ed11cba750eef7100523508522b2cbfa7c87b7ea65b121719ee7fefd9361dcb"
+    }
+  ]
+}

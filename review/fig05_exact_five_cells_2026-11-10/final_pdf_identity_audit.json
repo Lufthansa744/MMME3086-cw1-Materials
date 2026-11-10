@@ -1,0 +1,113 @@
+{
+  "PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig05_rsm_yplus.pdf",
+  "sha256": "55b51ca829d3ca012339edf61e634059bb96eee40fea5eee676aca95c04cbb8f",
+  "red_triangle_annotations": [
+    {
+      "cell_id": 7588,
+      "actual_red_pdf_vertices_top_origin_pt": [
+        [
+          332.989,
+          102.20288999999998
+        ],
+        [
+          338.9197,
+          103.79542
+        ],
+        [
+          338.1703,
+          98.16368999999999
+        ]
+      ],
+      "maximum_vertex_error_pt": 2.5229286786358918e-05,
+      "stroke_width_pt": 0.35
+    },
+    {
+      "cell_id": 7316,
+      "actual_red_pdf_vertices_top_origin_pt": [
+        [
+          344.8453,
+          105.40463999999999
+        ],
+        [
+          350.7662,
+          107.03117999999999
+        ],
+        [
+          349.2204,
+          100.36693999999999
+        ]
+      ],
+      "maximum_vertex_error_pt": 2.734690545504933e-05,
+      "stroke_width_pt": 0.35
+    },
+    {
+      "cell_id": 69,
+      "actual_red_pdf_vertices_top_origin_pt": [
+        [
+          350.7662,
+          107.03117999999999
+        ],
+        [
+          356.6822,
+          108.67555999999999
+        ],
+        [
+          354.8808,
+          101.90561999999998
+        ]
+      ],
+      "maximum_vertex_error_pt": 3.386760232599561e-05,
+      "stroke_width_pt": 0.35
+    },
+    {
+      "cell_id": 7251,
+      "actual_red_pdf_vertices_top_origin_pt": [
+        [
+          356.6822,
+          108.67555999999999
+        ],
+        [
+          362.5931,
+          110.33847999999999
+        ],
+        [
+          360.7465,
+          103.00569999999999
+        ]
+      ],
+      "maximum_vertex_error_pt": 2.554816211523741e-05,
+      "stroke_width_pt": 0.35
+    },
+    {
+      "cell_id": 2573,
+      "actual_red_pdf_vertices_top_origin_pt": [
+        [
+          362.5931,
+          110.33847999999999
+        ],
+        [
+          368.2704,
+          111.95521999999998
+        ],
+        [
+          367.5844,
+          104.89975999999999
+        ]
+      ],
+      "maximum_vertex_error_pt": 3.0427778483870106e-05,
+      "stroke_width_pt": 0.35
+    }
+  ],
+  "false_positive_cells": 0,
+  "false_negative_cells": 0,
+  "native_RGB_all_unchanged": true,
+  "axis_tick_text_and_positions_unchanged": true,
+  "physical_box_pt": [
+    468,
+    187.2
+  ],
+  "glyphs_outside_canvas": 0,
+  "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\fig05_exact_five_cells_2026-11-10\\fig05_independent300.png",
+  "current_PDF_render_matches_delivery_preview": true,
+  "original_bracket_removed": true
+}

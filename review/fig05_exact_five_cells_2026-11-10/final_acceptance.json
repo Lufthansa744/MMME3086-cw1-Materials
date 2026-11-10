@@ -1,0 +1,113 @@
+{
+  "overall": "ACCEPT",
+  "scope": "Exact-five-cell Figure5 annotation correction; four-figure delivery set retains Figures2/4/6 byte-for-byte",
+  "date": "2026-11-10",
+  "fig5": {
+    "accepted": true,
+    "decision": "ACCEPT",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig05_rsm_yplus.pdf",
+    "sha256": "55b51ca829d3ca012339edf61e634059bb96eee40fea5eee676aca95c04cbb8f",
+    "bytes": 484867,
+    "size_pt": [
+      468,
+      187.2
+    ],
+    "size_mm": [
+      165.1,
+      66.04
+    ],
+    "actual_selected_cell_ids": [
+      7588,
+      7316,
+      69,
+      7251,
+      2573
+    ],
+    "false_positive_cells": 0,
+    "false_negative_cells": 0,
+    "red_outline_stroke_pt": 0.35,
+    "red_polygons_match_actual_mesh_vertices": true,
+    "native_scientific_RGB_unchanged": true,
+    "axes_and_centering_unchanged": true,
+    "print_review": "ACCEPT: independently rendered final-current-byte300dpi preview; five exact individual red triangles readable, no observed text/leader collision or clipping."
+  },
+  "unchanged_other_assets": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.pdf",
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.png",
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc_print300.png",
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.pdf",
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.png",
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors_print300.png",
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.pdf",
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.png",
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined_print300.png",
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    }
+  ],
+  "source_evidence": "exact_five_cells.json",
+  "PDF_content_evidence": "final_pdf_identity_audit.json",
+  "source_finding": "SOURCE_FINDING.md",
+  "supersedes": "The old global-projection bracket visual gate is withdrawn for Figure5: it covered two additional suction-side triangle projections. The count5 and original CFD values were correct. Historical records remain historical.",
+  "annotation_type": "Five individual post-export red empty triangle outlines on native mesh edges; native scientific colours remain unchanged.",
+  "limitations": [
+    "No Fluent operation, solution iteration, geometry or data changes performed.",
+    "Standalone artwork acceptance does not certify integrated report pagination. Final report compilation remains Overleaf-only."
+  ],
+  "fig2": {
+    "accepted": true,
+    "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.pdf",
+    "unchanged_from_centered_accepted_set": true
+  },
+  "fig4": {
+    "accepted": true,
+    "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.pdf",
+    "unchanged_from_centered_accepted_set": true
+  },
+  "fig6": {
+    "accepted": true,
+    "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.pdf",
+    "unchanged_from_centered_accepted_set": true
+  },
+  "handoff_review": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\FIG05_CORRECTION.md",
+      "sha256": "35b83a7d27ba1947993b82d2bc9798fe491a61a3fcb15d77a1a046ab647c2bf9",
+      "accepted": true,
+      "conclusion": "Correct five identities and explicit withdrawal of old bracket selector; only active Fig5 patch, preservation of centered other assets, post-export annotation wording and Overleaf-only report compilation."
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\MAC_PATCH_PROMPT.txt",
+      "sha256": "da9476fe1df6dbb2a3aba15c5e6e48f050072ab5642bee75773ebf3b894c9b2a",
+      "accepted": true,
+      "conclusion": "Correct five identities and explicit withdrawal of old bracket selector; only active Fig5 patch, preservation of centered other assets, post-export annotation wording and Overleaf-only report compilation."
+    }
+  ]
+}

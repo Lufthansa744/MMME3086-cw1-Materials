@@ -1,0 +1,11 @@
+继续修正当前 MMME3086 CFD Overleaf 报告的 Figure 5。我授权读取、替换图文件并在现有项目编译：https://www.overleaf.com/project/6aed174c208587f797ee667b 。
+
+先保护 Mac 本地及 Overleaf 当前改动，同步 https://github.com/Lufthansa744/MMME3086-cw1-Materials 的 main 分支。读取 report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md、该目录的 delivery_manifest.json，以及 review/fig05_exact_five_cells_2026-11-10/final_acceptance.json，核对新 Fig5 PDF 的 SHA256。
+
+本次原始数据仍是5个 y+<30 单元，但它们不连续。旧宽括号横向投影覆盖7个吸力面三角形，已被撤换。新版用5条独立细红闭合三角轮廓，准确标记实际 cell ID 7588、7316、69、7251、2573；红线是后期识别标注，原生 Fluent 科学图层和 y+ 数值不变。
+
+查明当前实际生效的主文件/include链，只把活动 Figure 5 资产替换为新目录的 fig05_rsm_yplus.pdf，保留原图号和 label、165.1×66.04 mm 外框、竖向居中及图注在下方的形式。若实际 include 明确使用PNG，使用本版同名PNG并确认旧同名文件没有遮蔽。新目录的 Figures 2/4/6与此前centered终版逐字节相同；已使用那些图的报告无需再改它们。保留当前正文、AIAA模板、规定sections和所有真实数值。
+
+若Fig5图注仍写bracket或把这5格描述为连续区域，仅修改识别方式为“The five cells are individually outlined in red (post-export annotations).”，保留其他物理解释和数值。不要把统计数改成7，也不要重新加一个跨范围括号。
+
+只在现有Overleaf项目编译。下载实际PDF并检查最新Fig5确实生效：可辨认1个独立红三角形及随后4个红三角形，中间不满足条件的单元未被描边；5个轮廓与真实单元对齐，图例/坐标/170.94、19.57、40.29标注清晰，无线字重合、裁切或新分页问题。保留整篇字数/页数要求，显示公式后不加标点，正文无working draft、TODO或占位符。必要时在Overleaf修正排版并重新编译。交付更新后的PDF、匹配源码及采用的Git提交号和Fig5 SHA256。

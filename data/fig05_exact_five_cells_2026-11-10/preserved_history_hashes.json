@@ -1,0 +1,30 @@
+{
+  "policy": "Every previous centered file remains untouched at its original path. This revision uses a new data and report directory.",
+  "records": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\compose_native_figures.py",
+      "sha256": "0f03ea0724343c812960b892e939e3414a86e15cb617b415ce1a98600c6e19ff",
+      "bytes": 23394
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig05_rsm_yplus.pdf",
+      "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13",
+      "bytes": 484766
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig05_rsm_yplus.png",
+      "sha256": "e725934b89984c251f00af546681a094a6d7e3c3cadb70fb1cedb923951779cb",
+      "bytes": 675424
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig05_rsm_yplus_print300.png",
+      "sha256": "a7e72b756f6321eeee235940dedf42d0437730e0885f0c9953df15b2b5b10460",
+      "bytes": 451456
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\native_assets_manifest.json",
+      "sha256": "c88b90629fed1c4d7ce482929a2318fbd030ee2bb1744908e7306ae7a4d2be12",
+      "bytes": 14507
+    }
+  ]
+}

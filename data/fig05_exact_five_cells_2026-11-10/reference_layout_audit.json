@@ -1,0 +1,3871 @@
+{
+  "source_pdf": {
+    "path": "C:\\Users\\A320N\\.codex\\attachments\\fc6dc3e5-27d8-430a-8e56-dc5017c294c6\\MMME3086_CFD_Coursework_2026___Yang_LIU_20617209-4.pdf",
+    "sha256": "3985046c00a4380373de53b2d2a4281519e37677d934e6a4024f3e464b4ee67a",
+    "bytes": 2106865,
+    "pages": 9,
+    "page_size_pt": [
+      612,
+      792
+    ]
+  },
+  "coordinate_convention": "All panel rectangles are [left,bottom,width,height] in original figure Form points (1 point=1/72 inch). World coordinates are metres. Text boxes are local top-left PDF points.",
+  "retained_figure1": {
+    "figure": 1,
+    "source_object_type": "Image XObject",
+    "resource": "Im1",
+    "pixels": [
+      3200,
+      1060
+    ],
+    "page_origin_bottom_left_pt": [
+      117.744,
+      389.161
+    ],
+    "target_size_pt": [
+      376.51199999999994,
+      124.71959999999996
+    ],
+    "target_size_mm": [
+      132.82506666666666,
+      43.99830333333332
+    ],
+    "decoded_RGB_equals_current_source_png": true,
+    "current_source_png": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_compact.png",
+    "current_source_png_sha256": "5108683ea65b25e5643dc2676e72cac3073b4fcbf9e384e74e89a54b853ed712"
+  },
+  "figures": [
+    {
+      "figure": 2,
+      "source_object_type": "Image XObject",
+      "resource": "Im2",
+      "pixels": [
+        3200,
+        1480
+      ],
+      "page_origin_bottom_left_pt": [
+        79.231,
+        140.883
+      ],
+      "target_size_pt": [
+        453.53600000000006,
+        209.76040000000003
+      ],
+      "target_size_mm": [
+        159.99742222222224,
+        73.99880777777778
+      ],
+      "decoded_RGB_equals_current_source_png": true,
+      "current_source_png": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.png",
+      "current_source_png_sha256": "6d1f52775cef64a532b3e533d15e9cbd314e7e40a4743fac1b17f0666ac96b7f",
+      "page_1based": 1,
+      "source_viewbox_svg_px": [
+        1600,
+        740
+      ],
+      "aspect_ratio_width_over_height": 2.1621621621621623,
+      "panels": [
+        {
+          "name": "full aligned native baseline mesh",
+          "form_box_bottom_left_pt": [
+            34.01520000000001,
+            131.80890000000002,
+            368.49800000000005,
+            55.27470000000001
+          ],
+          "physical_size_mm": [
+            129.99790555555558,
+            19.499685833333338
+          ],
+          "world_bounds_m": [
+            -0.5,
+            0.5,
+            -0.075,
+            0.075
+          ],
+          "field": "native mesh",
+          "colour_range": null,
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            368.49800000000005,
+            368.4980000000001
+          ],
+          "equal_axis_relative_error": 1.542570620757996e-16
+        },
+        {
+          "name": "local foil native mesh",
+          "form_box_bottom_left_pt": [
+            85.03800000000001,
+            18.70836,
+            293.38110000000006,
+            91.84104000000002
+          ],
+          "physical_size_mm": [
+            103.4983325,
+            32.39947800000001
+          ],
+          "world_bounds_m": [
+            -0.00551632301645605,
+            0.10948367698354394,
+            -0.01708309688228474,
+            0.01891690311771526
+          ],
+          "field": "native mesh",
+          "colour_range": null,
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            2551.140000000001,
+            2551.1400000000003
+          ],
+          "equal_axis_relative_error": 1.782526050653684e-16
+        }
+      ],
+      "required_boundary_labels": [
+        "inlet",
+        "outlet",
+        "wall_top",
+        "wall_bottom",
+        "aerofoil_suction",
+        "aerofoil_pressure",
+        "aerofoil_te"
+      ],
+      "reference_labels": [
+        {
+          "text": "(a)",
+          "source_svg_attributes": {
+            "x": "25",
+            "y": "112",
+            "font-size": "32",
+            "text-anchor": "start",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 9.070720000000001
+        },
+        {
+          "text": "(b)",
+          "source_svg_attributes": {
+            "x": "25",
+            "y": "390",
+            "font-size": "32",
+            "text-anchor": "start",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 9.070720000000001
+        },
+        {
+          "text": "1000 mm",
+          "source_svg_attributes": {
+            "x": "770",
+            "y": "29",
+            "font-size": "30",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "wall_top",
+          "source_svg_attributes": {
+            "x": "770",
+            "y": "72",
+            "font-size": "30",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "wall_bottom",
+          "source_svg_attributes": {
+            "x": "770",
+            "y": "312",
+            "font-size": "30",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "inlet",
+          "source_svg_attributes": {
+            "x": "110",
+            "y": "190",
+            "font-size": "30",
+            "text-anchor": "end",
+            "fill": "#009e73"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "outlet",
+          "source_svg_attributes": {
+            "x": "1434",
+            "y": "190",
+            "font-size": "30",
+            "text-anchor": "start",
+            "fill": "#cc79a7"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "150 mm",
+          "source_svg_attributes": {
+            "x": "1585",
+            "y": "177.5",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "transform": "rotate(-90,1585,177.5)"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "0",
+          "source_svg_attributes": {
+            "x": "349.64690714810445",
+            "y": "708.0",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "50",
+          "source_svg_attributes": {
+            "x": "799.6469071481044",
+            "y": "708.0",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "100",
+          "source_svg_attributes": {
+            "x": "1249.6469071481044",
+            "y": "708.0",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "10",
+          "source_svg_attributes": {
+            "x": "285.0",
+            "y": "440.2521280594373",
+            "font-size": "28",
+            "text-anchor": "end",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "0",
+          "source_svg_attributes": {
+            "x": "285.0",
+            "y": "530.2521280594374",
+            "font-size": "28",
+            "text-anchor": "end",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "-10",
+          "source_svg_attributes": {
+            "x": "285.0",
+            "y": "620.2521280594374",
+            "font-size": "28",
+            "text-anchor": "end",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "x (mm)",
+          "source_svg_attributes": {
+            "x": "817.5",
+            "y": "730",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "y (mm)",
+          "source_svg_attributes": {
+            "x": "190",
+            "y": "515",
+            "font-size": "28",
+            "text-anchor": "middle",
+            "transform": "rotate(-90,190,515)"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        },
+        {
+          "text": "aerofoil_suction",
+          "source_svg_attributes": {
+            "x": "705",
+            "y": "387",
+            "font-size": "30",
+            "text-anchor": "start",
+            "fill": "#0072b2"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "aerofoil_pressure",
+          "source_svg_attributes": {
+            "x": "670",
+            "y": "650",
+            "font-size": "30",
+            "text-anchor": "start",
+            "fill": "#d55e00"
+          },
+          "effective_font_size_pt": 8.503800000000002
+        },
+        {
+          "text": "aerofoil_te",
+          "source_svg_attributes": {
+            "x": "1362",
+            "y": "642",
+            "font-size": "28",
+            "text-anchor": "start",
+            "fill": "#222"
+          },
+          "effective_font_size_pt": 7.936880000000001
+        }
+      ],
+      "reference_dimensions_mm": {
+        "duct_length": 1000,
+        "duct_height": 150
+      },
+      "annotation_constraints": [
+        "Keep outlet separate from height arrow at source SVG x1540",
+        "Height text at x1585,y177.5 rotated -90 at 28px",
+        "Bottom x(mm) baseline730; keep full parenthesis and separation from50 tick"
+      ],
+      "source_layout_lineage": {
+        "source_svg": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.svg",
+        "sha256": "3338c73028e169a401135087184f65fbc97b3d043481179e49d31f545be7baaf",
+        "annotation_audit": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_annotation_change_audit.json"
+      }
+    },
+    {
+      "figure": 4,
+      "page_1based": 3,
+      "form_resource": "/Im4",
+      "page_origin_bottom_left_pt": [
+        72.001,
+        515.616
+      ],
+      "page_box_top_left_pt": [
+        72.001,
+        92.10900000000001,
+        540.001,
+        276.384
+      ],
+      "form_bbox_pt": [
+        0.0,
+        0.0,
+        468.0,
+        184.275
+      ],
+      "target_size_pt": [
+        468.0,
+        184.275
+      ],
+      "target_size_mm": [
+        165.1,
+        65.008125
+      ],
+      "aspect_ratio_width_over_height": 2.5396825396825395,
+      "source_form_decoded_stream_sha256": "f3223ca4c111c627ac4dc7a5da76b55278191306bd215af657702bf4acaea19f",
+      "form_matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "source_object_type": "Form XObject, not Image XObject",
+      "source_raster_image_objects": [],
+      "reference_text_items": [
+        {
+          "text": "Cell-centred",
+          "local_top_left_box_pt": [
+            38.025000000000006,
+            6.234191730000049,
+            85.3320174525,
+            15.009191730000026
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "velocity",
+          "local_top_left_box_pt": [
+            87.7699932525,
+            6.234191730000049,
+            117.02999031749997,
+            15.009191730000026
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "vectors",
+          "local_top_left_box_pt": [
+            119.4679661175,
+            6.234191730000049,
+            147.75105822749998,
+            15.009191730000026
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "Trailing",
+          "local_top_left_box_pt": [
+            348.07500000000005,
+            24.24607894800002,
+            374.928441615,
+            32.43607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "edge",
+          "local_top_left_box_pt": [
+            377.20388569500005,
+            24.24607894800002,
+            395.42343504300004,
+            32.43607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "20",
+          "local_top_left_box_pt": [
+            25.405224974999996,
+            40.04107894800009,
+            34.51499964899999,
+            48.23107894800003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            29.960111025000003,
+            63.44107894800007,
+            34.514998362,
+            71.63107894800001
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "-20",
+          "local_top_left_box_pt": [
+            22.677890625000003,
+            86.84107894800005,
+            34.51499918099999,
+            95.03107894799999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "-40",
+          "local_top_left_box_pt": [
+            22.677890625000003,
+            110.24107894800002,
+            34.51499918099999,
+            118.43107894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            53.29755609749999,
+            129.54607894799997,
+            57.8524434345,
+            137.7360789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "50",
+          "local_top_left_box_pt": [
+            109.52011102499998,
+            129.54607894799997,
+            118.62988569899997,
+            137.7360789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            165.74266799999998,
+            129.54607894799997,
+            179.40733001099997,
+            137.7360789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "150",
+          "local_top_left_box_pt": [
+            224.242668,
+            129.54607894799997,
+            237.90733001100003,
+            137.7360789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "200",
+          "local_top_left_box_pt": [
+            282.742668,
+            129.54607894799997,
+            296.407330011,
+            137.7360789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "x",
+          "local_top_left_box_pt": [
+            164.78047462499998,
+            141.07669173000002,
+            169.16797462499997,
+            149.85169173
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "(mm)",
+          "local_top_left_box_pt": [
+            171.60595042499997,
+            141.07669173000002,
+            192.06952420500002,
+            149.85169173
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            85.30702537499988,
+            12.08419173,
+            89.69452537499993
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 4.3875000000000455,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            79.94690612999992,
+            12.08419173,
+            82.86904957499988
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 2.9221434449999606,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "mm",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            65.3276192399999,
+            12.08419173,
+            79.94690612999992
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.309643445000006,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": ")",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            62.405475794999944,
+            12.08419173,
+            65.3276192399999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 2.9221434449999606,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            340.010111025,
+            43.55107894800008,
+            344.5649983620001,
+            51.74107894800002
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "-10",
+          "local_top_left_box_pt": [
+            332.727890625,
+            68.41357894800004,
+            344.5649991810001,
+            76.60357894799998
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "-20",
+          "local_top_left_box_pt": [
+            332.727890625,
+            93.27607894799999,
+            344.5649991810001,
+            101.46607894799993
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "90",
+          "local_top_left_box_pt": [
+            355.951361025,
+            105.85357894800009,
+            365.06113569900003,
+            114.04357894800003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            378.5364179999999,
+            105.85357894800009,
+            392.20108001099993,
+            114.04357894800003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "110",
+          "local_top_left_box_pt": [
+            403.398918,
+            105.85357894800009,
+            417.063580011,
+            114.04357894800003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "120",
+          "local_top_left_box_pt": [
+            428.26141799999994,
+            105.85357894800009,
+            441.92608001099995,
+            114.04357894800003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "x",
+          "local_top_left_box_pt": [
+            384.1554746249999,
+            117.38419173000003,
+            388.54297462499994,
+            126.15919173
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "(mm)",
+          "local_top_left_box_pt": [
+            390.98095042499995,
+            117.38419173000003,
+            411.444524205,
+            126.15919173
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "Inset:",
+          "local_top_left_box_pt": [
+            346.61249999999995,
+            132.702022557,
+            365.9282102384999,
+            140.59952255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "normalised",
+          "local_top_left_box_pt": [
+            368.1223884584999,
+            132.702022557,
+            406.74995416574984,
+            140.59952255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "direction",
+          "local_top_left_box_pt": [
+            346.61249999999995,
+            142.35452255700002,
+            376.46335203749993,
+            150.25202255700006
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "arrows",
+          "local_top_left_box_pt": [
+            378.65753025749996,
+            142.35452255700002,
+            402.353885817,
+            150.25202255700006
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "No",
+          "local_top_left_box_pt": [
+            346.61249999999995,
+            154.639522557,
+            356.7080345692499,
+            162.53702255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "cells",
+          "local_top_left_box_pt": [
+            358.9022127892499,
+            154.639522557,
+            374.7010691385,
+            162.53702255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "with",
+          "local_top_left_box_pt": [
+            376.8952473584999,
+            154.639522557,
+            390.93953192774995,
+            162.53702255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "uₓ",
+          "local_top_left_box_pt": [
+            393.13371014775,
+            154.639522557,
+            400.11729012449996,
+            162.53702255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "<",
+          "local_top_left_box_pt": [
+            402.3114683444999,
+            154.639522557,
+            406.9234851434999,
+            162.53702255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            409.1176633634999,
+            154.639522557,
+            413.50987615274994,
+            162.53702255700003
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.897500000000036,
+          "note": ""
+        },
+        {
+          "text": "Speed",
+          "local_top_left_box_pt": [
+            175.5,
+            159.67357894800003,
+            199.18221546600003,
+            167.86357894799997
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "(m/s)",
+          "local_top_left_box_pt": [
+            201.45765954599997,
+            159.67357894800003,
+            220.10510527199997,
+            167.86357894799997
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            44.5225560975,
+            170.49607894800002,
+            49.0774434345,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "20",
+          "local_top_left_box_pt": [
+            61.745120774999975,
+            170.49607894800002,
+            70.85489544899997,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "40",
+          "local_top_left_box_pt": [
+            81.24510127499997,
+            170.49607894800002,
+            90.35487594899996,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "60",
+          "local_top_left_box_pt": [
+            100.74511102499997,
+            170.49607894800002,
+            109.85488569899996,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "80",
+          "local_top_left_box_pt": [
+            120.24512077499998,
+            170.49607894800002,
+            129.35489544899997,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            137.46765825,
+            170.49607894800002,
+            151.132320261,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        },
+        {
+          "text": "120",
+          "local_top_left_box_pt": [
+            156.96766799999997,
+            170.49607894800002,
+            170.63233001099996,
+            178.68607894799996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.18999999999994,
+          "note": ""
+        }
+      ],
+      "effective_font_sizes": {
+        "used_em_sizes_pt": [
+          7.8975,
+          8.19,
+          8.775
+        ],
+        "runs": [
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 7.8975
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 7.8975
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 7.8975
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          }
+        ],
+        "method": "Tf font size multiplied by square root of the graphics CTM determinant; unaffected by vertical text rotation. Superscripts are intentionally smaller."
+      },
+      "panels": [
+        {
+          "name": "main velocity/foil/wake",
+          "form_box_bottom_left_pt": [
+            38.025,
+            58.5,
+            280.8,
+            99.45
+          ],
+          "physical_size_mm": [
+            99.06,
+            35.083749999999995
+          ],
+          "world_bounds_m": [
+            -0.015,
+            0.225,
+            -0.05,
+            0.035
+          ],
+          "field": "speed",
+          "colour_range": [
+            0,
+            120
+          ],
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            1170.0,
+            1170.0
+          ],
+          "equal_axis_relative_error": 0.0
+        },
+        {
+          "name": "trailing-edge direction inset",
+          "form_box_bottom_left_pt": [
+            348.075,
+            82.1925,
+            99.45,
+            59.67
+          ],
+          "physical_size_mm": [
+            35.083749999999995,
+            21.05025
+          ],
+          "world_bounds_m": [
+            0.085,
+            0.125,
+            -0.022,
+            0.002
+          ],
+          "field": "speed",
+          "colour_range": [
+            0,
+            120
+          ],
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            2486.2500000000005,
+            2486.25
+          ],
+          "equal_axis_relative_error": 1.829049174002872e-16
+        }
+      ],
+      "colour_bars": [
+        {
+          "name": "horizontal speed strip",
+          "form_box_bottom_left_pt": [
+            46.8,
+            18.135,
+            117,
+            5.265
+          ],
+          "physical_size_mm": [
+            41.275,
+            1.857375
+          ],
+          "world_bounds_m": null,
+          "field": "speed",
+          "colour_range": [
+            0,
+            120
+          ],
+          "role": "native colour-strip layer with separate original-size labels"
+        }
+      ],
+      "native_arrow_policy": {
+        "main": "Arrow length proportional to speed",
+        "inset": "Equal-length normalised direction arrows; colour represents speed",
+        "reference_description": "Inset: normalised direction arrows; No cells with uₓ < 0"
+      },
+      "inset_bounds_box_on_main_world_m": [
+        0.085,
+        0.125,
+        -0.022,
+        0.002
+      ],
+      "reference_source_verification": {
+        "local_original_pdf": "data/print_assets/fig04_rsm_vectors.pdf",
+        "decoded_stream_equals_local_original": true
+      },
+      "reference_qa_crop": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\reference_fig04_crop.png",
+        "sha256": "63fc7a31ea846553047d23a20644dbc8816dc16a7585838cb1a4c286980b6d29",
+        "pixels": [
+          975,
+          384
+        ]
+      }
+    },
+    {
+      "figure": 5,
+      "page_1based": 3,
+      "form_resource": "/Im5",
+      "page_origin_bottom_left_pt": [
+        72.001,
+        256.685
+      ],
+      "page_box_top_left_pt": [
+        72.001,
+        348.11500000000007,
+        540.001,
+        535.315
+      ],
+      "form_bbox_pt": [
+        0.0,
+        0.0,
+        468.0,
+        187.2
+      ],
+      "target_size_pt": [
+        468.0,
+        187.2
+      ],
+      "target_size_mm": [
+        165.1,
+        66.03999999999999
+      ],
+      "aspect_ratio_width_over_height": 2.5,
+      "source_form_decoded_stream_sha256": "f7949d33a5c1f0726af7dfc849e41029b3b9a043f0c4b77f6323c9fbd058f000",
+      "form_matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "source_object_type": "Form XObject, not Image XObject",
+      "source_raster_image_objects": [],
+      "reference_text_items": [
+        {
+          "text": "Foil-adjacent",
+          "local_top_left_box_pt": [
+            38.025000000000006,
+            5.649191729999927,
+            88.26272968500001,
+            14.424191729999905
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "cell",
+          "local_top_left_box_pt": [
+            90.70070548499999,
+            5.649191729999927,
+            103.86749031750003,
+            14.424191729999905
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "y+",
+          "local_top_left_box_pt": [
+            106.3054661175,
+            5.649191729999927,
+            115.81742922749999,
+            14.424191729999905
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "10",
+          "local_top_left_box_pt": [
+            25.405224974999996,
+            36.23857894799994,
+            34.51499964899999,
+            44.42857894799994
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            29.960111025000003,
+            66.95107894799997,
+            34.514998362,
+            75.14107894799997
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "-10",
+          "local_top_left_box_pt": [
+            22.677890625000003,
+            97.66357894799995,
+            34.51499918099999,
+            105.85357894799995
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "-20",
+          "local_top_left_box_pt": [
+            22.677890625000003,
+            128.37607894799993,
+            34.51499918099999,
+            136.56607894799993
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            60.31755609749999,
+            148.26607894799992,
+            64.87244343449998,
+            156.4560789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "20",
+          "local_top_left_box_pt": [
+            119.465111025,
+            148.26607894799992,
+            128.574885699,
+            156.4560789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "40",
+          "local_top_left_box_pt": [
+            180.890111025,
+            148.26607894799992,
+            189.99988569900003,
+            156.4560789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "60",
+          "local_top_left_box_pt": [
+            242.315111025,
+            148.26607894799992,
+            251.42488569900004,
+            156.4560789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "80",
+          "local_top_left_box_pt": [
+            303.7401110249999,
+            148.26607894799992,
+            312.84988569899997,
+            156.4560789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            362.88766799999996,
+            148.26607894799992,
+            376.552330011,
+            156.4560789479999
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "x",
+          "local_top_left_box_pt": [
+            202.512974625,
+            159.79669172999996,
+            206.900474625,
+            168.57169172999994
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "(mm)",
+          "local_top_left_box_pt": [
+            209.338450425,
+            159.79669172999996,
+            229.80202420500004,
+            168.57169172999994
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            95.39827537499997,
+            12.08419173,
+            99.78577537499996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 4.387499999999989,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            90.03815612999995,
+            12.08419173,
+            92.96029957499996
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 2.9221434450000174,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "mm",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            75.41886923999994,
+            12.08419173,
+            90.03815612999995
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 7.309643445000006,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": ")",
+          "local_top_left_box_pt": [
+            3.309191729999995,
+            72.49672579499992,
+            12.08419173,
+            75.41886923999994
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 2.9221434450000174,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "180",
+          "local_top_left_box_pt": [
+            429.975,
+            23.953578947999972,
+            443.63966201100004,
+            32.14357894799997
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "150",
+          "local_top_left_box_pt": [
+            429.975,
+            43.40482894799993,
+            443.63966201100004,
+            51.59482894799993
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            429.975,
+            75.82356919799997,
+            443.63966201100004,
+            84.01356919799997
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "50",
+          "local_top_left_box_pt": [
+            429.975,
+            108.24233869799997,
+            439.0847746740001,
+            116.43233869799997
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            429.975,
+            140.66107894799995,
+            434.529887337,
+            148.85107894799995
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "170.94",
+          "local_top_left_box_pt": [
+            68.48041882500002,
+            15.886691729999939,
+            95.31957678750001,
+            24.661691729999916
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "y+",
+          "local_top_left_box_pt": [
+            414.9815172749999,
+            13.546691729999964,
+            424.4934803849999,
+            22.32169172999994
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "19.57",
+          "local_top_left_box_pt": [
+            243.49553865,
+            171.4966917299999,
+            265.45446017999996,
+            180.27169172999987
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "40.29",
+          "local_top_left_box_pt": [
+            338.55803864999996,
+            171.4966917299999,
+            360.51696017999996,
+            180.27169172999987
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.774999999999977,
+          "note": ""
+        },
+        {
+          "text": "Red",
+          "local_top_left_box_pt": [
+            38.025000000000006,
+            176.34607894799996,
+            53.049330594,
+            184.536078948
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "cell",
+          "local_top_left_box_pt": [
+            55.324774674,
+            176.34607894799996,
+            67.61377385099999,
+            184.536078948
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "outlines:",
+          "local_top_left_box_pt": [
+            69.88921793099999,
+            176.34607894799996,
+            100.393767279,
+            184.536078948
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "y+",
+          "local_top_left_box_pt": [
+            102.669211359,
+            176.34607894799996,
+            111.54704359499996,
+            184.536078948
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "<",
+          "local_top_left_box_pt": [
+            113.82248767499996,
+            176.34607894799996,
+            118.60531991099995,
+            184.536078948
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        },
+        {
+          "text": "30",
+          "local_top_left_box_pt": [
+            120.88076399099998,
+            176.34607894799996,
+            129.99053866499997,
+            184.536078948
+          ],
+          "font": "AAAAAA+ArialMT",
+          "pdfplumber_size": 8.189999999999998,
+          "note": ""
+        }
+      ],
+      "effective_font_sizes": {
+        "used_em_sizes_pt": [
+          8.19,
+          8.775
+        ],
+        "runs": [
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.775
+          },
+          {
+            "font_resource": "/F2+0",
+            "effective_em_pt": 8.19
+          }
+        ],
+        "method": "Tf font size multiplied by square root of the graphics CTM determinant; unaffected by vertical text rotation. Superscripts are intentionally smaller."
+      },
+      "panels": [
+        {
+          "name": "full baseline foil and actual adjacent triangles",
+          "form_box_bottom_left_pt": [
+            38.025,
+            42.705,
+            356.265,
+            116.7075
+          ],
+          "physical_size_mm": [
+            125.682375,
+            41.171812499999994
+          ],
+          "world_bounds_m": [
+            -0.008,
+            0.108,
+            -0.024,
+            0.014
+          ],
+          "field": "adjacent-cell y+",
+          "colour_range": [
+            0,
+            180
+          ],
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            3071.25,
+            3071.25
+          ],
+          "equal_axis_relative_error": 0.0
+        }
+      ],
+      "colour_bars": [
+        {
+          "name": "vertical y+ strip",
+          "form_box_bottom_left_pt": [
+            415.35,
+            42.705,
+            9.36,
+            116.7075
+          ],
+          "physical_size_mm": [
+            3.3019999999999996,
+            41.171812499999994
+          ],
+          "world_bounds_m": null,
+          "field": "adjacent-cell y+",
+          "colour_range": [
+            0,
+            180
+          ],
+          "role": "native colour-strip layer with separate original-size labels"
+        }
+      ],
+      "required_callouts": {
+        "max_yplus": 170.94,
+        "min_yplus": 19.57,
+        "trailing_yplus": 40.29,
+        "red_cell_outlines": "y+ < 30; native cell/mesh highlighting only"
+      },
+      "authority_annotation_difference": "The attachment starts the min/TE leader lines at original SVG y=570; the older local Windows PDF used y=598. Retain the attachment layout.",
+      "reference_qa_crop": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\reference_fig05_crop.png",
+        "sha256": "f3f2aca5eef6f71636d30420b8b7a8ef90296f6baebe12870acdfa77e5f23cae",
+        "pixels": [
+          975,
+          390
+        ]
+      }
+    },
+    {
+      "figure": 6,
+      "page_1based": 4,
+      "form_resource": "/Im6",
+      "page_origin_bottom_left_pt": [
+        72.001,
+        208.878
+      ],
+      "page_box_top_left_pt": [
+        72.001,
+        177.76766929000007,
+        540.001,
+        583.1220000000001
+      ],
+      "form_bbox_pt": [
+        0.0,
+        0.0,
+        468.0,
+        405.35433071
+      ],
+      "target_size_pt": [
+        468.0,
+        405.35433071
+      ],
+      "target_size_mm": [
+        165.1,
+        143.0000000004722
+      ],
+      "aspect_ratio_width_over_height": 1.154545454541642,
+      "source_form_decoded_stream_sha256": "91b2d55710f3a588f6fd4af46a16fa8e9887f852a49dc42e992e8896c7255f78",
+      "form_matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "source_object_type": "Form XObject, not Image XObject",
+      "source_raster_image_objects": [],
+      "reference_text_items": [
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            61.73343750000001,
+            123.81065182219999,
+            66.18143750000002,
+            131.8106518222
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "50",
+          "local_top_left_box_pt": [
+            133.606875,
+            123.81065182219999,
+            142.50678125000002,
+            131.8106518222
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            205.4803125,
+            123.81065182219999,
+            218.832125,
+            131.8106518222
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "150",
+          "local_top_left_box_pt": [
+            279.5803125,
+            123.81065182219999,
+            292.9321249999999,
+            131.8106518222
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "200",
+          "local_top_left_box_pt": [
+            353.6803125,
+            123.81065182219999,
+            367.03212499999995,
+            131.8106518222
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "x",
+          "local_top_left_box_pt": [
+            212.48,
+            135.46912057219998,
+            217.80799999999996,
+            144.46912057219998
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "(mm)",
+          "local_top_left_box_pt": [
+            220.30666015619997,
+            135.25312057219998,
+            241.29487109369998,
+            144.25312057219998
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "−",
+          "local_top_left_box_pt": [
+            28.561875,
+            99.0785424472,
+            33.233875,
+            107.0785424472
+          ],
+          "font": "CECFXM+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "20",
+          "local_top_left_box_pt": [
+            33.23375,
+            39.79854244719991,
+            42.13365625,
+            47.79854244719991
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            37.686875,
+            69.4385424472,
+            42.134874999999994,
+            77.4385424472
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "20",
+          "local_top_left_box_pt": [
+            33.23375,
+            99.0785424472,
+            42.13365625,
+            107.0785424472
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            15.232749999999996,
+            85.70743307219993,
+            24.232749999999996,
+            91.03543307219991
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 5.3279999999999745,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(",
+          "local_top_left_box_pt": [
+            15.016750000000002,
+            80.21177291599997,
+            24.016750000000002,
+            83.20877291599993
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.9969999999999573,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "mm",
+          "local_top_left_box_pt": [
+            15.016750000000002,
+            65.21763229099997,
+            24.016750000000002,
+            80.21170260349993
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 7.496999999999957,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": ")",
+          "local_top_left_box_pt": [
+            15.016750000000002,
+            62.22056197849997,
+            24.016750000000002,
+            65.21756197849993
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.9969999999999573,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(a)",
+          "local_top_left_box_pt": [
+            49.14,
+            21.68843307220004,
+            60.13555859375012,
+            30.68843307220004
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "Cell-centred",
+          "local_top_left_box_pt": [
+            62.640000000000015,
+            21.68843307220004,
+            111.1353515625006,
+            30.68843307220004
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "velocity",
+          "local_top_left_box_pt": [
+            113.63149218750121,
+            21.68843307220004,
+            143.6272382812518,
+            30.68843307220004
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "vectors",
+          "local_top_left_box_pt": [
+            146.128750000002,
+            21.68843307220004,
+            175.1274492187527,
+            30.68843307220004
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "and",
+          "local_top_left_box_pt": [
+            177.6289609375029,
+            21.68843307220004,
+            192.6302187500037,
+            30.68843307220004
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "wake",
+          "local_top_left_box_pt": [
+            195.12635937500428,
+            21.68843307220004,
+            216.12747656250448,
+            30.68843307220004
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "120",
+          "local_top_left_box_pt": [
+            436.624,
+            33.45850307709998,
+            449.97581249999996,
+            41.45850307709998
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "Zoom",
+          "local_top_left_box_pt": [
+            93.87924999999998,
+            38.36843307219999,
+            114.33896874999996,
+            46.36843307219999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "in",
+          "local_top_left_box_pt": [
+            116.56687499999998,
+            38.36843307219999,
+            122.79478125,
+            46.36843307219999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "(b)",
+          "local_top_left_box_pt": [
+            125.01878124999999,
+            38.36843307219999,
+            134.80649999999997,
+            46.36843307219999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "80",
+          "local_top_left_box_pt": [
+            436.624,
+            59.915195990500024,
+            445.52390625,
+            67.91519599050002
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "40",
+          "local_top_left_box_pt": [
+            436.624,
+            86.37188890389996,
+            445.52390625,
+            94.37188890389996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            436.624,
+            112.82858181729995,
+            441.072,
+            120.82858181729995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "S",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            94.02218307219994,
+            461.97360742190006,
+            99.69168307219991
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 5.669499999999971,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "deep",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            75.09450143157619,
+            461.97360742190006,
+            94.01974166594994
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 4.725999999999999,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            69.89611861907622,
+            461.97360742190006,
+            72.72661861907625
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.830500000000029,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "m",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            62.81806002532619,
+            461.97360742190006,
+            69.89856002532622
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 7.080500000000029,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "/",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            60.457501431576134,
+            461.97360742190006,
+            62.82050143157619
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.3630000000000564,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "s",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            56.209698697200906,
+            461.97360742190006,
+            60.459698697200906
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 4.25,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": ")",
+          "local_top_left_box_pt": [
+            453.47360742190006,
+            53.37919869720088,
+            461.97360742190006,
+            56.209698697200906
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.830500000000029,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            71.44309267240001,
+            280.7022985776,
+            75.89109267240002,
+            288.7022985776
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "20",
+          "local_top_left_box_pt": [
+            130.5406681034,
+            280.7022985776,
+            139.44057435340002,
+            288.7022985776
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "40",
+          "local_top_left_box_pt": [
+            191.8648060345,
+            280.7022985776,
+            200.76471228449995,
+            288.7022985776
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "60",
+          "local_top_left_box_pt": [
+            253.1889439655,
+            280.7022985776,
+            262.0888502155,
+            288.7022985776
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "80",
+          "local_top_left_box_pt": [
+            314.51308189660006,
+            280.7022985776,
+            323.4129881466,
+            288.7022985776
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "100",
+          "local_top_left_box_pt": [
+            373.61065732760005,
+            280.7022985776,
+            386.9624698276,
+            288.7022985776
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "x",
+          "local_top_left_box_pt": [
+            212.48,
+            292.3607673276,
+            217.80799999999996,
+            301.3607673276
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "(mm)",
+          "local_top_left_box_pt": [
+            220.30666015619997,
+            292.1447673276,
+            241.29487109369998,
+            301.1447673276
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "−",
+          "local_top_left_box_pt": [
+            28.561875,
+            252.3929478233,
+            33.233875,
+            260.3929478233
+          ],
+          "font": "CECFXM+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "10",
+          "local_top_left_box_pt": [
+            33.23375,
+            191.06880989219997,
+            42.13365625,
+            199.06880989219997
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            37.686875,
+            221.73087885769996,
+            42.134874999999994,
+            229.73087885769996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "10",
+          "local_top_left_box_pt": [
+            33.23375,
+            252.3929478233,
+            42.13365625,
+            260.3929478233
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            15.232749999999996,
+            237.36097637929993,
+            24.232749999999996,
+            242.6889763792999
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 5.3279999999999745,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(",
+          "local_top_left_box_pt": [
+            15.016750000000002,
+            231.8653162230999,
+            24.016750000000002,
+            234.86231622309992
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.997000000000014,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "mm",
+          "local_top_left_box_pt": [
+            15.016750000000002,
+            216.8711755980999,
+            24.016750000000002,
+            231.86524591059992
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 7.497000000000014,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": ")",
+          "local_top_left_box_pt": [
+            15.016750000000002,
+            213.8741052855999,
+            24.016750000000002,
+            216.87110528559992
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.997000000000014,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(b)",
+          "local_top_left_box_pt": [
+            49.14,
+            166.76931043099995,
+            60.13944140630002,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "All",
+          "local_top_left_box_pt": [
+            62.640000000000015,
+            166.76931043099995,
+            72.6404414063,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "foil-adjacent",
+          "local_top_left_box_pt": [
+            75.14244140630001,
+            166.76931043099995,
+            123.6727617192,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "cells,",
+          "local_top_left_box_pt": [
+            126.1717382816,
+            166.76931043099995,
+            146.67813281300002,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "coloured",
+          "local_top_left_box_pt": [
+            149.17710937540002,
+            166.76931043099995,
+            183.69917578189995,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "by",
+          "local_top_left_box_pt": [
+            186.20103515689996,
+            166.76931043099995,
+            195.70640625069998,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "native",
+          "local_top_left_box_pt": [
+            198.20689453189996,
+            166.76931043099995,
+            222.22163671949997,
+            175.76931043099995
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            224.72349609449995,
+            166.98531043099996,
+            230.05149609449992,
+            175.98531043099996
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "+",
+          "local_top_left_box_pt": [
+            231.67901367259995,
+            165.33111043099996,
+            236.95841367259996,
+            171.63111043099997
+          ],
+          "font": "DQPWOX+DejaVuSans",
+          "pdfplumber_size": 6.300000000000011,
+          "note": ""
+        },
+        {
+          "text": "8",
+          "local_top_left_box_pt": [
+            436.624,
+            186.5293692189,
+            441.072,
+            194.5293692189
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "6",
+          "local_top_left_box_pt": [
+            436.624,
+            206.37188890389996,
+            441.072,
+            214.37188890389996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "4",
+          "local_top_left_box_pt": [
+            436.624,
+            226.21440858889997,
+            441.072,
+            234.21440858889997
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "2",
+          "local_top_left_box_pt": [
+            436.624,
+            246.05692827399997,
+            441.072,
+            254.05692827399997
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "Inset",
+          "local_top_left_box_pt": [
+            139.2812607759,
+            254.08014879309997,
+            156.6291670259,
+            262.08014879309997
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "below",
+          "local_top_left_box_pt": [
+            158.8453545259,
+            254.08014879309997,
+            179.7569795259,
+            262.08014879309997
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "0",
+          "local_top_left_box_pt": [
+            436.624,
+            265.899447959,
+            441.072,
+            273.899447959
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            445.8665625000001,
+            231.27829921389997,
+            454.8665625000001,
+            236.60629921389994
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 5.3279999999999745,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "+",
+          "local_top_left_box_pt": [
+            444.2123624999999,
+            224.37138163579993,
+            450.5123625,
+            229.65078163579994
+          ],
+          "font": "DQPWOX+DejaVuSans",
+          "pdfplumber_size": 5.27940000000001,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "0.0",
+          "local_top_left_box_pt": [
+            164.5011467125,
+            383.5280927670999,
+            175.6211467125,
+            391.5280927670999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "0.5",
+          "local_top_left_box_pt": [
+            196.8970972187,
+            383.5280927670999,
+            208.0170972187,
+            391.5280927670999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "1.0",
+          "local_top_left_box_pt": [
+            229.2930477249,
+            383.5280927670999,
+            240.4130477249,
+            391.5280927670999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "1.5",
+          "local_top_left_box_pt": [
+            261.6889982311001,
+            383.5280927670999,
+            272.8089982311001,
+            391.5280927670999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "x",
+          "local_top_left_box_pt": [
+            196.1,
+            395.1865615170999,
+            201.42799999999997,
+            404.1865615170999
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "(mm)",
+          "local_top_left_box_pt": [
+            203.92666015619997,
+            394.9705615170999,
+            224.9148710937,
+            403.9705615170999
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 9.0,
+          "note": ""
+        },
+        {
+          "text": "7.5",
+          "local_top_left_box_pt": [
+            134.1622890889,
+            337.321456085,
+            145.2822890889,
+            345.321456085
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "7.0",
+          "local_top_left_box_pt": [
+            134.1622890889,
+            369.71740659119996,
+            145.2822890889,
+            377.71740659119996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            120.83316408889999,
+            363.50270866279993,
+            129.8331640889,
+            368.8307086627999
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 5.328000000000003,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "(",
+          "local_top_left_box_pt": [
+            120.61716408889998,
+            358.0070485066,
+            129.61716408889998,
+            361.00404850659993
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.997000000000014,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "mm",
+          "local_top_left_box_pt": [
+            120.61716408889998,
+            343.0129078816,
+            129.61716408889998,
+            358.00697819409993
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 7.497000000000014,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": ")",
+          "local_top_left_box_pt": [
+            120.61716408889998,
+            340.0158375691,
+            129.61716408889998,
+            343.01283756909993
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 2.997000000000014,
+          "note": "For rotated text pdfplumber size is the vertical advance, not an unrotated em height."
+        },
+        {
+          "text": "Inset:",
+          "local_top_left_box_pt": [
+            152.2872890889,
+            317.16448080839996,
+            171.85503908889999,
+            325.16448080839996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "equal-scale",
+          "local_top_left_box_pt": [
+            174.0763515889,
+            317.16448080839996,
+            214.98919533889998,
+            325.16448080839996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "native",
+          "local_top_left_box_pt": [
+            217.2130703389,
+            317.16448080839996,
+            238.55950783889998,
+            325.16448080839996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "cells",
+          "local_top_left_box_pt": [
+            240.7833828389,
+            317.16448080839996,
+            256.7872890889,
+            325.16448080839996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "at",
+          "local_top_left_box_pt": [
+            259.0099453389,
+            317.16448080839996,
+            265.68316408889996,
+            325.16448080839996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "maximum",
+          "local_top_left_box_pt": [
+            267.9044765889,
+            317.16448080839996,
+            302.5723828389,
+            325.16448080839996
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "y",
+          "local_top_left_box_pt": [
+            304.7951015889,
+            317.3564808083999,
+            309.5311015889,
+            325.3564808083999
+          ],
+          "font": "FGPQBL+DejaVuSans-Oblique",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        },
+        {
+          "text": "+",
+          "local_top_left_box_pt": [
+            310.9777838806,
+            315.8860808084,
+            315.6705838805999,
+            321.48608080839995
+          ],
+          "font": "DQPWOX+DejaVuSans",
+          "pdfplumber_size": 5.599999999999966,
+          "note": ""
+        },
+        {
+          "text": "6.586",
+          "local_top_left_box_pt": [
+            284.55467871200005,
+            341.6771023635,
+            304.578491212,
+            349.6771023635
+          ],
+          "font": "EEBMPU+ArialMT",
+          "pdfplumber_size": 8.0,
+          "note": ""
+        }
+      ],
+      "effective_font_sizes": {
+        "used_em_sizes_pt": [
+          5.6,
+          6.3,
+          8.0,
+          8.5,
+          9.0
+        ],
+        "runs": [
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F3",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.5
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F3",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F4",
+            "effective_em_pt": 6.3
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F4",
+            "effective_em_pt": 6.3
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 9.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F2",
+            "effective_em_pt": 8.0
+          },
+          {
+            "font_resource": "/F4",
+            "effective_em_pt": 5.6
+          },
+          {
+            "font_resource": "/F1",
+            "effective_em_pt": 8.0
+          }
+        ],
+        "method": "Tf font size multiplied by square root of the graphics CTM determinant; unaffected by vertical text rotation. Superscripts are intentionally smaller."
+      },
+      "panels": [
+        {
+          "name": "(a) enhanced velocity/foil/wake",
+          "form_box_bottom_left_pt": [
+            49.14,
+            288.0638976378,
+            355.68,
+            81.51
+          ],
+          "physical_size_mm": [
+            125.47599999999998,
+            28.754916666666663
+          ],
+          "world_bounds_m": [
+            -0.01,
+            0.23,
+            -0.03,
+            0.025
+          ],
+          "field": "speed",
+          "colour_range": [
+            0,
+            120
+          ],
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            1482.0,
+            1482.0
+          ],
+          "equal_axis_relative_error": 0.0
+        },
+        {
+          "name": "(b) all enhanced foil-adjacent cells",
+          "form_box_bottom_left_pt": [
+            49.14,
+            131.172251,
+            355.68,
+            91.986207
+          ],
+          "physical_size_mm": [
+            125.47599999999998,
+            32.45068969166667
+          ],
+          "world_bounds_m": [
+            -0.008,
+            0.108,
+            -0.016,
+            0.014
+          ],
+          "field": "adjacent-cell y+",
+          "colour_range": [
+            0,
+            8
+          ],
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            3066.206896551724,
+            3066.2068999999997
+          ],
+          "equal_axis_relative_error": 1.1246062660354766e-09
+        },
+        {
+          "name": "equal-scale max-y+ cell inset",
+          "form_box_bottom_left_pt": [
+            152.2872890889,
+            28.3464566929,
+            116.6254218222,
+            45.3543307087
+          ],
+          "physical_size_mm": [
+            41.142857142831666,
+            16.00000000001361
+          ],
+          "world_bounds_m": [
+            -0.000274360798096,
+            0.001525639201923,
+            0.006939829262451,
+            0.007639829262523
+          ],
+          "field": "adjacent-cell y+",
+          "colour_range": [
+            0,
+            8
+          ],
+          "role": "scientific native layer",
+          "scale_pt_per_m": [
+            64791.90101164941,
+            64791.90100576427
+          ],
+          "equal_axis_relative_error": 9.083136003836791e-11
+        }
+      ],
+      "colour_bars": [
+        {
+          "name": "vertical speed bar",
+          "form_box_bottom_left_pt": [
+            421.2,
+            289.133858,
+            8.424,
+            79.370079
+          ],
+          "physical_size_mm": [
+            2.9718,
+            28.000000091666667
+          ],
+          "world_bounds_m": null,
+          "field": "speed",
+          "colour_range": [
+            0,
+            120
+          ],
+          "role": "native colour-strip layer"
+        },
+        {
+          "name": "vertical y+ bar",
+          "form_box_bottom_left_pt": [
+            421.2,
+            136.062992,
+            8.424,
+            79.370079
+          ],
+          "physical_size_mm": [
+            2.9718,
+            28.000000091666667
+          ],
+          "world_bounds_m": null,
+          "field": "adjacent-cell y+",
+          "colour_range": [
+            0,
+            8
+          ],
+          "role": "native colour-strip layer"
+        }
+      ],
+      "required_callouts": {
+        "main": "Zoom in (b)",
+        "fullfoil": "Inset below",
+        "inset": "6.586 at maximum y+ cell",
+        "inset_title": "Inset: equal-scale native cells at maximum y+"
+      },
+      "layout_warning": "Authoritative 143 mm tall stacked layout. Do not use the historical 71.199 mm side-by-side Figure6.",
+      "world_limit_evidence": {
+        "method": "Match the three 413-vertex reference foil paths to all 413 actual enhanced-mesh boundary nodes; derive limits from the PDF clipping rectangles. No data rendering is performed.",
+        "mesh": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\inputs\\Aerofoil8-degAoA-enhancedBL.msh",
+        "mesh_sha256": "3b823ee36532e037e1eb654a2306e9ad3e362d8bf60703ca0030ef85ae4bd47e",
+        "fits": [
+          {
+            "panel": "(a) enhanced velocity/foil/wake",
+            "scale_pt_per_m": [
+              1482.0000014237141,
+              1481.9999832712424
+            ],
+            "offset_pt": [
+              63.959999709699254,
+              332.5238977596445
+            ],
+            "maximum_native_node_to_reference_vertex_error_pt": 9.441957122792465e-07
+          },
+          {
+            "panel": "(b) all enhanced foil-adjacent cells",
+            "scale_pt_per_m": [
+              3066.2068904453167,
+              3066.2068818591615
+            ],
+            "offset_pt": [
+              73.66965530030774,
+              180.23156126532655
+            ],
+            "maximum_native_node_to_reference_vertex_error_pt": 1.095026171999301e-06
+          },
+          {
+            "panel": "equal-scale max-y+ cell inset",
+            "scale_pt_per_m": [
+              64791.90101162421,
+              64791.90100577645
+            ],
+            "offset_pt": [
+              170.0636467606194,
+              -421.298273876839
+            ],
+            "maximum_native_node_to_reference_vertex_error_pt": 9.339850189450885e-07
+          }
+        ]
+      },
+      "reference_qa_crop": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\reference_fig06_crop.png",
+        "sha256": "087d356baa7b7bab85383ccf9cd8e47061dbda9f12c6b38261c28c67d5c5994e",
+        "pixels": [
+          975,
+          845
+        ]
+      }
+    }
+  ],
+  "composition_rules": [
+    "Use only solver-native raster/EPS science layers; the reference crops are QA only.",
+    "No external redrawing of vectors, cell polygons, contours or data colours.",
+    "Uniform scale of native scientific viewports only; match world bounds and equal x/y physical scale before placement.",
+    "Native colour strips retain original RGB values and scalar range; labels may be re-typeset outside the native data area.",
+    "Keep every overall target box exactly, including the 143 mm Figure6 stack and 160x74 mm Figure2."
+  ],
+  "export_target": "data/native_figures_2026-11-10/fig04_rsm_vectors.pdf/png; fig05_rsm_yplus.pdf/png; fig06_enhanced_combined.pdf/png",
+  "script": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\extract_attachment_layout.py",
+    "sha256": "83be29a230134c1129c1e22b01e0961541e0a27dd96db4ab074956753583af5a"
+  }
+}

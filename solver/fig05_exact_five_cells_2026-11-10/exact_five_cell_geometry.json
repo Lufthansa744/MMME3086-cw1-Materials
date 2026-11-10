@@ -1,0 +1,846 @@
+{
+  "method": "Read actual native binary mesh plus original three wall CSV files. No Fluent session, CFD update, or modification of native PNG/CASE/DATA.",
+  "mesh_source": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+    "bytes": 253242,
+    "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be"
+  },
+  "CSV_sources": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\suction_p_yplus.csv",
+      "bytes": 4992,
+      "sha256": "fd59d490a6b0fe298a3b93bc37f6e0bcf6d3960a2e59793c06c492af69c3db39"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\pressure_p_yplus.csv",
+      "bytes": 4992,
+      "sha256": "a4b6b0de6a251259afbabe85c3584ae6755c88b40a6c8d0b1091c18ab1285bf6"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\trailing_p_yplus.csv",
+      "bytes": 192,
+      "sha256": "17ad306060b84d64da7d353a1be0fa4e577344d8a248c461dcb61ed31fdd8364"
+    }
+  ],
+  "reused_CaseData_hash_evidence": {
+    "path": "solver/native_figures_2026-11-10-centered/logs/source_hashes_verified.json",
+    "note": "Existing native postprocessing before/after hash record is referenced; no new Fluent session and no new H5 hash pass was needed.",
+    "Case3_records": [
+      {
+        "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.cas.h5",
+        "Before": "98F7CC369342E0B2166BDA25F8EEE286DF3380F2AC366A04A64D92977558C8EF",
+        "After": "98F7CC369342E0B2166BDA25F8EEE286DF3380F2AC366A04A64D92977558C8EF",
+        "Unchanged": true
+      },
+      {
+        "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.dat.h5",
+        "Before": "396FB59E65583F92BE92838FDDFD97409C54B11BED0E6AAEAB2522BE6C9ADE20",
+        "After": "396FB59E65583F92BE92838FDDFD97409C54B11BED0E6AAEAB2522BE6C9ADE20",
+        "Unchanged": true
+      }
+    ]
+  },
+  "threshold": {
+    "operator": "<",
+    "yplus": 30,
+    "total_foil_wall_adjacent_cells": 103,
+    "selected_unique_cells": 5,
+    "selected_ids_sorted": [
+      69,
+      2573,
+      7251,
+      7316,
+      7588
+    ]
+  },
+  "selected_cells_in_upstream_to_TE_wall_order": [
+    {
+      "cell_id": 7588,
+      "yplus": 23.96556544,
+      "pressure_Pa": -189.0268915,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.08900588751,
+        -0.003959536552
+      ],
+      "cell_node_ids": [
+        3428,
+        3756,
+        3757
+      ],
+      "cell_vertices_m": [
+        [
+          0.08972740563585611,
+          -0.0023851056939060934
+        ],
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ],
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.08924639581340622,
+        -0.003434726243809805
+      ],
+      "wall_face_id": 11444,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3756,
+        3757
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ],
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.08900589090218128,
+        -0.003959536518761661
+      ],
+      "nonwall_apex_node_id": 3428,
+      "nonwall_apex_m": [
+        0.08972740563585611,
+        -0.0023851056939060934
+      ],
+      "wall_edge_length_m": 0.0019994551984370227,
+      "wall_face_connections": {
+        "cell_0": 7588,
+        "cell_1": 0
+      }
+    },
+    {
+      "cell_id": 7316,
+      "yplus": 25.9360812,
+      "pressure_Pa": -170.1125189,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.09286472201,
+        -0.005007564556
+      ],
+      "cell_node_ids": [
+        2769,
+        3758,
+        3759
+      ],
+      "cell_vertices_m": [
+        [
+          0.09332533112010939,
+          -0.003102485017699304
+        ],
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.09301825706464395,
+        -0.004372537840808499
+      ],
+      "wall_face_id": 11446,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3758,
+        3759
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.09286472003691124,
+        -0.0050075642523630965
+      ],
+      "nonwall_apex_node_id": 2769,
+      "nonwall_apex_m": [
+        0.09332533112010939,
+        -0.003102485017699304
+      ],
+      "wall_edge_length_m": 0.00199926401415211,
+      "wall_face_connections": {
+        "cell_0": 7316,
+        "cell_1": 0
+      }
+    },
+    {
+      "cell_id": 69,
+      "yplus": 19.56839664,
+      "pressure_Pa": -166.1768876,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.09479176253,
+        -0.005540069193
+      ],
+      "cell_node_ids": [
+        785,
+        3759,
+        3760
+      ],
+      "cell_vertices_m": [
+        [
+          0.09516836267521507,
+          -0.0036034804403093897
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.09491729475359846,
+        -0.00489453956634384
+      ],
+      "wall_face_id": 11447,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3759,
+        3760
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.09479176079279017,
+        -0.005540069129361065
+      ],
+      "nonwall_apex_node_id": 785,
+      "nonwall_apex_m": [
+        0.09516836267521507,
+        -0.0036034804403093897
+      ],
+      "wall_edge_length_m": 0.001999264014156263,
+      "wall_face_connections": {
+        "cell_0": 69,
+        "cell_1": 0
+      }
+    },
+    {
+      "cell_id": 7251,
+      "yplus": 21.53721692,
+      "pressure_Pa": -159.5879949,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.09671717882,
+        -0.006078498904
+      ],
+      "cell_node_ids": [
+        2501,
+        3760,
+        3761
+      ],
+      "cell_vertices_m": [
+        [
+          0.09707822383346933,
+          -0.003961667217986865
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.09683752887605585,
+        -0.005372888307508511
+      ],
+      "wall_face_id": 11448,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3760,
+        3761
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.09671718139734911,
+        -0.006078498852269333
+      ],
+      "nonwall_apex_node_id": 2501,
+      "nonwall_apex_m": [
+        0.09707822383346933,
+        -0.003961667217986865
+      ],
+      "wall_edge_length_m": 0.0019993161648790727,
+      "wall_face_connections": {
+        "cell_0": 7251,
+        "cell_1": 0
+      }
+    },
+    {
+      "cell_id": 2573,
+      "yplus": 22.27944689,
+      "pressure_Pa": -157.1848176,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.09860375524,
+        -0.006612428464
+      ],
+      "cell_node_ids": [
+        676,
+        3659,
+        3761
+      ],
+      "cell_vertices_m": [
+        [
+          0.09930463958907809,
+          -0.004578373427612846
+        ],
+        [
+          0.09952801966842195,
+          -0.006875633201629849
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.0988373807223739,
+        -0.005934410194757533
+      ],
+      "wall_face_id": 11414,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3761,
+        3659
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ],
+        [
+          0.09952801966842195,
+          -0.006875633201629849
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.0986037512890218,
+        -0.006612428578329877
+      ],
+      "nonwall_apex_node_id": 676,
+      "nonwall_apex_m": [
+        0.09930463958907809,
+        -0.004578373427612846
+      ],
+      "wall_edge_length_m": 0.0019220288352524621,
+      "wall_face_connections": {
+        "cell_0": 2573,
+        "cell_1": 0
+      }
+    }
+  ],
+  "selected_wall_edge_topology": {
+    "connected_component_count": 2,
+    "component_cell_counts": [
+      1,
+      4
+    ],
+    "components": [
+      {
+        "cell_ids_wall_order": [
+          7588
+        ],
+        "wall_face_ids": [
+          11444
+        ],
+        "node_ids": [
+          3756,
+          3757
+        ],
+        "coordinates_m": [
+          [
+            0.08804036632459156,
+            -0.003700273018227169
+          ],
+          [
+            0.089971415479771,
+            -0.004218800019296153
+          ]
+        ]
+      },
+      {
+        "cell_ids_wall_order": [
+          7316,
+          69,
+          7251,
+          2573
+        ],
+        "wall_face_ids": [
+          11446,
+          11447,
+          11448,
+          11414
+        ],
+        "node_ids": [
+          3758,
+          3759,
+          3760,
+          3761,
+          3659
+        ],
+        "coordinates_m": [
+          [
+            0.09190079837331874,
+            -0.0047427639955128255
+          ],
+          [
+            0.09382864170050374,
+            -0.0052723645092133675
+          ],
+          [
+            0.0957548798850766,
+            -0.005807773749508762
+          ],
+          [
+            0.09767948290962163,
+            -0.006349223955029904
+          ],
+          [
+            0.09952801966842195,
+            -0.006875633201629849
+          ]
+        ]
+      }
+    ],
+    "selected_wall_edges_are_NOT_one_continuous_five_cell_interval": true,
+    "intervening_unselected_cell": {
+      "cell_id": 6134,
+      "yplus": 32.77977224,
+      "pressure_Pa": -175.7016735,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.09093610197,
+        -0.004480781965
+      ],
+      "cell_node_ids": [
+        673,
+        3757,
+        3758
+      ],
+      "cell_vertices_m": [
+        [
+          0.09166866147683726,
+          -0.002431834931485355
+        ],
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ],
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.09118029177664233,
+        -0.0037977996487647777
+      ],
+      "wall_face_id": 11445,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3757,
+        3758
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ],
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.09093610692654487,
+        -0.004480782007404489
+      ],
+      "nonwall_apex_node_id": 673,
+      "nonwall_apex_m": [
+        0.09166866147683726,
+        -0.002431834931485355
+      ],
+      "wall_edge_length_m": 0.00199926401415307,
+      "wall_face_connections": {
+        "cell_0": 6134,
+        "cell_1": 0
+      }
+    }
+  },
+  "old_annotation": {
+    "rule": "xmin/xmax of ALL vertices of the five selected triangles; y=maximum vertex y+0.0012m",
+    "world_bracket_m": [
+      0.08804036632459156,
+      0.09952801966842195,
+      -0.0011851056939060935
+    ],
+    "suction_wall_faces_whose_x_projection_overlaps_bracket": [
+      {
+        "cell_id": 7588,
+        "yplus": 23.96556544,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11444,
+        "wall_edge_midpoint_m": [
+          0.08900589090218128,
+          -0.003959536518761661
+        ]
+      },
+      {
+        "cell_id": 6134,
+        "yplus": 32.77977224,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11445,
+        "wall_edge_midpoint_m": [
+          0.09093610692654487,
+          -0.004480782007404489
+        ]
+      },
+      {
+        "cell_id": 7316,
+        "yplus": 25.9360812,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11446,
+        "wall_edge_midpoint_m": [
+          0.09286472003691124,
+          -0.0050075642523630965
+        ]
+      },
+      {
+        "cell_id": 69,
+        "yplus": 19.56839664,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11447,
+        "wall_edge_midpoint_m": [
+          0.09479176079279017,
+          -0.005540069129361065
+        ]
+      },
+      {
+        "cell_id": 7251,
+        "yplus": 21.53721692,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11448,
+        "wall_edge_midpoint_m": [
+          0.09671718139734911,
+          -0.006078498852269333
+        ]
+      },
+      {
+        "cell_id": 2573,
+        "yplus": 22.27944689,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11414,
+        "wall_edge_midpoint_m": [
+          0.0986037512890218,
+          -0.006612428578329877
+        ]
+      }
+    ],
+    "suction_triangles_whose_full_x_projection_overlaps_bracket": [
+      {
+        "cell_id": 7578,
+        "yplus": 40.23124347,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11443,
+        "wall_edge_midpoint_m": [
+          0.0870742212322996,
+          -0.003443703709440799
+        ]
+      },
+      {
+        "cell_id": 7588,
+        "yplus": 23.96556544,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11444,
+        "wall_edge_midpoint_m": [
+          0.08900589090218128,
+          -0.003959536518761661
+        ]
+      },
+      {
+        "cell_id": 6134,
+        "yplus": 32.77977224,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11445,
+        "wall_edge_midpoint_m": [
+          0.09093610692654487,
+          -0.004480782007404489
+        ]
+      },
+      {
+        "cell_id": 7316,
+        "yplus": 25.9360812,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11446,
+        "wall_edge_midpoint_m": [
+          0.09286472003691124,
+          -0.0050075642523630965
+        ]
+      },
+      {
+        "cell_id": 69,
+        "yplus": 19.56839664,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11447,
+        "wall_edge_midpoint_m": [
+          0.09479176079279017,
+          -0.005540069129361065
+        ]
+      },
+      {
+        "cell_id": 7251,
+        "yplus": 21.53721692,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11448,
+        "wall_edge_midpoint_m": [
+          0.09671718139734911,
+          -0.006078498852269333
+        ]
+      },
+      {
+        "cell_id": 2573,
+        "yplus": 22.27944689,
+        "wall_zone_name": "aerofoil_suction",
+        "wall_face_id": 11414,
+        "wall_edge_midpoint_m": [
+          0.0986037512890218,
+          -0.006612428578329877
+        ]
+      }
+    ],
+    "extra_suction_triangle_ids_in_projection": [
+      7578,
+      6134
+    ],
+    "comparison_scope": "The seven visible-projection candidates here are suction-side wall-adjacent triangles only. TE cell7516 is not included in this seven-cell explanation.",
+    "left_apex_neighbour": {
+      "cell_id": 7578,
+      "yplus": 40.23124347,
+      "pressure_Pa": -191.4664678,
+      "source_csv": "suction_p_yplus.csv",
+      "raw_csv_coordinate_m": [
+        0.08707422018,
+        -0.003443703754
+      ],
+      "cell_node_ids": [
+        993,
+        3755,
+        3756
+      ],
+      "cell_vertices_m": [
+        [
+          0.08841256951199919,
+          -0.001474975667094155
+        ],
+        [
+          0.08610807614000765,
+          -0.0031871344006544292
+        ],
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ]
+      ],
+      "cell_geometric_centroid_m": [
+        0.08752033732553281,
+        -0.0027874610286585844
+      ],
+      "wall_face_id": 11443,
+      "wall_zone_id": 7,
+      "wall_zone_name": "aerofoil_suction",
+      "wall_node_ids": [
+        3755,
+        3756
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.08610807614000765,
+          -0.0031871344006544292
+        ],
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ]
+      ],
+      "wall_edge_midpoint_m": [
+        0.0870742212322996,
+        -0.003443703709440799
+      ],
+      "nonwall_apex_node_id": 993,
+      "nonwall_apex_m": [
+        0.08841256951199919,
+        -0.001474975667094155
+      ],
+      "wall_edge_length_m": 0.001999264014152151,
+      "wall_face_connections": {
+        "cell_0": 7578,
+        "cell_1": 0
+      }
+    },
+    "why_seven": "Cell7578 has a nonwall apex entering the bracket x-projection from the left although its wall edge ends at the bracket xmin. Cell6134 is an actual intervening suction wall cell above30 between the isolated first low cell and the remaining four. A global projection bracket therefore does not identify precisely five cells."
+  },
+  "exact_wall_edge_annotation_data": {
+    "selected_wall_edges_global_x_extent_m": [
+      0.08804036632459156,
+      0.09952801966842195
+    ],
+    "same_as_old_projection_span": true,
+    "single_wall_extent_bracket_does_not_remove_the_gap": true,
+    "five_short_leader_targets_m": [
+      [
+        0.08900589090218128,
+        -0.003959536518761661
+      ],
+      [
+        0.09286472003691124,
+        -0.0050075642523630965
+      ],
+      [
+        0.09479176079279017,
+        -0.005540069129361065
+      ],
+      [
+        0.09671718139734911,
+        -0.006078498852269333
+      ],
+      [
+        0.0986037512890218,
+        -0.006612428578329877
+      ]
+    ],
+    "five_label_records": [
+      {
+        "label": "1",
+        "cell_id": 7588,
+        "wall_face_id": 11444,
+        "yplus": 23.96556544,
+        "wall_midpoint_m": [
+          0.08900589090218128,
+          -0.003959536518761661
+        ],
+        "cell_centroid_m": [
+          0.08924639581340622,
+          -0.003434726243809805
+        ]
+      },
+      {
+        "label": "2",
+        "cell_id": 7316,
+        "wall_face_id": 11446,
+        "yplus": 25.9360812,
+        "wall_midpoint_m": [
+          0.09286472003691124,
+          -0.0050075642523630965
+        ],
+        "cell_centroid_m": [
+          0.09301825706464395,
+          -0.004372537840808499
+        ]
+      },
+      {
+        "label": "3",
+        "cell_id": 69,
+        "wall_face_id": 11447,
+        "yplus": 19.56839664,
+        "wall_midpoint_m": [
+          0.09479176079279017,
+          -0.005540069129361065
+        ],
+        "cell_centroid_m": [
+          0.09491729475359846,
+          -0.00489453956634384
+        ]
+      },
+      {
+        "label": "4",
+        "cell_id": 7251,
+        "wall_face_id": 11448,
+        "yplus": 21.53721692,
+        "wall_midpoint_m": [
+          0.09671718139734911,
+          -0.006078498852269333
+        ],
+        "cell_centroid_m": [
+          0.09683752887605585,
+          -0.005372888307508511
+        ]
+      },
+      {
+        "label": "5",
+        "cell_id": 2573,
+        "wall_face_id": 11414,
+        "yplus": 22.27944689,
+        "wall_midpoint_m": [
+          0.0986037512890218,
+          -0.006612428578329877
+        ],
+        "cell_centroid_m": [
+          0.0988373807223739,
+          -0.005934410194757533
+        ]
+      }
+    ],
+    "suggestion": "Use five separate short callouts to these exact wall-face midpoints (or five cell centroids if the intended target is filled cells). The selected wall edges form one isolated edge plus four consecutive edges, separated by cell6134. A single narrower horizontal bracket cannot express that gap. Preserve native field fill; annotations must not imitate externally reconstructed scientific cells."
+  },
+  "coordinate_interpretation": {
+    "wall_CSV_coordinates_are_near_wall_face_midpoints_not_cell_centroids": true,
+    "max_wall_CSV_to_exact_wall_midpoint_distance_m": 3.952632039165503e-09,
+    "leader_target_options": "Choose exact wall-edge midpoint for wall-edge identification, or actual triangle centroid for an interior cell marker; these are different physical coordinates."
+  },
+  "independent_review_crosscheck": {
+    "reference": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\fig05_exact_five_cells_2026-11-10\\exact_five_cells.json",
+    "ordered_five_IDs_match": true,
+    "seven_suction_triangle_projection_IDs_match": true,
+    "extra_IDs": [
+      7578,
+      6134
+    ]
+  }
+}

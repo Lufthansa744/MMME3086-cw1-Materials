@@ -1,0 +1,368 @@
+{
+  "scope": "Only Figure5 annotation corrected. No CFD rerun, native field recolouring or changes to Figures2/4/6. Previous centered directory preserved untouched.",
+  "figures": [
+    {
+      "figure": 2,
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.pdf",
+          "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+          "bytes": 1005416,
+          "byte_identical_to_previous_centered": true
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.png",
+          "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06",
+          "bytes": 814099,
+          "byte_identical_to_previous_centered": true
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc_print300.png",
+          "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97",
+          "bytes": 662688,
+          "byte_identical_to_previous_centered": true
+        }
+      ]
+    },
+    {
+      "figure": 4,
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.pdf",
+          "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+          "bytes": 231840,
+          "byte_identical_to_previous_centered": true
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.png",
+          "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96",
+          "bytes": 361605,
+          "byte_identical_to_previous_centered": true
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors_print300.png",
+          "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da",
+          "bytes": 197998,
+          "byte_identical_to_previous_centered": true
+        }
+      ]
+    },
+    {
+      "figure": 5,
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig05_rsm_yplus.pdf",
+          "sha256": "55b51ca829d3ca012339edf61e634059bb96eee40fea5eee676aca95c04cbb8f",
+          "bytes": 484867
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig05_rsm_yplus.png",
+          "sha256": "39ebe467fd84cca09f40a9775c7de1259dc8fd0134dbf38c297677b76864b078",
+          "bytes": 675467
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig05_rsm_yplus_print300.png",
+          "sha256": "2911b080fe29d4da9dad3368add44a981b98d33b0f020d4aa31137fe2cd012da",
+          "bytes": 449521
+        }
+      ]
+    },
+    {
+      "figure": 6,
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.pdf",
+          "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+          "bytes": 304455,
+          "byte_identical_to_previous_centered": true
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.png",
+          "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a",
+          "bytes": 430975,
+          "byte_identical_to_previous_centered": true
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined_print300.png",
+          "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037",
+          "bytes": 244063,
+          "byte_identical_to_previous_centered": true
+        }
+      ]
+    }
+  ],
+  "figure5_box_pt": [
+    468.0,
+    187.2
+  ],
+  "figure5_box_mm": [
+    165.1,
+    66.04
+  ],
+  "selection": "All103 actualfoil-adjacent IDs filtered by original unrounded native y+<30. Exactly5 non-contiguous actualtriangles; each red path is an empty0.35pt postannotation on its original3nodes.",
+  "five_polygons": [
+    {
+      "cell_id": 7588,
+      "yplus": 23.96556544,
+      "actual_node_ids": [
+        3756,
+        3757,
+        3428
+      ],
+      "world_vertices_m": [
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ],
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ],
+        [
+          0.08972740563585611,
+          -0.0023851056939060934
+        ]
+      ],
+      "pdf_vertices_pt": [
+        [
+          332.9889750744018,
+          84.9971060972486
+        ],
+        [
+          338.9197097922467,
+          83.4045800452155
+        ],
+        [
+          338.1702945591231,
+          89.03631374206972
+        ]
+      ]
+    },
+    {
+      "cell_id": 7316,
+      "yplus": 25.9360812,
+      "actual_node_ids": [
+        3758,
+        3759,
+        2769
+      ],
+      "world_vertices_m": [
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ],
+        [
+          0.09332533112010939,
+          -0.003102485017699304
+        ]
+      ],
+      "pdf_vertices_pt": [
+        [
+          344.8453270040552,
+          81.79535568326004
+        ],
+        [
+          350.76621582267205,
+          80.16882010555724
+        ],
+        [
+          349.2204232026359,
+          86.83306249386982
+        ]
+      ]
+    },
+    {
+      "cell_id": 69,
+      "yplus": 19.56839664,
+      "actual_node_ids": [
+        3759,
+        3760,
+        785
+      ],
+      "world_vertices_m": [
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ],
+        [
+          0.09516836267521507,
+          -0.0036034804403093897
+        ]
+      ],
+      "pdf_vertices_pt": [
+        [
+          350.76621582267205,
+          80.16882010555724
+        ],
+        [
+          356.68217484704144,
+          78.52444447630002
+        ],
+        [
+          354.88083386625425,
+          85.2943803021786
+        ]
+      ]
+    },
+    {
+      "cell_id": 7251,
+      "yplus": 21.53721692,
+      "actual_node_ids": [
+        3760,
+        3761,
+        2501
+      ],
+      "world_vertices_m": [
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ],
+        [
+          0.09707822383346933,
+          -0.003961667217986865
+        ]
+      ],
+      "pdf_vertices_pt": [
+        [
+          356.68217484704144,
+          78.52444447630002
+        ],
+        [
+          362.5931118861754,
+          76.86151553259322
+        ],
+        [
+          360.7464949485426,
+          84.19429916123664
+        ]
+      ]
+    },
+    {
+      "cell_id": 2573,
+      "yplus": 22.27944689,
+      "actual_node_ids": [
+        3761,
+        3659,
+        676
+      ],
+      "world_vertices_m": [
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ],
+        [
+          0.09952801966842195,
+          -0.006875633201629849
+        ],
+        [
+          0.09930463958907809,
+          -0.004578373427612846
+        ]
+      ],
+      "pdf_vertices_pt": [
+        [
+          362.5931118861754,
+          76.86151553259322
+        ],
+        [
+          368.27043040664097,
+          75.24478113397313
+        ],
+        [
+          367.5843743379561,
+          82.30024021492285
+        ]
+      ]
+    }
+  ],
+  "explicitly_unmarked_above_threshold": [
+    {
+      "cell_id": 6134,
+      "yplus": 32.77977224
+    },
+    {
+      "cell_id": 7578,
+      "yplus": 40.23124347
+    }
+  ],
+  "wide_bracket_and_floating_5cells_label_removed": true,
+  "native_scientific_RGB_embedded_exactly": true,
+  "figure5_native_layers_unchanged": [
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case03\\yplus_native_context_centered.png",
+      "sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7",
+      "source_pixels": [
+        3600,
+        1179
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_exact_five_cells_2026-11-10\\case03_yplus_centered_calibration.json",
+      "calibration_sha256": "adebabef313c7e6723f87d4a7494c810106f28580fdb1febd9be5b9b6dbe6396",
+      "pdf_image_position_size_pt": [
+        37.846442424194834,
+        42.65440414911004,
+        356.67153344491055,
+        116.8099272032082
+      ],
+      "clip_rectangle_pt": [
+        38.025,
+        42.705,
+        356.265,
+        116.7075
+      ],
+      "uniform_scale_pt_per_pixel": 0.0990754259569196,
+      "effective_source_dpi": 726.7190557556356,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "native_donor": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_legend_valid.png",
+      "native_donor_sha256": "e4b6ec1bdd9e47d256a2ccb72f5dc2ffaf9ac0b12e1c9be4d61778bb4c93e4f3",
+      "crop_box_pixels": [
+        48,
+        483,
+        51,
+        1168
+      ],
+      "rotation": "none",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_exact_five_cells_2026-11-10\\fig05_yplus_native_colour_strip.png",
+      "sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d",
+      "RGB_policy": "Only exact native pixel crop/transpose. No palette generation or recolouring; bar aspect reflow is independent of physical field geometry.",
+      "pdf_box_pt": [
+        415.35,
+        42.705,
+        9.36,
+        116.7075
+      ]
+    }
+  ],
+  "old_version_audits_are_history_not_rewritten": true,
+  "history_hash_audit": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_exact_five_cells_2026-11-10\\preserved_history_hashes.json",
+    "sha256": "9292c117e4da09bc5b7eaebbe35f61d04b33537d0c0c182fe4226e11bc96a043"
+  },
+  "generator": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_exact_five_cells_2026-11-10\\compose_exact_cells.py",
+    "sha256": "eb2f2f224dfea1f0da1bc9b0079cd3c7504c8259f74ff689946a9609326ff38d",
+    "documentation_only_update": {
+      "previous_script_sha256": "ce3a3eb433b7af71a1ee159d8abf769fabae4f0d978adfb18b7409079af85486",
+      "change": "Docstring explicitly identifies five empty red exact-cell outlines as post-annotations; scientific raster/fill/field remain native. No PDF or PNG was regenerated."
+    }
+  },
+  "independent_source_review": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\fig05_exact_five_cells_2026-11-10\\exact_five_cells.json",
+    "sha256": "5ec3c5af443690f0a81fdb1bf0b6c8ef589b1bf18ff74254dabaf0e18e9d0d92"
+  },
+  "status": "Candidate visual review passed; awaiting final delivered-PDF path verification and independent final acceptance."
+}

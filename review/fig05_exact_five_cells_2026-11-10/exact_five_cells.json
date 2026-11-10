@@ -1,0 +1,405 @@
+{
+  "actual_suction_below30_count": 5,
+  "ordered_exact_cells": [
+    {
+      "cell_id": 7588,
+      "yplus": 23.96556544,
+      "raw_face_midpoint_m": [
+        0.08900588751,
+        -0.003959536552
+      ],
+      "node_ids": [
+        3428,
+        3756,
+        3757
+      ],
+      "vertices_m": [
+        [
+          0.08972740563585611,
+          -0.0023851056939060934
+        ],
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ],
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ]
+      ],
+      "face_ids": [
+        10213,
+        10216,
+        11444
+      ],
+      "foil_wall_edges": [
+        {
+          "zone": 7,
+          "face_id": 11444,
+          "node_ids": [
+            3756,
+            3757
+          ],
+          "vertices_m": [
+            [
+              0.08804036632459156,
+              -0.003700273018227169
+            ],
+            [
+              0.089971415479771,
+              -0.004218800019296153
+            ]
+          ]
+        }
+      ],
+      "neighbour_cells": [
+        7587,
+        7589
+      ],
+      "actual_cell_centroid_m": [
+        0.08924639225,
+        -0.00343472627
+      ]
+    },
+    {
+      "cell_id": 7316,
+      "yplus": 25.9360812,
+      "raw_face_midpoint_m": [
+        0.09286472201,
+        -0.005007564556
+      ],
+      "node_ids": [
+        2769,
+        3758,
+        3759
+      ],
+      "vertices_m": [
+        [
+          0.09332533112010939,
+          -0.003102485017699304
+        ],
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ]
+      ],
+      "face_ids": [
+        7763,
+        7767,
+        11446
+      ],
+      "foil_wall_edges": [
+        {
+          "zone": 7,
+          "face_id": 11446,
+          "node_ids": [
+            3758,
+            3759
+          ],
+          "vertices_m": [
+            [
+              0.09190079837331874,
+              -0.0047427639955128255
+            ],
+            [
+              0.09382864170050374,
+              -0.0052723645092133675
+            ]
+          ]
+        }
+      ],
+      "neighbour_cells": [
+        7315,
+        7317
+      ],
+      "actual_cell_centroid_m": [
+        0.09301825613,
+        -0.004372537602
+      ]
+    },
+    {
+      "cell_id": 69,
+      "yplus": 19.56839664,
+      "raw_face_midpoint_m": [
+        0.09479176253,
+        -0.005540069193
+      ],
+      "node_ids": [
+        785,
+        3759,
+        3760
+      ],
+      "vertices_m": [
+        [
+          0.09516836267521507,
+          -0.0036034804403093897
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ]
+      ],
+      "face_ids": [
+        2918,
+        2921,
+        11447
+      ],
+      "foil_wall_edges": [
+        {
+          "zone": 7,
+          "face_id": 11447,
+          "node_ids": [
+            3759,
+            3760
+          ],
+          "vertices_m": [
+            [
+              0.09382864170050374,
+              -0.0052723645092133675
+            ],
+            [
+              0.0957548798850766,
+              -0.005807773749508762
+            ]
+          ]
+        }
+      ],
+      "neighbour_cells": [
+        7250,
+        7317
+      ],
+      "actual_cell_centroid_m": [
+        0.09491729736,
+        -0.004894539714
+      ]
+    },
+    {
+      "cell_id": 7251,
+      "yplus": 21.53721692,
+      "raw_face_midpoint_m": [
+        0.09671717882,
+        -0.006078498904
+      ],
+      "node_ids": [
+        2501,
+        3760,
+        3761
+      ],
+      "vertices_m": [
+        [
+          0.09707822383346933,
+          -0.003961667217986865
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ]
+      ],
+      "face_ids": [
+        6861,
+        6863,
+        11448
+      ],
+      "foil_wall_edges": [
+        {
+          "zone": 7,
+          "face_id": 11448,
+          "node_ids": [
+            3760,
+            3761
+          ],
+          "vertices_m": [
+            [
+              0.0957548798850766,
+              -0.005807773749508762
+            ],
+            [
+              0.09767948290962163,
+              -0.006349223955029904
+            ]
+          ]
+        }
+      ],
+      "neighbour_cells": [
+        7250,
+        7252
+      ],
+      "actual_cell_centroid_m": [
+        0.09683752805,
+        -0.005372887943
+      ]
+    },
+    {
+      "cell_id": 2573,
+      "yplus": 22.27944689,
+      "raw_face_midpoint_m": [
+        0.09860375524,
+        -0.006612428464
+      ],
+      "node_ids": [
+        676,
+        3659,
+        3761
+      ],
+      "vertices_m": [
+        [
+          0.09930463958907809,
+          -0.004578373427612846
+        ],
+        [
+          0.09952801966842195,
+          -0.006875633201629849
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ]
+      ],
+      "face_ids": [
+        2624,
+        2713,
+        11414
+      ],
+      "foil_wall_edges": [
+        {
+          "zone": 7,
+          "face_id": 11414,
+          "node_ids": [
+            3761,
+            3659
+          ],
+          "vertices_m": [
+            [
+              0.09767948290962163,
+              -0.006349223955029904
+            ],
+            [
+              0.09952801966842195,
+              -0.006875633201629849
+            ]
+          ]
+        }
+      ],
+      "neighbour_cells": [
+        7252,
+        7594
+      ],
+      "actual_cell_centroid_m": [
+        0.09883738309,
+        -0.005934409797
+      ]
+    }
+  ],
+  "old_global_projection_m": [
+    0.08804036632459156,
+    0.09952801966842195
+  ],
+  "all_suction_triangles_overlapping_old_projection": [
+    {
+      "cell_id": 7578,
+      "yplus": 40.23124347,
+      "wall_x_m": 0.08707422018,
+      "x_projection_m": [
+        0.08610807614000765,
+        0.08841256951199919
+      ],
+      "is_below30": false
+    },
+    {
+      "cell_id": 7588,
+      "yplus": 23.96556544,
+      "wall_x_m": 0.08900588751,
+      "x_projection_m": [
+        0.08804036632459156,
+        0.089971415479771
+      ],
+      "is_below30": true
+    },
+    {
+      "cell_id": 6134,
+      "yplus": 32.77977224,
+      "wall_x_m": 0.09093610197,
+      "x_projection_m": [
+        0.089971415479771,
+        0.09190079837331874
+      ],
+      "is_below30": false
+    },
+    {
+      "cell_id": 7316,
+      "yplus": 25.9360812,
+      "wall_x_m": 0.09286472201,
+      "x_projection_m": [
+        0.09190079837331874,
+        0.09382864170050374
+      ],
+      "is_below30": true
+    },
+    {
+      "cell_id": 69,
+      "yplus": 19.56839664,
+      "wall_x_m": 0.09479176253,
+      "x_projection_m": [
+        0.09382864170050374,
+        0.0957548798850766
+      ],
+      "is_below30": true
+    },
+    {
+      "cell_id": 7251,
+      "yplus": 21.53721692,
+      "wall_x_m": 0.09671717882,
+      "x_projection_m": [
+        0.0957548798850766,
+        0.09767948290962163
+      ],
+      "is_below30": true
+    },
+    {
+      "cell_id": 2573,
+      "yplus": 22.27944689,
+      "wall_x_m": 0.09860375524,
+      "x_projection_m": [
+        0.09767948290962163,
+        0.09952801966842195
+      ],
+      "is_below30": true
+    }
+  ],
+  "correction": "The original count5 is correct. A single global x-projection bracket is ambiguous: it covers triangles beyond or between the selected set. Replace it with five individually identified centroid markers/leaders or true triangle-outline annotations. Do not narrow a single bracket or change the count to7.",
+  "native_scientific_layer_policy": "Keep original native RGB unchanged. New red marks are post-export identity annotations, not native colour fill.",
+  "source_hashes": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+      "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\suction_p_yplus.csv",
+      "sha256": "fd59d490a6b0fe298a3b93bc37f6e0bcf6d3960a2e59793c06c492af69c3db39"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\domain_cell_fields.csv",
+      "sha256": "cbf56b786c3fde2d92e48c39ab48c3f1a13f077ee3a8cc4b5f0f940bfd9a633f"
+    }
+  ],
+  "intervening_wall_face_11445": {
+    "cell_id": 6134,
+    "yplus": 32.77977224,
+    "node_ids": [
+      3757,
+      3758
+    ]
+  }
+}

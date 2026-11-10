@@ -2,7 +2,9 @@
 
 Student **20617209** · inlet **50.9 m/s** · five prescribed cases complete.
 
-**Latest: centred native-artwork set, 10 November:** Use [the centred Figure 2/4/5/6 handoff](report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md) and [copy-ready Mac prompt](report/native_fluent_2026-11-10-centered/MAC_FINAL_PROMPT.txt). Figure 5's foil is vertically centred; Figure 6(a)'s foil is horizontally centred while retaining a genuine near wake and the previous magnification. Figures 2/4 retain their accepted bytes. The four external artwork boxes match the supplied Mac PDF. Read this set's final acceptance and delivery manifests before replacing the active assets; retain the newer Mac report source.
+**Latest: exact Figure 5 selection correction:** Use [the corrected four-figure set](report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md) and [Mac patch prompt](report/native_fluent_2026-11-10-exact-cells/MAC_PATCH_PROMPT.txt). Figure 5 now marks exactly five non-contiguous cells with individual red triangle outlines. The old range bracket could cover seven triangles and is superseded; the CFD count remains five. Figures 2/4/6 retain the accepted centred bytes. Replace the current Mac Figure 5 asset and compile in Overleaf.
+
+**Earlier centred native-artwork set (retained for provenance):** [Centred-view handoff](report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md). Its Figure 5 bracket annotation is superseded by the exact-cell correction above. Figure 5's vertical centring and Figure 6(a)'s horizontal centring, genuine near wake and magnification remain. The supplied Mac PDF's external artwork boxes are preserved; retain the newer Mac report source.
 
 **Earlier native-artwork set (retained for provenance):** [Original Figure 2/4/5/6 handoff](report/native_fluent_2026-11-10/MAC_NATIVE_FIGURE_HANDOFF.md). Figure 1's verified native SpaceClaim pictures remain. Native images, display controls and independent checks accompany both versions. Report compilation remains an Overleaf-only step on Mac; the historical Windows source ZIP below must not overwrite the newer Mac report.
 
