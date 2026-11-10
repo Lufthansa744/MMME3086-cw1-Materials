@@ -1,0 +1,354 @@
+{
+  "scope": "Figure5 annotation only: five visible numbered red circles and precise centroid leaders. Native science RGB, centered world window and all physical sizes unchanged. Figures2/4/6 copied byte-for-byte. All previous versions preserved.",
+  "external_annotation_disclosure": "Five filled red callout circles with white digits and leaders/arrowheads are post-annotations. Opaque circles cover gray mesh background only, never native coloured wall-cell fills. Scientific raster RGB remains losslessly embedded and unchanged.",
+  "figures": [
+    {
+      "figure": 2,
+      "assets": [
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc.pdf",
+          "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+          "bytes": 1005416,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.pdf",
+          "byte_identical_to_previous_exact_cells": true
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc.png",
+          "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06",
+          "bytes": 814099,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc.png",
+          "byte_identical_to_previous_exact_cells": true
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc_print300.png",
+          "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97",
+          "bytes": 662688,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig02_mesh_bc_print300.png",
+          "byte_identical_to_previous_exact_cells": true
+        }
+      ]
+    },
+    {
+      "figure": 4,
+      "assets": [
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors.pdf",
+          "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+          "bytes": 231840,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.pdf",
+          "byte_identical_to_previous_exact_cells": true
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors.png",
+          "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96",
+          "bytes": 361605,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors.png",
+          "byte_identical_to_previous_exact_cells": true
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors_print300.png",
+          "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da",
+          "bytes": 197998,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig04_rsm_vectors_print300.png",
+          "byte_identical_to_previous_exact_cells": true
+        }
+      ]
+    },
+    {
+      "figure": 5,
+      "assets": [
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig05_rsm_yplus.pdf",
+          "sha256": "a6d111b3523dfdfabd78892e732adb6f864f78f02761c0f9e130dcd6ecd164d8",
+          "bytes": 517427,
+          "source": "data\\fig05_clear_markers_2026-11-10\\fig05_rsm_yplus.pdf",
+          "byte_identical_to_previous_exact_cells": false
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig05_rsm_yplus.png",
+          "sha256": "4c7fcce27e2927f12f42d75336a10407a921e29aecc3a18c9ddd752d8a90e75b",
+          "bytes": 701561,
+          "source": "data\\fig05_clear_markers_2026-11-10\\fig05_rsm_yplus.png",
+          "byte_identical_to_previous_exact_cells": false
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig05_rsm_yplus_print300.png",
+          "sha256": "7a5cfec87db439ba1693aa5dbfbf967a866632cd71d53773b962a258e7751e9e",
+          "bytes": 462531,
+          "source": "data\\fig05_clear_markers_2026-11-10\\fig05_rsm_yplus_print300.png",
+          "byte_identical_to_previous_exact_cells": false
+        }
+      ]
+    },
+    {
+      "figure": 6,
+      "assets": [
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined.pdf",
+          "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+          "bytes": 304455,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.pdf",
+          "byte_identical_to_previous_exact_cells": true
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined.png",
+          "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a",
+          "bytes": 430975,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined.png",
+          "byte_identical_to_previous_exact_cells": true
+        },
+        {
+          "path": "report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined_print300.png",
+          "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037",
+          "bytes": 244063,
+          "source": "report\\native_fluent_2026-11-10-exact-cells\\fig06_enhanced_combined_print300.png",
+          "byte_identical_to_previous_exact_cells": true
+        }
+      ]
+    }
+  ],
+  "figure5_source_rgb_sha256": "03700939538a9265415dec208fde96f02f395f64c93ce7404ad56f41cc6da008",
+  "figure5_embedded_image_rgb_sha256": [
+    "983334e73d862203c0910d8e92629bdead2678773cd82f00792f5fda333b8175",
+    "03700939538a9265415dec208fde96f02f395f64c93ce7404ad56f41cc6da008"
+  ],
+  "figure5_native_image_losslessly_preserved": true,
+  "figure5_annotation": {
+    "role": "Non-native annotation only",
+    "type": "Five clearly numbered red circles above cells, with precise small-arrowhead leaders to their actual triangle centroids",
+    "cell_ids": [
+      7588,
+      7316,
+      69,
+      7251,
+      2573
+    ],
+    "excluded_not_below30": [
+      6134,
+      7578
+    ],
+    "markers": [
+      {
+        "number": 1,
+        "cell_id": 7588,
+        "yplus": 23.96556544,
+        "actual_node_ids": [
+          3756,
+          3757,
+          3428
+        ],
+        "world_vertices_m": [
+          [
+            0.08804036632459156,
+            -0.003700273018227169
+          ],
+          [
+            0.089971415479771,
+            -0.004218800019296153
+          ],
+          [
+            0.08972740563585611,
+            -0.0023851056939060934
+          ]
+        ],
+        "target_geometric_centroid_m": [
+          0.08924639581340622,
+          -0.003434726243809805
+        ],
+        "tip_pdf_pt": [
+          336.69299314192386,
+          85.81266662817794
+        ],
+        "circle_centre_pdf_pt": [
+          311.36625,
+          120.93156960447881
+        ],
+        "circle_diameter_mm": 2.8,
+        "number_font_pt": 7.5,
+        "leader_start_pdf_pt": [
+          313.68754779561846,
+          117.71278100593683
+        ]
+      },
+      {
+        "number": 2,
+        "cell_id": 7316,
+        "yplus": 25.9360812,
+        "actual_node_ids": [
+          3758,
+          3759,
+          2769
+        ],
+        "world_vertices_m": [
+          [
+            0.09190079837331874,
+            -0.0047427639955128255
+          ],
+          [
+            0.09382864170050374,
+            -0.0052723645092133675
+          ],
+          [
+            0.09332533112010939,
+            -0.003102485017699304
+          ]
+        ],
+        "target_geometric_centroid_m": [
+          0.09301825706464395,
+          -0.004372537840808499
+        ],
+        "tip_pdf_pt": [
+          348.2773220097877,
+          82.93241276089572
+        ],
+        "circle_centre_pdf_pt": [
+          325.186875,
+          120.93156960447881
+        ],
+        "circle_diameter_mm": 2.8,
+        "number_font_pt": 7.5,
+        "leader_start_pdf_pt": [
+          327.2477152396555,
+          117.54011549087747
+        ]
+      },
+      {
+        "number": 3,
+        "cell_id": 69,
+        "yplus": 19.56839664,
+        "actual_node_ids": [
+          3759,
+          3760,
+          785
+        ],
+        "world_vertices_m": [
+          [
+            0.09382864170050374,
+            -0.0052723645092133675
+          ],
+          [
+            0.0957548798850766,
+            -0.005807773749508762
+          ],
+          [
+            0.09516836267521507,
+            -0.0036034804403093897
+          ]
+        ],
+        "target_geometric_centroid_m": [
+          0.09491729475359846,
+          -0.00489453956634384
+        ],
+        "tip_pdf_pt": [
+          354.1097415119892,
+          81.32921496134529
+        ],
+        "circle_centre_pdf_pt": [
+          339.0075,
+          120.93156960447881
+        ],
+        "circle_diameter_mm": 2.8,
+        "number_font_pt": 7.5,
+        "leader_start_pdf_pt": [
+          340.42154678639423,
+          117.22353843094005
+        ]
+      },
+      {
+        "number": 4,
+        "cell_id": 7251,
+        "yplus": 21.53721692,
+        "actual_node_ids": [
+          3760,
+          3761,
+          2501
+        ],
+        "world_vertices_m": [
+          [
+            0.0957548798850766,
+            -0.005807773749508762
+          ],
+          [
+            0.09767948290962163,
+            -0.006349223955029904
+          ],
+          [
+            0.09707822383346933,
+            -0.003961667217986865
+          ]
+        ],
+        "target_geometric_centroid_m": [
+          0.09683752887605585,
+          -0.005372888307508511
+        ],
+        "tip_pdf_pt": [
+          360.00726056058653,
+          79.86008639004329
+        ],
+        "circle_centre_pdf_pt": [
+          352.82812500000006,
+          120.93156960447881
+        ],
+        "circle_diameter_mm": 2.8,
+        "number_font_pt": 7.5,
+        "leader_start_pdf_pt": [
+          353.5114436486325,
+          117.02233705543826
+        ]
+      },
+      {
+        "number": 5,
+        "cell_id": 2573,
+        "yplus": 22.27944689,
+        "actual_node_ids": [
+          3761,
+          3659,
+          676
+        ],
+        "world_vertices_m": [
+          [
+            0.09767948290962163,
+            -0.006349223955029904
+          ],
+          [
+            0.09952801966842195,
+            -0.006875633201629849
+          ],
+          [
+            0.09930463958907809,
+            -0.004578373427612846
+          ]
+        ],
+        "target_geometric_centroid_m": [
+          0.0988373807223739,
+          -0.005934410194757533
+        ],
+        "tip_pdf_pt": [
+          366.1493055435908,
+          78.13551229382972
+        ],
+        "circle_centre_pdf_pt": [
+          366.64875,
+          120.93156960447881
+        ],
+        "circle_diameter_mm": 2.8,
+        "number_font_pt": 7.5,
+        "leader_start_pdf_pt": [
+          366.60243937103866,
+          116.96333588861829
+        ]
+      }
+    ],
+    "native_colour_fill_unchanged": true,
+    "previous_wide_bracket_and_thin_outlines_removed": true
+  },
+  "generator": {
+    "path": "data\\fig05_clear_markers_2026-11-10\\compose_clear_markers.py",
+    "sha256": "ceb2678bab4039447f18c92b2b246f2b7743884cca59f505e92bed2cad684a93"
+  },
+  "package_script": {
+    "path": "data\\fig05_clear_markers_2026-11-10\\package_clear_markers.py",
+    "sha256": "3f915a788468224149fcadc76700899c97292a22ffc1935a3dba94c4b6806a26"
+  },
+  "prior_fig05_pdf_sha256": "55b51ca829d3ca012339edf61e634059bb96eee40fea5eee676aca95c04cbb8f"
+}

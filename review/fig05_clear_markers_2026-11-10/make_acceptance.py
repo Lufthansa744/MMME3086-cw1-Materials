@@ -1,0 +1,14 @@
+from pathlib import Path
+import json,hashlib
+root=Path(__file__).resolve().parents[2];out=Path(__file__).parent;delivery=root/'report/native_fluent_2026-11-10-clear-markers';prior=root/'report/native_fluent_2026-11-10-exact-cells'
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();audit=json.loads((out/'PDF_marker_identity_audit.json').read_text());p=delivery/'fig05_rsm_yplus.pdf'
+assert audit['PDF']==str(p) and audit['sha256']==sha(p)
+unchanged=[]
+for n,stem in [(2,'fig02_mesh_bc'),(4,'fig04_rsm_vectors'),(6,'fig06_enhanced_combined')]:
+ for suffix in ['.pdf','.png','_print300.png']:
+  q=delivery/(stem+suffix);assert q.read_bytes()==(prior/q.name).read_bytes();unchanged.append({'path':str(q),'sha256':sha(q)})
+r={'overall':'ACCEPT','date':'2026-11-10','scope':'Clearer Figure5 annotation only; original native scientific data and all other accepted figures retained','fig5':{'accepted':True,'decision':'ACCEPT','path':str(p),'sha256':sha(p),'bytes':p.stat().st_size,'size_pt':[468,187.2],'size_mm':[165.1,66.04],'marker_to_cell_IDs':{'1':7588,'2':7316,'3':69,'4':7251,'5':2573},'actual_selected_cell_ids':[7588,7316,69,7251,2573],'false_positive_cells':0,'false_negative_cells':0,'five_non_crossing_leaders':True,'marker_diameter_mm':2.8,'number_font_pt':7.5,'leader_width_pt':.65,'native_scientific_RGB_unchanged':True,'axes_physical_scale_and_centering_preserved':True,'print_review':'ACCEPT: independently rendered final-current-byte300dpi whole figure and96dpi print-width equivalent reviewed. Five red numbered circles are conspicuous, white digits readable, and separate leaders reach the correct actual triangles without observed text/leader collisions or clipping. Original170.94/19.57/40.29 callouts remain clear.'},'unchanged_other_assets':unchanged,'source_evidence':'../fig05_exact_five_cells_2026-11-10/exact_five_cells.json','actual_PDF_evidence':'PDF_marker_identity_audit.json','presentation_type':'Native Fluent raster scientific RGB plus post-export numbered circles, small-arrowhead leaders and axes/typography. No new native scalar colour field.','supersedes':'The previous thin red outlines identified the correct five cells but lacked sufficient prominence at actual print size. This revision improves visibility without changing identities or values. The earlier broad projection bracket remains superseded as an ambiguous selector.','limitations':['No Fluent operation, calculation, geometry or Case/Data changes.','Standalone artwork acceptance is not integrated report pagination acceptance; final report compilation remains Overleaf-only.']}
+for n,stem in [(2,'fig02_mesh_bc'),(4,'fig04_rsm_vectors'),(6,'fig06_enhanced_combined')]:
+ q=delivery/(stem+'.pdf');r[f'fig{n}']={'accepted':True,'path':str(q),'sha256':sha(q),'unchanged_from_previously_accepted_version':True}
+(out/'final_acceptance.json').write_text(json.dumps(r,indent=2));print(json.dumps({'overall':'ACCEPT','fig5_sha256':sha(p)},indent=2))
+

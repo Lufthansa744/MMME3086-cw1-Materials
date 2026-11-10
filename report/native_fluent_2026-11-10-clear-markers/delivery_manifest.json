@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-10",
+  "scope": "Increase Figure 5 identification visibility; retain original five cells and other figures",
+  "repository": "https://github.com/Lufthansa744/MMME3086-cw1-Materials",
+  "marker_to_actual_cell_ID": {
+    "1": 7588,
+    "2": 7316,
+    "3": 69,
+    "4": 7251,
+    "5": 2573
+  },
+  "false_positive_cells": 0,
+  "false_negative_cells": 0,
+  "native_scientific_source": {
+    "path": "solver/native_figures_2026-11-10-centered/case03/yplus_native_context_centered.png",
+    "bytes": 430280,
+    "sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7"
+  },
+  "native_source_RGB_embedded_exactly_unchanged": true,
+  "post_export_marks": "Five filled red numbered circles with white digits and separate small-arrowhead leaders",
+  "marker_diameter_mm": 2.8,
+  "number_font_pt": 7.5,
+  "leader_width_pt": 0.65,
+  "actual_print_width_visibility_accepted": true,
+  "previous_exact_cell_identity_retained": true,
+  "thin_outline_presentation_superseded": true,
+  "Fluent_started_for_this_update": false,
+  "solution_or_physical_settings_changed": false,
+  "latex_compiled": false,
+  "integrated_report_layout_checked": false,
+  "independent_acceptance": {
+    "path": "review/fig05_clear_markers_2026-11-10/final_acceptance.json",
+    "bytes": 6589,
+    "sha256": "c7512b51adbabbc7bb57deba5776a98bdb51c0a28169113e17a754fd8324e9f4"
+  },
+  "artwork": [
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+      "physical_size_mm": [
+        159.9974222222222,
+        73.99880777777777
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+      "physical_size_mm": [
+        165.1,
+        65.008125
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig05_rsm_yplus.pdf",
+      "bytes": 517427,
+      "sha256": "a6d111b3523dfdfabd78892e732adb6f864f78f02761c0f9e130dcd6ecd164d8",
+      "physical_size_mm": [
+        165.1,
+        66.03999999999999
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+      "physical_size_mm": [
+        165.1,
+        143.0000001027778
+      ]
+    }
+  ],
+  "delivery_files": [
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig02_mesh_bc.png",
+      "bytes": 814099,
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig02_mesh_bc_print300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig04_rsm_vectors.png",
+      "bytes": 361605,
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig04_rsm_vectors_print300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/FIG05_MARKER_UPDATE.md",
+      "bytes": 3614,
+      "sha256": "0c953b49c26828174987a24a50741a845cefeacc9bae4ec6798b825f85f1ecda"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig05_native_composition_audit.json",
+      "bytes": 8410,
+      "sha256": "2b443e04a3a7fde1e02d51cd57a724b5719faed2b75b324a8f8e0b3e430431a0"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig05_rsm_yplus.pdf",
+      "bytes": 517427,
+      "sha256": "a6d111b3523dfdfabd78892e732adb6f864f78f02761c0f9e130dcd6ecd164d8"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig05_rsm_yplus.png",
+      "bytes": 701561,
+      "sha256": "4c7fcce27e2927f12f42d75336a10407a921e29aecc3a18c9ddd752d8a90e75b"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig05_rsm_yplus_print300.png",
+      "bytes": 462531,
+      "sha256": "7a5cfec87db439ba1693aa5dbfbf967a866632cd71d53773b962a258e7751e9e"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig05_rsm_yplus_print96.png",
+      "bytes": 81284,
+      "sha256": "377d5243591e97f712d11c8f32365bf070c5146dc5bf6aa14adb1cd1937a99db"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig06_enhanced_combined.png",
+      "bytes": 430975,
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/fig06_enhanced_combined_print300.png",
+      "bytes": 244063,
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/MAC_PATCH_PROMPT.txt",
+      "bytes": 2229,
+      "sha256": "4fd78af6f85fa4a65cb45ce97049520a74ca27bae9138a17a013d59aaf71a5f4"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-clear-markers/native_assets_manifest.json",
+      "bytes": 11798,
+      "sha256": "4531ce9225b08dcfa4db462c70570513df5ff22669b86894a2faeda9fdfc3db9"
+    }
+  ]
+}

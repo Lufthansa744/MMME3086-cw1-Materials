@@ -1,0 +1,288 @@
+{
+  "figure": 5,
+  "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_clear_markers_2026-11-10\\fig05_rsm_yplus.pdf",
+  "sha256": "a6d111b3523dfdfabd78892e732adb6f864f78f02761c0f9e130dcd6ecd164d8",
+  "page_size_pt": [
+    468.0,
+    187.2
+  ],
+  "native_layers": [
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case03\\yplus_native_context_centered.png",
+      "sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7",
+      "source_pixels": [
+        3600,
+        1179
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_clear_markers_2026-11-10\\case03_yplus_centered_calibration.json",
+      "calibration_sha256": "adebabef313c7e6723f87d4a7494c810106f28580fdb1febd9be5b9b6dbe6396",
+      "pdf_image_position_size_pt": [
+        37.846442424194834,
+        42.65440414911004,
+        356.67153344491055,
+        116.8099272032082
+      ],
+      "clip_rectangle_pt": [
+        38.025,
+        42.705,
+        356.265,
+        116.7075
+      ],
+      "uniform_scale_pt_per_pixel": 0.0990754259569196,
+      "effective_source_dpi": 726.7190557556356,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "native_donor": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_legend_valid.png",
+      "native_donor_sha256": "e4b6ec1bdd9e47d256a2ccb72f5dc2ffaf9ac0b12e1c9be4d61778bb4c93e4f3",
+      "crop_box_pixels": [
+        48,
+        483,
+        51,
+        1168
+      ],
+      "rotation": "none",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\fig05_clear_markers_2026-11-10\\fig05_yplus_native_colour_strip.png",
+      "sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d",
+      "RGB_policy": "Only exact native pixel crop/transpose. No palette generation or recolouring; bar aspect reflow is independent of physical field geometry.",
+      "pdf_box_pt": [
+        415.35,
+        42.705,
+        9.36,
+        116.7075
+      ]
+    },
+    {
+      "role": "Non-native annotation only",
+      "type": "Five clearly numbered red circles above cells, with precise small-arrowhead leaders to their actual triangle centroids",
+      "cell_ids": [
+        7588,
+        7316,
+        69,
+        7251,
+        2573
+      ],
+      "excluded_not_below30": [
+        6134,
+        7578
+      ],
+      "markers": [
+        {
+          "number": 1,
+          "cell_id": 7588,
+          "yplus": 23.96556544,
+          "actual_node_ids": [
+            3756,
+            3757,
+            3428
+          ],
+          "world_vertices_m": [
+            [
+              0.08804036632459156,
+              -0.003700273018227169
+            ],
+            [
+              0.089971415479771,
+              -0.004218800019296153
+            ],
+            [
+              0.08972740563585611,
+              -0.0023851056939060934
+            ]
+          ],
+          "target_geometric_centroid_m": [
+            0.08924639581340622,
+            -0.003434726243809805
+          ],
+          "tip_pdf_pt": [
+            336.69299314192386,
+            85.81266662817794
+          ],
+          "circle_centre_pdf_pt": [
+            311.36625,
+            120.93156960447881
+          ],
+          "circle_diameter_mm": 2.8,
+          "number_font_pt": 7.5,
+          "leader_start_pdf_pt": [
+            313.68754779561846,
+            117.71278100593683
+          ]
+        },
+        {
+          "number": 2,
+          "cell_id": 7316,
+          "yplus": 25.9360812,
+          "actual_node_ids": [
+            3758,
+            3759,
+            2769
+          ],
+          "world_vertices_m": [
+            [
+              0.09190079837331874,
+              -0.0047427639955128255
+            ],
+            [
+              0.09382864170050374,
+              -0.0052723645092133675
+            ],
+            [
+              0.09332533112010939,
+              -0.003102485017699304
+            ]
+          ],
+          "target_geometric_centroid_m": [
+            0.09301825706464395,
+            -0.004372537840808499
+          ],
+          "tip_pdf_pt": [
+            348.2773220097877,
+            82.93241276089572
+          ],
+          "circle_centre_pdf_pt": [
+            325.186875,
+            120.93156960447881
+          ],
+          "circle_diameter_mm": 2.8,
+          "number_font_pt": 7.5,
+          "leader_start_pdf_pt": [
+            327.2477152396555,
+            117.54011549087747
+          ]
+        },
+        {
+          "number": 3,
+          "cell_id": 69,
+          "yplus": 19.56839664,
+          "actual_node_ids": [
+            3759,
+            3760,
+            785
+          ],
+          "world_vertices_m": [
+            [
+              0.09382864170050374,
+              -0.0052723645092133675
+            ],
+            [
+              0.0957548798850766,
+              -0.005807773749508762
+            ],
+            [
+              0.09516836267521507,
+              -0.0036034804403093897
+            ]
+          ],
+          "target_geometric_centroid_m": [
+            0.09491729475359846,
+            -0.00489453956634384
+          ],
+          "tip_pdf_pt": [
+            354.1097415119892,
+            81.32921496134529
+          ],
+          "circle_centre_pdf_pt": [
+            339.0075,
+            120.93156960447881
+          ],
+          "circle_diameter_mm": 2.8,
+          "number_font_pt": 7.5,
+          "leader_start_pdf_pt": [
+            340.42154678639423,
+            117.22353843094005
+          ]
+        },
+        {
+          "number": 4,
+          "cell_id": 7251,
+          "yplus": 21.53721692,
+          "actual_node_ids": [
+            3760,
+            3761,
+            2501
+          ],
+          "world_vertices_m": [
+            [
+              0.0957548798850766,
+              -0.005807773749508762
+            ],
+            [
+              0.09767948290962163,
+              -0.006349223955029904
+            ],
+            [
+              0.09707822383346933,
+              -0.003961667217986865
+            ]
+          ],
+          "target_geometric_centroid_m": [
+            0.09683752887605585,
+            -0.005372888307508511
+          ],
+          "tip_pdf_pt": [
+            360.00726056058653,
+            79.86008639004329
+          ],
+          "circle_centre_pdf_pt": [
+            352.82812500000006,
+            120.93156960447881
+          ],
+          "circle_diameter_mm": 2.8,
+          "number_font_pt": 7.5,
+          "leader_start_pdf_pt": [
+            353.5114436486325,
+            117.02233705543826
+          ]
+        },
+        {
+          "number": 5,
+          "cell_id": 2573,
+          "yplus": 22.27944689,
+          "actual_node_ids": [
+            3761,
+            3659,
+            676
+          ],
+          "world_vertices_m": [
+            [
+              0.09767948290962163,
+              -0.006349223955029904
+            ],
+            [
+              0.09952801966842195,
+              -0.006875633201629849
+            ],
+            [
+              0.09930463958907809,
+              -0.004578373427612846
+            ]
+          ],
+          "target_geometric_centroid_m": [
+            0.0988373807223739,
+            -0.005934410194757533
+          ],
+          "tip_pdf_pt": [
+            366.1493055435908,
+            78.13551229382972
+          ],
+          "circle_centre_pdf_pt": [
+            366.64875,
+            120.93156960447881
+          ],
+          "circle_diameter_mm": 2.8,
+          "number_font_pt": 7.5,
+          "leader_start_pdf_pt": [
+            366.60243937103866,
+            116.96333588861829
+          ]
+        }
+      ],
+      "native_colour_fill_unchanged": true,
+      "previous_wide_bracket_and_thin_outlines_removed": true
+    }
+  ],
+  "scientific_content": "Native Fluent PNGs only; vector content is annotation/axes/text only.",
+  "pdf_image_count": 2
+}

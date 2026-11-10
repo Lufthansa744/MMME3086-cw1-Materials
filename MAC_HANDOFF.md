@@ -1,6 +1,8 @@
 # Continue the report on Mac
 
-**Latest Figure 5 correction:** Start with [the exact-cell annotation correction](report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md) and [Mac patch prompt](report/native_fluent_2026-11-10-exact-cells/MAC_PATCH_PROMPT.txt). Five separate red triangle outlines replace the ambiguous old bracket. The original data still identify five low-y-plus cells; they are non-contiguous. Figures 2/4/6 remain byte-for-byte unchanged from the centred set.
+**Latest Figure 5 visibility update:** Use [the prominent-marker version](report/native_fluent_2026-11-10-clear-markers/FIG05_MARKER_UPDATE.md) and [Mac patch prompt](report/native_fluent_2026-11-10-clear-markers/MAC_PATCH_PROMPT.txt). Five red numbered circles and precise leaders identify the same five non-contiguous cells clearly at report size. The original Fluent scientific RGB and Figures 2/4/6 remain unchanged.
+
+**Earlier Figure 5 identity correction:** [Exact-cell correction](report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md). The cell identities remain correct; its thin red outlines are superseded by the visible numbered markers above. The ambiguous range bracket must not be restored.
 
 **Earlier centred artwork:** [Centred-view handoff](report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md) and [earlier Mac prompt](report/native_fluent_2026-11-10-centered/MAC_FINAL_PROMPT.txt). Figure 5's bracket instruction there is superseded by the correction above. The centred geometry views remain current.
 

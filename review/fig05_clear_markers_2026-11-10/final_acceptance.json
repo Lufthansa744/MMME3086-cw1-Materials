@@ -1,0 +1,121 @@
+{
+  "overall": "ACCEPT",
+  "date": "2026-11-10",
+  "scope": "Clearer Figure5 annotation only; original native scientific data and all other accepted figures retained",
+  "fig5": {
+    "accepted": true,
+    "decision": "ACCEPT",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig05_rsm_yplus.pdf",
+    "sha256": "a6d111b3523dfdfabd78892e732adb6f864f78f02761c0f9e130dcd6ecd164d8",
+    "bytes": 517427,
+    "size_pt": [
+      468,
+      187.2
+    ],
+    "size_mm": [
+      165.1,
+      66.04
+    ],
+    "marker_to_cell_IDs": {
+      "1": 7588,
+      "2": 7316,
+      "3": 69,
+      "4": 7251,
+      "5": 2573
+    },
+    "actual_selected_cell_ids": [
+      7588,
+      7316,
+      69,
+      7251,
+      2573
+    ],
+    "false_positive_cells": 0,
+    "false_negative_cells": 0,
+    "five_non_crossing_leaders": true,
+    "marker_diameter_mm": 2.8,
+    "number_font_pt": 7.5,
+    "leader_width_pt": 0.65,
+    "native_scientific_RGB_unchanged": true,
+    "axes_physical_scale_and_centering_preserved": true,
+    "print_review": "ACCEPT: independently rendered final-current-byte300dpi whole figure and96dpi print-width equivalent reviewed. Five red numbered circles are conspicuous, white digits readable, and separate leaders reach the correct actual triangles without observed text/leader collisions or clipping. Original170.94/19.57/40.29 callouts remain clear."
+  },
+  "unchanged_other_assets": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc.pdf",
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc.png",
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc_print300.png",
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors.pdf",
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors.png",
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors_print300.png",
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined.pdf",
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined.png",
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined_print300.png",
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    }
+  ],
+  "source_evidence": "../fig05_exact_five_cells_2026-11-10/exact_five_cells.json",
+  "actual_PDF_evidence": "PDF_marker_identity_audit.json",
+  "presentation_type": "Native Fluent raster scientific RGB plus post-export numbered circles, small-arrowhead leaders and axes/typography. No new native scalar colour field.",
+  "supersedes": "The previous thin red outlines identified the correct five cells but lacked sufficient prominence at actual print size. This revision improves visibility without changing identities or values. The earlier broad projection bracket remains superseded as an ambiguous selector.",
+  "limitations": [
+    "No Fluent operation, calculation, geometry or Case/Data changes.",
+    "Standalone artwork acceptance is not integrated report pagination acceptance; final report compilation remains Overleaf-only."
+  ],
+  "fig2": {
+    "accepted": true,
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig02_mesh_bc.pdf",
+    "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+    "unchanged_from_previously_accepted_version": true
+  },
+  "fig4": {
+    "accepted": true,
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig04_rsm_vectors.pdf",
+    "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+    "unchanged_from_previously_accepted_version": true
+  },
+  "fig6": {
+    "accepted": true,
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\fig06_enhanced_combined.pdf",
+    "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+    "unchanged_from_previously_accepted_version": true
+  },
+  "handoff_documents": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\FIG05_MARKER_UPDATE.md",
+      "sha256": "0c953b49c26828174987a24a50741a845cefeacc9bae4ec6798b825f85f1ecda",
+      "accepted": true,
+      "review": "Correct marker1-5 identities, dimensions/font/stroke, native scientific RGB preservation, post-export annotation distinction and current Overleaf-only Fig5 patch. Previous exact-cell identities remain valid; weak visibility alone is superseded."
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-clear-markers\\MAC_PATCH_PROMPT.txt",
+      "sha256": "4fd78af6f85fa4a65cb45ce97049520a74ca27bae9138a17a013d59aaf71a5f4",
+      "accepted": true,
+      "review": "Correct marker1-5 identities, dimensions/font/stroke, native scientific RGB preservation, post-export annotation distinction and current Overleaf-only Fig5 patch. Previous exact-cell identities remain valid; weak visibility alone is superseded."
+    }
+  ]
+}

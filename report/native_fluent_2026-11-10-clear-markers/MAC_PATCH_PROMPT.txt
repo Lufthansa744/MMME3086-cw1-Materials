@@ -1,0 +1,11 @@
+继续更新当前 MMME3086 CFD 报告的 Figure 5 标注。我授权在现有 Overleaf 项目中读取、替换图文件并编译：https://www.overleaf.com/project/6aed174c208587f797ee667b 。
+
+保护 Mac/Overleaf 当前改动后同步仓库 https://github.com/Lufthansa744/MMME3086-cw1-Materials 的 main 分支。使用 report/native_fluent_2026-11-10-clear-markers/ 的新 Fig5，先读 FIG05_MARKER_UPDATE.md、delivery_manifest.json，以及 review/fig05_clear_markers_2026-11-10/final_acceptance.json，核对 PDF SHA256。
+
+新图采用5个直径2.8mm的红色实心编号圆、7.5pt白数字和5条0.65pt独立引线，逐一指向真实单元质心；解决上一版细轮廓不醒目的问题。1–5对应实际cell ID 7588、7316、69、7251、2573，仍是1+4非连续分布，中间y+=32.78的6134不选。编号是标注序号，不是原生cell ID。完整Fluent科学底图RGB、y+数值和165.1×66.04mm外框保持不变，醒目圆和引线属于后期识别标注。
+
+核实当前生效的主文件/include链，只替换活动fig05_rsm_yplus.pdf，保留原figure label、竖向居中和图注在下方的形式。若实际明确引用PNG则使用本版同名PNG，确认旧同名文件没有遮蔽。Figures2/4/6与前版逐字节相同，无需重复修改；保留当前正文、AIAA模板、规定sections及真实数据。
+
+若Fig5图注仍说red outlines/bracket，仅将识别方式改成“Markers 1–5 identify the five suction-side cells with y+ below 30 (post-export annotations).”，保留其他数值和物理解释。不添加跨区间括号，不把选中集合写成连续五格，不将统计数量改为7。
+
+只在该Overleaf项目编译并下载实际PDF检查：最新Fig5已生效；在实际报告宽度下编号1–5一眼可见且白字清楚；五条引线分别指向正确单元，无交叉、文字重叠或遮盖彩色单元的圆标记；170.94、19.57、40.29、坐标和图例清楚；页数、图注和正文无新溢出或分页问题。保持规定字数/页数，显示公式后不加标点，正文无working draft、TODO或占位符。需要修排版时在Overleaf完成并重新编译，最后交付更新PDF、匹配源码、实际Git提交号和Fig5 SHA256。

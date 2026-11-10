@@ -2,7 +2,9 @@
 
 Student **20617209** · inlet **50.9 m/s** · five prescribed cases complete.
 
-**Latest: exact Figure 5 selection correction:** Use [the corrected four-figure set](report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md) and [Mac patch prompt](report/native_fluent_2026-11-10-exact-cells/MAC_PATCH_PROMPT.txt). Figure 5 now marks exactly five non-contiguous cells with individual red triangle outlines. The old range bracket could cover seven triangles and is superseded; the CFD count remains five. Figures 2/4/6 retain the accepted centred bytes. Replace the current Mac Figure 5 asset and compile in Overleaf.
+**Latest: prominent Figure 5 markers:** Use [the current four-figure set](report/native_fluent_2026-11-10-clear-markers/FIG05_MARKER_UPDATE.md) and [Mac patch prompt](report/native_fluent_2026-11-10-clear-markers/MAC_PATCH_PROMPT.txt). Five large red numbered callouts and separate leaders replace the visually weak thin outlines. The same five non-contiguous cells are selected, and the Fluent scientific image remains pixel-identical. Figures 2/4/6 remain unchanged. Replace only the active Mac Figure 5 asset and compile in Overleaf.
+
+**Earlier exact-cell correction (retained for provenance):** [Exact-cell identification](report/native_fluent_2026-11-10-exact-cells/FIG05_CORRECTION.md). Its five cell identities remain correct; the thin-outline presentation is superseded by the prominent markers above. The older range bracket could cover seven triangles and remains superseded. The CFD count is still five.
 
 **Earlier centred native-artwork set (retained for provenance):** [Centred-view handoff](report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md). Its Figure 5 bracket annotation is superseded by the exact-cell correction above. Figure 5's vertical centring and Figure 6(a)'s horizontal centring, genuine near wake and magnification remain. The supplied Mac PDF's external artwork boxes are preserved; retain the newer Mac report source.
 
