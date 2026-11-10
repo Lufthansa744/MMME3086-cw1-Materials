@@ -5934,6 +5934,11 @@
       "sha256": "a1785847bb28450cd8a88152b672c0c6e26dbd2b6869f631884f8771ae910dea"
     },
     {
+      "path": "review/fig05_exact_five_cells_2026-11-10/NONMONOTONIC_YPLUS_NOTE.md",
+      "bytes": 1559,
+      "sha256": "a0a753fc6b37e2a7647d4a57433bb270647057c93be3b5230cefe9a10c95960b"
+    },
+    {
       "path": "review/fig05_exact_five_cells_2026-11-10/SOURCE_FINDING.md",
       "bytes": 1809,
       "sha256": "f14a0a76deaf926a6e022bbe76f2dfc226e1543d66d5d2001ae68648aff2defb"
@@ -5952,6 +5957,11 @@
       "path": "review/fig05_exact_five_cells_2026-11-10/audit_final_pdf.py",
       "bytes": 3385,
       "sha256": "18728b4da1ff7289b9c13df782207143ca290b13020751a132b351ba0e51dde5"
+    },
+    {
+      "path": "review/fig05_exact_five_cells_2026-11-10/audit_nonmonotonic_yplus.py",
+      "bytes": 2931,
+      "sha256": "799e1b76ba3a4ef2e71d5e796e79d8b76eaa7f2ee9e46889d526474b3d95126a"
     },
     {
       "path": "review/fig05_exact_five_cells_2026-11-10/exact_five_cells.json",
@@ -5982,6 +5992,11 @@
       "path": "review/fig05_exact_five_cells_2026-11-10/mesh_audit.json",
       "bytes": 3372,
       "sha256": "3d9c2c9ab222268f86857da5e319cd22f8c94d505052cc8238f718d9cf7ebb69"
+    },
+    {
+      "path": "review/fig05_exact_five_cells_2026-11-10/nonmonotonic_yplus_geometry.json",
+      "bytes": 4060,
+      "sha256": "181021c634e240e96193af91234426510b68ec510e01ccbbc311eee7df15509c"
     },
     {
       "path": "review/figure2_annotation_review.md",
@@ -8122,6 +8137,16 @@
       "path": "solver/case05_verified/setup.jou",
       "bytes": 1665,
       "sha256": "ef59656c7d09f456d8c5da43b9ee8c4f14c43ebf9e05bc0fa661d3ed7484767a"
+    },
+    {
+      "path": "solver/fig05_exact_five_cells_2026-11-10/diagnostics/wall_normal_distances.json",
+      "bytes": 10923,
+      "sha256": "366f137412f726bd567b79d9240e8e4a22758e6d23d7c0b0e0746601df23b202"
+    },
+    {
+      "path": "solver/fig05_exact_five_cells_2026-11-10/diagnostics/wall_normal_distances.py",
+      "bytes": 4736,
+      "sha256": "53c63ca68279855b490f360f0c02d22fd0d72b4508df12983c5c71d2acbdd2a8"
     },
     {
       "path": "solver/fig05_exact_five_cells_2026-11-10/exact_five_cell_geometry.json",

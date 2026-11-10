@@ -1,0 +1,92 @@
+{
+  "records": [
+    {
+      "cell_id": 7578,
+      "wall_x_mm": 87.07422018,
+      "raw_yplus": 40.23124347,
+      "wall_face_id": 11443,
+      "wall_edge_length_mm": 1.999264014152151,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.7487609711290152,
+      "centroid_projection_parameter": 0.6314179175099955,
+      "yplus_divided_by_geometric_normal_distance_per_m": 53730.422686611906
+    },
+    {
+      "cell_id": 7588,
+      "wall_x_mm": 89.00588751000001,
+      "raw_yplus": 23.96556544,
+      "wall_face_id": 11444,
+      "wall_edge_length_mm": 1.9994551984370228,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.5692254725326658,
+      "centroid_projection_parameter": 0.5480991109278046,
+      "yplus_divided_by_geometric_normal_distance_per_m": 42102.06077632041
+    },
+    {
+      "cell_id": 6134,
+      "wall_x_mm": 90.93610197,
+      "raw_yplus": 32.77977224,
+      "wall_face_id": 11445,
+      "wall_edge_length_mm": 1.99926401415307,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.7231062135146941,
+      "centroid_projection_parameter": 0.5283392589773371,
+      "yplus_divided_by_geometric_normal_distance_per_m": 45331.891259338336
+    },
+    {
+      "cell_id": 7316,
+      "wall_x_mm": 92.86472201,
+      "raw_yplus": 25.9360812,
+      "wall_face_id": 11446,
+      "wall_edge_length_mm": 1.9992640141521103,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.6530126461622939,
+      "centroid_projection_parameter": 0.48991335080921317,
+      "yplus_divided_by_geometric_normal_distance_per_m": 39717.57875199568
+    },
+    {
+      "cell_id": 69,
+      "wall_x_mm": 94.79176253,
+      "raw_yplus": 19.56839664,
+      "wall_face_id": 11447,
+      "wall_edge_length_mm": 1.9992640141562632,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.6555696686041284,
+      "centroid_projection_parameter": 0.47402861781062294,
+      "yplus_divided_by_geometric_normal_distance_per_m": 29849.45395912841
+    },
+    {
+      "cell_id": 7251,
+      "wall_x_mm": 96.71717882,
+      "raw_yplus": 21.53721692,
+      "wall_face_id": 11448,
+      "wall_edge_length_mm": 1.9993161648790727,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.7118346937536069,
+      "centroid_projection_parameter": 0.46236585881320896,
+      "yplus_divided_by_geometric_normal_distance_per_m": 30255.924737850517
+    },
+    {
+      "cell_id": 2573,
+      "wall_x_mm": 98.60375524,
+      "raw_yplus": 22.27944689,
+      "wall_face_id": 11414,
+      "wall_edge_length_mm": 1.9220288352524622,
+      "actual_centroid_to_own_wall_edge_normal_distance_mm": 0.716081130280868,
+      "centroid_projection_parameter": 0.5202917332320754,
+      "yplus_divided_by_geometric_normal_distance_per_m": 31113.02050545774
+    }
+  ],
+  "gap_to_adjacent_selected_ratios": [
+    {
+      "gap_cell": 6134,
+      "comparison_cell": 7588,
+      "yplus_ratio": 1.3677863066518159,
+      "geometric_wall_distance_ratio": 1.270333546911321,
+      "ratio_of_yplus_over_geometric_distance": 1.0767143085982738
+    },
+    {
+      "gap_cell": 6134,
+      "comparison_cell": 7316,
+      "yplus_ratio": 1.2638675822776186,
+      "geometric_wall_distance_ratio": 1.107338759462523,
+      "ratio_of_yplus_over_geometric_distance": 1.1413558601444342
+    }
+  ],
+  "interpretation": "Actual irregular first-cell normal distance changes appreciably and contributes substantially to the observed local threshold crossing; distance alone does not explain the full variation. yplus need not be monotonic; the raw count is not an error. yplus/distance is a diagnostic ratio only: actual Fluent wall distance and wall shear were not separately exported here, so do not claim direct shear measurement or exact solver wall-distance equivalence.",
+  "wall_function_scope": "The5 cells below30 remain a wall-treatment suitability concern; neither their count nor these geometric ratios establish convergence, mesh accuracy or grid independence."
+}

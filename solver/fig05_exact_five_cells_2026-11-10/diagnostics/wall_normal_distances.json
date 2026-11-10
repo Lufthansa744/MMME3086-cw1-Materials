@@ -1,0 +1,302 @@
+{
+  "method": "Read existing binary mesh, original wall CSV and original native domain-cell CSV. No Fluent startup, iterations, source changes or image modifications. Published figure audit outputs are not rewritten.",
+  "wall_order_upstream_to_TE": [
+    {
+      "cell_id": 7588,
+      "wall_face_id": 11444,
+      "wall_node_ids": [
+        3756,
+        3757
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.08804036632459156,
+          -0.003700273018227169
+        ],
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ]
+      ],
+      "yplus": 23.96556544,
+      "below30": true,
+      "native_exported_cell_centroid_m": [
+        0.08924639225,
+        -0.00343472627
+      ],
+      "exact_triangle_centroid_m": [
+        0.08924639581340622,
+        -0.003434726243809805
+      ],
+      "yp_native_centroid_m": 0.0005692254725326658,
+      "yp_native_centroid_mm": 0.5692254725326658,
+      "yp_exact_mesh_centroid_m": 0.0005692264219397331,
+      "yp_exact_mesh_centroid_mm": 0.569226421939733,
+      "normal_foot_on_actual_edge_m": [
+        0.0890987726497033,
+        -0.0039844772065051395
+      ],
+      "normal_projection_parameter_t": 0.5480991109278046,
+      "foot_lies_within_wall_edge": true
+    },
+    {
+      "cell_id": 6134,
+      "wall_face_id": 11445,
+      "wall_node_ids": [
+        3757,
+        3758
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.089971415479771,
+          -0.004218800019296153
+        ],
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ]
+      ],
+      "yplus": 32.77977224,
+      "below30": false,
+      "native_exported_cell_centroid_m": [
+        0.09118029475,
+        -0.003797799582
+      ],
+      "exact_triangle_centroid_m": [
+        0.09118029177664233,
+        -0.0037977996487647777
+      ],
+      "yp_native_centroid_m": 0.000723106213514694,
+      "yp_native_centroid_mm": 0.7231062135146941,
+      "yp_exact_mesh_centroid_m": 0.0007231053698306603,
+      "yp_exact_mesh_centroid_mm": 0.7231053698306603,
+      "normal_foot_on_actual_edge_m": [
+        0.09099078420803157,
+        -0.004495630758221289
+      ],
+      "normal_projection_parameter_t": 0.5283392589773371,
+      "foot_lies_within_wall_edge": true
+    },
+    {
+      "cell_id": 7316,
+      "wall_face_id": 11446,
+      "wall_node_ids": [
+        3758,
+        3759
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.09190079837331874,
+          -0.0047427639955128255
+        ],
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ]
+      ],
+      "yplus": 25.9360812,
+      "below30": true,
+      "native_exported_cell_centroid_m": [
+        0.09301825613,
+        -0.004372537602
+      ],
+      "exact_triangle_centroid_m": [
+        0.09301825706464395,
+        -0.004372537840808499
+      ],
+      "yp_native_centroid_m": 0.0006530126461622939,
+      "yp_native_centroid_mm": 0.6530126461622939,
+      "yp_exact_mesh_centroid_m": 0.0006530126634699343,
+      "yp_exact_mesh_centroid_mm": 0.6530126634699343,
+      "normal_foot_on_actual_edge_m": [
+        0.09284527455757513,
+        -0.005002222357770139
+      ],
+      "normal_projection_parameter_t": 0.48991335080921317,
+      "foot_lies_within_wall_edge": true
+    },
+    {
+      "cell_id": 69,
+      "wall_face_id": 11447,
+      "wall_node_ids": [
+        3759,
+        3760
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.09382864170050374,
+          -0.0052723645092133675
+        ],
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ]
+      ],
+      "yplus": 19.56839664,
+      "below30": true,
+      "native_exported_cell_centroid_m": [
+        0.09491729736,
+        -0.004894539714
+      ],
+      "exact_triangle_centroid_m": [
+        0.09491729475359846,
+        -0.00489453956634384
+      ],
+      "yp_native_centroid_m": 0.0006555696686041284,
+      "yp_native_centroid_mm": 0.6555696686041284,
+      "yp_exact_mesh_centroid_m": 0.0006555691128643527,
+      "yp_exact_mesh_centroid_mm": 0.6555691128643527,
+      "normal_foot_on_actual_edge_m": [
+        0.09474173372471086,
+        -0.005526163811353629
+      ],
+      "normal_projection_parameter_t": 0.47402861781062294,
+      "foot_lies_within_wall_edge": true
+    },
+    {
+      "cell_id": 7251,
+      "wall_face_id": 11448,
+      "wall_node_ids": [
+        3760,
+        3761
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.0957548798850766,
+          -0.005807773749508762
+        ],
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ]
+      ],
+      "yplus": 21.53721692,
+      "below30": true,
+      "native_exported_cell_centroid_m": [
+        0.09683752805,
+        -0.005372887943
+      ],
+      "exact_triangle_centroid_m": [
+        0.09683752887605585,
+        -0.005372888307508511
+      ],
+      "yp_native_centroid_m": 0.0007118346937536068,
+      "yp_native_centroid_mm": 0.7118346937536069,
+      "yp_exact_mesh_centroid_m": 0.000711834566577086,
+      "yp_exact_mesh_centroid_mm": 0.711834566577086,
+      "normal_foot_on_actual_edge_m": [
+        0.09664475061539486,
+        -0.006058121838789133
+      ],
+      "normal_projection_parameter_t": 0.46236585881320896,
+      "foot_lies_within_wall_edge": true
+    },
+    {
+      "cell_id": 2573,
+      "wall_face_id": 11414,
+      "wall_node_ids": [
+        3761,
+        3659
+      ],
+      "wall_edge_vertices_m": [
+        [
+          0.09767948290962163,
+          -0.006349223955029904
+        ],
+        [
+          0.09952801966842195,
+          -0.006875633201629849
+        ]
+      ],
+      "yplus": 22.27944689,
+      "below30": true,
+      "native_exported_cell_centroid_m": [
+        0.09883738309,
+        -0.005934409797
+      ],
+      "exact_triangle_centroid_m": [
+        0.0988373807223739,
+        -0.005934410194757533
+      ],
+      "yp_native_centroid_m": 0.0007160811302808679,
+      "yp_native_centroid_mm": 0.716081130280868,
+      "yp_exact_mesh_centroid_m": 0.0007160800992819284,
+      "yp_exact_mesh_centroid_mm": 0.7160800992819284,
+      "normal_foot_on_actual_edge_m": [
+        0.09864126130380105,
+        -0.006623110334332781
+      ],
+      "normal_projection_parameter_t": 0.5202917332320754,
+      "foot_lies_within_wall_edge": true
+    }
+  ],
+  "gap_vs_neighbors_and_similar_height_cells": [
+    {
+      "gap_cell": 6134,
+      "comparison_cell": 7588,
+      "yp_ratio": 1.270333546911321,
+      "yp_increase_percent": 27.033354691132104,
+      "yplus_ratio": 1.3677863066518159,
+      "conditional_yplus_over_yp_ratio": 1.0767143085982738,
+      "interpretation_of_last_ratio": "Only the ratio implied by y+=uTau*yp/nu if this geometric normal distance equals the solver wall-unit distance. Not a wall-shear or uTau measurement and not independent evidence."
+    },
+    {
+      "gap_cell": 6134,
+      "comparison_cell": 7316,
+      "yp_ratio": 1.107338759462523,
+      "yp_increase_percent": 10.733875946252303,
+      "yplus_ratio": 1.2638675822776186,
+      "conditional_yplus_over_yp_ratio": 1.1413558601444342,
+      "interpretation_of_last_ratio": "Only the ratio implied by y+=uTau*yp/nu if this geometric normal distance equals the solver wall-unit distance. Not a wall-shear or uTau measurement and not independent evidence."
+    },
+    {
+      "gap_cell": 6134,
+      "comparison_cell": 7251,
+      "yp_ratio": 1.0158344624952893,
+      "yp_increase_percent": 1.5834462495289303,
+      "yplus_ratio": 1.5220059472753829,
+      "conditional_yplus_over_yp_ratio": 1.4982814656009378,
+      "interpretation_of_last_ratio": "Only the ratio implied by y+=uTau*yp/nu if this geometric normal distance equals the solver wall-unit distance. Not a wall-shear or uTau measurement and not independent evidence."
+    },
+    {
+      "gap_cell": 6134,
+      "comparison_cell": 2573,
+      "yp_ratio": 1.0098104571350326,
+      "yp_increase_percent": 0.9810457135032591,
+      "yplus_ratio": 1.4713009888370707,
+      "conditional_yplus_over_yp_ratio": 1.4570070833009083,
+      "interpretation_of_last_ratio": "Only the ratio implied by y+=uTau*yp/nu if this geometric normal distance equals the solver wall-unit distance. Not a wall-shear or uTau measurement and not independent evidence."
+    }
+  ],
+  "native_wall_shear_or_uTau_CSV_found_in_case03_raw": false,
+  "matching_shear_headers": {},
+  "conclusion": "The skipped cell6134 has a larger geometric wall-normal height than both adjacent selected cells: about27.0% above7588 and10.7% above7316. That contributes to its higher y+. However7251/2573 have almost the same height as6134 while substantially lower y+, so wall distance alone cannot explain all variation. An irregular triangular first layer and local friction-velocity variation are consistent with a noncontiguous below30set. This diagnostic does not independently measure wall shear or certify physical accuracy.",
+  "distance_formula": "yp=abs((B-A)x(C-A))/length(B-A), using actual mesh wall endpoints A,B and existing native exported cell centroid C. The perpendicular foot lies on each actual wall segment.",
+  "geometry_rounding_note": "Exact arithmetic triangle-centroid distances are also retained. Their tiny difference from native exported centroid distances reflects existing coordinate/serialization precision, not a new geometric modification.",
+  "source_hashes": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\domain_cell_fields.csv",
+      "sha256": "cbf56b786c3fde2d92e48c39ab48c3f1a13f077ee3a8cc4b5f0f940bfd9a633f"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+      "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\suction_p_yplus.csv",
+      "bytes": 4992,
+      "sha256": "fd59d490a6b0fe298a3b93bc37f6e0bcf6d3960a2e59793c06c492af69c3db39"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\pressure_p_yplus.csv",
+      "bytes": 4992,
+      "sha256": "a4b6b0de6a251259afbabe85c3584ae6755c88b40a6c8d0b1091c18ab1285bf6"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\trailing_p_yplus.csv",
+      "bytes": 192,
+      "sha256": "17ad306060b84d64da7d353a1be0fa4e577344d8a248c461dcb61ed31fdd8364"
+    }
+  ],
+  "prior_CASE_DATA_hash_record": "solver/native_figures_2026-11-10-centered/logs/source_hashes_verified.json"
+}
