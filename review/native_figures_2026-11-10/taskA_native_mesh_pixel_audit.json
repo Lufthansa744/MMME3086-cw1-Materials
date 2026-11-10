@@ -1,0 +1,57 @@
+{
+  "status": "Actual native edge-position sampling PASS; final composition labels, extents and print layout still pending",
+  "records": [
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_full_native_final.png",
+      "sha256": "7f052d302d6740eed9cf8e52f8561490e177a7de27e5c609195d84b941bf5f61",
+      "pixels": [
+        6000,
+        900
+      ],
+      "orthographic_camera_centre_m": [
+        0,
+        0
+      ],
+      "camera_field_m": [
+        1.0,
+        0.15
+      ],
+      "native_isotropic_pixel_scale": 6000.0,
+      "actual_face_midpoint_controls": 11444,
+      "actual_edge_pixel_match_within_2px": 0.9982523593149248,
+      "decoy_shift8x7px_match_fraction": 0.6129849702901083,
+      "source_mesh_sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+      "original_counts": {
+        "nodes": 4029,
+        "cells": 7687,
+        "faces": 11716
+      }
+    },
+    {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_local_native_final.png",
+      "sha256": "3bb0b972d050ec43fa1bcb48f8cc96e62271310e1971cbca07a890f76794b496",
+      "pixels": [
+        4000,
+        1252
+      ],
+      "orthographic_camera_centre_m": [
+        0.05198367685079575,
+        0.0009169031400233507
+      ],
+      "camera_field_m": [
+        0.115,
+        0.036
+      ],
+      "native_isotropic_pixel_scale": 34777.77777777778,
+      "actual_face_midpoint_controls": 1976,
+      "actual_edge_pixel_match_within_2px": 1.0,
+      "decoy_shift8x7px_match_fraction": 0.15030364372469635,
+      "source_mesh_sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+      "original_counts": {
+        "nodes": 4029,
+        "cells": 7687,
+        "faces": 11716
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "scope": "Four drop-in native graphic replacements only; original prepared report, original figures and main-agent handoff untouched. No LaTeX compilation.",
+  "source_report_pdf": {
+    "path": "C:\\Users\\A320N\\.codex\\attachments\\fc6dc3e5-27d8-430a-8e56-dc5017c294c6\\MMME3086_CFD_Coursework_2026___Yang_LIU_20617209-4.pdf",
+    "sha256": "3985046c00a4380373de53b2d2a4281519e37677d934e6a4024f3e464b4ee67a",
+    "bytes": 2106865,
+    "pages": 9,
+    "page_size_pt": [
+      612,
+      792
+    ]
+  },
+  "figures": [
+    {
+      "figure": 2,
+      "target_size_pt": [
+        453.53600000000006,
+        209.76040000000003
+      ],
+      "target_size_mm": [
+        159.99742222222224,
+        73.99880777777778
+      ],
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig02_mesh_bc.pdf",
+          "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+          "bytes": 1005416
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig02_mesh_bc.png",
+          "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06",
+          "bytes": 814099
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig02_mesh_bc_print300.png",
+          "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97",
+          "bytes": 662688
+        }
+      ],
+      "composition_audit": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig02_native_composition_audit.json",
+        "sha256": "00b28f2bfad3ac05db56500f8c9b6e7f5c75e1538729672b95c4c3246b3668f2"
+      },
+      "equal_scale_proof": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\proofs\\fig02_reference_vs_native_300dpi.png",
+        "sha256": "e885e3785264267a06012c43a40ebb6d08f53228891b61ea3402e6b5c235dd90",
+        "reference_pixels": [
+          1890,
+          874
+        ],
+        "native_pixels": [
+          1890,
+          875
+        ],
+        "dpi": 300,
+        "image_rescaling_used": false
+      }
+    },
+    {
+      "figure": 4,
+      "target_size_pt": [
+        468.0,
+        184.275
+      ],
+      "target_size_mm": [
+        165.1,
+        65.008125
+      ],
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig04_rsm_vectors.pdf",
+          "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+          "bytes": 231840
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig04_rsm_vectors.png",
+          "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96",
+          "bytes": 361605
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig04_rsm_vectors_print300.png",
+          "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da",
+          "bytes": 197998
+        }
+      ],
+      "composition_audit": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig04_native_composition_audit.json",
+        "sha256": "7d93b997691993b86bd59a54afbd3538dcb05e184bb3d14b97e7e54c0d48c411"
+      },
+      "equal_scale_proof": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\proofs\\fig04_reference_vs_native_300dpi.png",
+        "sha256": "50cf23c21e0fcbd170ff6c461b78c8b359e06b00fb868cd16ecf71bd4b9e4cdf",
+        "reference_pixels": [
+          1950,
+          768
+        ],
+        "native_pixels": [
+          1950,
+          768
+        ],
+        "dpi": 300,
+        "image_rescaling_used": false
+      }
+    },
+    {
+      "figure": 5,
+      "target_size_pt": [
+        468.0,
+        187.2
+      ],
+      "target_size_mm": [
+        165.1,
+        66.03999999999999
+      ],
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig05_rsm_yplus.pdf",
+          "sha256": "b8439091310b86803e257f7f905bb67ab0aa3121fd7bef0a2545b8531e734b3a",
+          "bytes": 479578
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig05_rsm_yplus.png",
+          "sha256": "a6669bd756bf92ac8aa0272328e90ccb30a1dc8d69c296278de8f8ecb5b1b3af",
+          "bytes": 671051
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig05_rsm_yplus_print300.png",
+          "sha256": "d72808d20cf38792a5f1e4cb1872ef3cf1271e6e1bb8a090df908d75d1b5eca8",
+          "bytes": 445892
+        }
+      ],
+      "composition_audit": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig05_native_composition_audit.json",
+        "sha256": "ec439a9c54d13dc05d4fe54f50edecb0d0f9ac3fbdd0f370157321d60f75c2e7"
+      },
+      "equal_scale_proof": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\proofs\\fig05_reference_vs_native_300dpi.png",
+        "sha256": "7f18e8d07566c17ad0cd1134b162d6b4d78f2d062cad3cbb2262e550aa43cc4e",
+        "reference_pixels": [
+          1950,
+          780
+        ],
+        "native_pixels": [
+          1950,
+          780
+        ],
+        "dpi": 300,
+        "image_rescaling_used": false
+      }
+    },
+    {
+      "figure": 6,
+      "target_size_pt": [
+        468.0,
+        405.35433071
+      ],
+      "target_size_mm": [
+        165.1,
+        143.0000000004722
+      ],
+      "assets": [
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig06_enhanced_combined.pdf",
+          "sha256": "aa711b5949b6def03020746051eb435fdf9cc628eef39303b04c05da785b356c",
+          "bytes": 296048
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig06_enhanced_combined.png",
+          "sha256": "abe89982c288ff05045add9ef1b0b83b9f353d6e9c28c4c322faefbe0be534e6",
+          "bytes": 419537
+        },
+        {
+          "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig06_enhanced_combined_print300.png",
+          "sha256": "0f78e98e8ec4e96f2545dd52729d2b360e368bce9b228894c5e549b692c051b2",
+          "bytes": 235263
+        }
+      ],
+      "composition_audit": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig06_native_composition_audit.json",
+        "sha256": "402ef9f9d9cf53b15214bf3818b44ca58fffed023deeb577829dfa50891bbed1"
+      },
+      "equal_scale_proof": {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\proofs\\fig06_reference_vs_native_300dpi.png",
+        "sha256": "36763182e8ad38300f6cc15a3ffefcf26a1c017c438bd60670f69bf61550e3a3",
+        "reference_pixels": [
+          1950,
+          1689
+        ],
+        "native_pixels": [
+          1950,
+          1689
+        ],
+        "dpi": 300,
+        "image_rescaling_used": false
+      }
+    }
+  ],
+  "reference_layout_audit": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\reference_layout_audit.json",
+    "sha256": "bab567b142a5292951abe35193486d885577f99be349198749373707303118b4"
+  },
+  "native_scientific_layers": "Fluent-native raster embedded losslessly; external annotations, axes and native scalar-strip crops only. No scientific vector/cell/mesh redrawing.",
+  "figure1": "Attachment Image XObject RGB equals retained SpaceClaim-native composite exactly; no Figure1 replacement generated.",
+  "sampling": "Figure4 retains actual cell-position native vectors. Figure6 uses12 regular native rakes with45 requested points each,540 requested/504 fluid/36solid omitted; native magnitude colours retained, not hypot of interpolated signed components.",
+  "limits": "The true enhanced near-wall cell band is extremely thin at full scale. Native black outline improves full-foil geometry visibility; the independent equal-scale native inset shows its uninflated thickness. Pure no-outline native source retained.",
+  "status": "Final-size assets generated and visually checked by data agent; independent review recorded separately."
+}

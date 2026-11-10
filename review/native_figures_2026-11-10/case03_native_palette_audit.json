@@ -1,0 +1,1458 @@
+{
+  "field_image_sha256": "918b41f4c61c731cced43c7179d4f1ff5026cd6b4ae1dd70499369bef2aa7675",
+  "native_legend": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_legend_valid.png",
+  "native_legend_sha256": "e4b6ec1bdd9e47d256a2ccb72f5dc2ffaf9ac0b12e1c9be4d61778bb4c93e4f3",
+  "legend_sample_column": 70,
+  "legend_sample_top_bottom": [
+    483,
+    1167
+  ],
+  "legend_unique_colours": 102,
+  "field_source_cell_count": 103,
+  "native_103_cell_colours_match_original_yplus_via_independent_native_legend": true,
+  "checks": [
+    {
+      "cell_id": 69,
+      "raw_yplus": 19.56839664,
+      "native_RGB": [
+        77,
+        34,
+        115
+      ],
+      "same_colour_native_legend_value_interval": [
+        17.868613138686133,
+        19.708029197080286
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 351,
+      "raw_yplus": 166.5601703,
+      "native_RGB": [
+        198,
+        227,
+        39
+      ],
+      "same_colour_native_legend_value_interval": [
+        165.54744525547446,
+        167.3868613138686
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 379,
+      "raw_yplus": 111.5639993,
+      "native_RGB": [
+        43,
+        174,
+        125
+      ],
+      "same_colour_native_legend_value_interval": [
+        109.83941605839416,
+        111.67883211678833
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 1034,
+      "raw_yplus": 119.8534281,
+      "native_RGB": [
+        53,
+        185,
+        115
+      ],
+      "same_colour_native_legend_value_interval": [
+        118.77372262773721,
+        120.61313868613139
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 1611,
+      "raw_yplus": 123.0557774,
+      "native_RGB": [
+        57,
+        190,
+        111
+      ],
+      "same_colour_native_legend_value_interval": [
+        122.45255474452554,
+        124.29197080291972
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2076,
+      "raw_yplus": 116.7636638,
+      "native_RGB": [
+        49,
+        181,
+        119
+      ],
+      "same_colour_native_legend_value_interval": [
+        115.09489051094891,
+        116.93430656934306
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2209,
+      "raw_yplus": 112.3910204,
+      "native_RGB": [
+        45,
+        176,
+        123
+      ],
+      "same_colour_native_legend_value_interval": [
+        111.67883211678833,
+        113.25547445255475
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2227,
+      "raw_yplus": 170.9392049,
+      "native_RGB": [
+        211,
+        229,
+        36
+      ],
+      "same_colour_native_legend_value_interval": [
+        169.22627737226279,
+        171.06569343065692
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2573,
+      "raw_yplus": 22.27944689,
+      "native_RGB": [
+        78,
+        40,
+        121
+      ],
+      "same_colour_native_legend_value_interval": [
+        21.54744525547446,
+        23.386861313868618
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2746,
+      "raw_yplus": 116.136802,
+      "native_RGB": [
+        49,
+        181,
+        119
+      ],
+      "same_colour_native_legend_value_interval": [
+        115.09489051094891,
+        116.93430656934306
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2876,
+      "raw_yplus": 92.35592912,
+      "native_RGB": [
+        40,
+        149,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        91.7080291970803,
+        93.54744525547447
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2877,
+      "raw_yplus": 130.3440732,
+      "native_RGB": [
+        73,
+        198,
+        100
+      ],
+      "same_colour_native_legend_value_interval": [
+        129.54744525547446,
+        131.38686131386862
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 2951,
+      "raw_yplus": 108.4797664,
+      "native_RGB": [
+        41,
+        171,
+        127
+      ],
+      "same_colour_native_legend_value_interval": [
+        108.0,
+        109.83941605839416
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 3171,
+      "raw_yplus": 108.9609626,
+      "native_RGB": [
+        41,
+        171,
+        127
+      ],
+      "same_colour_native_legend_value_interval": [
+        108.0,
+        109.83941605839416
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 3644,
+      "raw_yplus": 77.36665092,
+      "native_RGB": [
+        51,
+        127,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        75.67883211678831,
+        77.25547445255474
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 5250,
+      "raw_yplus": 79.58425728,
+      "native_RGB": [
+        49,
+        132,
+        141
+      ],
+      "same_colour_native_legend_value_interval": [
+        79.0948905109489,
+        80.93430656934306
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 5845,
+      "raw_yplus": 45.04417415,
+      "native_RGB": [
+        70,
+        81,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        44.93430656934306,
+        46.773722627737236
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 5998,
+      "raw_yplus": 103.1160394,
+      "native_RGB": [
+        35,
+        164,
+        133
+      ],
+      "same_colour_native_legend_value_interval": [
+        102.48175182481751,
+        104.32116788321167
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 6134,
+      "raw_yplus": 32.77977224,
+      "native_RGB": [
+        76,
+        60,
+        131
+      ],
+      "same_colour_native_legend_value_interval": [
+        32.321167883211686,
+        34.160583941605836
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 6196,
+      "raw_yplus": 33.77478567,
+      "native_RGB": [
+        76,
+        60,
+        131
+      ],
+      "same_colour_native_legend_value_interval": [
+        32.321167883211686,
+        34.160583941605836
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 6357,
+      "raw_yplus": 117.7459658,
+      "native_RGB": [
+        51,
+        183,
+        117
+      ],
+      "same_colour_native_legend_value_interval": [
+        116.93430656934306,
+        118.77372262773721
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 6500,
+      "raw_yplus": 115.480122,
+      "native_RGB": [
+        49,
+        181,
+        119
+      ],
+      "same_colour_native_legend_value_interval": [
+        115.09489051094891,
+        116.93430656934306
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 6943,
+      "raw_yplus": 41.21202625,
+      "native_RGB": [
+        72,
+        72,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        39.41605839416057,
+        41.25547445255475
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7027,
+      "raw_yplus": 120.2603639,
+      "native_RGB": [
+        53,
+        185,
+        115
+      ],
+      "same_colour_native_legend_value_interval": [
+        118.77372262773721,
+        120.61313868613139
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7029,
+      "raw_yplus": 118.4546369,
+      "native_RGB": [
+        51,
+        183,
+        117
+      ],
+      "same_colour_native_legend_value_interval": [
+        116.93430656934306,
+        118.77372262773721
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7035,
+      "raw_yplus": 89.49423703,
+      "native_RGB": [
+        42,
+        144,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        88.2919708029197,
+        89.86861313868614
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7039,
+      "raw_yplus": 123.2748701,
+      "native_RGB": [
+        57,
+        190,
+        111
+      ],
+      "same_colour_native_legend_value_interval": [
+        122.45255474452554,
+        124.29197080291972
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7045,
+      "raw_yplus": 109.0888224,
+      "native_RGB": [
+        41,
+        171,
+        127
+      ],
+      "same_colour_native_legend_value_interval": [
+        108.0,
+        109.83941605839416
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7046,
+      "raw_yplus": 109.0898469,
+      "native_RGB": [
+        41,
+        171,
+        127
+      ],
+      "same_colour_native_legend_value_interval": [
+        108.0,
+        109.83941605839416
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7047,
+      "raw_yplus": 101.2428967,
+      "native_RGB": [
+        33,
+        162,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        100.90510948905109,
+        102.48175182481751
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7052,
+      "raw_yplus": 77.56256146,
+      "native_RGB": [
+        50,
+        129,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        77.25547445255474,
+        79.0948905109489
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7054,
+      "raw_yplus": 100.4617613,
+      "native_RGB": [
+        35,
+        159,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        99.06569343065694,
+        100.90510948905109
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7062,
+      "raw_yplus": 112.9063666,
+      "native_RGB": [
+        45,
+        176,
+        123
+      ],
+      "same_colour_native_legend_value_interval": [
+        111.67883211678833,
+        113.25547445255475
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7064,
+      "raw_yplus": 79.09291494,
+      "native_RGB": [
+        50,
+        129,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        77.25547445255474,
+        79.0948905109489
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7066,
+      "raw_yplus": 155.2493909,
+      "native_RGB": [
+        160,
+        221,
+        49
+      ],
+      "same_colour_native_legend_value_interval": [
+        154.77372262773724,
+        156.61313868613138
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7068,
+      "raw_yplus": 110.003987,
+      "native_RGB": [
+        43,
+        174,
+        125
+      ],
+      "same_colour_native_legend_value_interval": [
+        109.83941605839416,
+        111.67883211678833
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7090,
+      "raw_yplus": 125.4450626,
+      "native_RGB": [
+        59,
+        193,
+        110
+      ],
+      "same_colour_native_legend_value_interval": [
+        124.29197080291972,
+        125.86861313868613
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7095,
+      "raw_yplus": 100.2003291,
+      "native_RGB": [
+        35,
+        159,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        99.06569343065694,
+        100.90510948905109
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7100,
+      "raw_yplus": 93.33061002,
+      "native_RGB": [
+        40,
+        149,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        91.7080291970803,
+        93.54744525547447
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7109,
+      "raw_yplus": 112.1833919,
+      "native_RGB": [
+        45,
+        176,
+        123
+      ],
+      "same_colour_native_legend_value_interval": [
+        111.67883211678833,
+        113.25547445255475
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7117,
+      "raw_yplus": 96.90976809,
+      "native_RGB": [
+        37,
+        154,
+        137
+      ],
+      "same_colour_native_legend_value_interval": [
+        95.38686131386862,
+        97.22627737226277
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7124,
+      "raw_yplus": 126.4359366,
+      "native_RGB": [
+        61,
+        195,
+        108
+      ],
+      "same_colour_native_legend_value_interval": [
+        125.86861313868613,
+        127.70802919708031
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7137,
+      "raw_yplus": 132.748554,
+      "native_RGB": [
+        80,
+        200,
+        96
+      ],
+      "same_colour_native_legend_value_interval": [
+        131.38686131386862,
+        133.22627737226276
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7138,
+      "raw_yplus": 84.50213908,
+      "native_RGB": [
+        46,
+        137,
+        140
+      ],
+      "same_colour_native_legend_value_interval": [
+        82.77372262773723,
+        84.61313868613138
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7139,
+      "raw_yplus": 69.55901665,
+      "native_RGB": [
+        56,
+        116,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        68.32116788321167,
+        70.16058394160584
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7147,
+      "raw_yplus": 88.11938573,
+      "native_RGB": [
+        44,
+        142,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        86.45255474452556,
+        88.2919708029197
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7156,
+      "raw_yplus": 160.3308193,
+      "native_RGB": [
+        179,
+        224,
+        44
+      ],
+      "same_colour_native_legend_value_interval": [
+        160.2919708029197,
+        162.13138686131387
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7173,
+      "raw_yplus": 106.9021343,
+      "native_RGB": [
+        39,
+        169,
+        129
+      ],
+      "same_colour_native_legend_value_interval": [
+        106.16058394160584,
+        108.0
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7177,
+      "raw_yplus": 115.6190498,
+      "native_RGB": [
+        49,
+        181,
+        119
+      ],
+      "same_colour_native_legend_value_interval": [
+        115.09489051094891,
+        116.93430656934306
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7191,
+      "raw_yplus": 106.4234296,
+      "native_RGB": [
+        39,
+        169,
+        129
+      ],
+      "same_colour_native_legend_value_interval": [
+        106.16058394160584,
+        108.0
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7194,
+      "raw_yplus": 126.3864449,
+      "native_RGB": [
+        61,
+        195,
+        108
+      ],
+      "same_colour_native_legend_value_interval": [
+        125.86861313868613,
+        127.70802919708031
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7196,
+      "raw_yplus": 151.3767242,
+      "native_RGB": [
+        147,
+        220,
+        53
+      ],
+      "same_colour_native_legend_value_interval": [
+        151.09489051094891,
+        152.93430656934305
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7202,
+      "raw_yplus": 120.1807077,
+      "native_RGB": [
+        53,
+        185,
+        115
+      ],
+      "same_colour_native_legend_value_interval": [
+        118.77372262773721,
+        120.61313868613139
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7210,
+      "raw_yplus": 77.27503722,
+      "native_RGB": [
+        51,
+        127,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        75.67883211678831,
+        77.25547445255474
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7235,
+      "raw_yplus": 86.61948387,
+      "native_RGB": [
+        44,
+        142,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        86.45255474452556,
+        88.2919708029197
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7244,
+      "raw_yplus": 83.24843794,
+      "native_RGB": [
+        46,
+        137,
+        140
+      ],
+      "same_colour_native_legend_value_interval": [
+        82.77372262773723,
+        84.61313868613138
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7249,
+      "raw_yplus": 52.05367985,
+      "native_RGB": [
+        67,
+        90,
+        141
+      ],
+      "same_colour_native_legend_value_interval": [
+        50.45255474452554,
+        52.02919708029197
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7251,
+      "raw_yplus": 21.53721692,
+      "native_RGB": [
+        78,
+        37,
+        118
+      ],
+      "same_colour_native_legend_value_interval": [
+        19.708029197080286,
+        21.54744525547446
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7253,
+      "raw_yplus": 100.4525156,
+      "native_RGB": [
+        35,
+        159,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        99.06569343065694,
+        100.90510948905109
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7273,
+      "raw_yplus": 89.26545551,
+      "native_RGB": [
+        42,
+        144,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        88.2919708029197,
+        89.86861313868614
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7282,
+      "raw_yplus": 93.28601134,
+      "native_RGB": [
+        40,
+        149,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        91.7080291970803,
+        93.54744525547447
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7284,
+      "raw_yplus": 83.8571177,
+      "native_RGB": [
+        46,
+        137,
+        140
+      ],
+      "same_colour_native_legend_value_interval": [
+        82.77372262773723,
+        84.61313868613138
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7288,
+      "raw_yplus": 69.32646157,
+      "native_RGB": [
+        56,
+        116,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        68.32116788321167,
+        70.16058394160584
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7291,
+      "raw_yplus": 83.23304907,
+      "native_RGB": [
+        46,
+        137,
+        140
+      ],
+      "same_colour_native_legend_value_interval": [
+        82.77372262773723,
+        84.61313868613138
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7298,
+      "raw_yplus": 168.4110343,
+      "native_RGB": [
+        205,
+        228,
+        38
+      ],
+      "same_colour_native_legend_value_interval": [
+        167.3868613138686,
+        169.22627737226279
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7300,
+      "raw_yplus": 88.42574419,
+      "native_RGB": [
+        42,
+        144,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        88.2919708029197,
+        89.86861313868614
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7302,
+      "raw_yplus": 96.70270438,
+      "native_RGB": [
+        37,
+        154,
+        137
+      ],
+      "same_colour_native_legend_value_interval": [
+        95.38686131386862,
+        97.22627737226277
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7305,
+      "raw_yplus": 93.92681799,
+      "native_RGB": [
+        38,
+        152,
+        137
+      ],
+      "same_colour_native_legend_value_interval": [
+        93.54744525547447,
+        95.38686131386862
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7308,
+      "raw_yplus": 90.72009071,
+      "native_RGB": [
+        41,
+        147,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        89.86861313868614,
+        91.7080291970803
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7310,
+      "raw_yplus": 88.51031838,
+      "native_RGB": [
+        42,
+        144,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        88.2919708029197,
+        89.86861313868614
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7312,
+      "raw_yplus": 46.01986882,
+      "native_RGB": [
+        70,
+        81,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        44.93430656934306,
+        46.773722627737236
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7316,
+      "raw_yplus": 25.9360812,
+      "native_RGB": [
+        79,
+        47,
+        127
+      ],
+      "same_colour_native_legend_value_interval": [
+        25.22627737226277,
+        27.065693430656925
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7318,
+      "raw_yplus": 116.4210056,
+      "native_RGB": [
+        49,
+        181,
+        119
+      ],
+      "same_colour_native_legend_value_interval": [
+        115.09489051094891,
+        116.93430656934306
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7323,
+      "raw_yplus": 86.53987015,
+      "native_RGB": [
+        44,
+        142,
+        139
+      ],
+      "same_colour_native_legend_value_interval": [
+        86.45255474452556,
+        88.2919708029197
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7328,
+      "raw_yplus": 92.76007923,
+      "native_RGB": [
+        40,
+        149,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        91.7080291970803,
+        93.54744525547447
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7331,
+      "raw_yplus": 106.7837079,
+      "native_RGB": [
+        39,
+        169,
+        129
+      ],
+      "same_colour_native_legend_value_interval": [
+        106.16058394160584,
+        108.0
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7338,
+      "raw_yplus": 103.5082375,
+      "native_RGB": [
+        35,
+        164,
+        133
+      ],
+      "same_colour_native_legend_value_interval": [
+        102.48175182481751,
+        104.32116788321167
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7339,
+      "raw_yplus": 45.24876937,
+      "native_RGB": [
+        70,
+        81,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        44.93430656934306,
+        46.773722627737236
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7342,
+      "raw_yplus": 52.51908458,
+      "native_RGB": [
+        66,
+        93,
+        141
+      ],
+      "same_colour_native_legend_value_interval": [
+        52.02919708029197,
+        53.86861313868613
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7346,
+      "raw_yplus": 91.56728814,
+      "native_RGB": [
+        41,
+        147,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        89.86861313868614,
+        91.7080291970803
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7349,
+      "raw_yplus": 108.5585397,
+      "native_RGB": [
+        41,
+        171,
+        127
+      ],
+      "same_colour_native_legend_value_interval": [
+        108.0,
+        109.83941605839416
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7351,
+      "raw_yplus": 84.96669733,
+      "native_RGB": [
+        45,
+        139,
+        140
+      ],
+      "same_colour_native_legend_value_interval": [
+        84.61313868613138,
+        86.45255474452556
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7354,
+      "raw_yplus": 146.5749684,
+      "native_RGB": [
+        129,
+        214,
+        64
+      ],
+      "same_colour_native_legend_value_interval": [
+        145.83941605839416,
+        147.67883211678833
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7362,
+      "raw_yplus": 107.2147271,
+      "native_RGB": [
+        39,
+        169,
+        129
+      ],
+      "same_colour_native_legend_value_interval": [
+        106.16058394160584,
+        108.0
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7374,
+      "raw_yplus": 77.89869882,
+      "native_RGB": [
+        50,
+        129,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        77.25547445255474,
+        79.0948905109489
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7375,
+      "raw_yplus": 71.26701691,
+      "native_RGB": [
+        55,
+        119,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        70.16058394160584,
+        72.0
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7387,
+      "raw_yplus": 68.29025732,
+      "native_RGB": [
+        57,
+        114,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        66.48175182481752,
+        68.32116788321167
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7426,
+      "raw_yplus": 58.01762311,
+      "native_RGB": [
+        63,
+        101,
+        141
+      ],
+      "same_colour_native_legend_value_interval": [
+        57.54744525547446,
+        59.38686131386861
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7438,
+      "raw_yplus": 73.31697825,
+      "native_RGB": [
+        54,
+        122,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        72.0,
+        73.83941605839416
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7466,
+      "raw_yplus": 84.09091345,
+      "native_RGB": [
+        46,
+        137,
+        140
+      ],
+      "same_colour_native_legend_value_interval": [
+        82.77372262773723,
+        84.61313868613138
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7479,
+      "raw_yplus": 77.47959086,
+      "native_RGB": [
+        50,
+        129,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        77.25547445255474,
+        79.0948905109489
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7498,
+      "raw_yplus": 42.10290278,
+      "native_RGB": [
+        71,
+        75,
+        136
+      ],
+      "same_colour_native_legend_value_interval": [
+        41.25547445255475,
+        43.09489051094891
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7509,
+      "raw_yplus": 76.94248472,
+      "native_RGB": [
+        51,
+        127,
+        142
+      ],
+      "same_colour_native_legend_value_interval": [
+        75.67883211678831,
+        77.25547445255474
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7513,
+      "raw_yplus": 45.62655465,
+      "native_RGB": [
+        70,
+        81,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        44.93430656934306,
+        46.773722627737236
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7516,
+      "raw_yplus": 40.29154163,
+      "native_RGB": [
+        72,
+        72,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        39.41605839416057,
+        41.25547445255475
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7541,
+      "raw_yplus": 103.2913462,
+      "native_RGB": [
+        35,
+        164,
+        133
+      ],
+      "same_colour_native_legend_value_interval": [
+        102.48175182481751,
+        104.32116788321167
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7550,
+      "raw_yplus": 120.2935848,
+      "native_RGB": [
+        53,
+        185,
+        115
+      ],
+      "same_colour_native_legend_value_interval": [
+        118.77372262773721,
+        120.61313868613139
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7573,
+      "raw_yplus": 169.2990903,
+      "native_RGB": [
+        211,
+        229,
+        36
+      ],
+      "same_colour_native_legend_value_interval": [
+        169.22627737226279,
+        171.06569343065692
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7578,
+      "raw_yplus": 40.23124347,
+      "native_RGB": [
+        72,
+        72,
+        135
+      ],
+      "same_colour_native_legend_value_interval": [
+        39.41605839416057,
+        41.25547445255475
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7583,
+      "raw_yplus": 90.37161218,
+      "native_RGB": [
+        41,
+        147,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        89.86861313868614,
+        91.7080291970803
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7588,
+      "raw_yplus": 23.96556544,
+      "native_RGB": [
+        79,
+        44,
+        124
+      ],
+      "same_colour_native_legend_value_interval": [
+        23.386861313868618,
+        25.22627737226277
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7593,
+      "raw_yplus": 55.79565833,
+      "native_RGB": [
+        65,
+        96,
+        141
+      ],
+      "same_colour_native_legend_value_interval": [
+        53.86861313868613,
+        55.7080291970803
+      ],
+      "agrees_with_legend_band": true
+    },
+    {
+      "cell_id": 7625,
+      "raw_yplus": 91.05195156,
+      "native_RGB": [
+        41,
+        147,
+        138
+      ],
+      "same_colour_native_legend_value_interval": [
+        89.86861313868614,
+        91.7080291970803
+      ],
+      "agrees_with_legend_band": true
+    }
+  ],
+  "precision_limitation": "Native banded palette is quantized; this verifies the displayed value falls in the correct native legend band, not more precision than the native display supports."
+}

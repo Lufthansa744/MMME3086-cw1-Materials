@@ -1,5 +1,7 @@
 # Continue the report on Mac
 
+**10 November update supersedes the source-upload steps below for the current Mac document:** Read [MAC_NATIVE_FIGURE_HANDOFF.md](report/native_fluent_2026-11-10/MAC_NATIVE_FIGURE_HANDOFF.md), then replace only the new Figure 2/4/5/6 artwork. Retain the newer Mac Overleaf source, template, sections and AI appendix. Figure 1's native SpaceClaim pictures remain. The historical instructions and source ZIP below are retained as provenance, not an instruction to overwrite the Mac report.
+
 ## Next action
 
 1. Clone/download this repository and read `report/source_package_status.json` and `review/layout_and_vector_review.md`.

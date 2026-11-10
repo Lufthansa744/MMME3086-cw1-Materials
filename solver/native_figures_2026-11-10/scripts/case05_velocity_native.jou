@@ -1,0 +1,72 @@
+/display/set/color-map/sequential-viridis
+/display/objects/create vector case5-velocity
+field velocity-magnitude
+vector-field velocity
+surfaces-list full-domain ()
+range-option auto-range-off
+minimum 0
+maximum 120
+clip-to-range? no
+q
+scale
+auto-scale? no
+scale-f .000075
+q
+skip 25
+style "3d arrow"
+vector-opt
+fixed-length? no
+scale-head .4
+q
+color-map
+color "sequential-viridis"
+size 100
+visible? no
+q
+q
+/display/objects/create mesh case5-foil-outline
+surfaces-list aerofoil-trail aerofoil-pressure aerofoil-suction ()
+edge-type outline
+coloring uniform
+edges "black"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/set/line-weight 2
+/display/set/overlays? no
+/display/objects/display case5-velocity
+/display/set/overlays? yes
+/display/objects/display case5-foil-outline
+/display/views/camera/projection orthographic
+/display/views/camera/target .11 -.0025 0
+/display/views/camera/position .11 -.0025 1
+/display/views/camera/up-vector 0 1 0
+/display/views/camera/field .24 .055
+/display/set/picture/driver/png
+/display/set/picture/use-window-resolution? no
+/display/set/picture/invert-background? yes
+/display/set/picture/x-resolution 3600
+/display/set/picture/y-resolution 825
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_75us_full.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_75us_full.eps"
+/display/set/picture/driver/png
+/display/views/save-view case5-velocity-full
+/display/objects/edit case5-velocity
+scale
+scale-f .0001
+q
+q
+/display/set/overlays? no
+/display/objects/display case5-velocity
+/display/set/overlays? yes
+/display/objects/display case5-foil-outline
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_100us_full.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_100us_full.eps"
+/display/set/picture/driver/png
+

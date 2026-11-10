@@ -1,0 +1,706 @@
+
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /file/read-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.cas.h5"
+The current case has not been saved.
+OK to discard? [cancel] cancel
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/edit case3-velocity
+
+Choose setting to change> vector-opt
+
+Choose setting to change/vector-opt> fixed-length? no
+
+Choose setting to change/vector-opt> q
+
+Choose setting to change> scale
+
+Choose setting to change/scale> scale-f .000075
+
+Choose setting to change/scale> q
+
+Choose setting to change> skip 3
+
+Choose setting to change> color-map
+
+Choose setting to change/color-map> visible? no
+
+Choose setting to change/color-map> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-velocity
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .105 -.0075 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .105 -.0075 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .24 .085
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 3600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 1275
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_75us_final.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_75us_final.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/save-view case3-velocity-final
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/edit case3-velocity
+
+Choose setting to change> scale
+
+Choose setting to change/scale> scale-f .0001
+
+Choose setting to change/scale> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-velocity
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_100us_final.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_100us_final.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-context-mesh
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-yplus
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case3-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .05 -.005 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .05 -.005 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .116 .038
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 3600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 1179
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/yplus_native_context_final.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/yplus_native_context_final.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/save-view case3-yplus-final
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/write-views "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/camera_final.vw"(front back case3-yplus-full case3-velocity-full case3-velocity-te case3-velocity-final case3-yplus-final)
+ case3-velocity-final case3-yplus-final case3-velocity-te ()
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /file/read-case-data "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.cas.h5"
+The current case has not been saved.
+OK to discard? [cancel] ok
+Multicore SMT processors detected. Processor affinity set!
+
+       Clearing partially read grid.
+
+Reading from DESKTOP-KUJ9RI4:"C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       20574 cells,     1 cell zone  ...
+          20574 mixed cells,  zone id: 2
+       41627 faces,     8 face zones ...
+          40630 2D interior faces,  zone id: 1
+             42 2D velocity-inlet faces,  zone id: 5
+             42 2D pressure-outlet faces,  zone id: 6
+            250 2D wall faces,  zone id: 7
+            250 2D wall faces,  zone id: 8
+            204 2D wall faces,  zone id: 9
+            204 2D wall faces,  zone id: 10
+              5 2D wall faces,  zone id: 11
+       21053 nodes,     1 node zone  ...
+Warning: reading 4 partition grid onto 1 compute node machine.
+         Combining every 4 partitions.
+  Done.
+
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	aerofoil-trail
+	aerofoil-suction
+	aerofoil-pressure
+	duct-floor
+	duct-roof
+	outlet
+	inlet
+	interior-fff_surface
+	fff_surface
+     parallel,
+Done.
+
+Reading from DESKTOP-KUJ9RI4:"C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/case05_verified/case05_verified_final.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/color-map/sequential-viridis
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/create vector case5-velocity
+
+Choose setting to change> field velocity-magnitude
+
+Choose setting to change> vector-field velocity
+
+Choose setting to change> surfaces-list full-domain ()
+
+Choose setting to change> range-option auto-range-off
+
+Choose setting to change/range-option> minimum 0
+
+Choose setting to change/range-option> maximum 120
+
+Choose setting to change/range-option> clip-to-range? no
+
+Choose setting to change/range-option> q
+
+Choose setting to change> scale
+
+Choose setting to change/scale> auto-scale? no
+
+Choose setting to change/scale> scale-f .000075
+
+Choose setting to change/scale> q
+
+Choose setting to change> skip 25
+
+Choose setting to change> style "3d arrow"
+
+Choose setting to change> vector-opt
+
+Choose setting to change/vector-opt> fixed-length? no
+
+Choose setting to change/vector-opt> scale-head .4
+
+Choose setting to change/vector-opt> q
+
+Choose setting to change> color-map
+
+Choose setting to change/color-map> color "sequential-viridis"
+
+Choose setting to change/color-map> size 100
+
+Choose setting to change/color-map> visible? no
+
+Choose setting to change/color-map> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/create mesh case5-foil-outline
+
+Choose setting to change> surfaces-list aerofoil-trail aerofoil-pressure aerofoil-suction ()
+
+Choose setting to change> edge-type outline
+
+Choose setting to change> coloring Options: (by-type-or-surface uniform)
+uniform
+
+Choose setting to change/coloring> edges "black"
+
+Choose setting to change/coloring> q
+
+Choose setting to change> options
+
+Choose setting to change/options> edges? yes
+
+Choose setting to change/options> faces? no
+
+Choose setting to change/options> nodes? no
+
+Choose setting to change/options> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/line-weight 2
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-velocity
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/projection orthographic
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .11 -.0025 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .11 -.0025 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .24 .055
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/use-window-resolution? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/invert-background? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 3600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 825
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_75us_full.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_75us_full.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/save-view case5-velocity-full
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/edit case5-velocity
+
+Choose setting to change> scale
+
+Choose setting to change/scale> scale-f .0001
+
+Choose setting to change/scale> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-velocity
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_100us_full.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_100us_full.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> 
+automatic-skip?         color-by-type?          reset-colors
+by-surface/             foreground              skip-label
+by-type/                graphics-color-theme
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/create contour case5-yplus
+
+Choose setting to change> field y-plus
+
+Choose setting to change> surfaces-list full-domain ()
+
+Choose setting to change> node-values? no
+
+WARNING: "Smooth" contours can't be displayed when node-values is set to off. Changing the Coloring type to "Banded".
+
+Choose setting to change> boundary-values? no
+
+Choose setting to change> filled? yes
+
+Choose setting to change> range-option auto-range-off
+
+Choose setting to change/range-option> minimum 1e-10
+
+Choose setting to change/range-option> maximum 8
+
+Choose setting to change/range-option> clip-to-range? yes
+
+Choose setting to change/range-option> q
+
+Choose setting to change> color-map
+
+Choose setting to change/color-map> color "sequential-viridis"
+
+Choose setting to change/color-map> size 100
+
+Choose setting to change/color-map> visible? no
+
+Choose setting to change/color-map> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/create mesh case5-context-mesh
+
+Choose setting to change> surfaces-list full-domain ()
+
+Choose setting to change> edge-type all
+
+Choose setting to change> coloring Options: (by-type-or-surface uniform)
+uniform
+
+Choose setting to change/coloring> edges "light gray"
+
+Choose setting to change/coloring> q
+
+Choose setting to change> options
+
+Choose setting to change/options> edges? yes
+
+Choose setting to change/options> faces? no
+
+Choose setting to change/options> nodes? no
+
+Choose setting to change/options> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/line-weight 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-context-mesh
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-yplus
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/line-weight 2
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .05 -.001 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .05 -.001 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .116 .030
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 3600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 931
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_full.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_full.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/save-view case5-yplus-full
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .000625639202 .0072898292625 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .000625639202 .0072898292625 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .0018 .0007
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 2400
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 933
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_max_inset.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_max_inset.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/save-view case5-yplus-max
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/write-views "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/camera_final.vw"(front back case5-velocity-full case5-yplus-full case5-yplus-max)
+ case5-velocity-full case5-yplus-full case5-yplus-max ()
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> 
+automatic-skip?         color-by-type?          reset-colors
+by-surface/             foreground              skip-label
+by-type/                graphics-color-theme
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-yplus
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .05 -.001 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .05 -.001 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .116 .030
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 9000
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 2328
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_pure_full.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_pure_full.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface
+new surface id/name [rake-12] native-sampling-test
+x0 (in [m]) [0] -.01
+y0 (in [m]) [0] -.025
+x1 (in [m]) [-0.01] .23
+y1 (in [m]) [-0.025] -.025
+Number of points [10] 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-00 -.01 -0.0275 .23 -0.0275 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-01 -.01 -0.0225 .23 -0.0225 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-02 -.01 -0.0175 .23 -0.0175 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-03 -.01 -0.0125 .23 -0.0125 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-04 -.01 -0.0075 .23 -0.0075 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-05 -.01 -0.0025 .23 -0.0025 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-06 -.01 0.0025 .23 0.0025 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-07 -.01 0.0075 .23 0.0075 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-08 -.01 0.0125 .23 0.0125 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-09 -.01 0.0175 .23 0.0175 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /surface/rake-surface native-vector-row-10 -.01 0.0225 .23 0.0225 41
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/create vector case5-uniform-native
+
+Choose setting to change> field velocity-magnitude
+
+Choose setting to change> vector-field velocity
+
+Choose setting to change> surfaces-list native-vector-row-00 native-vector-row-01 native-vector-row-02 native-vector-row-03 native-vector-row-04 native-vector-row-05 native-vector-row-06 native-vector-row-07 native-vector-row-08 native-vector-row-09 native-vector-row-10 ()
+
+Choose setting to change> range-option auto-range-off
+
+Choose setting to change/range-option> minimum 0
+
+Choose setting to change/range-option> maximum 120
+
+Choose setting to change/range-option> q
+
+Choose setting to change> scale
+
+Choose setting to change/scale> auto-scale? no
+
+Choose setting to change/scale> scale-f .000075
+
+Choose setting to change/scale> q
+
+Choose setting to change> skip 0
+
+Choose setting to change> style "3d arrow"
+
+Choose setting to change> vector-opt
+
+Choose setting to change/vector-opt> fixed-length? no
+
+Choose setting to change/vector-opt> scale-head .4
+
+Choose setting to change/vector-opt> q
+
+Choose setting to change> color-map
+
+Choose setting to change/color-map> color "sequential-viridis"
+
+Choose setting to change/color-map> size 100
+
+Choose setting to change/color-map> visible? no
+
+Choose setting to change/color-map> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/line-weight 2
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-uniform-native
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .11 -.0025 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .11 -.0025 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .24 .055
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 3600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 825
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_75us.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_75us.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/native_rake_velocity_evidence.csv" native-vector-row-00 native-vector-row-01 native-vector-row-02 native-vector-row-03 native-vector-row-04 native-vector-row-05 native-vector-row-06 native-vector-row-07 native-vector-row-08 native-vector-row-09 native-vector-row-10 () yes x-velocity y-velocity velocity-magnitude () no
+
+Writing "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/native_rake_velocity_evidence.csv"...
+
+Writing information to ascii file ...
+Done.
+
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> 
+automatic-skip?         color-by-type?          reset-colors
+by-surface/             foreground              skip-label
+by-type/                graphics-color-theme
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/line-weight .5
+Invalid natural real.
+line weight [2] 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-context-mesh
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-yplus
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .000625639202 .0072898292625 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .000625639202 .0072898292625 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .0018 .0007
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 2400
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 933
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_inset_thin_final.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_inset_thin_final.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/edit case5-uniform-native
+
+Choose setting to change> scale
+
+Choose setting to change/scale> scale-f .0001
+
+Choose setting to change/scale> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/line-weight 2
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-uniform-native
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? yes
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-foil-outline
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/target .11 -.0025 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/position .11 -.0025 1
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/up-vector 0 1 0
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/views/camera/field .24 .055
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 3600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 825
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_100us.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/eps
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_100us.eps"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/driver/png
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/edit case5-uniform-native
+
+Choose setting to change> color-map
+
+Choose setting to change/color-map> visible? yes
+
+Choose setting to change/color-map> format "%.0f"
+
+Choose setting to change/color-map> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-uniform-native
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/x-resolution 2400
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/picture/y-resolution 1600
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_legend_valid.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/edit case5-yplus
+
+Choose setting to change> color-map
+
+Choose setting to change/color-map> visible? yes
+
+Choose setting to change/color-map> format "%.1f"
+
+Choose setting to change/color-map> q
+
+Choose setting to change> q
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/set/overlays? no
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/objects/display case5-yplus
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_legend_valid.png"
+
+//display//display/objects//display/set///display/set/picture//display/set/picture/driver//display/views/camera//display/set/windows//display/set/windows/scale//display/views//display/set/colors> /file/stop-transcript

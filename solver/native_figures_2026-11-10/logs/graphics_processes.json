@@ -1,0 +1,12 @@
+[
+  {
+    "ProcessId": 15948,
+    "ParentProcessId": 28396,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\fluent22.2.0\\cortex\\win64\\cx2220.exe\" -newcx -f fl \"(fluent \\\"2ddp -r22.2.0   -ic=default -host -t1 \\\")\""
+  },
+  {
+    "ProcessId": 29616,
+    "ParentProcessId": 18124,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\fluent22.2.0\\cortex\\win64\\cx2220.exe\" -newcx -f fl \"(fluent \\\"2ddp -r22.2.0   -ic=default -host -t1 \\\")\""
+  }
+]

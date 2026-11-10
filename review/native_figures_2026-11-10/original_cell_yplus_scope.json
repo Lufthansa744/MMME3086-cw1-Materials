@@ -1,0 +1,22 @@
+{
+  "case03_aligned": {
+    "domain_cells": 7687,
+    "foil_adjacent_cell_count": 103,
+    "positive_yplus_domain_cells": 341,
+    "positive_yplus_outside_foil_adjacent_cells": 238,
+    "foil_minmax": [
+      19.56839664,
+      170.9392049
+    ]
+  },
+  "case05_verified": {
+    "domain_cells": 20574,
+    "foil_adjacent_cell_count": 413,
+    "positive_yplus_domain_cells": 913,
+    "positive_yplus_outside_foil_adjacent_cells": 500,
+    "foil_minmax": [
+      0.1472955989,
+      6.585910008
+    ]
+  }
+}

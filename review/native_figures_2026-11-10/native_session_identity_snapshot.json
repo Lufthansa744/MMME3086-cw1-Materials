@@ -1,0 +1,53 @@
+{
+  "source_files": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.cas.h5",
+      "sha256": "98f7cc369342e0b2166bda25f8eee286df3380f2ac366a04a64d92977558c8ef",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.dat.h5",
+      "sha256": "396fb59e65583f92be92838fddfd97409c54b11bed0e6aaeab2522be6c9ade20",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\raw\\domain_cell_fields.csv",
+      "sha256": "cbf56b786c3fde2d92e48c39ab48c3f1a13f077ee3a8cc4b5f0f940bfd9a633f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.cas.h5",
+      "sha256": "69ee26962427a78f05f9fbe2ad1c7b30e78c562e81457138316099cfb2f6d1ee",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.dat.h5",
+      "sha256": "2f5254c3a924ec61f75baec2aa44615be9c243ba78eedebb39069d1f6131842e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\raw\\domain_cell_fields.csv",
+      "sha256": "b04cc689c140e2b48a51ec5e3444f57e3f9c4ae8b8b7c3c68ac38c88e60d5102",
+      "unchanged": true
+    }
+  ],
+  "transcripts": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\logs\\native_postprocess.transcript",
+      "sha256": "c6ce3711b76f4dbdb199048cd5de6f9e13d0c4e77621aeb306aba1bc97f804e6"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\logs\\case05_native_postprocess.transcript",
+      "sha256": "38ccd59b151ba396520569f04498cf0e08b1cc60bd9cb31b090f2add37d5f518"
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\logs\\taskA_and_case3_rakes.transcript",
+      "sha256": "c85455bca8c38eb552256d6d702c26621d891e1a9056fec37bd708ef1b2ac8d6"
+    }
+  ],
+  "actual_native_build": "v222 build10212",
+  "same_original_case_data_loaded": true,
+  "native_SavePicture_PNG_commands_observed": true,
+  "forbidden_solving_reinitialization_and_writecaseData_commands_absent": true,
+  "status": "Source/native identity snapshot PASS; final per-file export manifest and final composition still require review"
+}

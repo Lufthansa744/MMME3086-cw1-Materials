@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-10",
+  "repository": "https://github.com/Lufthansa744/MMME3086-cw1-Materials",
+  "layout_authority": "User-supplied Mac report PDF, nine pages, attachment -4",
+  "scope": "Artwork addendum only; current Mac report source is preserved",
+  "figure_1": "Retain verified native SpaceClaim picture pixels",
+  "scientific_layers": "Native Fluent Save Picture PNG; embedded losslessly",
+  "post_export_layers": "Vector typography, axes, numerical legend labels and factual annotations",
+  "case_5_vector_sampling": {
+    "requested": 540,
+    "solid_excluded": 36,
+    "fluid_exported": 504,
+    "rakes": 12
+  },
+  "solution_iterations_performed": false,
+  "latex_compiled": false,
+  "final_overleaf_report_layout_checked": false,
+  "independent_acceptance": {
+    "path": "review/native_figures_2026-11-10/final_acceptance.json",
+    "bytes": 15599,
+    "sha256": "e9a33859c7890860e6ec7af87ed104a89d5eab785c6b22c31b725510c2f43742"
+  },
+  "artwork": [
+    {
+      "path": "report/native_fluent_2026-11-10/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+      "physical_size_mm": [
+        159.9974222222222,
+        73.99880777777777
+      ],
+      "pages": 1
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+      "physical_size_mm": [
+        165.1,
+        65.008125
+      ],
+      "pages": 1
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig05_rsm_yplus.pdf",
+      "bytes": 479578,
+      "sha256": "b8439091310b86803e257f7f905bb67ab0aa3121fd7bef0a2545b8531e734b3a",
+      "physical_size_mm": [
+        165.1,
+        66.03999999999999
+      ],
+      "pages": 1
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig06_enhanced_combined.pdf",
+      "bytes": 296048,
+      "sha256": "aa711b5949b6def03020746051eb435fdf9cc628eef39303b04c05da785b356c",
+      "physical_size_mm": [
+        165.1,
+        143.0000001027778
+      ],
+      "pages": 1
+    }
+  ],
+  "additional_assets": [
+    {
+      "path": "report/native_fluent_2026-11-10/fig02_mesh_bc.png",
+      "bytes": 814099,
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig02_mesh_bc_print300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig04_rsm_vectors.png",
+      "bytes": 361605,
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig04_rsm_vectors_print300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig05_rsm_yplus.png",
+      "bytes": 671051,
+      "sha256": "a6669bd756bf92ac8aa0272328e90ccb30a1dc8d69c296278de8f8ecb5b1b3af"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig05_rsm_yplus_print300.png",
+      "bytes": 445892,
+      "sha256": "d72808d20cf38792a5f1e4cb1872ef3cf1271e6e1bb8a090df908d75d1b5eca8"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig06_enhanced_combined.png",
+      "bytes": 419537,
+      "sha256": "abe89982c288ff05045add9ef1b0b83b9f353d6e9c28c4c322faefbe0be534e6"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10/fig06_enhanced_combined_print300.png",
+      "bytes": 235263,
+      "sha256": "0f78e98e8ec4e96f2545dd52729d2b360e368bce9b228894c5e549b692c051b2"
+    }
+  ],
+  "historical_diagnostics": "Raw diagnostic variants remain preserved in the solver folder; only listed artwork is selected"
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "figure": 2,
+    "PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig02_mesh_bc.pdf",
+    "PDF_sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+    "physical_box_pt": [
+      453.536,
+      209.7604
+    ],
+    "matches_current_attachment_printed_box": true,
+    "all_native_source_RGB_embedded_losslessly": true,
+    "native_image_layers": [
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_full_native_interioronly.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "1ee080d7c496ab6f4bc3b7d77e16b9b2e79a7605ab9c91a64d752c2167767325",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          6000,
+          900
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_local_native_interioronly.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "f5860b9422bbe3bee73d686f8ff08b5ea47037e2b6f8c9ba8b86e63bbf9d04dd",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          4000,
+          1252
+        ]
+      }
+    ],
+    "text_has_no_NUL_or_replacement_glyph": true,
+    "glyphs_outside_canvas": 0,
+    "fonts": [
+      {
+        "resource": "/F1",
+        "font": "/Helvetica",
+        "embedded": false
+      },
+      {
+        "resource": "/F2+0",
+        "font": "/AAAAAA+ArialMT",
+        "embedded": true
+      }
+    ],
+    "limitation": "Programmatic source/PDF-layer and box checks only; independent visual inspection still required for overlap/legibility and final image acceptance."
+  },
+  {
+    "figure": 4,
+    "PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig04_rsm_vectors.pdf",
+    "PDF_sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+    "physical_box_pt": [
+      468.0,
+      184.275
+    ],
+    "matches_current_attachment_printed_box": true,
+    "all_native_source_RGB_embedded_losslessly": true,
+    "native_image_layers": [
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_75us_outline5.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "57ec2f35c2b846f7d1074d541e2affdc3c6f8c345016c0af5fcd8e93d0190515",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          3600,
+          1275
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_normalised_te_outline9.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "e64f574742370ac1456cda7e32c8f3e335e0d2c7c1ea490fa651ede5a15873a5",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          2400,
+          1440
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig04_speed_native_colour_strip.png",
+        "kind": "exact native donor colour-strip crop",
+        "source_sha256": "006144f52fe899319e26cb9669a1baa14faf036866f8cc50d69794508c4cf470",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          685,
+          3
+        ]
+      }
+    ],
+    "text_has_no_NUL_or_replacement_glyph": true,
+    "glyphs_outside_canvas": 0,
+    "fonts": [
+      {
+        "resource": "/F1",
+        "font": "/Helvetica",
+        "embedded": false
+      },
+      {
+        "resource": "/F2+0",
+        "font": "/AAAAAA+ArialMT",
+        "embedded": true
+      }
+    ],
+    "limitation": "Programmatic source/PDF-layer and box checks only; independent visual inspection still required for overlap/legibility and final image acceptance."
+  },
+  {
+    "figure": 5,
+    "PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig05_rsm_yplus.pdf",
+    "PDF_sha256": "b8439091310b86803e257f7f905bb67ab0aa3121fd7bef0a2545b8531e734b3a",
+    "physical_box_pt": [
+      468.0,
+      187.2
+    ],
+    "matches_current_attachment_printed_box": true,
+    "all_native_source_RGB_embedded_losslessly": true,
+    "native_image_layers": [
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_context_final.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "7ba6411a2ad4bc104dc5af622a664b2b3606709890637b5de2453e0f83688951",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          3600,
+          1179
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig05_yplus_native_colour_strip.png",
+        "kind": "exact native donor colour-strip crop",
+        "source_sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          3,
+          685
+        ]
+      }
+    ],
+    "text_has_no_NUL_or_replacement_glyph": true,
+    "glyphs_outside_canvas": 0,
+    "fonts": [
+      {
+        "resource": "/F1",
+        "font": "/Helvetica",
+        "embedded": false
+      },
+      {
+        "resource": "/F2+0",
+        "font": "/AAAAAA+ArialMT",
+        "embedded": true
+      }
+    ],
+    "limitation": "Programmatic source/PDF-layer and box checks only; independent visual inspection still required for overlap/legibility and final image acceptance."
+  },
+  {
+    "figure": 6,
+    "PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig06_enhanced_combined.pdf",
+    "PDF_sha256": "aa711b5949b6def03020746051eb435fdf9cc628eef39303b04c05da785b356c",
+    "physical_box_pt": [
+      468.0,
+      405.354331
+    ],
+    "matches_current_attachment_printed_box": true,
+    "all_native_source_RGB_embedded_losslessly": true,
+    "native_image_layers": [
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\velocity_native_rakes_dense_75us_outline4.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "3edc7d0efab3274c4100c35be81292cdaf094e5760fb69bd4f81551efb05a1e9",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          3600,
+          825
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_full_outline8.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "c878969f70baecc1cac9babf56bb0f9a3cdb79ecc1948461a74bfb43ab1fff4d",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          9000,
+          2328
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_inset_thin_final.png",
+        "kind": "original Fluent PNG",
+        "source_sha256": "4e0c1a3baf183bc7c5462c31e6849c39e7c2d19f11d97f22a027c074631ce90d",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          2400,
+          933
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig06_speed_native_colour_strip.png",
+        "kind": "exact native donor colour-strip crop",
+        "source_sha256": "9c69db3bfdb19bdf5b3a368070e199bc6bbfbea9da3ad9592b133312b7b6846a",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          3,
+          685
+        ]
+      },
+      {
+        "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig06_yplus_native_colour_strip.png",
+        "kind": "exact native donor colour-strip crop",
+        "source_sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d",
+        "embedded_RGB_exactly_matches": true,
+        "pixels": [
+          3,
+          685
+        ]
+      }
+    ],
+    "text_has_no_NUL_or_replacement_glyph": true,
+    "glyphs_outside_canvas": 0,
+    "fonts": [
+      {
+        "resource": "/F1",
+        "font": "/Helvetica",
+        "embedded": false
+      },
+      {
+        "resource": "/F2+0",
+        "font": "/AAAAAA+ArialMT",
+        "embedded": true
+      }
+    ],
+    "limitation": "Programmatic source/PDF-layer and box checks only; independent visual inspection still required for overlap/legibility and final image acceptance."
+  }
+]

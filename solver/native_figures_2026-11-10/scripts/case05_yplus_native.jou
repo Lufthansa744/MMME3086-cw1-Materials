@@ -1,0 +1,60 @@
+/display/objects/create contour case5-yplus
+field y-plus
+surfaces-list full-domain ()
+node-values? no
+boundary-values? no
+filled? yes
+range-option auto-range-off
+minimum 1e-10
+maximum 8
+clip-to-range? yes
+q
+color-map
+color "sequential-viridis"
+size 100
+visible? no
+q
+q
+/display/objects/create mesh case5-context-mesh
+surfaces-list full-domain ()
+edge-type all
+coloring uniform
+edges "light gray"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/set/line-weight 1
+/display/set/overlays? no
+/display/objects/display case5-context-mesh
+/display/set/overlays? yes
+/display/objects/display case5-yplus
+/display/set/line-weight 2
+/display/objects/display case5-foil-outline
+/display/views/camera/target .05 -.001 0
+/display/views/camera/position .05 -.001 1
+/display/views/camera/up-vector 0 1 0
+/display/views/camera/field .116 .030
+/display/set/picture/x-resolution 3600
+/display/set/picture/y-resolution 931
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_full.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_full.eps"
+/display/set/picture/driver/png
+/display/views/save-view case5-yplus-full
+/display/views/camera/target .000625639202 .0072898292625 0
+/display/views/camera/position .000625639202 .0072898292625 1
+/display/views/camera/up-vector 0 1 0
+/display/views/camera/field .0018 .0007
+/display/set/picture/x-resolution 2400
+/display/set/picture/y-resolution 933
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_max_inset.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/yplus_native_context_max_inset.eps"
+/display/set/picture/driver/png
+/display/views/save-view case5-yplus-max
+/display/views/write-views "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/camera_final.vw" case5-velocity-full case5-yplus-full case5-yplus-max ()
+

@@ -1,0 +1,87 @@
+{
+  "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\inputs\\Aerofoil8-degAoA-enhancedBL.msh",
+  "bytes": 1086513,
+  "sha256": "3b823ee36532e037e1eb654a2306e9ad3e362d8bf60703ca0030ef85ae4bd47e",
+  "nodes": 21053,
+  "faces": 41627,
+  "cells": 20574,
+  "cell_type_codes": {
+    "3": 20535,
+    "1": 39
+  },
+  "actual_cell_vertex_counts": {
+    "4": 20535,
+    "3": 39
+  },
+  "x_bounds_m": [
+    -0.5,
+    0.5
+  ],
+  "y_bounds_m": [
+    -0.07500000000000018,
+    0.07499999999999982
+  ],
+  "boundary_loop_vertex_counts": [
+    413,
+    584
+  ],
+  "euler": 0,
+  "leading_edge_m": [
+    0.0004836769835439499,
+    0.006916903117715257
+  ],
+  "trailing_edge_centre_m": [
+    0.09951048385770095,
+    -0.007000406978291296
+  ],
+  "chord_m": 0.09999999999999998,
+  "chord_angle_deg": -8.000000000000007,
+  "trailing_edge_gap_m": 0.0002519999999999973,
+  "zones": {
+    "interior-fff_surface": {
+      "id": 1,
+      "type": "interior",
+      "face_count": 40630
+    },
+    "fff_surface": {
+      "id": 2,
+      "type": "fluid",
+      "face_count": 0
+    },
+    "inlet": {
+      "id": 5,
+      "type": "velocity-inlet",
+      "face_count": 42
+    },
+    "outlet": {
+      "id": 6,
+      "type": "pressure-outlet",
+      "face_count": 42
+    },
+    "duct-roof": {
+      "id": 7,
+      "type": "wall",
+      "face_count": 250
+    },
+    "duct-floor": {
+      "id": 8,
+      "type": "wall",
+      "face_count": 250
+    },
+    "aerofoil-pressure": {
+      "id": 9,
+      "type": "wall",
+      "face_count": 204
+    },
+    "aerofoil-suction": {
+      "id": 10,
+      "type": "wall",
+      "face_count": 204
+    },
+    "aerofoil-trail": {
+      "id": 11,
+      "type": "wall",
+      "face_count": 5
+    }
+  }
+}

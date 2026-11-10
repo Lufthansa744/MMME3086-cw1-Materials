@@ -1,0 +1,85 @@
+{
+  "figure": 4,
+  "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig04_rsm_vectors.pdf",
+  "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+  "page_size_pt": [
+    468.0,
+    184.275
+  ],
+  "native_layers": [
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_75us_outline5.png",
+      "sha256": "57ec2f35c2b846f7d1074d541e2affdc3c6f8c345016c0af5fcd8e93d0190515",
+      "source_pixels": [
+        3600,
+        1275
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\case03_velocity_outline5_calibration.json",
+      "calibration_sha256": "97a52e70a6367b3c628bd21a42638efa87d39ec36b97a1b4d32135a748cf3f28",
+      "pdf_image_position_size_pt": [
+        37.928461486256055,
+        58.475383426695274,
+        280.9409516411091,
+        99.49992037289282
+      ],
+      "clip_rectangle_pt": [
+        38.025,
+        58.5,
+        280.8,
+        99.45
+      ],
+      "uniform_scale_pt_per_pixel": 0.07803915323364143,
+      "effective_source_dpi": 922.6138036690274,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_normalised_te_outline9.png",
+      "sha256": "e64f574742370ac1456cda7e32c8f3e335e0d2c7c1ea490fa651ede5a15873a5",
+      "source_pixels": [
+        2400,
+        1440
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\case03_te_outline9_calibration.json",
+      "calibration_sha256": "0cd63171aa7b70b8ab1d352f4f4a696545836ac3b16af64024d280b6b5a4ebdb",
+      "pdf_image_position_size_pt": [
+        348.06856672494087,
+        82.20917075190417,
+        99.4073565202311,
+        59.64441391213867
+      ],
+      "clip_rectangle_pt": [
+        348.075,
+        82.1925,
+        99.45,
+        59.67
+      ],
+      "uniform_scale_pt_per_pixel": 0.04141973188342963,
+      "effective_source_dpi": 1738.3019330650063,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "native_donor": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_legend_valid.png",
+      "native_donor_sha256": "6de3a1ec33aeac8c4f308371c3dd0768d5f4507de2be782e35ab4f4dd9ffc585",
+      "crop_box_pixels": [
+        59,
+        483,
+        62,
+        1168
+      ],
+      "rotation": "90 degrees clockwise",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig04_speed_native_colour_strip.png",
+      "sha256": "006144f52fe899319e26cb9669a1baa14faf036866f8cc50d69794508c4cf470",
+      "RGB_policy": "Only exact native pixel crop/transpose. No palette generation or recolouring; bar aspect reflow is independent of physical field geometry.",
+      "pdf_box_pt": [
+        46.8,
+        18.135,
+        117,
+        5.265
+      ]
+    }
+  ],
+  "scientific_content": "Native Fluent PNGs only; vector content is annotation/axes/text only.",
+  "pdf_image_count": 3
+}

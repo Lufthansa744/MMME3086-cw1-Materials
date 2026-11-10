@@ -1,0 +1,36 @@
+[
+  {
+    "figure": 4,
+    "root_nontext_filled_paths": 0,
+    "forms": [],
+    "scientific_field_graphics_raster_native_only": true
+  },
+  {
+    "figure": 5,
+    "root_nontext_filled_paths": 0,
+    "forms": [],
+    "scientific_field_graphics_raster_native_only": true
+  },
+  {
+    "figure": 6,
+    "root_nontext_filled_paths": 0,
+    "forms": [
+      {
+        "name": "/AuthorityAnnotationText",
+        "operators": {
+          "q": 44,
+          "cm": 44,
+          "g": 44,
+          "BT": 44,
+          "Tf": 57,
+          "Td": 170,
+          "TJ": 37,
+          "ET": 44,
+          "Q": 44,
+          "Tj": 133
+        }
+      }
+    ],
+    "scientific_field_graphics_raster_native_only": true
+  }
+]

@@ -1,0 +1,104 @@
+/display/objects/edit taska-inlet
+edge-type outline
+coloring uniform
+edges "dark green"
+faces "dark green"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/objects/edit taska-outlet
+edge-type outline
+coloring uniform
+edges "pink"
+faces "pink"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/objects/edit taska-wall_top
+edge-type outline
+coloring uniform
+edges "black"
+faces "black"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/objects/edit taska-wall_bottom
+edge-type outline
+coloring uniform
+edges "black"
+faces "black"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/objects/edit taska-aerofoil_suction
+edge-type outline
+coloring uniform
+edges "dark blue"
+faces "dark blue"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/objects/edit taska-aerofoil_pressure
+edge-type outline
+coloring uniform
+edges "orange"
+faces "orange"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/objects/edit taska-aerofoil_te
+edge-type outline
+coloring uniform
+edges "black"
+faces "black"
+q
+options
+faces? yes
+edges? yes
+q
+q
+/display/set/line-weight 1
+/display/set/overlays? no
+/display/objects/display taska-mesh
+/display/set/overlays? yes
+/display/set/line-weight 3
+/display/objects/display taska-inlet
+/display/objects/display taska-outlet
+/display/objects/display taska-wall_top
+/display/objects/display taska-wall_bottom
+/display/objects/display taska-aerofoil_suction
+/display/objects/display taska-aerofoil_pressure
+/display/objects/display taska-aerofoil_te
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_local_native_final.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_local_native_final.eps"
+/display/set/picture/driver/png
+/display/views/camera/target 0 0 0
+/display/views/camera/position 0 0 1
+/display/views/camera/field 1 .15
+/display/views/camera/up-vector 0 1 0
+/display/set/picture/x-resolution 6000
+/display/set/picture/y-resolution 900
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_full_native_final.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_full_native_final.eps"
+/display/set/picture/driver/png
+

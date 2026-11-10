@@ -1,0 +1,1475 @@
+{
+  "native_path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_clean_full.png",
+  "native_sha256": "918b41f4c61c731cced43c7179d4f1ff5026cd6b4ae1dd70499369bef2aa7675",
+  "image_pixels": [
+    3600,
+    1179
+  ],
+  "viewport_world_m": [
+    -0.008,
+    0.108,
+    -0.024,
+    0.014
+  ],
+  "visible_positive_cell_ids_equal_exact_foil_103": true,
+  "visible_cell_count": 103,
+  "orthographic_pixel_map": {
+    "u": "31004.951945709116*x + 249.6623402984222",
+    "v": "-31004.951945709116*y + 433.9328083577699",
+    "isotropic_scale_pixels_per_m": 31004.951945709116
+  },
+  "foil_outline_fit_pixels": {
+    "median": 0.3172520972706573,
+    "p99": 0.8346673792706147,
+    "pixels": 7820
+  },
+  "coloured_pixels": 189331,
+  "coloured_pixels_outside_actual_cell_union_plus_2px_edge_tolerance": 0,
+  "outside_fraction": 0.0,
+  "all_103_actual_cell_centroids_coloured": true,
+  "cell_controls": [
+    {
+      "cell_id": 69,
+      "yplus": 19.56839664,
+      "pixel_center": [
+        3193,
+        586
+      ],
+      "native_center_RGB": [
+        77,
+        34,
+        115
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 351,
+      "yplus": 166.5601703,
+      "pixel_center": [
+        269,
+        180
+      ],
+      "native_center_RGB": [
+        198,
+        227,
+        39
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 379,
+      "yplus": 111.5639993,
+      "pixel_center": [
+        2866,
+        670
+      ],
+      "native_center_RGB": [
+        43,
+        174,
+        125
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 1034,
+      "yplus": 119.8534281,
+      "pixel_center": [
+        2624,
+        666
+      ],
+      "native_center_RGB": [
+        53,
+        185,
+        115
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 1611,
+      "yplus": 123.0557774,
+      "pixel_center": [
+        1012,
+        535
+      ],
+      "native_center_RGB": [
+        57,
+        190,
+        111
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2076,
+      "yplus": 116.7636638,
+      "pixel_center": [
+        1631,
+        608
+      ],
+      "native_center_RGB": [
+        49,
+        181,
+        119
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2209,
+      "yplus": 112.3910204,
+      "pixel_center": [
+        2500,
+        659
+      ],
+      "native_center_RGB": [
+        45,
+        176,
+        123
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2227,
+      "yplus": 170.9392049,
+      "pixel_center": [
+        698,
+        94
+      ],
+      "native_center_RGB": [
+        211,
+        229,
+        36
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2573,
+      "yplus": 22.27944689,
+      "pixel_center": [
+        3314,
+        618
+      ],
+      "native_center_RGB": [
+        78,
+        40,
+        121
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2746,
+      "yplus": 116.136802,
+      "pixel_center": [
+        943,
+        521
+      ],
+      "native_center_RGB": [
+        49,
+        181,
+        119
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2876,
+      "yplus": 92.35592912,
+      "pixel_center": [
+        472,
+        401
+      ],
+      "native_center_RGB": [
+        40,
+        149,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2877,
+      "yplus": 130.3440732,
+      "pixel_center": [
+        1136,
+        555
+      ],
+      "native_center_RGB": [
+        73,
+        198,
+        100
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 2951,
+      "yplus": 108.4797664,
+      "pixel_center": [
+        833,
+        499
+      ],
+      "native_center_RGB": [
+        41,
+        171,
+        127
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 3171,
+      "yplus": 108.9609626,
+      "pixel_center": [
+        2313,
+        651
+      ],
+      "native_center_RGB": [
+        41,
+        171,
+        127
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 3644,
+      "yplus": 77.36665092,
+      "pixel_center": [
+        356,
+        349
+      ],
+      "native_center_RGB": [
+        51,
+        127,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 5250,
+      "yplus": 79.58425728,
+      "pixel_center": [
+        2358,
+        367
+      ],
+      "native_center_RGB": [
+        49,
+        132,
+        141
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 5845,
+      "yplus": 45.04417415,
+      "pixel_center": [
+        302,
+        314
+      ],
+      "native_center_RGB": [
+        70,
+        81,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 5998,
+      "yplus": 103.1160394,
+      "pixel_center": [
+        645,
+        456
+      ],
+      "native_center_RGB": [
+        35,
+        164,
+        133
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 6134,
+      "yplus": 32.77977224,
+      "pixel_center": [
+        3077,
+        552
+      ],
+      "native_center_RGB": [
+        76,
+        60,
+        131
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 6196,
+      "yplus": 33.77478567,
+      "pixel_center": [
+        2713,
+        462
+      ],
+      "native_center_RGB": [
+        76,
+        60,
+        131
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 6357,
+      "yplus": 117.7459658,
+      "pixel_center": [
+        1330,
+        578
+      ],
+      "native_center_RGB": [
+        51,
+        183,
+        117
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 6500,
+      "yplus": 115.480122,
+      "pixel_center": [
+        902,
+        514
+      ],
+      "native_center_RGB": [
+        49,
+        181,
+        119
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 6943,
+      "yplus": 41.21202625,
+      "pixel_center": [
+        2900,
+        505
+      ],
+      "native_center_RGB": [
+        72,
+        72,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7027,
+      "yplus": 120.2603639,
+      "pixel_center": [
+        1753,
+        618
+      ],
+      "native_center_RGB": [
+        53,
+        185,
+        115
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7029,
+      "yplus": 118.4546369,
+      "pixel_center": [
+        1448,
+        591
+      ],
+      "native_center_RGB": [
+        51,
+        183,
+        117
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7035,
+      "yplus": 89.49423703,
+      "pixel_center": [
+        2050,
+        298
+      ],
+      "native_center_RGB": [
+        42,
+        144,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7039,
+      "yplus": 123.2748701,
+      "pixel_center": [
+        1264,
+        571
+      ],
+      "native_center_RGB": [
+        57,
+        190,
+        111
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7045,
+      "yplus": 109.0888224,
+      "pixel_center": [
+        1880,
+        626
+      ],
+      "native_center_RGB": [
+        41,
+        171,
+        127
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7046,
+      "yplus": 109.0898469,
+      "pixel_center": [
+        1625,
+        211
+      ],
+      "native_center_RGB": [
+        41,
+        171,
+        127
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7047,
+      "yplus": 101.2428967,
+      "pixel_center": [
+        2747,
+        665
+      ],
+      "native_center_RGB": [
+        33,
+        162,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7052,
+      "yplus": 77.56256146,
+      "pixel_center": [
+        2293,
+        353
+      ],
+      "native_center_RGB": [
+        50,
+        129,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7054,
+      "yplus": 100.4617613,
+      "pixel_center": [
+        1563,
+        202
+      ],
+      "native_center_RGB": [
+        35,
+        159,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7062,
+      "yplus": 112.9063666,
+      "pixel_center": [
+        3305,
+        676
+      ],
+      "native_center_RGB": [
+        45,
+        176,
+        123
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7064,
+      "yplus": 79.09291494,
+      "pixel_center": [
+        1989,
+        288
+      ],
+      "native_center_RGB": [
+        50,
+        129,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7066,
+      "yplus": 155.2493909,
+      "pixel_center": [
+        509,
+        103
+      ],
+      "native_center_RGB": [
+        160,
+        221,
+        49
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7068,
+      "yplus": 110.003987,
+      "pixel_center": [
+        1509,
+        595
+      ],
+      "native_center_RGB": [
+        43,
+        174,
+        125
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7090,
+      "yplus": 125.4450626,
+      "pixel_center": [
+        2934,
+        675
+      ],
+      "native_center_RGB": [
+        59,
+        193,
+        110
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7095,
+      "yplus": 100.2003291,
+      "pixel_center": [
+        3243,
+        673
+      ],
+      "native_center_RGB": [
+        35,
+        159,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7100,
+      "yplus": 93.33061002,
+      "pixel_center": [
+        1749,
+        237
+      ],
+      "native_center_RGB": [
+        40,
+        149,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7109,
+      "yplus": 112.1833919,
+      "pixel_center": [
+        1194,
+        143
+      ],
+      "native_center_RGB": [
+        45,
+        176,
+        123
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7117,
+      "yplus": 96.90976809,
+      "pixel_center": [
+        1688,
+        225
+      ],
+      "native_center_RGB": [
+        37,
+        154,
+        137
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7124,
+      "yplus": 126.4359366,
+      "pixel_center": [
+        1200,
+        563
+      ],
+      "native_center_RGB": [
+        61,
+        195,
+        108
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7137,
+      "yplus": 132.748554,
+      "pixel_center": [
+        887,
+        108
+      ],
+      "native_center_RGB": [
+        80,
+        200,
+        96
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7138,
+      "yplus": 84.50213908,
+      "pixel_center": [
+        1324,
+        166
+      ],
+      "native_center_RGB": [
+        46,
+        137,
+        140
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7139,
+      "yplus": 69.55901665,
+      "pixel_center": [
+        2170,
+        329
+      ],
+      "native_center_RGB": [
+        56,
+        116,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7147,
+      "yplus": 88.11938573,
+      "pixel_center": [
+        413,
+        377
+      ],
+      "native_center_RGB": [
+        44,
+        142,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7156,
+      "yplus": 160.3308193,
+      "pixel_center": [
+        447,
+        110
+      ],
+      "native_center_RGB": [
+        179,
+        224,
+        44
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7173,
+      "yplus": 106.9021343,
+      "pixel_center": [
+        2126,
+        640
+      ],
+      "native_center_RGB": [
+        39,
+        169,
+        129
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7177,
+      "yplus": 115.6190498,
+      "pixel_center": [
+        1693,
+        613
+      ],
+      "native_center_RGB": [
+        49,
+        181,
+        119
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7191,
+      "yplus": 106.4234296,
+      "pixel_center": [
+        2191,
+        644
+      ],
+      "native_center_RGB": [
+        39,
+        169,
+        129
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7194,
+      "yplus": 126.3864449,
+      "pixel_center": [
+        1074,
+        545
+      ],
+      "native_center_RGB": [
+        61,
+        195,
+        108
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7196,
+      "yplus": 151.3767242,
+      "pixel_center": [
+        571,
+        99
+      ],
+      "native_center_RGB": [
+        147,
+        220,
+        53
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7202,
+      "yplus": 120.1807077,
+      "pixel_center": [
+        1816,
+        623
+      ],
+      "native_center_RGB": [
+        53,
+        185,
+        115
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7210,
+      "yplus": 77.27503722,
+      "pixel_center": [
+        2232,
+        340
+      ],
+      "native_center_RGB": [
+        51,
+        127,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7235,
+      "yplus": 86.61948387,
+      "pixel_center": [
+        2379,
+        649
+      ],
+      "native_center_RGB": [
+        44,
+        142,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7244,
+      "yplus": 83.24843794,
+      "pixel_center": [
+        2110,
+        312
+      ],
+      "native_center_RGB": [
+        46,
+        137,
+        140
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7249,
+      "yplus": 52.05367985,
+      "pixel_center": [
+        2474,
+        401
+      ],
+      "native_center_RGB": [
+        67,
+        90,
+        141
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7251,
+      "yplus": 21.53721692,
+      "pixel_center": [
+        3252,
+        601
+      ],
+      "native_center_RGB": [
+        78,
+        37,
+        118
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7253,
+      "yplus": 100.4525156,
+      "pixel_center": [
+        1133,
+        137
+      ],
+      "native_center_RGB": [
+        35,
+        159,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7273,
+      "yplus": 89.26545551,
+      "pixel_center": [
+        710,
+        468
+      ],
+      "native_center_RGB": [
+        42,
+        144,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7282,
+      "yplus": 93.28601134,
+      "pixel_center": [
+        2687,
+        662
+      ],
+      "native_center_RGB": [
+        40,
+        149,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7284,
+      "yplus": 83.8571177,
+      "pixel_center": [
+        532,
+        419
+      ],
+      "native_center_RGB": [
+        46,
+        137,
+        140
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7288,
+      "yplus": 69.32646157,
+      "pixel_center": [
+        1926,
+        277
+      ],
+      "native_center_RGB": [
+        56,
+        116,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7291,
+      "yplus": 83.23304907,
+      "pixel_center": [
+        1811,
+        251
+      ],
+      "native_center_RGB": [
+        46,
+        137,
+        140
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7298,
+      "yplus": 168.4110343,
+      "pixel_center": [
+        385,
+        121
+      ],
+      "native_center_RGB": [
+        205,
+        228,
+        38
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7300,
+      "yplus": 88.42574419,
+      "pixel_center": [
+        3179,
+        670
+      ],
+      "native_center_RGB": [
+        42,
+        144,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7302,
+      "yplus": 96.70270438,
+      "pixel_center": [
+        3061,
+        671
+      ],
+      "native_center_RGB": [
+        37,
+        154,
+        137
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7305,
+      "yplus": 93.92681799,
+      "pixel_center": [
+        1943,
+        627
+      ],
+      "native_center_RGB": [
+        38,
+        152,
+        137
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7308,
+      "yplus": 90.72009071,
+      "pixel_center": [
+        2563,
+        657
+      ],
+      "native_center_RGB": [
+        41,
+        147,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7310,
+      "yplus": 88.51031838,
+      "pixel_center": [
+        1501,
+        193
+      ],
+      "native_center_RGB": [
+        42,
+        144,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7312,
+      "yplus": 46.01986882,
+      "pixel_center": [
+        2413,
+        389
+      ],
+      "native_center_RGB": [
+        70,
+        81,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7316,
+      "yplus": 25.9360812,
+      "pixel_center": [
+        3134,
+        570
+      ],
+      "native_center_RGB": [
+        79,
+        47,
+        127
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7318,
+      "yplus": 116.4210056,
+      "pixel_center": [
+        760,
+        104
+      ],
+      "native_center_RGB": [
+        49,
+        181,
+        119
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7323,
+      "yplus": 86.53987015,
+      "pixel_center": [
+        1382,
+        174
+      ],
+      "native_center_RGB": [
+        44,
+        142,
+        139
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7328,
+      "yplus": 92.76007923,
+      "pixel_center": [
+        770,
+        483
+      ],
+      "native_center_RGB": [
+        40,
+        149,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7331,
+      "yplus": 106.7837079,
+      "pixel_center": [
+        2061,
+        637
+      ],
+      "native_center_RGB": [
+        39,
+        169,
+        129
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7338,
+      "yplus": 103.5082375,
+      "pixel_center": [
+        1388,
+        581
+      ],
+      "native_center_RGB": [
+        35,
+        164,
+        133
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7339,
+      "yplus": 45.24876937,
+      "pixel_center": [
+        2657,
+        445
+      ],
+      "native_center_RGB": [
+        70,
+        81,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7342,
+      "yplus": 52.51908458,
+      "pixel_center": [
+        2597,
+        429
+      ],
+      "native_center_RGB": [
+        66,
+        93,
+        141
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7346,
+      "yplus": 91.56728814,
+      "pixel_center": [
+        1070,
+        131
+      ],
+      "native_center_RGB": [
+        41,
+        147,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7349,
+      "yplus": 108.5585397,
+      "pixel_center": [
+        1570,
+        600
+      ],
+      "native_center_RGB": [
+        41,
+        171,
+        127
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7351,
+      "yplus": 84.96669733,
+      "pixel_center": [
+        2252,
+        643
+      ],
+      "native_center_RGB": [
+        45,
+        139,
+        140
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7354,
+      "yplus": 146.5749684,
+      "pixel_center": [
+        633,
+        98
+      ],
+      "native_center_RGB": [
+        129,
+        214,
+        64
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7362,
+      "yplus": 107.2147271,
+      "pixel_center": [
+        953,
+        117
+      ],
+      "native_center_RGB": [
+        39,
+        169,
+        129
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7374,
+      "yplus": 77.89869882,
+      "pixel_center": [
+        2439,
+        650
+      ],
+      "native_center_RGB": [
+        50,
+        129,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7375,
+      "yplus": 71.26701691,
+      "pixel_center": [
+        591,
+        433
+      ],
+      "native_center_RGB": [
+        55,
+        119,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7387,
+      "yplus": 68.29025732,
+      "pixel_center": [
+        259,
+        250
+      ],
+      "native_center_RGB": [
+        57,
+        114,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7426,
+      "yplus": 58.01762311,
+      "pixel_center": [
+        1867,
+        268
+      ],
+      "native_center_RGB": [
+        63,
+        101,
+        141
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7438,
+      "yplus": 73.31697825,
+      "pixel_center": [
+        3120,
+        667
+      ],
+      "native_center_RGB": [
+        54,
+        122,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7466,
+      "yplus": 84.09091345,
+      "pixel_center": [
+        1441,
+        184
+      ],
+      "native_center_RGB": [
+        46,
+        137,
+        140
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7479,
+      "yplus": 77.47959086,
+      "pixel_center": [
+        2004,
+        627
+      ],
+      "native_center_RGB": [
+        50,
+        129,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7498,
+      "yplus": 42.10290278,
+      "pixel_center": [
+        2768,
+        472
+      ],
+      "native_center_RGB": [
+        71,
+        75,
+        136
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7509,
+      "yplus": 76.94248472,
+      "pixel_center": [
+        1010,
+        127
+      ],
+      "native_center_RGB": [
+        51,
+        127,
+        142
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7513,
+      "yplus": 45.62655465,
+      "pixel_center": [
+        2842,
+        489
+      ],
+      "native_center_RGB": [
+        70,
+        81,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7516,
+      "yplus": 40.29154163,
+      "pixel_center": [
+        3354,
+        658
+      ],
+      "native_center_RGB": [
+        72,
+        72,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7541,
+      "yplus": 103.2913462,
+      "pixel_center": [
+        2999,
+        672
+      ],
+      "native_center_RGB": [
+        35,
+        164,
+        133
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7550,
+      "yplus": 120.2935848,
+      "pixel_center": [
+        1255,
+        149
+      ],
+      "native_center_RGB": [
+        53,
+        185,
+        115
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7573,
+      "yplus": 169.2990903,
+      "pixel_center": [
+        324,
+        141
+      ],
+      "native_center_RGB": [
+        211,
+        229,
+        36
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7578,
+      "yplus": 40.23124347,
+      "pixel_center": [
+        2963,
+        520
+      ],
+      "native_center_RGB": [
+        72,
+        72,
+        135
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7583,
+      "yplus": 90.37161218,
+      "pixel_center": [
+        2807,
+        664
+      ],
+      "native_center_RGB": [
+        41,
+        147,
+        138
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7588,
+      "yplus": 23.96556544,
+      "pixel_center": [
+        3017,
+        540
+      ],
+      "native_center_RGB": [
+        79,
+        44,
+        124
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7593,
+      "yplus": 55.79565833,
+      "pixel_center": [
+        2535,
+        414
+      ],
+      "native_center_RGB": [
+        65,
+        96,
+        141
+      ],
+      "center_is_coloured": true
+    },
+    {
+      "cell_id": 7625,
+      "yplus": 91.05195156,
+      "pixel_center": [
+        820,
+        110
+      ],
+      "native_center_RGB": [
+        41,
+        147,
+        138
+      ],
+      "center_is_coloured": true
+    }
+  ],
+  "status": "PASS actual native image/world geometry/103 cell coverage, pending final native palette scalar verification and assembled-layout QA"
+}

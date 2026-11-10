@@ -1,0 +1,134 @@
+/display/objects/create mesh taskA-mesh
+surfaces-list full-domain ()
+edge-type all
+coloring uniform
+edges "gray"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-inlet
+surfaces-list inlet ()
+edge-type all
+coloring uniform
+edges "#009e73"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-outlet
+surfaces-list outlet ()
+edge-type all
+coloring uniform
+edges "#cc79a7"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-wall_top
+surfaces-list wall_top ()
+edge-type all
+coloring uniform
+edges "#222222"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-wall_bottom
+surfaces-list wall_bottom ()
+edge-type all
+coloring uniform
+edges "#222222"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-aerofoil_suction
+surfaces-list aerofoil_suction ()
+edge-type all
+coloring uniform
+edges "#0072b2"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-aerofoil_pressure
+surfaces-list aerofoil_pressure ()
+edge-type all
+coloring uniform
+edges "#d55e00"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/objects/create mesh taskA-aerofoil_te
+surfaces-list aerofoil_te ()
+edge-type all
+coloring uniform
+edges "#222222"
+q
+options
+edges? yes
+faces? no
+nodes? no
+q
+q
+/display/set/line-weight 1
+/display/set/overlays? no
+/display/objects/display taskA-mesh
+/display/set/overlays? yes
+/display/set/line-weight 3
+/display/objects/display taskA-inlet
+/display/objects/display taskA-outlet
+/display/objects/display taskA-wall_top
+/display/objects/display taskA-wall_bottom
+/display/objects/display taskA-aerofoil_suction
+/display/objects/display taskA-aerofoil_pressure
+/display/objects/display taskA-aerofoil_te
+/display/views/camera/projection orthographic
+/display/views/camera/target 0 0 0
+/display/views/camera/position 0 0 1
+/display/views/camera/field 1 .15
+/display/views/camera/up-vector 0 1 0
+/display/set/picture/driver/png
+/display/set/picture/x-resolution 6000
+/display/set/picture/y-resolution 900
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_full_native.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_full_native.eps"
+/display/set/picture/driver/png
+/display/views/save-view taskA-full
+/display/views/camera/target .05198367698354394 .00091690311771526 0
+/display/views/camera/position .05198367698354394 .00091690311771526 1
+/display/views/camera/field .115 .036
+/display/views/camera/up-vector 0 1 0
+/display/set/picture/x-resolution 4000
+/display/set/picture/y-resolution 1252
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_local_native.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_local_native.eps"
+/display/set/picture/driver/png
+/display/views/save-view taskA-local
+/display/views/write-views "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/camera_native.vw" taskA-full taskA-local ()
+

@@ -1,0 +1,76 @@
+{
+  "figure": 5,
+  "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig05_rsm_yplus.pdf",
+  "sha256": "b8439091310b86803e257f7f905bb67ab0aa3121fd7bef0a2545b8531e734b3a",
+  "page_size_pt": [
+    468.0,
+    187.2
+  ],
+  "native_layers": [
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_context_final.png",
+      "sha256": "7ba6411a2ad4bc104dc5af622a664b2b3606709890637b5de2453e0f83688951",
+      "source_pixels": [
+        3600,
+        1179
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\case03_yplus_final_calibration.json",
+      "calibration_sha256": "b48e3adfd719698e0a037faddbdd9b1ce9be0db154d7f74f8d4bff5ec56bcc29",
+      "pdf_image_position_size_pt": [
+        37.84793991840972,
+        42.63689149814857,
+        356.6719609662978,
+        116.81006721646253
+      ],
+      "clip_rectangle_pt": [
+        38.025,
+        42.705,
+        356.265,
+        116.7075
+      ],
+      "uniform_scale_pt_per_pixel": 0.0990755447128605,
+      "effective_source_dpi": 726.7181846808867,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "native_donor": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\yplus_native_legend_valid.png",
+      "native_donor_sha256": "e4b6ec1bdd9e47d256a2ccb72f5dc2ffaf9ac0b12e1c9be4d61778bb4c93e4f3",
+      "crop_box_pixels": [
+        48,
+        483,
+        51,
+        1168
+      ],
+      "rotation": "none",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig05_yplus_native_colour_strip.png",
+      "sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d",
+      "RGB_policy": "Only exact native pixel crop/transpose. No palette generation or recolouring; bar aspect reflow is independent of physical field geometry.",
+      "pdf_box_pt": [
+        415.35,
+        42.705,
+        9.36,
+        116.7075
+      ]
+    },
+    {
+      "role": "Non-native annotation only",
+      "type": "red bracket above complete five-cell region",
+      "cell_ids": [
+        69,
+        2573,
+        7251,
+        7316,
+        7588
+      ],
+      "extent_from_actual_native_mesh_vertices_m": [
+        0.08804036632459156,
+        0.09952801966842195,
+        -0.0011851056939060935
+      ],
+      "native_colour_fill_unchanged": true
+    }
+  ],
+  "scientific_content": "Native Fluent PNGs only; vector content is annotation/axes/text only.",
+  "pdf_image_count": 2
+}

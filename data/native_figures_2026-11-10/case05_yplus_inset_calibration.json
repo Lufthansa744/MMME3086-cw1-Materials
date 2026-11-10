@@ -1,0 +1,138 @@
+{
+  "native_source": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_inset_thin_final.png",
+    "sha256": "4e0c1a3baf183bc7c5462c31e6849c39e7c2d19f11d97f22a027c074631ce90d",
+    "pixels": [
+      2400,
+      933
+    ]
+  },
+  "axis_aligned_native_camera_constraint": true,
+  "scale_pixels_per_m": 1332857.142857143,
+  "world_to_pixel_offset": [
+    366.11229335623125,
+    10182.80091712411
+  ],
+  "world_to_pixel_matrix": [
+    [
+      1332857.142857143,
+      0
+    ],
+    [
+      0,
+      -1332857.142857143
+    ]
+  ],
+  "outline_fit_error_pixels": {
+    "p95": 1.8656173946740182,
+    "max": 1.8656173946740182
+  },
+  "calibration_acceptance_tolerance_pixels": 2.0,
+  "method": "Actual native orthographic camera target/field/up0; scale confirmed independently against five horizontal sections of actual maximum-cell native coloured-strip boundaries.",
+  "independent_review": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10\\case05_native_inset_rake_audit.json",
+    "sha256": "41556b71b4d7a3098b072f516e4e633a6b4914655a798080912b3bb7bc265c33",
+    "record": {
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_inset_thin_final.png",
+      "sha256": "4e0c1a3baf183bc7c5462c31e6849c39e7c2d19f11d97f22a027c074631ce90d",
+      "pixel_size": [
+        2400,
+        933
+      ],
+      "orthographic_scale_px_per_m": 1332857.142857143,
+      "sections": [
+        {
+          "native_row": 50,
+          "world_y_m": 0.0076019407257427,
+          "actual_quad_expected_x_pixels": [
+            1355.8302403872872,
+            1384.213760154663
+          ],
+          "native_colour_run_x_pixels": [
+            1356,
+            1383
+          ],
+          "max_endpoint_error_px": 1.2137601546630776,
+          "native_RGB_inside_cell": [
+            135,
+            216,
+            60
+          ]
+        },
+        {
+          "native_row": 200,
+          "world_y_m": 0.007489400532816655,
+          "actual_quad_expected_x_pixels": [
+            1294.5671022958388,
+            1322.865617394674
+          ],
+          "native_colour_run_x_pixels": [
+            1295,
+            1321
+          ],
+          "max_endpoint_error_px": 1.8656173946740182,
+          "native_RGB_inside_cell": [
+            135,
+            216,
+            60
+          ]
+        },
+        {
+          "native_row": 466,
+          "world_y_m": 0.007289829257361135,
+          "actual_quad_expected_x_pixels": [
+            1185.927137413671,
+            1214.074910900294
+          ],
+          "native_colour_run_x_pixels": [
+            1186,
+            1213
+          ],
+          "max_endpoint_error_px": 1.0749109002940713,
+          "native_RGB_inside_cell": [
+            135,
+            216,
+            60
+          ]
+        },
+        {
+          "native_row": 700,
+          "world_y_m": 0.007114266556396505,
+          "actual_quad_expected_x_pixels": [
+            1090.356641991012,
+            1118.3718081947115
+          ],
+          "native_colour_run_x_pixels": [
+            1091,
+            1117
+          ],
+          "max_endpoint_error_px": 1.371808194711548,
+          "native_RGB_inside_cell": [
+            135,
+            216,
+            60
+          ]
+        },
+        {
+          "native_row": 850,
+          "world_y_m": 0.00700172636347046,
+          "actual_quad_expected_x_pixels": [
+            1029.0935038995638,
+            1057.0236654347225
+          ],
+          "native_colour_run_x_pixels": [
+            1030,
+            1056
+          ],
+          "max_endpoint_error_px": 1.0236654347224885,
+          "native_RGB_inside_cell": [
+            135,
+            216,
+            60
+          ]
+        }
+      ],
+      "geometry_not_exaggerated": true
+    }
+  }
+}

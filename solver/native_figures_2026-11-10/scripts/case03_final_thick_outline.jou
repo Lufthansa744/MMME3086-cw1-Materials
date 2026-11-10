@@ -1,0 +1,80 @@
+/preferences/graphics/graphics-window-line-width "Automatic"
+/display/set/rendering-options/hidden-surfaces? yes
+/display/objects/create vector final-c3-velocity
+field velocity-magnitude
+vector-field velocity
+surfaces-list full-domain ()
+range-option auto-range-off
+minimum 0
+maximum 120
+q
+scale
+auto-scale? no
+scale-f .000075
+q
+skip 3
+style "3d arrow"
+vector-opt
+fixed-length? no
+scale-head .4
+q
+color-map
+color "sequential-viridis"
+size 100
+visible? no
+q
+q
+/display/objects/create mesh final-c3-foil
+surfaces-list aerofoil_te aerofoil_pressure aerofoil_suction ()
+edge-type outline
+coloring uniform
+edges "black"
+faces "black"
+q
+options
+faces? yes
+edges? yes
+nodes? no
+q
+q
+/display/set/overlays? no
+/display/objects/display final-c3-velocity
+/display/set/overlays? yes
+/display/objects/display final-c3-foil
+/display/views/camera/projection orthographic
+/display/views/camera/target .105 -.0075 0
+/display/views/camera/position .105 -.0075 1
+/display/views/camera/field .24 .085
+/display/views/camera/up-vector 0 1 0
+/preferences/graphics/hardcopy-settings/hardcopy-line-width 5
+/display/set/picture/x-resolution 3600
+/display/set/picture/y-resolution 1275
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_75us_outline5.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_75us_outline5.eps"
+/display/set/picture/driver/png
+/display/objects/edit final-c3-velocity
+vector-opt
+fixed-length? yes
+q
+scale
+scale-f .0015
+q
+skip 1
+q
+/display/set/overlays? no
+/display/objects/display final-c3-velocity
+/display/set/overlays? yes
+/display/objects/display final-c3-foil
+/display/views/camera/target .105 -.01 0
+/display/views/camera/position .105 -.01 1
+/display/views/camera/field .04 .024
+/display/views/camera/up-vector 0 1 0
+/preferences/graphics/hardcopy-settings/hardcopy-line-width 9
+/display/set/picture/x-resolution 2400
+/display/set/picture/y-resolution 1440
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_normalised_te_outline9.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case03/velocity_native_normalised_te_outline9.eps"
+/display/set/picture/driver/png
+

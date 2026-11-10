@@ -1,0 +1,55 @@
+/surface/rake-surface native-dense-row-00 -.0075 -0.027500000000 .2275 -0.027500000000 45
+/surface/rake-surface native-dense-row-01 -.0075 -0.022954545455 .2275 -0.022954545455 45
+/surface/rake-surface native-dense-row-02 -.0075 -0.018409090909 .2275 -0.018409090909 45
+/surface/rake-surface native-dense-row-03 -.0075 -0.013863636364 .2275 -0.013863636364 45
+/surface/rake-surface native-dense-row-04 -.0075 -0.009318181818 .2275 -0.009318181818 45
+/surface/rake-surface native-dense-row-05 -.0075 -0.004772727273 .2275 -0.004772727273 45
+/surface/rake-surface native-dense-row-06 -.0075 -0.000227272727 .2275 -0.000227272727 45
+/surface/rake-surface native-dense-row-07 -.0075 0.004318181818 .2275 0.004318181818 45
+/surface/rake-surface native-dense-row-08 -.0075 0.008863636364 .2275 0.008863636364 45
+/surface/rake-surface native-dense-row-09 -.0075 0.013409090909 .2275 0.013409090909 45
+/surface/rake-surface native-dense-row-10 -.0075 0.017954545455 .2275 0.017954545455 45
+/surface/rake-surface native-dense-row-11 -.0075 0.022500000000 .2275 0.022500000000 45
+/display/objects/create vector case5-dense-native
+field velocity-magnitude
+vector-field velocity
+surfaces-list native-dense-row-00 native-dense-row-01 native-dense-row-02 native-dense-row-03 native-dense-row-04 native-dense-row-05 native-dense-row-06 native-dense-row-07 native-dense-row-08 native-dense-row-09 native-dense-row-10 native-dense-row-11 ()
+range-option auto-range-off
+minimum 0
+maximum 120
+q
+scale
+auto-scale? no
+scale-f .000075
+q
+skip 0
+style "3d arrow"
+vector-opt
+fixed-length? no
+scale-head .4
+q
+color-map
+color "sequential-viridis"
+size 100
+visible? no
+q
+q
+/display/set/line-weight 2
+/display/set/overlays? no
+/display/objects/display case5-dense-native
+/display/set/overlays? yes
+/display/objects/display case5-foil-outline
+/display/views/camera/target .11 -.0025 0
+/display/views/camera/position .11 -.0025 1
+/display/views/camera/field .24 .055
+/display/views/camera/up-vector 0 1 0
+/display/set/picture/x-resolution 3600
+/display/set/picture/y-resolution 825
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_dense_75us_final.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_dense_75us_final.eps"
+/display/set/picture/driver/png
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/native_rake_dense_velocity_evidence.csv" native-dense-row-00 native-dense-row-01 native-dense-row-02 native-dense-row-03 native-dense-row-04 native-dense-row-05 native-dense-row-06 native-dense-row-07 native-dense-row-08 native-dense-row-09 native-dense-row-10 native-dense-row-11 () yes x-velocity y-velocity velocity-magnitude () no
+/display/views/save-view case5-dense-final
+/display/views/write-views "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/camera_dense_final.vw" case5-dense-final case5-yplus-full case5-yplus-max ()
+

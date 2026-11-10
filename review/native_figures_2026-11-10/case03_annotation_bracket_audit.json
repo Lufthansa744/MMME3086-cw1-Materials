@@ -1,0 +1,16 @@
+{
+  "actual_low_yplus_ids": [
+    69,
+    2573,
+    7251,
+    7316,
+    7588
+  ],
+  "expected_actual_mesh_extent": [
+    0.08804036632459156,
+    0.09952801966842195,
+    -0.0011851056939060935
+  ],
+  "composition_bracket_IDs_and_extent_exact_match": true,
+  "annotation_outside_actual_colour_polygons_by_1p2mm": true
+}

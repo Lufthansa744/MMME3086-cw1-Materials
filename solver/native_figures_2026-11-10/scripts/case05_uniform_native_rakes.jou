@@ -1,0 +1,52 @@
+/surface/rake-surface native-vector-row-00 -.01 -0.0275 .23 -0.0275 41
+/surface/rake-surface native-vector-row-01 -.01 -0.0225 .23 -0.0225 41
+/surface/rake-surface native-vector-row-02 -.01 -0.0175 .23 -0.0175 41
+/surface/rake-surface native-vector-row-03 -.01 -0.0125 .23 -0.0125 41
+/surface/rake-surface native-vector-row-04 -.01 -0.0075 .23 -0.0075 41
+/surface/rake-surface native-vector-row-05 -.01 -0.0025 .23 -0.0025 41
+/surface/rake-surface native-vector-row-06 -.01 0.0025 .23 0.0025 41
+/surface/rake-surface native-vector-row-07 -.01 0.0075 .23 0.0075 41
+/surface/rake-surface native-vector-row-08 -.01 0.0125 .23 0.0125 41
+/surface/rake-surface native-vector-row-09 -.01 0.0175 .23 0.0175 41
+/surface/rake-surface native-vector-row-10 -.01 0.0225 .23 0.0225 41
+/display/objects/create vector case5-uniform-native
+field velocity-magnitude
+vector-field velocity
+surfaces-list native-vector-row-00 native-vector-row-01 native-vector-row-02 native-vector-row-03 native-vector-row-04 native-vector-row-05 native-vector-row-06 native-vector-row-07 native-vector-row-08 native-vector-row-09 native-vector-row-10 ()
+range-option auto-range-off
+minimum 0
+maximum 120
+q
+scale
+auto-scale? no
+scale-f .000075
+q
+skip 0
+style "3d arrow"
+vector-opt
+fixed-length? no
+scale-head .4
+q
+color-map
+color "sequential-viridis"
+size 100
+visible? no
+q
+q
+/display/set/line-weight 2
+/display/set/overlays? no
+/display/objects/display case5-uniform-native
+/display/set/overlays? yes
+/display/objects/display case5-foil-outline
+/display/views/camera/target .11 -.0025 0
+/display/views/camera/position .11 -.0025 1
+/display/views/camera/up-vector 0 1 0
+/display/views/camera/field .24 .055
+/display/set/picture/x-resolution 3600
+/display/set/picture/y-resolution 825
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_75us.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/velocity_native_rakes_75us.eps"
+/display/set/picture/driver/png
+/file/export/ascii "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/case05/native_rake_velocity_evidence.csv" native-vector-row-00 native-vector-row-01 native-vector-row-02 native-vector-row-03 native-vector-row-04 native-vector-row-05 native-vector-row-06 native-vector-row-07 native-vector-row-08 native-vector-row-09 native-vector-row-10 () yes x-velocity y-velocity velocity-magnitude () no
+

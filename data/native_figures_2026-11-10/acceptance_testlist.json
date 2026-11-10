@@ -1,0 +1,207 @@
+{
+  "reference_audit_sha256": "bab567b142a5292951abe35193486d885577f99be349198749373707303118b4",
+  "tests": [
+    {
+      "figure": 2,
+      "status": "pending final native candidate",
+      "overall_pdf_size_pt": [
+        453.53600000000006,
+        209.76040000000003
+      ],
+      "required_tests": [
+        "Exact PDF MediaBox/CropBox and matching PNG aspect; no old-template height substitution",
+        "Every scientific field/mesh/cell/vector raster or EPS traceable to an untouched native Fluent export and actual saved Case/Data",
+        "Calibration from actual native projection/mesh geometry; preserve equal x/y physical scale and axis-aligned final camera",
+        "Native image RGB bytes preserved in PDF image objects; no scientific recolouring, arrow/cell redrawing, sharpening or inflation",
+        "Match authority world limits and retain all required panels, scalar bars, native foil outlines and required quantity labels",
+        "Native scalar-strip crop comes from same-field/range native donor; no generated palette; ticks correctly oriented",
+        "Base annotation fonts at least the matching authority size; no clipping/overlap; leaders do not mask native information",
+        "Review at actual physical size and 300 dpi, plus old-versus-native side-by-side proof at equal size",
+        "Independent review confirms geometry, native source hashes, colour/field semantics, limits and final view quality",
+        "All seven boundary names remain, 1000/150 dimensions preserved, outlet separate from 150mm arrow",
+        "Native full/local mesh detail not inferior at 160x74mm; preserve x(mm) bottom clearance and50tick separation"
+      ],
+      "panels": [
+        {
+          "name": "full aligned native baseline mesh",
+          "physical_size_mm": [
+            129.99790555555558,
+            19.499685833333338
+          ],
+          "world_bounds_m": [
+            -0.5,
+            0.5,
+            -0.075,
+            0.075
+          ]
+        },
+        {
+          "name": "local foil native mesh",
+          "physical_size_mm": [
+            103.4983325,
+            32.39947800000001
+          ],
+          "world_bounds_m": [
+            -0.00551632301645605,
+            0.10948367698354394,
+            -0.01708309688228474,
+            0.01891690311771526
+          ]
+        }
+      ]
+    },
+    {
+      "figure": 4,
+      "status": "pending final native candidate",
+      "overall_pdf_size_pt": [
+        468.0,
+        184.275
+      ],
+      "required_tests": [
+        "Exact PDF MediaBox/CropBox and matching PNG aspect; no old-template height substitution",
+        "Every scientific field/mesh/cell/vector raster or EPS traceable to an untouched native Fluent export and actual saved Case/Data",
+        "Calibration from actual native projection/mesh geometry; preserve equal x/y physical scale and axis-aligned final camera",
+        "Native image RGB bytes preserved in PDF image objects; no scientific recolouring, arrow/cell redrawing, sharpening or inflation",
+        "Match authority world limits and retain all required panels, scalar bars, native foil outlines and required quantity labels",
+        "Native scalar-strip crop comes from same-field/range native donor; no generated palette; ticks correctly oriented",
+        "Base annotation fonts at least the matching authority size; no clipping/overlap; leaders do not mask native information",
+        "Review at actual physical size and 300 dpi, plus old-versus-native side-by-side proof at equal size",
+        "Independent review confirms geometry, native source hashes, colour/field semantics, limits and final view quality",
+        "Speed arrows discernible and direction clear at99.06mm main and35.08mm TE inset widths",
+        "Main arrows speed-scaled, TE normalised; label accurate",
+        "Native foil outline visibility not below authority (old approximately0.44pt)"
+      ],
+      "panels": [
+        {
+          "name": "main velocity/foil/wake",
+          "physical_size_mm": [
+            99.06,
+            35.083749999999995
+          ],
+          "world_bounds_m": [
+            -0.015,
+            0.225,
+            -0.05,
+            0.035
+          ]
+        },
+        {
+          "name": "trailing-edge direction inset",
+          "physical_size_mm": [
+            35.083749999999995,
+            21.05025
+          ],
+          "world_bounds_m": [
+            0.085,
+            0.125,
+            -0.022,
+            0.002
+          ]
+        }
+      ]
+    },
+    {
+      "figure": 5,
+      "status": "pending final native candidate",
+      "overall_pdf_size_pt": [
+        468.0,
+        187.2
+      ],
+      "required_tests": [
+        "Exact PDF MediaBox/CropBox and matching PNG aspect; no old-template height substitution",
+        "Every scientific field/mesh/cell/vector raster or EPS traceable to an untouched native Fluent export and actual saved Case/Data",
+        "Calibration from actual native projection/mesh geometry; preserve equal x/y physical scale and axis-aligned final camera",
+        "Native image RGB bytes preserved in PDF image objects; no scientific recolouring, arrow/cell redrawing, sharpening or inflation",
+        "Match authority world limits and retain all required panels, scalar bars, native foil outlines and required quantity labels",
+        "Native scalar-strip crop comes from same-field/range native donor; no generated palette; ticks correctly oriented",
+        "Base annotation fonts at least the matching authority size; no clipping/overlap; leaders do not mask native information",
+        "Review at actual physical size and 300 dpi, plus old-versus-native side-by-side proof at equal size",
+        "Independent review confirms geometry, native source hashes, colour/field semantics, limits and final view quality",
+        "103 real wall-adjacent triangles; native whole-cell filling and node-interpolation disabled",
+        "Native y+range19.5684\u2013170.9392, max/min/TE labels correct",
+        "Five suction-side cells below30 described accurately; do not falsely label non-native red cell outlines as native"
+      ],
+      "panels": [
+        {
+          "name": "full baseline foil and actual adjacent triangles",
+          "physical_size_mm": [
+            125.682375,
+            41.171812499999994
+          ],
+          "world_bounds_m": [
+            -0.008,
+            0.108,
+            -0.024,
+            0.014
+          ]
+        }
+      ]
+    },
+    {
+      "figure": 6,
+      "status": "pending final native candidate",
+      "overall_pdf_size_pt": [
+        468.0,
+        405.35433071
+      ],
+      "required_tests": [
+        "Exact PDF MediaBox/CropBox and matching PNG aspect; no old-template height substitution",
+        "Every scientific field/mesh/cell/vector raster or EPS traceable to an untouched native Fluent export and actual saved Case/Data",
+        "Calibration from actual native projection/mesh geometry; preserve equal x/y physical scale and axis-aligned final camera",
+        "Native image RGB bytes preserved in PDF image objects; no scientific recolouring, arrow/cell redrawing, sharpening or inflation",
+        "Match authority world limits and retain all required panels, scalar bars, native foil outlines and required quantity labels",
+        "Native scalar-strip crop comes from same-field/range native donor; no generated palette; ticks correctly oriented",
+        "Base annotation fonts at least the matching authority size; no clipping/overlap; leaders do not mask native information",
+        "Review at actual physical size and 300 dpi, plus old-versus-native side-by-side proof at equal size",
+        "Independent review confirms geometry, native source hashes, colour/field semantics, limits and final view quality",
+        "Retain143mm stacked full-size layout with fullfoil y+ and equal-scale maximum inset",
+        "413 actual wall-adjacent cells and native y+0.1473\u20136.58591; do not thicken thin cells",
+        "Main native rake interpolation/sampling disclosed and title notcell-centred",
+        "Use native exported velocity magnitude for colour, not recomputed hypot interpolatedUV",
+        "Native sampled arrows inside solid omitted or concealed by a native solid surface; no external data masking"
+      ],
+      "panels": [
+        {
+          "name": "(a) enhanced velocity/foil/wake",
+          "physical_size_mm": [
+            125.47599999999998,
+            28.754916666666663
+          ],
+          "world_bounds_m": [
+            -0.01,
+            0.23,
+            -0.03,
+            0.025
+          ]
+        },
+        {
+          "name": "(b) all enhanced foil-adjacent cells",
+          "physical_size_mm": [
+            125.47599999999998,
+            32.45068969166667
+          ],
+          "world_bounds_m": [
+            -0.008,
+            0.108,
+            -0.016,
+            0.014
+          ]
+        },
+        {
+          "name": "equal-scale max-y+ cell inset",
+          "physical_size_mm": [
+            41.142857142831666,
+            16.00000000001361
+          ],
+          "world_bounds_m": [
+            -0.000274360798096,
+            0.001525639201923,
+            0.006939829262451,
+            0.007639829262523
+          ]
+        }
+      ]
+    }
+  ],
+  "rule": "No final recommendation until all required tests and independent print-size proof QA pass."
+}

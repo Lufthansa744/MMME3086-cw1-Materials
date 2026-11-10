@@ -2,9 +2,11 @@
 
 Student **20617209** · inlet **50.9 m/s** · five prescribed cases complete.
 
-**Start with [MAC_HANDOFF.md](MAC_HANDOFF.md).** The numerical work and report content have independent review. The latest source uses the approved AIAA class, thirteen figures and vector PDF scientific plots. **The report has not been compiled or checked as a rendered final PDF. Compile only in the approved Overleaf project.**
+**10 November native-artwork update:** For the current Mac report, start with [the native Figure 2/4/5/6 handoff](report/native_fluent_2026-11-10/MAC_NATIVE_FIGURE_HANDOFF.md). It preserves the attached Mac PDF's exact artwork boxes, uses native Fluent scientific layers and keeps Figure 1's verified native SpaceClaim pictures. Replace the selected artwork only; the historical Windows source ZIP below must not overwrite the newer Mac report. Native images, reproducible display controls and independent checks accompany the new assets. Report compilation remains an Overleaf-only step on Mac.
 
-## Current report
+The historical [Windows handoff](MAC_HANDOFF.md) records the numerical work and independent content review. Its source uses the approved AIAA class and thirteen figures; that Windows package was not compiled locally. The newer nine-page Mac PDF supplied on 10 November is the layout reference for the native-artwork update. **After replacing the artwork, compile and inspect the updated report only in the approved Overleaf project.**
+
+## Historical Windows source package
 
 Figure 2 artwork was corrected on 7 November: the outlet label and 150 mm dimension are separated, and the bottom axis label has clear canvas margins. Mac can replace the single active asset, `report/prepared/fig02_mesh_bc.png`; the source ZIP includes the same correction. See `review/figure2_annotation_review.md`.
 

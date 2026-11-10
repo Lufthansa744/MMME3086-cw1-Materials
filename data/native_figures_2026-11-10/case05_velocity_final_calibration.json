@@ -1,0 +1,82 @@
+{
+  "native_source": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\velocity_native_rakes_dense_75us_final.png",
+    "sha256": "d3f4ea91936e00b91b4eae36e7d635863b60a348d24760cdbf9a764b08a4477c",
+    "pixels": [
+      3600,
+      825
+    ]
+  },
+  "mesh": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\inputs\\Aerofoil8-degAoA-enhancedBL.msh",
+    "sha256": "3b823ee36532e037e1eb654a2306e9ad3e362d8bf60703ca0030ef85ae4bd47e",
+    "foil_face_count": 413
+  },
+  "method": "Match achromatic native black-outline pixel centres to the exact original mesh boundary segments using iterative closest points and a four-parameter equal-scale similarity. No data layer is edited, traced into a final figure or generated.",
+  "selected_outline_pixel_count": 2400,
+  "all_black_outline_pixel_count": 5334,
+  "iterations": 150,
+  "axis_aligned_native_camera_constraint": true,
+  "world_to_pixel_matrix": [
+    [
+      14992.777621095262,
+      0.0
+    ],
+    [
+      0.0,
+      -14992.777621095262
+    ]
+  ],
+  "world_to_pixel_offset": [
+    151.39866834225762,
+    375.03447547209265
+  ],
+  "scale_pixels_per_m": 14992.777621095262,
+  "native_camera_roll_deg": 0.0,
+  "pixel_corner_world_coordinates_m": [
+    [
+      -0.01009810671301063,
+      0.025014342568811833
+    ],
+    [
+      0.23001750701654258,
+      0.025014342568811833
+    ],
+    [
+      0.23001750701654258,
+      -0.03001215224421078
+    ],
+    [
+      -0.01009810671301063,
+      -0.03001215224421078
+    ]
+  ],
+  "outline_fit_error_pixels": {
+    "weighted_rms": 0.45073349121397555,
+    "median": 0.4354285885701566,
+    "p95": 0.8577431474476851,
+    "max": 1.0715248532827075
+  },
+  "free_affine_diagnostic": {
+    "singular_values_pixels_per_m": [
+      14998.793548882984,
+      14992.35448654754
+    ],
+    "relative_axis_scale_difference": 0.0004294897336654113,
+    "matrix": [
+      [
+        14992.42524621828,
+        -0.07650688248628512,
+        151.41515966811463
+      ],
+      [
+        1.2661670098783084,
+        -14998.722765617094,
+        374.9761186329899
+      ]
+    ],
+    "not_for_image_placement": true
+  },
+  "status": "Provisional numeric calibration; independent inspection of the black mask and original native outline is required before composition.",
+  "script_sha256": "40638ede728192f4f6b0f5c0cc371c458b5b6507e233dc948e9d2f452bd244ca"
+}

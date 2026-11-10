@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "fluent.exe",
+    "ProcessId": 316,
+    "ParentProcessId": 23372,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\ntbin\\win64\\fluent.exe\" 2ddp -t1 -gu -wait"
+  },
+  {
+    "Name": "cx2220.exe",
+    "ProcessId": 21288,
+    "ParentProcessId": 316,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\fluent22.2.0\\cortex\\win64\\cx2220.exe\" -newcx -gu -f fl \"(fluent \\\"2ddp -r22.2.0   -ic=default -host -t1 \\\")\""
+  },
+  {
+    "Name": "fluent.exe",
+    "ProcessId": 10488,
+    "ParentProcessId": 21288,
+    "CommandLine": "fluent -wait 2ddp -r22.2.0   -ic=default -host -t1  -cx DESKTOP-KUJ9RI4:36301:36302"
+  },
+  {
+    "Name": "fl_mpi2220.exe",
+    "ProcessId": 23772,
+    "ParentProcessId": 2052,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\fluent22.2.0\\win64\\2ddp_node\\fl_mpi2220.exe\" -mport 127.0.0.1:127.0.0.1:36318:0 node -mpiw intel -pic default"
+  }
+]

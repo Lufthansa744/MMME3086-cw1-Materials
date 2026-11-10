@@ -1,0 +1,61 @@
+{
+  "native_source": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_local_native_interioronly.png",
+    "sha256": "f5860b9422bbe3bee73d686f8ff08b5ea47037e2b6f8c9ba8b86e63bbf9d04dd",
+    "pixels": [
+      4000,
+      1252
+    ]
+  },
+  "mesh": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_baseline.msh",
+    "sha256": "614e5eee90b0cadab2ba590711e98d79e9f02555f64c6881780ad099e02293be",
+    "counts": {
+      "nodes": 4029,
+      "cells": 7687,
+      "faces": 11716
+    }
+  },
+  "axis_aligned_native_camera_constraint": true,
+  "scale_pixels_per_m": 34777.77777777778,
+  "world_to_pixel_matrix": [
+    [
+      34777.77777777778,
+      0
+    ],
+    [
+      0,
+      -34777.77777777778
+    ]
+  ],
+  "world_to_pixel_offset": [
+    192.1232384112143,
+    657.8878536474788
+  ],
+  "method": "Use actual saved native orthographic target/field plus uniform image scale; verify every visible original mesh face midpoint against the native raster. Do not infer the whole PNG world frame from aspect ratio alone.",
+  "camera_evidence": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\camera_native_final.vw",
+    "sha256": "1a9392f08a9627d72cae97fb2e8c212ea6b536e0c593c77da6eff9651f6994ef",
+    "centre_m": [
+      0.05198367685079575,
+      0.0009169031400233507
+    ],
+    "field_m": [
+      0.115,
+      0.036
+    ],
+    "up": [
+      -4.753554094349965e-05,
+      1,
+      0
+    ]
+  },
+  "actual_original_face_midpoint_count": 2005,
+  "actual_midpoint_match_fraction_within2pixels": 0.9995012468827931,
+  "decoy_shift8x7_match_fraction_within2pixels": 0.13117206982543642,
+  "outline_fit_error_pixels": {
+    "p95": 1.138830130921369,
+    "max": 2.0049772471001273
+  },
+  "calibration_acceptance_tolerance_pixels": 2.0
+}

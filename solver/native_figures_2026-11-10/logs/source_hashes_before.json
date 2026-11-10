@@ -1,0 +1,22 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "98F7CC369342E0B2166BDA25F8EEE286DF3380F2AC366A04A64D92977558C8EF",
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.cas.h5"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "396FB59E65583F92BE92838FDDFD97409C54B11BED0E6AAEAB2522BE6C9ADE20",
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.dat.h5"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "69EE26962427A78F05F9FBE2AD1C7B30E78C562E81457138316099CFB2F6D1EE",
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.cas.h5"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2F5254C3A924EC61F75BAEC2AA44615BE9C243BA78EEDEBB39069D1F6131842E",
+    "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.dat.h5"
+  }
+]

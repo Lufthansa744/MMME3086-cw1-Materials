@@ -1,0 +1,54 @@
+[
+  {
+    "name": "fig02_mesh_bc",
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig02_mesh_bc.pdf",
+    "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+    "bytes": 1005416,
+    "delivery_data_bytes_identical": true,
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10\\final_renders\\fig02_mesh_bc.png",
+    "render_pixels": [
+      1890,
+      875
+    ],
+    "final_data_print300_pixel_identical_to_independent_render": true
+  },
+  {
+    "name": "fig04_rsm_vectors",
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig04_rsm_vectors.pdf",
+    "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+    "bytes": 231840,
+    "delivery_data_bytes_identical": true,
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10\\final_renders\\fig04_rsm_vectors.png",
+    "render_pixels": [
+      1950,
+      768
+    ],
+    "final_data_print300_pixel_identical_to_independent_render": true
+  },
+  {
+    "name": "fig05_rsm_yplus",
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig05_rsm_yplus.pdf",
+    "sha256": "b8439091310b86803e257f7f905bb67ab0aa3121fd7bef0a2545b8531e734b3a",
+    "bytes": 479578,
+    "delivery_data_bytes_identical": true,
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10\\final_renders\\fig05_rsm_yplus.png",
+    "render_pixels": [
+      1950,
+      780
+    ],
+    "final_data_print300_pixel_identical_to_independent_render": true
+  },
+  {
+    "name": "fig06_enhanced_combined",
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10\\fig06_enhanced_combined.pdf",
+    "sha256": "aa711b5949b6def03020746051eb435fdf9cc628eef39303b04c05da785b356c",
+    "bytes": 296048,
+    "delivery_data_bytes_identical": true,
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10\\final_renders\\fig06_enhanced_combined.png",
+    "render_pixels": [
+      1950,
+      1689
+    ],
+    "final_data_print300_pixel_identical_to_independent_render": true
+  }
+]

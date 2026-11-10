@@ -1,0 +1,62 @@
+{
+  "reference_pdf": "C:\\Users\\A320N\\.codex\\attachments\\fc6dc3e5-27d8-430a-8e56-dc5017c294c6\\MMME3086_CFD_Coursework_2026___Yang_LIU_20617209-4.pdf",
+  "attachment_Fig1_Fig2_identity": [
+    {
+      "PDF_image": "Im1",
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure1_native_compact.png",
+      "decoded_pixels_identical": true,
+      "pixels": [
+        3200,
+        1060
+      ]
+    },
+    {
+      "PDF_image": "Im2",
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\taskA\\figure2_mesh_compact.png",
+      "decoded_pixels_identical": true,
+      "pixels": [
+        3200,
+        1480
+      ]
+    }
+  ],
+  "Figure1_native_source_crop_checks": [
+    {
+      "native_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_geometry_native.png",
+      "native_source_sha256": "22127597b9fdff6b077ac8f421967e1f173b638e5faa862d8b0a86fc9ec42ede",
+      "crop_box": [
+        109,
+        423,
+        2111,
+        733
+      ],
+      "embedded_crop_pixels_identical_to_native_source": true,
+      "placement": {
+        "x": "100",
+        "y": "65",
+        "width": "1350",
+        "height": "209.04095904095905",
+        "preserveAspectRatio": "xMidYMid meet"
+      }
+    },
+    {
+      "native_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\aligned_taskA\\taskA_geometry_native_local.png",
+      "native_source_sha256": "81183e2108a2b067ebd09b01adb52e3363f4a9b6ea6194887b2da53babaae922",
+      "crop_box": [
+        435,
+        408,
+        1785,
+        709
+      ],
+      "embedded_crop_pixels_identical_to_native_source": true,
+      "placement": {
+        "x": "340",
+        "y": "285",
+        "width": "920",
+        "height": "205.1259259259259",
+        "preserveAspectRatio": "xMidYMid meet"
+      }
+    }
+  ],
+  "disposition": "Figure1 contains original native SpaceClaim image pixels, uniformly cropped/placed with external dimensions/labels; it is not an externally reconstructed geometry field. Part A FAQ permits screenshots. Figure2 remains the previous exact-data external mesh drawing, so native mesh replacement is appropriate to the current user instruction."
+}

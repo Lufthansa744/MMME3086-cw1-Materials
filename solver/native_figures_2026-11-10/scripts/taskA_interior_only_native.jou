@@ -1,0 +1,38 @@
+/display/objects/create mesh taska-interior-only
+surfaces-list native-interior-edges ()
+edge-type outline
+coloring uniform
+edges "light gray"
+faces "light gray"
+q
+options
+faces? yes
+edges? yes
+nodes? no
+q
+q
+/display/set/overlays? no
+/display/objects/display taska-interior-only
+/display/set/overlays? yes
+/display/objects/display taska-inlet
+/display/objects/display taska-outlet
+/display/objects/display taska-wall_top
+/display/objects/display taska-wall_bottom
+/display/objects/display taska-aerofoil_suction
+/display/objects/display taska-aerofoil_pressure
+/display/objects/display taska-aerofoil_te
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_local_native_interioronly.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_local_native_interioronly.eps"
+/display/set/picture/driver/png
+/display/views/camera/target 0 0 0
+/display/views/camera/position 0 0 1
+/display/views/camera/field 1 .15
+/display/views/camera/up-vector 0 1 0
+/display/set/picture/x-resolution 6000
+/display/set/picture/y-resolution 900
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_full_native_interioronly.png"
+/display/set/picture/driver/eps
+/display/save-picture "C:/Users/A320N/Documents/ChatGPT/MMME3086 cw1/solver/native_figures_2026-11-10/taskA/mesh_full_native_interioronly.eps"
+/display/set/picture/driver/png
+
