@@ -1,0 +1,50 @@
+{
+  "nominal_rakes": 12,
+  "points_per_rake": 45,
+  "nominal_points": 540,
+  "actual_valid_exported_points": 506,
+  "rake_x_limits_m": [
+    -0.0675,
+    0.1675
+  ],
+  "rake_y_limits_m": [
+    -0.0275,
+    0.0225
+  ],
+  "dx_m": 0.005340909090909091,
+  "dy_m": 0.004545454545454546,
+  "figure6a_x_bounds_m": [
+    -0.07,
+    0.17
+  ],
+  "figure6a_y_bounds_m": [
+    -0.03,
+    0.025
+  ],
+  "TE_center_x_m": 0.099510483857701,
+  "visible_wake_length_after_TE_m": 0.07048951614229901,
+  "wake_length_in_chords": 0.70489516142299,
+  "wake_sampling_window_m": [
+    0.1,
+    0.17,
+    -0.015,
+    0.005
+  ],
+  "wake_native_csv_points": 65,
+  "wake_sampled_speed_range_m_s": [
+    26.57987161,
+    52.20728542
+  ],
+  "upstream_reference_sampling_window_m": [
+    -0.065,
+    -0.02,
+    -0.015,
+    0.005
+  ],
+  "upstream_sampled_speed_range_m_s": [
+    47.31285635,
+    51.53720041
+  ],
+  "interpretation": "These sampled ranges only support that a real local velocity deficit remains visible in the cropped near wake. They are not an exact wake minimum or a quantitative matched-streamline deficit.",
+  "CSV_renderer_boundary": "Native ASCII output uses cell-centered=no; it is native node-interpolated sampling evidence, not asserted identical to every renderer vector value."
+}

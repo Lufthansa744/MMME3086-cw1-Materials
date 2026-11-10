@@ -1,0 +1,228 @@
+{
+  "figure": 6,
+  "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig06_enhanced_combined.pdf",
+  "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+  "page_size_pt": [
+    468.0,
+    405.354331
+  ],
+  "native_layers": [
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case05\\velocity_native_rakes_75us_centered.png",
+      "sha256": "bdbd1384383ea248dcd9bd0dc6fa46cf237163aca7909c4d389833128c3472b2",
+      "source_pixels": [
+        3600,
+        825
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\case05_velocity_centered_calibration.json",
+      "calibration_sha256": "ed654ceb23d08939fc36c6d6cb18a756f8748575f2549b1c5ff98d7a3f1396a2",
+      "pdf_image_position_size_pt": [
+        48.99500449793214,
+        288.0419957638372,
+        355.8881638522002,
+        81.55770421612921
+      ],
+      "clip_rectangle_pt": [
+        49.14,
+        288.0638976378,
+        355.68,
+        81.51
+      ],
+      "uniform_scale_pt_per_pixel": 0.09885782329227782,
+      "effective_source_dpi": 728.3186863939802,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_full_outline8.png",
+      "sha256": "c878969f70baecc1cac9babf56bb0f9a3cdb79ecc1948461a74bfb43ab1fff4d",
+      "source_pixels": [
+        9000,
+        2328
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\case05_yplus_outline8_calibration.json",
+      "calibration_sha256": "f25534a2101f4b438f9cf7c201ecc8170fde883f7e43fc672dc61d83e3edc9cf",
+      "pdf_image_position_size_pt": [
+        49.11814559223262,
+        131.1664198623016,
+        355.6739822195364,
+        92.00100340078676
+      ],
+      "clip_rectangle_pt": [
+        49.14,
+        131.172251,
+        355.68,
+        91.986207
+      ],
+      "uniform_scale_pt_per_pixel": 0.03951933135772627,
+      "effective_source_dpi": 1821.8931729451836,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_inset_thin_final.png",
+      "sha256": "4e0c1a3baf183bc7c5462c31e6849c39e7c2d19f11d97f22a027c074631ce90d",
+      "source_pixels": [
+        2400,
+        933
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\case05_yplus_inset_calibration.json",
+      "calibration_sha256": "8bafaf71dd124b2649b69fd04f2bab8b5ff2b4dcc9623df5644833aa0bccd43f",
+      "pdf_image_position_size_pt": [
+        152.26645701870595,
+        28.346452534558182,
+        116.66708863833978,
+        45.354330708154585
+      ],
+      "clip_rectangle_pt": [
+        152.2872890889,
+        28.3464566929,
+        116.6254218222,
+        45.3543307087
+      ],
+      "uniform_scale_pt_per_pixel": 0.04861128693264157,
+      "effective_source_dpi": 1481.1375000165515,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "native_donor": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\velocity_native_legend_valid.png",
+      "native_donor_sha256": "c7430edec5c776745384038668f1b102ae86a42812301aca034475f418b9dc0e",
+      "crop_box_pixels": [
+        62,
+        483,
+        65,
+        1168
+      ],
+      "rotation": "none",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig06_speed_native_colour_strip.png",
+      "sha256": "9c69db3bfdb19bdf5b3a368070e199bc6bbfbea9da3ad9592b133312b7b6846a",
+      "RGB_policy": "Only exact native pixel crop/transpose. No palette generation or recolouring; bar aspect reflow is independent of physical field geometry.",
+      "pdf_box_pt": [
+        421.2,
+        289.133858,
+        8.424,
+        79.370079
+      ]
+    },
+    {
+      "native_donor": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_legend_valid.png",
+      "native_donor_sha256": "9c0c44da3f4e06f824d535cdfd39a1c628bc6114604ad8f575686354c3809c3a",
+      "crop_box_pixels": [
+        48,
+        483,
+        51,
+        1168
+      ],
+      "rotation": "none",
+      "output": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig06_yplus_native_colour_strip.png",
+      "sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d",
+      "RGB_policy": "Only exact native pixel crop/transpose. No palette generation or recolouring; bar aspect reflow is independent of physical field geometry.",
+      "pdf_box_pt": [
+        421.2,
+        136.062992,
+        8.424,
+        79.370079
+      ]
+    },
+    {
+      "role": "Authority typography preserved as text-only Form",
+      "source_pdf": "C:\\Users\\A320N\\.codex\\attachments\\fc6dc3e5-27d8-430a-8e56-dc5017c294c6\\MMME3086_CFD_Coursework_2026___Yang_LIU_20617209-4.pdf",
+      "original_scientific_paths_retained": false,
+      "text_operators_only": true,
+      "title_change": {
+        "original_text": "(a) Cell-centred velocity vectors and wake",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          49.14,
+          376.5738976378
+        ],
+        "replacement": "(a) Fluent-native rake-sampled velocity vectors and wake"
+      },
+      "external_annotation_replacements": [
+        {
+          "original_text": "0",
+          "original_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            61.7334375,
+            275.2396788878
+          ],
+          "replacement": "Replaced by correct centred-window tick labels -50,0,50,100,150"
+        },
+        {
+          "original_text": "50",
+          "original_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            133.606875,
+            275.2396788878
+          ],
+          "replacement": "Replaced by correct centred-window tick labels -50,0,50,100,150"
+        },
+        {
+          "original_text": "100",
+          "original_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            205.4803125,
+            275.2396788878
+          ],
+          "replacement": "Replaced by correct centred-window tick labels -50,0,50,100,150"
+        },
+        {
+          "original_text": "150",
+          "original_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            279.5803125,
+            275.2396788878
+          ],
+          "replacement": "Replaced by correct centred-window tick labels -50,0,50,100,150"
+        },
+        {
+          "original_text": "200",
+          "original_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            353.6803125,
+            275.2396788878
+          ],
+          "replacement": "Replaced by correct centred-window tick labels -50,0,50,100,150"
+        },
+        {
+          "original_text": "Zoom in (b)",
+          "replacement": "Foil enlargement: panel (b)",
+          "reason": "Moved to external inter-panel whitespace to avoid crossing native arrows."
+        }
+      ]
+    },
+    {
+      "role": "Native sampling disclosure",
+      "rakes": 12,
+      "points_per_rake": 45,
+      "requested_points": 540,
+      "rendered_fluid_points": 506,
+      "solid_points_excluded_by_native_Fluent": 34,
+      "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case05\\native_rake_centered_velocity_evidence.csv",
+      "source_sha256": "4d1295fe424ac2de9934d7b611fd6ee61a0314226d072115ea29c7e7517506b1",
+      "colour_field": "Fluent-native velocity-magnitude as rendered; no external recomputation from signedU/V",
+      "scientific_arrows": "Unchanged native raster, no external redistribution or arrow drawing"
+    }
+  ],
+  "scientific_content": "Native Fluent PNGs only; vector content is annotation/axes/text only.",
+  "pdf_image_count": 5
+}

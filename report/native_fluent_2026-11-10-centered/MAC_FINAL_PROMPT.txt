@@ -1,0 +1,13 @@
+继续完成 MMME3086 CFD coursework 的最终报告集成。我授权你读取、上传、编辑并在现有 Overleaf 项目中编译：https://www.overleaf.com/project/6aed174c208587f797ee667b 。
+
+1. 先检查 Mac 本地工作区，保留所有现有改动。读取 https://github.com/Lufthansa744/MMME3086-cw1-Materials 的 main 分支，使用 report/native_fluent_2026-11-10-centered/ 中的新整套文件。先读该目录的 MAC_NATIVE_FIGURE_HANDOFF.md、native_artwork_delivery_manifest.json，以及 review/native_figures_2026-11-10-centered/final_acceptance.json。核对四张 PDF 的 SHA256 与接受记录一致，并记录实际 Git 提交号。保留 Mac/Overleaf 当前最新正文；历史 report/prepared/ 和旧 Windows source ZIP 只作档案。
+
+2. 找到 Overleaf 实际生效的主文件及其 include 链；先前 Mac 源码为 nov09_v3/report.tex，但必须核实当前状态。在现有项目中仅替换这四个最终图文件：fig02_mesh_bc、fig04_rsm_vectors、fig05_rsm_yplus、fig06_enhanced_combined。Figures 4–6 明确引用本版 PDF；Figure 2 可用本版 PDF，若当前源码明确引用 PNG则用同目录本版 PNG。防止旧同名文件或另一目录被误用。保留现有图号、label、模板、规定 sections 和外框大小：Figure 2 约160×74 mm；Figure 4 为165.1×65.008125 mm；Figure 5 为165.1×66.04 mm；Figure 6 为165.1×143 mm，保持纵向三层结构。
+
+3. 这是已完成且独立审核的 Fluent 原生科学图层，坐标、文字和引线经过后期排版。Figure 5 已按真实翼型包围盒竖向居中，y 取景约−17.4706至20.5294 mm；Figure 6(a) 的 x 取景为−70至170 mm，翼型横向居中并保留尾缘后约70.49 mm的近尾迹。几何和物理坐标未平移或旋转。Figure 2/4 保留前版终审结果；Figure 6(b)及等比例局部图的科学内容保持。使用这些资产，不重新绘制矢量、单元颜色或翼型，不对科学层做非等比拉伸。Figure 1 保留已验证的原生 SpaceClaim 图；Figures 3、7–13 保留当前已审查图。
+
+4. 用本版 figure6_caption.tex 更新 Figure 6 图注并保留其 label，准确称为 Fluent-native rake-sampled vectors 和 near wake；不得称该规则采样图为 cell-centred。薄贴壁单元的颜色在等比例局部图中解析，不能夸大其厚度。Figure 5 的红括号标记真实五个吸力面单元的范围，属于后期标注，不应称为原生红色单元轮廓。采样数量以本版 manifest 为准，不沿用上一版的504点。所有原始数值、力、y+范围、模型/网格和收敛结论保持真实可追溯；保留 Case 2/3 的严格连续性指标未达标说明以及尚未证明网格无关性的限制。
+
+5. 只在这个 Overleaf 项目编译。保留批准的 AIAA class、规定 section 标题/顺序、学号20617209和入口50.9 m/s；其他参数依实际记录。图注在图下；展示公式后不加标点；正文必须可直接提交，无 working draft、TODO 或未解决占位符。按实际 brief/FAQ 核对字数和页数口径，保持正文与参考文献不超过规定页数，并按要求处理 AI 附录。AI 使用日志应如实涵盖实际使用的工具和本次 Codex 原生导出/拼版/审查协助，不编造工具、作者经历或日期。
+
+6. 下载实际编译的 PDF，逐页检查：四张图确为最新资产，坐标与单位正确，箭头在实际印刷尺寸可辨，翼型居中，数值标注指向正确单元；图例不遮数据，线条不穿文字，字体/括号不裁切，图注与正文不拥挤，无未定义引用、缺图和影响阅读的越界。用 Overleaf 修正必要排版并再次编译，直到这些检查通过。交付最终 PDF、与其匹配的源码包、实际页数、采用的 Git 提交号及简短验证结果。持续推进已授权工作；只有登录、权限或关键缺失信息真正阻断时才说明具体原因并提问。

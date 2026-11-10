@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "fluent.exe",
+    "ProcessId": 16080,
+    "ParentProcessId": 19216,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\ntbin\\win64\\fluent.exe\" 2ddp -t1 -gu -wait -i \"C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\scripts\\centered_native_executed.jou\""
+  },
+  {
+    "Name": "cx2220.exe",
+    "ProcessId": 28944,
+    "ParentProcessId": 16080,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\fluent22.2.0\\cortex\\win64\\cx2220.exe\" -newcx -gu -i \"C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\scripts\\centered_native_executed.jou\" -f fl \"(fluent \\\"2ddp -r22.2.0   -ic=default -host -t1 \\\")\""
+  },
+  {
+    "Name": "fluent.exe",
+    "ProcessId": 22600,
+    "ParentProcessId": 28944,
+    "CommandLine": "fluent -wait 2ddp -r22.2.0   -ic=default -host -t1  -cx DESKTOP-KUJ9RI4:10525:10526"
+  },
+  {
+    "Name": "fl_mpi2220.exe",
+    "ProcessId": 10560,
+    "ParentProcessId": 17316,
+    "CommandLine": "\"D:\\ANSYS Inc\\v222\\fluent\\fluent22.2.0\\win64\\2ddp_node\\fl_mpi2220.exe\" -mport 127.0.0.1:127.0.0.1:10542:0 node -mpiw intel -pic default"
+  }
+]

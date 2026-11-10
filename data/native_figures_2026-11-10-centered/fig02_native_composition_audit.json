@@ -1,0 +1,76 @@
+{
+  "figure": 2,
+  "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10-centered\\fig02_mesh_bc.pdf",
+  "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+  "page_size_pt": [
+    453.536,
+    209.7604
+  ],
+  "native_layers": [
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_full_native_interioronly.png",
+      "sha256": "1ee080d7c496ab6f4bc3b7d77e16b9b2e79a7605ab9c91a64d752c2167767325",
+      "source_pixels": [
+        6000,
+        900
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\taskA_full_camera_calibration.json",
+      "calibration_sha256": "350a20f0ab683d1a574f0d53d0cf28c2e7036fe959c778e1ab2a618384002a93",
+      "pdf_image_position_size_pt": [
+        34.01519999999999,
+        131.80890000000002,
+        368.49800000000005,
+        55.27470000000001
+      ],
+      "clip_rectangle_pt": [
+        34.01520000000001,
+        131.80890000000002,
+        368.49800000000005,
+        55.27470000000001
+      ],
+      "uniform_scale_pt_per_pixel": 0.061416333333333344,
+      "effective_source_dpi": 1172.3265797914776,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "role": "Fluent-native scientific image",
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_local_native_interioronly.png",
+      "sha256": "f5860b9422bbe3bee73d686f8ff08b5ea47037e2b6f8c9ba8b86e63bbf9d04dd",
+      "source_pixels": [
+        4000,
+        1252
+      ],
+      "calibration": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\taskA_local_camera_calibration.json",
+      "calibration_sha256": "d264bfbd4c09ce63285f80b9c2b3055823c17e443960b6be7ba5875f8b144463",
+      "pdf_image_position_size_pt": [
+        85.0176231437689,
+        18.70836005691107,
+        293.42185303514384,
+        91.84104000000002
+      ],
+      "clip_rectangle_pt": [
+        85.03800000000001,
+        18.70836,
+        293.38110000000006,
+        91.84104000000002
+      ],
+      "uniform_scale_pt_per_pixel": 0.07335546325878596,
+      "effective_source_dpi": 981.5219862492844,
+      "RGB_processing": "Original native PNG embedded losslessly; no recolouring, sharpening, vector/cell reconstruction or data masks."
+    },
+    {
+      "role": "Annotation disclosure",
+      "all_scientific_mesh_paths": "Fluent-native PNGs only; no external mesh re-rendering",
+      "seven_boundary_labels": "Original labels retained; four label colours match the actual native RGB",
+      "dimensions_mm": [
+        1000,
+        150
+      ],
+      "axis_label_baseline_svg": 730
+    }
+  ],
+  "scientific_content": "Native Fluent PNGs only; vector content is annotation/axes/text only.",
+  "pdf_image_count": 2,
+  "unchanged_byte_copy_from": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\data\\native_figures_2026-11-10\\fig02_mesh_bc.pdf"
+}

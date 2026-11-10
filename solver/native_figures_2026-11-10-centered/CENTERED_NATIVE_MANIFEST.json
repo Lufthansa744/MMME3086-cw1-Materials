@@ -1,0 +1,197 @@
+{
+  "version": "centered native artwork",
+  "date": "2026-11-10",
+  "source_case_data_hashes": [
+    {
+      "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.cas.h5",
+      "Before": "98F7CC369342E0B2166BDA25F8EEE286DF3380F2AC366A04A64D92977558C8EF",
+      "After": "98F7CC369342E0B2166BDA25F8EEE286DF3380F2AC366A04A64D92977558C8EF",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.dat.h5",
+      "Before": "396FB59E65583F92BE92838FDDFD97409C54B11BED0E6AAEAB2522BE6C9ADE20",
+      "After": "396FB59E65583F92BE92838FDDFD97409C54B11BED0E6AAEAB2522BE6C9ADE20",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.cas.h5",
+      "Before": "69EE26962427A78F05F9FBE2AD1C7B30E78C562E81457138316099CFB2F6D1EE",
+      "After": "69EE26962427A78F05F9FBE2AD1C7B30E78C562E81457138316099CFB2F6D1EE",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.dat.h5",
+      "Before": "2F5254C3A924EC61F75BAEC2AA44615BE9C243BA78EEDEBB39069D1F6131842E",
+      "After": "2F5254C3A924EC61F75BAEC2AA44615BE9C243BA78EEDEBB39069D1F6131842E",
+      "Unchanged": true
+    }
+  ],
+  "original_source_files_unchanged": true,
+  "old_native_raw_policy": "The earlier native_figures_2026-11-10 directory and all prior native raw files remain unchanged. Only Figure5 and Figure6(a) are newly exported here; Figures2/4 and Figure6B/C retain their earlier selected native layers.",
+  "launch": {
+    "executable": "D:\\ANSYS Inc\\v222\\fluent\\ntbin\\win64\\fluent.exe",
+    "arguments": [
+      "2ddp",
+      "-t1",
+      "-gu",
+      "-wait",
+      "-i",
+      "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\scripts\\centered_native_executed.jou"
+    ],
+    "script": "scripts/launch_centered_graphics.ps1",
+    "scratch": "D:\\CFD_WorkScratch\\native_figures_2026-11-10-centered\\temp",
+    "process_evidence": "logs/graphics_processes.json",
+    "final_process_evidence": "logs/graphics_processes_final.json",
+    "MPI_ranks": 1,
+    "source_partitions_combined": 4,
+    "unified_exec_session_id": 78785,
+    "native_auto_transcript": "fluent-20261110-144359-28944.trn",
+    "execution_status": "The complete centered artwork journal was actually launched through-i in one fresh graphics-enabled Fluent process and executed to EOF without errors. The saved shutdown command sequence was subsequently executed through the same TUI and exited normally. This is more specific than the older consolidated journal, which was not separately replayed.",
+    "normal_exit_code": 0,
+    "initialization_or_iterations_performed": false,
+    "physical_or_mesh_settings_changed": false,
+    "source_CASE_DATA_writes": false
+  },
+  "artifacts": [
+    {
+      "path": "case03/yplus_native_context_centered.png",
+      "bytes": 430280,
+      "sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7",
+      "pixels": [
+        3600,
+        1179
+      ]
+    },
+    {
+      "path": "case03/yplus_native_context_centered.eps",
+      "bytes": 925694,
+      "sha256": "f4a2fa76ed31e3ecf9887fe11fce0b3b128fb8fcf64281d632ffed0396fd68bd"
+    },
+    {
+      "path": "case03/camera_centered.vw",
+      "bytes": 288,
+      "sha256": "9bdc2e0a6e45a742fdc0fb6eac9dba86352de7d08414044cd4b03df665dce41a"
+    },
+    {
+      "path": "case05/velocity_native_rakes_75us_centered.png",
+      "bytes": 85810,
+      "sha256": "bdbd1384383ea248dcd9bd0dc6fa46cf237163aca7909c4d389833128c3472b2",
+      "pixels": [
+        3600,
+        825
+      ]
+    },
+    {
+      "path": "case05/velocity_native_rakes_75us_centered.eps",
+      "bytes": 128022,
+      "sha256": "e64ed5955d83c07d0133e1bfec9ec322c24262f351d5b6f7f5dc28bbb07eb379"
+    },
+    {
+      "path": "case05/camera_centered.vw",
+      "bytes": 291,
+      "sha256": "bc3e51c082127375ae68ff6447722089fa7b2df74de77690726a77ecb36bae6f"
+    },
+    {
+      "path": "case05/native_rake_centered_velocity_evidence.csv",
+      "bytes": 48674,
+      "sha256": "4d1295fe424ac2de9934d7b611fd6ee61a0314226d072115ea29c7e7517506b1"
+    },
+    {
+      "path": "scripts/centered_native_executed.jou",
+      "bytes": 5882,
+      "sha256": "8a6ec4ba3c66e19afb468aa5430257b357dba993ade74bdccf5245eaa3d50299"
+    },
+    {
+      "path": "scripts/shutdown_executed.jou",
+      "bytes": 156,
+      "sha256": "f85394392c3f233ff9b518d6aad2c0c3a5cdb80e3df0cf3204c43478e39890f6"
+    }
+  ],
+  "figure5": {
+    "native_field": "y-plus",
+    "node_values": false,
+    "boundary_values": false,
+    "filled": true,
+    "coloring": "Native banded cell-value contours",
+    "palette": "sequential-viridis",
+    "palette_size": 100,
+    "native_range": [
+      1e-10,
+      180
+    ],
+    "clip_to_range": true,
+    "positive_threshold_note": "Tiny positive display floor removes exact-zero interior cells; color legends continue to display the lower end rounded to0.",
+    "native_context": "Unchanged light-gray full-domain wireframe and native black foil outline",
+    "hardcopy_line_width_px": 1,
+    "target_m": [
+      0.05,
+      0.0015294034661851664,
+      0
+    ],
+    "field_extent_m": [
+      0.116,
+      0.038
+    ],
+    "old_target_y_m": -0.005,
+    "only_intended_change": "Vertical camera target moved to the actual foil-boundary bounding-box midpoint. Native field values, scalar mapping, source, extent and rendering parameters stay the same.",
+    "geometry_audit": "geometry_window_audit.json"
+  },
+  "figure6a": {
+    "native_field": "Velocity vectors colored by velocity-magnitude",
+    "native_sampling": "Twelve newly created native rake surfaces in the new world-coordinate view",
+    "scale_factor": 7.5e-05,
+    "auto_scale": false,
+    "style": "3d arrow",
+    "head_scale": 0.4,
+    "fixed_length": false,
+    "skip": 0,
+    "palette": "sequential-viridis",
+    "palette_size": 100,
+    "color_limits_m_s": [
+      0,
+      120
+    ],
+    "hardcopy_line_width_px": 4,
+    "target_m": [
+      0.05,
+      -0.0025,
+      0
+    ],
+    "field_extent_m": [
+      0.24,
+      0.055
+    ],
+    "old_target_x_m": 0.11,
+    "nominal_points": 540,
+    "actual_valid_exported_points": 506,
+    "rake_x_limits_m": [
+      -0.0675,
+      0.1675
+    ],
+    "rake_y_limits_m": [
+      -0.0275,
+      0.0225
+    ],
+    "view_x_limits_m": [
+      -0.07,
+      0.17
+    ],
+    "view_y_limits_m": [
+      -0.03,
+      0.025
+    ],
+    "sampling_audit": "native_sampling_audit.json",
+    "native_foil": "Actual saved Case5 three foil boundary surfaces, black",
+    "page_field_size_mm": [
+      125.476,
+      28.755
+    ],
+    "coordinate_policy": "The native camera moved and the native rake surfaces were regenerated at the new world coordinates. No native pixels were shifted and no upstream vectors were fabricated.",
+    "downstream_scope": "Shows about0.705c after the trailing edge. The x=.2m reporting station is outside this view; no claim is made to display that station."
+  },
+  "camera_note": "Requested orthographic positionz1/targetz0/up0,1,0 and extents are recorded by native view files. Native saved float camera values include tiny roundoff/roll, retained without external pixel relocation.",
+  "EPS_note": "Direct native HOOPS EPS output; may contain embedded raster sections and is not claimed pure-vector.",
+  "replay_scope": "The new main journal itself was executed end-to-end from a fresh process. No additional identical replay was performed after saving the artwork; shutdown was a separate saved and executed command block.",
+  "processes_released": true
+}

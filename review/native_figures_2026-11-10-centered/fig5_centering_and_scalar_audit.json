@@ -1,0 +1,15 @@
+{
+  "native_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case03\\yplus_native_context_centered.png",
+  "native_source_sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7",
+  "all103_raw_yplus_and_native_RGB_centroids_equal_previous_accepted_scalar_render": true,
+  "foil_black_ink_bbox_pixels": [
+    264,
+    320,
+    3336,
+    858
+  ],
+  "native_foil_ink_vertical_centre_px": 589.0,
+  "image_vertical_centre_px": 589.5,
+  "vertical_centred_offset_px": -0.5,
+  "status": "PASS: actual foil vertically centred within native pixel precision; all103 cell colours preserved"
+}

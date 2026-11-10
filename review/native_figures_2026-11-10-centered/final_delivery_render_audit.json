@@ -1,0 +1,30 @@
+[
+  {
+    "figure": 2,
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig02_mesh_bc.pdf",
+    "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig02_mesh_bc_independent300.png",
+    "final_data_print300_pixel_identical_to_independent_render": true
+  },
+  {
+    "figure": 4,
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig04_rsm_vectors.pdf",
+    "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig04_rsm_vectors_independent300.png",
+    "final_data_print300_pixel_identical_to_independent_render": true
+  },
+  {
+    "figure": 5,
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig05_rsm_yplus.pdf",
+    "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig05_rsm_yplus_independent300.png",
+    "final_data_print300_pixel_identical_to_independent_render": true
+  },
+  {
+    "figure": 6,
+    "delivery_PDF": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig06_enhanced_combined.pdf",
+    "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig06_enhanced_combined_independent300.png",
+    "final_data_print300_pixel_identical_to_independent_render": true
+  }
+]

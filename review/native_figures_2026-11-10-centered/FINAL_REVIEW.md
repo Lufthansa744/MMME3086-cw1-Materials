@@ -1,0 +1,13 @@
+# Centered native artwork — ACCEPT
+
+The final delivered Figures 2, 4, 5 and 6 are accepted. Their exact PDF hashes and physical boxes are frozen in `final_acceptance.json`. This accepts standalone artwork, not a newly compiled full report.
+
+Figures 2 and 4 retain the previously accepted PDF bytes. Figure 5 uses a new genuine Fluent camera centred on the actual foil-node vertical bounding box. Independent geometric and image checks retain all 103 foil-adjacent cells; all 103 native centroid colours equal the previously palette-verified native rendering. Native foil ink is centred within half a pixel. Its y-axis ticks and cell-value callouts follow the new physical coordinates.
+
+Figure 6(a) uses a newly exported native field in x = −70 to 170 mm, with the foil horizontally centred within half a native pixel. Its 75 µs arrow scale, physical magnification and figure box remain. The actual trailing-edge centre leaves 70.4895 mm, or 0.704895 chord, downstream. This is a real near-wake view, not padded or shifted old pixels. The brief imposes no hard downstream extent on this vector panel; the separate required profile locations remain unchanged. Independent actual-foil polygon checks confirm 540 requested positions, 34 solid exclusions and 506 exported fluid samples. Those counts are not a certified count of visible clipped arrow glyphs. Exact renderer-versus-export node interpolation is not claimed.
+
+All scientific images are losslessly embedded native Fluent RGB. Vector axes, labels and red brackets are post-export annotations. They are not all-vector scientific drawings or untouched whole-window screenshots. All four final delivery PDFs were independently rendered at 300 dpi and matched the visually inspected previews pixel for pixel. New Fig5 y ticks −10/0/10/20 mm and Fig6A x ticks −50/0/50/100/150 mm occur at correct world positions. No annotation/text collision or clipping was observed. Figure 6(b) and inset region are pixel-identical to the previous accepted rendering; real thin-layer colours remain resolved in the equal-scale inset without inflation.
+
+The four source Case/Data hashes are unchanged. The actual fresh Fluent journal, native export log and normal exit are retained; no iteration, initialization or source Case/Data write commands occurred. The Mac prompt, handoff and 77-word Figure 6 caption are accepted; caption numerical values remain tied to the verified solution and the wording now says near wake.
+
+Prior continuity, mesh-sensitivity and physical-validation qualifications remain. Only permitted Overleaf compilation can verify the integrated report's final pagination, captions and page count. No local TeX compilation was performed.

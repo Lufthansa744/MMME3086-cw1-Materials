@@ -1,0 +1,30 @@
+"""Bind centered-figure review to the final delivery bytes."""
+from pathlib import Path
+import json,hashlib,re
+root=Path(__file__).resolve().parents[2];out=Path(__file__).parent;delivery=root/'report/native_fluent_2026-11-10-centered'
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+layers=json.loads((out/'native_pdf_layer_audit.json').read_text());renders=json.loads((out/'final_delivery_render_audit.json').read_text())
+base=root/'solver/native_figures_2026-11-10-centered';manifestpath=base/'CENTERED_NATIVE_MANIFEST.json';manifest=json.loads(manifestpath.read_text())
+for a in manifest['artifacts']:assert sha(base/a['path'])==a['sha256']
+sources=[]
+for a in manifest['source_case_data_hashes']:
+ h=sha(a['Path']);assert h==a['Before'].lower()==a['After'].lower() and a['Unchanged'];sources.append({'path':a['Path'],'sha256':h,'unchanged':True})
+journal=(base/'scripts/centered_native_executed.jou').read_text();log=(base/'fluent-20261110-144359-28944.trn').read_text(errors='replace')
+for forbidden in ['/solve/iterate','/solve/initialize','/file/write-case','/file/write-data']:assert forbidden not in journal and forbidden not in log
+assert 'Reading journal file' in log and '/exit yes' in log and 'Transcript closed.' in log
+reasons={2:'Byte-identical to the previously independently accepted native mesh figure.',4:'Byte-identical to the previously independently accepted native cell-centred velocity figure.',5:'New native camera vertically centres the actual foil bounding box within0.5px. All103 actual wall-cell colours equal the previously palette-verified native rendering; no cell omission or foreign scientific fill. New y-axis ticks and all callouts match the new world transform.',6:'New native camera horizontally centres the actual foil within0.5px and preserves0.704895c of genuine near wake. Independent polygon audit confirms540 requested positions,34 solid exclusions and506 exported fluid samples. New x ticks match world coordinates; entire B/C print region is pixel-identical to the previous accepted version.'}
+record={'overall':'ACCEPT','scope':'Final standalone centered replacement artwork Figures2,4,5,6; not the integrated report PDF','date':'2026-11-10','reviewer_role':'Independent read-only review; no Fluent operation, Git operation or local TeX compilation','presentation_type':'Lossless Fluent-native raster scientific layers plus post-export vector axes, labels and annotations; not all-vector or unedited whole-window screenshots.','native_identity':{'manifest':str(manifestpath),'sha256':sha(manifestpath),'selected_new_artifacts_verified':len(manifest['artifacts']),'source_case_data':sources,'executed_journal':str(base/'scripts/centered_native_executed.jou'),'executed_journal_sha256':sha(base/'scripts/centered_native_executed.jou'),'native_log':str(base/'fluent-20261110-144359-28944.trn'),'native_log_sha256':sha(base/'fluent-20261110-144359-28944.trn'),'no_iteration_initialization_or_source_write_commands':True,'normal_exit_command_present':True},'brief_FAQ':{'no_hard_Figure6_vector_view_x_extent_found':True,'fixed_x_0_05_0_1_0_2_m_applies_to_separate_profiles':True,'near_wake_scope_acceptable':True},'sampling':{'requested':540,'solid_excluded':34,'fluid_samples':506,'not_a_certified_visible_glyph_count':True},'limitations':['Figure6A shows the near wake only, not x=.2m; the separate required profiles are unchanged.','Rake CSV and rendered vectors are not asserted to have identical node/cell interpolation semantics.','Full enhanced wall-layer colour is thin at actual scale and resolved in the equal-scale inset; its geometry is not inflated.','This camera change does not remove prior strict-continuity, grid-sensitivity or experimental-validation qualifications.','Integrated report page count, captions and final print layout still require permitted Overleaf compilation.'],'review_evidence':['centering_requirements_and_geometry.json','case03_native_cell_image_audit.json','fig5_centering_and_scalar_audit.json','case05_native_centered_rake_audit.json','fig6A_centering_and_wake_audit.json','axes_and_preserved_BC_audit.json','native_pdf_layer_audit.json','final_delivery_render_audit.json']}
+for layer,render in zip(layers,renders):
+ n=layer['figure'];p=Path(render['delivery_PDF']);assert sha(p)==layer['PDF_sha256']==render['sha256']
+ box=layer['physical_box_pt'];record[f'fig{n}']={'accepted':True,'decision':'ACCEPT','path':str(p),'sha256':sha(p),'bytes':p.stat().st_size,'size_pt':box,'size_mm':[v*25.4/72 for v in box],'reference_box_match':True,'native_source_RGB_losslessly_embedded':True,'annotations_and_print':'ACCEPT: final-current-byte300dpi rendering independently inspected; no observed annotation/text collision or clipping','reason':reasons[n],'independent_render':render['independent_render'],'render_matches_reviewed_print300_pixel_for_pixel':True}
+caption=delivery/'figure6_caption.tex';s=caption.read_text();words=len(re.findall(r"[\w]+(?:[.'’-][\w]+)*",re.sub(r'\\[a-zA-Z]+',' ',s)));assert words<=150
+for value in ['158.85','5.233','413','0.147','6.586','57','354','near wake']:assert value in s
+record['figure6_caption']={'path':str(caption),'sha256':sha(caption),'accepted':True,'word_count_including_numeric_tokens':words,'limit':150,'numbers_verified':True,'not_compiled':True}
+docs=[]
+for name in ['MAC_FINAL_PROMPT.txt','MAC_NATIVE_FIGURE_HANDOFF.md']:
+ p=delivery/name;s=p.read_text(encoding='utf-8');assert 'Overleaf' in s and ('centred' in s.lower() or '居中' in s)
+ docs.append({'path':str(p),'sha256':sha(p),'accepted':True,'review':'Correct new windows, near-wake scope, current Mac source preservation, native/post-annotation distinction and Overleaf-only final compilation. Old504 explicitly disclaimed rather than reused.'})
+record['Mac_handoff_documents']=docs
+(out/'final_acceptance.json').write_text(json.dumps(record,indent=2),encoding='utf-8')
+print(json.dumps({'overall':record['overall'],'hashes':{f'fig{n}':record[f'fig{n}']['sha256'] for n in [2,4,5,6]},'caption_words':words},indent=2))
+

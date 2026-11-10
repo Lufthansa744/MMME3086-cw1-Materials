@@ -1,0 +1,38 @@
+{
+  "actual_baseline_mesh_foil_bbox_m": [
+    0.00048367698354395,
+    0.09952801966842195,
+    -0.007125180754952722,
+    0.010183987687323055
+  ],
+  "foil_bbox_centre_m": [
+    0.050005848325982954,
+    0.0015294034661851664
+  ],
+  "proposed_Fig5_y_bounds_m": [
+    -0.017470596533814834,
+    0.020529403466185165
+  ],
+  "Fig6A_x_bounds_m": [
+    -0.07,
+    0.17
+  ],
+  "Fig6A_window_centre_x_m": 0.05,
+  "actual_foil_bbox_centre_offset_from_camera_m": 5.848325982923952e-06,
+  "offset_on_125p476mm_plot_mm": 0.0030576022959723577,
+  "TEcentre_x_m": 0.099510483857701,
+  "wake_after_TE_to_right_edge_m": 0.07048951614229901,
+  "wake_chords": 0.70489516142299,
+  "brief_hard_Fig6A_x_extent_found": false,
+  "FAQ_fixed0p05_0p1_0p2_lines_apply_to_profiles_not_vector_viewport": true,
+  "actual_enhanced_mesh_foil_bbox_m": [
+    0.0004836769835439499,
+    0.09952801966842191,
+    -0.007125180754952732,
+    0.010186602841271727
+  ],
+  "actual_enhanced_foil_bbox_centre_m": [
+    0.05000584832598293,
+    0.0015307110431594974
+  ]
+}

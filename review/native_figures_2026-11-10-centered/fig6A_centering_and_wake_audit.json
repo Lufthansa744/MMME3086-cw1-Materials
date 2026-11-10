@@ -1,0 +1,24 @@
+{
+  "native_source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case05\\velocity_native_rakes_75us_centered.png",
+  "native_sha256": "bdbd1384383ea248dcd9bd0dc6fa46cf237163aca7909c4d389833128c3472b2",
+  "foil_black_ink_bbox_pixels": [
+    1056,
+    220,
+    2543,
+    483
+  ],
+  "horizontal_foil_ink_centre_px": 1799.5,
+  "native_image_centre_px": 1800.0,
+  "horizontal_offset_px": -0.5,
+  "requested_rake_positions": 540,
+  "solid_excluded": 34,
+  "actual_fluid_samples": 506,
+  "native_wake_fluid_samples_in_broad_TE_downstream_strip": 78,
+  "sampled_speed_range_in_that_strip": [
+    26.57987161,
+    52.20728542
+  ],
+  "wake_right_extent_m": 0.17,
+  "wake_after_TE_chords": 0.70489516142299,
+  "status": "PASS native horizontal centring and real retained near-wake sampling; display does not claim a full one-chord downstream view."
+}

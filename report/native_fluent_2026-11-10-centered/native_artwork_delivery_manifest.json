@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-10",
+  "revision": "2026-11-10-centered",
+  "repository": "https://github.com/Lufthansa744/MMME3086-cw1-Materials",
+  "supersedes_artwork_set": "report/native_fluent_2026-11-10",
+  "scope": "Centred artwork addendum; current Mac report source is preserved",
+  "layout_authority": "User-supplied Mac report PDF attachment -4; same artwork boxes",
+  "figure_1": "Retain verified native SpaceClaim picture pixels",
+  "unchanged_figures_2_and_4_bytes_verified": true,
+  "scientific_layers": "Native Fluent Save Picture PNG embedded losslessly",
+  "post_export_layers": "Vector typography, axes, labels and factual annotations",
+  "display_windows_mm": {
+    "figure_5": {
+      "x": [
+        -8,
+        108
+      ],
+      "y": [
+        -17.4705965338148,
+        20.5294034661852
+      ],
+      "foil_bbox_y_midpoint": 1.5294034661851663
+    },
+    "figure_6_a": {
+      "x": [
+        -70,
+        170
+      ],
+      "y": [
+        -30,
+        25
+      ],
+      "nominal_chord_midpoint_x": 50,
+      "visible_extent_after_trailing_edge": 70.489516
+    }
+  },
+  "case_5_vector_sampling": {
+    "rakes": 12,
+    "requested": 540,
+    "fluid_exported": 506,
+    "solid_excluded": 34,
+    "actual_native_csv": {
+      "path": "solver/native_figures_2026-11-10-centered/case05/native_rake_centered_velocity_evidence.csv",
+      "bytes": 48674,
+      "sha256": "4d1295fe424ac2de9934d7b611fd6ee61a0314226d072115ea29c7e7517506b1"
+    },
+    "visible_clipped_glyph_count_asserted": false
+  },
+  "solution_iterations_performed": false,
+  "geometry_or_physics_changed": false,
+  "latex_compiled": false,
+  "final_updated_Overleaf_report_layout_checked": false,
+  "independent_acceptance": {
+    "path": "review/native_figures_2026-11-10-centered/final_acceptance.json",
+    "bytes": 9551,
+    "sha256": "5c2dd3fada75d09858a79b752c0199db69fb50eb1ea012f6086225223a18fd7b"
+  },
+  "artwork": [
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+      "physical_size_mm": [
+        159.9974222222222,
+        73.99880777777777
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+      "physical_size_mm": [
+        165.1,
+        65.008125
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus.pdf",
+      "bytes": 484766,
+      "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13",
+      "physical_size_mm": [
+        165.1,
+        66.03999999999999
+      ]
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+      "physical_size_mm": [
+        165.1,
+        143.0000001027778
+      ]
+    }
+  ],
+  "delivery_files": [
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc.png",
+      "bytes": 814099,
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc_print300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors.png",
+      "bytes": 361605,
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors_print300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus.pdf",
+      "bytes": 484766,
+      "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus.png",
+      "bytes": 675424,
+      "sha256": "e725934b89984c251f00af546681a094a6d7e3c3cadb70fb1cedb923951779cb"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus_print300.png",
+      "bytes": 451456,
+      "sha256": "a7e72b756f6321eeee235940dedf42d0437730e0885f0c9953df15b2b5b10460"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined.png",
+      "bytes": 430975,
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined_print300.png",
+      "bytes": 244063,
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/figure6_caption.tex",
+      "bytes": 490,
+      "sha256": "73b8fad58fbc29763d28a3ed3a87aba0b1eccf299b67ef42bfdfdcaf8b1424fe"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/frozen_centered_rgb_validation.json",
+      "bytes": 5625,
+      "sha256": "419ec3a31928c054a8a904e1588d2939267e47745182e1cdee91777ffe3a0e2b"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/MAC_FINAL_PROMPT.txt",
+      "bytes": 3938,
+      "sha256": "30be593997668b20a0ad1c5a247911aace30a88852a8c01add2438481f508cc9"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md",
+      "bytes": 4428,
+      "sha256": "29e44efd1194352c9dcc2cc1d67a7e5dc3c124dc6468f648bb865894ee55b439"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/native_assets_manifest.json",
+      "bytes": 14507,
+      "sha256": "c88b90629fed1c4d7ce482929a2318fbd030ee2bb1744908e7306ae7a4d2be12"
+    }
+  ]
+}

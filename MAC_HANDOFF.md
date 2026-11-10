@@ -1,5 +1,7 @@
 # Continue the report on Mac
 
+**Latest centred artwork:** Start with [the new handoff](report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md) and [complete Mac prompt](report/native_fluent_2026-11-10-centered/MAC_FINAL_PROMPT.txt). This set centres Figure 5 vertically and Figure 6(a) horizontally using new native Fluent viewports, and supplies the final four-figure set with unchanged Figures 2/4. The earlier set below remains as provenance.
+
 **10 November update supersedes the source-upload steps below for the current Mac document:** Read [MAC_NATIVE_FIGURE_HANDOFF.md](report/native_fluent_2026-11-10/MAC_NATIVE_FIGURE_HANDOFF.md), then replace only the new Figure 2/4/5/6 artwork. Retain the newer Mac Overleaf source, template, sections and AI appendix. Figure 1's native SpaceClaim pictures remain. The historical instructions and source ZIP below are retained as provenance, not an instruction to overwrite the Mac report.
 
 ## Next action

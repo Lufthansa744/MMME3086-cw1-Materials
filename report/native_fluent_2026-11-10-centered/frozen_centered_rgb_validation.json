@@ -1,0 +1,107 @@
+{
+  "status": "Frozen native image/preservation checks PASS; no PDF changed during verification.",
+  "figures": [
+    {
+      "figure": 2,
+      "pdf_sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+      "native_scientific_images": [
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_full_native_interioronly.png",
+          "source_sha256": "1ee080d7c496ab6f4bc3b7d77e16b9b2e79a7605ab9c91a64d752c2167767325",
+          "decoded_RGB_sha256": "4d52d977e686d3acd1bdb35f394257413107e69f40af74aed16d0dbb2bf558de",
+          "exact_native_pixels_preserved": true
+        },
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\taskA\\mesh_local_native_interioronly.png",
+          "source_sha256": "f5860b9422bbe3bee73d686f8ff08b5ea47037e2b6f8c9ba8b86e63bbf9d04dd",
+          "decoded_RGB_sha256": "760a9bd5dbf6dc3019d6a5198baa3c99003db3872c913f51e58630c84892e7dd",
+          "exact_native_pixels_preserved": true
+        }
+      ],
+      "delivery_pdf_identical": true,
+      "600dpi_png_sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06",
+      "300dpi_png_sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97",
+      "unchanged_from_previous": {
+        ".pdf": true,
+        ".png": true,
+        "_print300.png": true
+      }
+    },
+    {
+      "figure": 4,
+      "pdf_sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+      "native_scientific_images": [
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_75us_outline5.png",
+          "source_sha256": "57ec2f35c2b846f7d1074d541e2affdc3c6f8c345016c0af5fcd8e93d0190515",
+          "decoded_RGB_sha256": "af91f765f623fd67cd43f9ad1631928f02ab57237526dc82264b10a058829324",
+          "exact_native_pixels_preserved": true
+        },
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case03\\velocity_native_normalised_te_outline9.png",
+          "source_sha256": "e64f574742370ac1456cda7e32c8f3e335e0d2c7c1ea490fa651ede5a15873a5",
+          "decoded_RGB_sha256": "8bc1ac2d42df2eb4b45b8eb2b7cfbb175d90e1cbd22a17077da16bd03f1fed1b",
+          "exact_native_pixels_preserved": true
+        }
+      ],
+      "delivery_pdf_identical": true,
+      "600dpi_png_sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96",
+      "300dpi_png_sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da",
+      "unchanged_from_previous": {
+        ".pdf": true,
+        ".png": true,
+        "_print300.png": true
+      }
+    },
+    {
+      "figure": 5,
+      "pdf_sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13",
+      "native_scientific_images": [
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case03\\yplus_native_context_centered.png",
+          "source_sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7",
+          "decoded_RGB_sha256": "03700939538a9265415dec208fde96f02f395f64c93ce7404ad56f41cc6da008",
+          "exact_native_pixels_preserved": true
+        }
+      ],
+      "delivery_pdf_identical": true,
+      "600dpi_png_sha256": "e725934b89984c251f00af546681a094a6d7e3c3cadb70fb1cedb923951779cb",
+      "300dpi_png_sha256": "a7e72b756f6321eeee235940dedf42d0437730e0885f0c9953df15b2b5b10460"
+    },
+    {
+      "figure": 6,
+      "pdf_sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+      "native_scientific_images": [
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\case05\\velocity_native_rakes_75us_centered.png",
+          "source_sha256": "bdbd1384383ea248dcd9bd0dc6fa46cf237163aca7909c4d389833128c3472b2",
+          "decoded_RGB_sha256": "723ed484794e03f312add251f65fce81674b235cab4384e798b73208346a8cad",
+          "exact_native_pixels_preserved": true
+        },
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_full_outline8.png",
+          "source_sha256": "c878969f70baecc1cac9babf56bb0f9a3cdb79ecc1948461a74bfb43ab1fff4d",
+          "decoded_RGB_sha256": "bdbc12dc733a73c71cd8814d954d4f569c0df4909835a99b3356d51500797833",
+          "exact_native_pixels_preserved": true
+        },
+        {
+          "source": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10\\case05\\yplus_native_inset_thin_final.png",
+          "source_sha256": "4e0c1a3baf183bc7c5462c31e6849c39e7c2d19f11d97f22a027c074631ce90d",
+          "decoded_RGB_sha256": "e2cd176ec65d744906b1190af64d11112611fcaf74d8eb7f2b74edc13c330ed2",
+          "exact_native_pixels_preserved": true
+        }
+      ],
+      "delivery_pdf_identical": true,
+      "600dpi_png_sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a",
+      "300dpi_png_sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    }
+  ],
+  "figure6_BC_native_layers_and_exact_placement_unchanged": true,
+  "figure6_BC_and_labels_pixel_difference_at300dpi": 0,
+  "figure6_BC_comparison_region_top_row": 672,
+  "new_native_rake_requested_fluid_solid": [
+    540,
+    506,
+    34
+  ]
+}

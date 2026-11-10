@@ -1,0 +1,175 @@
+{
+  "overall": "ACCEPT",
+  "scope": "Final standalone centered replacement artwork Figures2,4,5,6; not the integrated report PDF",
+  "date": "2026-11-10",
+  "reviewer_role": "Independent read-only review; no Fluent operation, Git operation or local TeX compilation",
+  "presentation_type": "Lossless Fluent-native raster scientific layers plus post-export vector axes, labels and annotations; not all-vector or unedited whole-window screenshots.",
+  "native_identity": {
+    "manifest": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\CENTERED_NATIVE_MANIFEST.json",
+    "sha256": "9f09acacf148e8b0987751ea72a2ae9459ea82bc5836a2286f77e698d5d27755",
+    "selected_new_artifacts_verified": 9,
+    "source_case_data": [
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.cas.h5",
+        "sha256": "98f7cc369342e0b2166bda25f8eee286df3380f2ac366a04a64d92977558c8ef",
+        "unchanged": true
+      },
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case03_aligned\\case03_aligned_final.dat.h5",
+        "sha256": "396fb59e65583f92be92838fddfd97409c54b11bed0e6aaeab2522be6c9ade20",
+        "unchanged": true
+      },
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.cas.h5",
+        "sha256": "69ee26962427a78f05f9fbe2ad1c7b30e78c562e81457138316099cfb2f6d1ee",
+        "unchanged": true
+      },
+      {
+        "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\case05_verified\\case05_verified_final.dat.h5",
+        "sha256": "2f5254c3a924ec61f75baec2aa44615be9c243ba78eedebb39069d1f6131842e",
+        "unchanged": true
+      }
+    ],
+    "executed_journal": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\scripts\\centered_native_executed.jou",
+    "executed_journal_sha256": "8a6ec4ba3c66e19afb468aa5430257b357dba993ade74bdccf5245eaa3d50299",
+    "native_log": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\solver\\native_figures_2026-11-10-centered\\fluent-20261110-144359-28944.trn",
+    "native_log_sha256": "6e5b7ec85b19d669bfc922c98f3e5e105248387a531b62fd1147357ebedef9ef",
+    "no_iteration_initialization_or_source_write_commands": true,
+    "normal_exit_command_present": true
+  },
+  "brief_FAQ": {
+    "no_hard_Figure6_vector_view_x_extent_found": true,
+    "fixed_x_0_05_0_1_0_2_m_applies_to_separate_profiles": true,
+    "near_wake_scope_acceptable": true
+  },
+  "sampling": {
+    "requested": 540,
+    "solid_excluded": 34,
+    "fluid_samples": 506,
+    "not_a_certified_visible_glyph_count": true
+  },
+  "limitations": [
+    "Figure6A shows the near wake only, not x=.2m; the separate required profiles are unchanged.",
+    "Rake CSV and rendered vectors are not asserted to have identical node/cell interpolation semantics.",
+    "Full enhanced wall-layer colour is thin at actual scale and resolved in the equal-scale inset; its geometry is not inflated.",
+    "This camera change does not remove prior strict-continuity, grid-sensitivity or experimental-validation qualifications.",
+    "Integrated report page count, captions and final print layout still require permitted Overleaf compilation."
+  ],
+  "review_evidence": [
+    "centering_requirements_and_geometry.json",
+    "case03_native_cell_image_audit.json",
+    "fig5_centering_and_scalar_audit.json",
+    "case05_native_centered_rake_audit.json",
+    "fig6A_centering_and_wake_audit.json",
+    "axes_and_preserved_BC_audit.json",
+    "native_pdf_layer_audit.json",
+    "final_delivery_render_audit.json"
+  ],
+  "fig2": {
+    "accepted": true,
+    "decision": "ACCEPT",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig02_mesh_bc.pdf",
+    "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a",
+    "bytes": 1005416,
+    "size_pt": [
+      453.536,
+      209.7604
+    ],
+    "size_mm": [
+      159.9974222222222,
+      73.99880777777777
+    ],
+    "reference_box_match": true,
+    "native_source_RGB_losslessly_embedded": true,
+    "annotations_and_print": "ACCEPT: final-current-byte300dpi rendering independently inspected; no observed annotation/text collision or clipping",
+    "reason": "Byte-identical to the previously independently accepted native mesh figure.",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig02_mesh_bc_independent300.png",
+    "render_matches_reviewed_print300_pixel_for_pixel": true
+  },
+  "fig4": {
+    "accepted": true,
+    "decision": "ACCEPT",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig04_rsm_vectors.pdf",
+    "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182",
+    "bytes": 231840,
+    "size_pt": [
+      468.0,
+      184.275
+    ],
+    "size_mm": [
+      165.1,
+      65.008125
+    ],
+    "reference_box_match": true,
+    "native_source_RGB_losslessly_embedded": true,
+    "annotations_and_print": "ACCEPT: final-current-byte300dpi rendering independently inspected; no observed annotation/text collision or clipping",
+    "reason": "Byte-identical to the previously independently accepted native cell-centred velocity figure.",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig04_rsm_vectors_independent300.png",
+    "render_matches_reviewed_print300_pixel_for_pixel": true
+  },
+  "fig5": {
+    "accepted": true,
+    "decision": "ACCEPT",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig05_rsm_yplus.pdf",
+    "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13",
+    "bytes": 484766,
+    "size_pt": [
+      468.0,
+      187.2
+    ],
+    "size_mm": [
+      165.1,
+      66.03999999999999
+    ],
+    "reference_box_match": true,
+    "native_source_RGB_losslessly_embedded": true,
+    "annotations_and_print": "ACCEPT: final-current-byte300dpi rendering independently inspected; no observed annotation/text collision or clipping",
+    "reason": "New native camera vertically centres the actual foil bounding box within0.5px. All103 actual wall-cell colours equal the previously palette-verified native rendering; no cell omission or foreign scientific fill. New y-axis ticks and all callouts match the new world transform.",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig05_rsm_yplus_independent300.png",
+    "render_matches_reviewed_print300_pixel_for_pixel": true
+  },
+  "fig6": {
+    "accepted": true,
+    "decision": "ACCEPT",
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\fig06_enhanced_combined.pdf",
+    "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26",
+    "bytes": 304455,
+    "size_pt": [
+      468.0,
+      405.354331
+    ],
+    "size_mm": [
+      165.1,
+      143.0000001027778
+    ],
+    "reference_box_match": true,
+    "native_source_RGB_losslessly_embedded": true,
+    "annotations_and_print": "ACCEPT: final-current-byte300dpi rendering independently inspected; no observed annotation/text collision or clipping",
+    "reason": "New native camera horizontally centres the actual foil within0.5px and preserves0.704895c of genuine near wake. Independent polygon audit confirms540 requested positions,34 solid exclusions and506 exported fluid samples. New x ticks match world coordinates; entire B/C print region is pixel-identical to the previous accepted version.",
+    "independent_render": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\review\\native_figures_2026-11-10-centered\\fig06_enhanced_combined_independent300.png",
+    "render_matches_reviewed_print300_pixel_for_pixel": true
+  },
+  "figure6_caption": {
+    "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\figure6_caption.tex",
+    "sha256": "73b8fad58fbc29763d28a3ed3a87aba0b1eccf299b67ef42bfdfdcaf8b1424fe",
+    "accepted": true,
+    "word_count_including_numeric_tokens": 77,
+    "limit": 150,
+    "numbers_verified": true,
+    "not_compiled": true
+  },
+  "Mac_handoff_documents": [
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\MAC_FINAL_PROMPT.txt",
+      "sha256": "30be593997668b20a0ad1c5a247911aace30a88852a8c01add2438481f508cc9",
+      "accepted": true,
+      "review": "Correct new windows, near-wake scope, current Mac source preservation, native/post-annotation distinction and Overleaf-only final compilation. Old504 explicitly disclaimed rather than reused."
+    },
+    {
+      "path": "C:\\Users\\A320N\\Documents\\ChatGPT\\MMME3086 cw1\\report\\native_fluent_2026-11-10-centered\\MAC_NATIVE_FIGURE_HANDOFF.md",
+      "sha256": "29e44efd1194352c9dcc2cc1d67a7e5dc3c124dc6468f648bb865894ee55b439",
+      "accepted": true,
+      "review": "Correct new windows, near-wake scope, current Mac source preservation, native/post-annotation distinction and Overleaf-only final compilation. Old504 explicitly disclaimed rather than reused."
+    }
+  ]
+}

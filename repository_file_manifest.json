@@ -25,13 +25,13 @@
     },
     {
       "path": "MAC_HANDOFF.md",
-      "bytes": 5319,
-      "sha256": "3f5d4c1961afdb21cb27a3f4163bd54a4d560595c4b9d670a944b9561d17d481"
+      "bytes": 5751,
+      "sha256": "ccc5b6d52882326538a7b58c938cfd193201a3d5feec71b1b34142ed9a73487e"
     },
     {
       "path": "README.md",
-      "bytes": 4784,
-      "sha256": "a0f737cb5c1bcc46333dd2fb2ded339d3cf6dc5d4b24a62c35a838a0229cdd71"
+      "bytes": 5253,
+      "sha256": "385dfe9d39469f910abfddbad2989ea3442d50234047b3a3ff2736c495f0217e"
     },
     {
       "path": "coordination/DELIVERY_README.md",
@@ -92,6 +92,11 @@
       "path": "coordination/overleaf_permission_reproduction.md",
       "bytes": 3341,
       "sha256": "0c8bb15a2f808717dfaebf6f4ee298d462d7461caaa0f98229c0fb9181ca1789"
+    },
+    {
+      "path": "coordination/prepare_centered_native_graphics_delivery.py",
+      "bytes": 7199,
+      "sha256": "c14360a30ffa22c83ed5b965069bca11a8fd53f286bf70cc5d945733b9233da9"
     },
     {
       "path": "coordination/prepare_github_materials.py",
@@ -3489,6 +3494,186 @@
       "sha256": "92a756987c99911757ea665b3167f1317d004fcb7c5ab0bff8c91579df4128b4"
     },
     {
+      "path": "data/native_figures_2026-11-10-centered/calibrate_native_image.py",
+      "bytes": 8155,
+      "sha256": "a7a984d2e0c037352c78b35f329db65516d1c6d8f5d8e46091d4eeca847f98c2"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/case03_yplus_centered_calibration.json",
+      "bytes": 2570,
+      "sha256": "adebabef313c7e6723f87d4a7494c810106f28580fdb1febd9be5b9b6dbe6396"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/case05_velocity_centered_calibration.json",
+      "bytes": 2574,
+      "sha256": "ed654ceb23d08939fc36c6d6cb18a756f8748575f2549b1c5ff98d7a3f1396a2"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/case05_yplus_inset_calibration.json",
+      "bytes": 4043,
+      "sha256": "8bafaf71dd124b2649b69fd04f2bab8b5ff2b4dcc9623df5644833aa0bccd43f"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/case05_yplus_outline8_calibration.json",
+      "bytes": 2547,
+      "sha256": "f25534a2101f4b438f9cf7c201ecc8170fde883f7e43fc672dc61d83e3edc9cf"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/centering_layout_audit.json",
+      "bytes": 2770,
+      "sha256": "3dadf9f637cfd2937525f8c7573d7f67b0d9b39fa689d162c2fbe2de0c1265b4"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/compose_native_figures.py",
+      "bytes": 23394,
+      "sha256": "0f03ea0724343c812960b892e939e3414a86e15cb617b415ce1a98600c6e19ff"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/extract_attachment_layout.py",
+      "bytes": 14601,
+      "sha256": "83be29a230134c1129c1e22b01e0961541e0a27dd96db4ab074956753583af5a"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig02_mesh_bc.png",
+      "bytes": 814099,
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig02_mesh_bc_print300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig02_native_composition_audit.json",
+      "bytes": 3244,
+      "sha256": "0a85261695ef3434f1513c64fef2d825272609c9ee665b70d22a75db3d68e69a"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig04_native_composition_audit.json",
+      "bytes": 3705,
+      "sha256": "e8e97e73b64c91a9d302e0c01a119a5fc624a7672dae61154eaf447e6ee514a3"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig04_rsm_vectors.png",
+      "bytes": 361605,
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig04_rsm_vectors_print300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig05_native_composition_audit.json",
+      "bytes": 2875,
+      "sha256": "95f70c916fbf81892aa4ab241717e664020fd2cd5fe8f71c37eb56974992878e"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig05_rsm_yplus.pdf",
+      "bytes": 484766,
+      "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig05_rsm_yplus.png",
+      "bytes": 675424,
+      "sha256": "e725934b89984c251f00af546681a094a6d7e3c3cadb70fb1cedb923951779cb"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig05_rsm_yplus_print300.png",
+      "bytes": 451456,
+      "sha256": "a7e72b756f6321eeee235940dedf42d0437730e0885f0c9953df15b2b5b10460"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig05_yplus_native_colour_strip.png",
+      "bytes": 301,
+      "sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig06_enhanced_combined.png",
+      "bytes": 430975,
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig06_enhanced_combined_print300.png",
+      "bytes": 244063,
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig06_native_composition_audit.json",
+      "bytes": 8897,
+      "sha256": "e005e92cb4010d89d9da91623c5ffa170bddc422fff4b9d25fae1d9060d4c648"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig06_speed_native_colour_strip.png",
+      "bytes": 430,
+      "sha256": "9c69db3bfdb19bdf5b3a368070e199bc6bbfbea9da3ad9592b133312b7b6846a"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/fig06_yplus_native_colour_strip.png",
+      "bytes": 301,
+      "sha256": "9c06d296a2de10832aa75ce297b41814679b14529ce878611261e1f21dd89a9d"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/figure6_caption.tex",
+      "bytes": 490,
+      "sha256": "73b8fad58fbc29763d28a3ed3a87aba0b1eccf299b67ef42bfdfdcaf8b1424fe"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/frozen_centered_rgb_validation.json",
+      "bytes": 5625,
+      "sha256": "419ec3a31928c054a8a904e1588d2939267e47745182e1cdee91777ffe3a0e2b"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/native_assets_manifest.json",
+      "bytes": 14507,
+      "sha256": "c88b90629fed1c4d7ce482929a2318fbd030ee2bb1744908e7306ae7a4d2be12"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/proofs/fig02_previous_vs_centered_300dpi.png",
+      "bytes": 723431,
+      "sha256": "f088cdec2becf6811ac2dd22f168bb01694116ce165d93f52c39bb2488b25c4c"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/proofs/fig04_previous_vs_centered_300dpi.png",
+      "bytes": 236799,
+      "sha256": "9d12c3e963f2a668e9e37a4d07adde8727e26298332dae2d79ab51a5a048afd9"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/proofs/fig05_previous_vs_centered_300dpi.png",
+      "bytes": 880106,
+      "sha256": "9ef995a313bf625c5dd4ec4f480cc06042bc92be748b58d646c77887b19d1e92"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/proofs/fig06_previous_vs_centered_300dpi.png",
+      "bytes": 369141,
+      "sha256": "82a60e54f922ff176e8f77690fb26009d099058bf50ffda7a07db5d6542f27b8"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/reference_layout_audit.json",
+      "bytes": 108009,
+      "sha256": "bab567b142a5292951abe35193486d885577f99be349198749373707303118b4"
+    },
+    {
+      "path": "data/native_figures_2026-11-10-centered/render_and_deliver.py",
+      "bytes": 5473,
+      "sha256": "93848ebdb596066105d2d856c87c444115fb40cced25c95f45a1adb49ebe393a"
+    },
+    {
       "path": "data/native_figures_2026-11-10/acceptance_testlist.json",
       "bytes": 9592,
       "sha256": "e63ecf72b026a5b7cd10c2bc65de7e780a3842123ea7e61bd6a3569fc1f79435"
@@ -4969,6 +5154,96 @@
       "sha256": "ca4e8867e5b40aef60f83f43e75400c3a93c85c151504ecd7ad8961cc616b555"
     },
     {
+      "path": "report/native_fluent_2026-11-10-centered/MAC_FINAL_PROMPT.txt",
+      "bytes": 3938,
+      "sha256": "30be593997668b20a0ad1c5a247911aace30a88852a8c01add2438481f508cc9"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/MAC_NATIVE_FIGURE_HANDOFF.md",
+      "bytes": 4428,
+      "sha256": "29e44efd1194352c9dcc2cc1d67a7e5dc3c124dc6468f648bb865894ee55b439"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc.pdf",
+      "bytes": 1005416,
+      "sha256": "c4cb00989f94fc559550c7f016f83ff819cc221649e53f708c2803228688302a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc.png",
+      "bytes": 814099,
+      "sha256": "6972174dff86f72945bab1bd6a363359c7b396b324b49cb6528eb70044765f06"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig02_mesh_bc_print300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors.pdf",
+      "bytes": 231840,
+      "sha256": "7a6f0f84ba3fff2594f7dc5bcc2884b781c0305968950b185af1b2d721722182"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors.png",
+      "bytes": 361605,
+      "sha256": "c16fb203c1facd12750baf39b0b483d3aad544f489e917aa17fe00939f20bd96"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig04_rsm_vectors_print300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus.pdf",
+      "bytes": 484766,
+      "sha256": "8a9b65f38b6e64ce98a3a8432c22d5a43e78aa1ace703337d5963ef7c075dc13"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus.png",
+      "bytes": 675424,
+      "sha256": "e725934b89984c251f00af546681a094a6d7e3c3cadb70fb1cedb923951779cb"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig05_rsm_yplus_print300.png",
+      "bytes": 451456,
+      "sha256": "a7e72b756f6321eeee235940dedf42d0437730e0885f0c9953df15b2b5b10460"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined.pdf",
+      "bytes": 304455,
+      "sha256": "328364deabc8c347ce82d40eff0beae3b4239e331630dfc9e6d9b26aaf844a26"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined.png",
+      "bytes": 430975,
+      "sha256": "8316c9d39beaeea99f36eeeaaae0aad284ceed1c431335e44468523d8ac4c62a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/fig06_enhanced_combined_print300.png",
+      "bytes": 244063,
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/figure6_caption.tex",
+      "bytes": 490,
+      "sha256": "73b8fad58fbc29763d28a3ed3a87aba0b1eccf299b67ef42bfdfdcaf8b1424fe"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/frozen_centered_rgb_validation.json",
+      "bytes": 5625,
+      "sha256": "419ec3a31928c054a8a904e1588d2939267e47745182e1cdee91777ffe3a0e2b"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/native_artwork_delivery_manifest.json",
+      "bytes": 6662,
+      "sha256": "9a1e81c99761de583361ca8fa32f8d228e78a6ab64f3c5173c089b912f89565a"
+    },
+    {
+      "path": "report/native_fluent_2026-11-10-centered/native_assets_manifest.json",
+      "bytes": 14507,
+      "sha256": "c88b90629fed1c4d7ce482929a2318fbd030ee2bb1744908e7306ae7a4d2be12"
+    },
+    {
       "path": "report/native_fluent_2026-11-10/MAC_NATIVE_FIGURE_HANDOFF.md",
       "bytes": 5960,
       "sha256": "f04065a5899f2e4283a29cc58253b8c11c4862fdb69bdd16ab1a258ccccf5cec"
@@ -5592,6 +5867,121 @@
       "path": "review/local_mass_imbalance_audit.json",
       "bytes": 2729,
       "sha256": "2540b9503902e0beec87192a50d8e8910bad31b4b2a291004848ca16d3a0eaf8"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/FINAL_REVIEW.md",
+      "bytes": 2705,
+      "sha256": "f61644484199e68f69dcaead59ad469363ed751610feaf4c67c1bd5532ded78f"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/audit_centered_fig5_scientific_image.py",
+      "bytes": 4938,
+      "sha256": "f3c6521302c34439c63df6813a015748b42cc38890206a3b6e965584115d5532"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/audit_centered_rake_samples.py",
+      "bytes": 5606,
+      "sha256": "8cdf962a0da5c2694f3d37c7a9fb5f519185c9bfd56ce84b09bb09211eac82fe"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/audit_native_pdf_layers.py",
+      "bytes": 3659,
+      "sha256": "43eb43ccac172a1dd528817e3894f9752eab2e8d4892ca90e88fb394ead604b9"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/axes_and_preserved_BC_audit.json",
+      "bytes": 3585,
+      "sha256": "ae8a47250d621311c0a2f71714731e2b8edccc0bbcfbc0e4cae55e549a609cc4"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/baseline_mesh_geometry.json",
+      "bytes": 3372,
+      "sha256": "3d9c2c9ab222268f86857da5e319cd22f8c94d505052cc8238f718d9cf7ebb69"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/case03_native_cell_image_audit.json",
+      "bytes": 26364,
+      "sha256": "9be966fe1c05ea468783c9b51cd509a9e1c6eb7e93522007da7d7fd9567af744"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/case03_native_mesh_topology.json",
+      "bytes": 3372,
+      "sha256": "3d9c2c9ab222268f86857da5e319cd22f8c94d505052cc8238f718d9cf7ebb69"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/case05_native_centered_rake_audit.json",
+      "bytes": 4325,
+      "sha256": "d2f2df07a94cf95a3eedd85f1c53244dc4c0f2a3dd3e6e3b573422688d4e3de1"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/case05_native_mesh_topology.json",
+      "bytes": 1795,
+      "sha256": "295c810c99dc23fbb23185e2d113ac8d8a67a668751082f7f67936e8412cf4fa"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/centering_requirements_and_geometry.json",
+      "bytes": 1067,
+      "sha256": "4a0febc70adb9ff849fb070b12b91bf38f9139036b5ed3de287d8a2a3c31df3b"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/enhanced_mesh_geometry.json",
+      "bytes": 1795,
+      "sha256": "295c810c99dc23fbb23185e2d113ac8d8a67a668751082f7f67936e8412cf4fa"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/fig02_mesh_bc_independent300.png",
+      "bytes": 662688,
+      "sha256": "4bc50d60d7aa905aca03f99e61a3515cb72a115b55a828aa8c4c0cd94e15df97"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/fig04_rsm_vectors_independent300.png",
+      "bytes": 197998,
+      "sha256": "e2751d31cfd6ec868a2ebca9dbdf2f5da79d608322580e46678608d8948ea4da"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/fig05_rsm_yplus_independent300.png",
+      "bytes": 451456,
+      "sha256": "a7e72b756f6321eeee235940dedf42d0437730e0885f0c9953df15b2b5b10460"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/fig06_enhanced_combined_independent300.png",
+      "bytes": 244063,
+      "sha256": "cf1c79bc15bb5b50214d1416ae551a39047048b0320a3e5c637d885e778f4037"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/fig5_centering_and_scalar_audit.json",
+      "bytes": 671,
+      "sha256": "22c4402ae87d816ea71c0d985cad00b81d2ce22122436acf409f7134e4f6a486"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/fig6A_centering_and_wake_audit.json",
+      "bytes": 915,
+      "sha256": "4351e540268ea06f0493ca3302c3135f94f0181761a8ca2d76b936f43c4b51fb"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/final_acceptance.json",
+      "bytes": 9551,
+      "sha256": "5c2dd3fada75d09858a79b752c0199db69fb50eb1ea012f6086225223a18fd7b"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/final_delivery_render_audit.json",
+      "bytes": 1951,
+      "sha256": "706be80feadc9920752517ecc29736922b85f1cb27da49aae770b0531a0036a9"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/final_pdf_checks.py",
+      "bytes": 3296,
+      "sha256": "f23c1ad0197f3ca219ff7f6667cc5d7f4a823c1cde1ec7803aa68feeea5d8b79"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/make_final_acceptance.py",
+      "bytes": 6023,
+      "sha256": "08c665d15225921b3290c8c9eebecff056cf64d5f20310d6cf21cc52bf0d030e"
+    },
+    {
+      "path": "review/native_figures_2026-11-10-centered/native_pdf_layer_audit.json",
+      "bytes": 8860,
+      "sha256": "5cea5a9068e9d896697513b2d39921433ad5dc16b161e5260bd2743c69cce82c"
     },
     {
       "path": "review/native_figures_2026-11-10/FINAL_REVIEW.md",
@@ -7824,6 +8214,111 @@
       "sha256": "3ba2d789be7fb6704322472f9d49be3fd371ec0c8e5bc6501ed10f3367b97831"
     },
     {
+      "path": "solver/native_figures_2026-11-10-centered/CENTERED_NATIVE_MANIFEST.json",
+      "bytes": 7965,
+      "sha256": "9f09acacf148e8b0987751ea72a2ae9459ea82bc5836a2286f77e698d5d27755"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/README.md",
+      "bytes": 2178,
+      "sha256": "4dacc2027f86e61e0e5c37ec3fc3e9b506c58f2e231d69db407fee6eb1564e4a"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case03/camera_centered.vw",
+      "bytes": 288,
+      "sha256": "9bdc2e0a6e45a742fdc0fb6eac9dba86352de7d08414044cd4b03df665dce41a"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case03/yplus_native_context_centered.eps",
+      "bytes": 925694,
+      "sha256": "f4a2fa76ed31e3ecf9887fe11fce0b3b128fb8fcf64281d632ffed0396fd68bd"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case03/yplus_native_context_centered.png",
+      "bytes": 430280,
+      "sha256": "fff5037e618d9dccbbf7477c7d15d607e118ab73efec6ae9816c21cb303a02b7"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case05/camera_centered.vw",
+      "bytes": 291,
+      "sha256": "bc3e51c082127375ae68ff6447722089fa7b2df74de77690726a77ecb36bae6f"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case05/native_rake_centered_velocity_evidence.csv",
+      "bytes": 48674,
+      "sha256": "4d1295fe424ac2de9934d7b611fd6ee61a0314226d072115ea29c7e7517506b1"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case05/velocity_native_rakes_75us_centered.eps",
+      "bytes": 128022,
+      "sha256": "e64ed5955d83c07d0133e1bfec9ec322c24262f351d5b6f7f5dc28bbb07eb379"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/case05/velocity_native_rakes_75us_centered.png",
+      "bytes": 85810,
+      "sha256": "bdbd1384383ea248dcd9bd0dc6fa46cf237163aca7909c4d389833128c3472b2"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/fluent-20261110-144359-28944.trn",
+      "bytes": 15573,
+      "sha256": "6e5b7ec85b19d669bfc922c98f3e5e105248387a531b62fd1147357ebedef9ef"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/geometry_window_audit.json",
+      "bytes": 784,
+      "sha256": "5142e3b12d6536496fdccdafe0b090eada86a8f642d3cd5e01753f6c2cdca4eb"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/logs/centered_native.transcript",
+      "bytes": 13624,
+      "sha256": "8b75dc7fbf531663820806ec6a8a48bb6c1546a9ec4449d5ad7396d203c366e3"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/logs/graphics_processes.json",
+      "bytes": 1211,
+      "sha256": "84bf49965e5491ab03c5bf80577700dd9853cc2dfdec0ad7b7ca48ca4ff54b57"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/logs/graphics_processes_final.json",
+      "bytes": 1211,
+      "sha256": "84bf49965e5491ab03c5bf80577700dd9853cc2dfdec0ad7b7ca48ca4ff54b57"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/logs/source_hashes_before.json",
+      "bytes": 965,
+      "sha256": "f6b391a2744fe38e3858a3d1282a0bdf5e04676f901ea8e19480c66e46b5e082"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/logs/source_hashes_verified.json",
+      "bytes": 1285,
+      "sha256": "fd2a7f52e836b5085b467b5bf6c5776216615d6851d3a9a63200b6b29f290e1e"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/native_sampling_audit.json",
+      "bytes": 1323,
+      "sha256": "04acb9bbc06345e2e02bdeac51ae95d18078d0fbb404829d8c649ce1f5d73888"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/scripts/audit_centered_outputs.py",
+      "bytes": 8517,
+      "sha256": "abfb82903de4923745c746f60678771355a6da513ef83a9ce71b85afcfdae451"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/scripts/centered_native_executed.jou",
+      "bytes": 5882,
+      "sha256": "8a6ec4ba3c66e19afb468aa5430257b357dba993ade74bdccf5245eaa3d50299"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/scripts/launch_centered_graphics.ps1",
+      "bytes": 407,
+      "sha256": "811c1d399d5ead212b08883f6adbf301e7046d102ed2b00af8721f75c94321ee"
+    },
+    {
+      "path": "solver/native_figures_2026-11-10-centered/scripts/shutdown_executed.jou",
+      "bytes": 156,
+      "sha256": "f85394392c3f233ff9b518d6aad2c0c3a5cdb80e3df0cf3204c43478e39890f6"
+    },
+    {
       "path": "solver/native_figures_2026-11-10/FINAL_NATIVE_MANIFEST.json",
       "bytes": 16800,
       "sha256": "48e35bee2bcbcde03b6f2078009f88fd946c434a30e518a2720e7882285d8dc4"
@@ -9384,5 +9879,6 @@
     "scope": "Dimension and axis-label placement only; source mesh, report text and other 12 assets unchanged",
     "review": "review/figure2_updated_package_audit.json"
   },
-  "native_artwork_addendum": "report/native_fluent_2026-11-10/native_artwork_delivery_manifest.json"
+  "native_artwork_addendum": "report/native_fluent_2026-11-10/native_artwork_delivery_manifest.json",
+  "latest_native_artwork_addendum": "report/native_fluent_2026-11-10-centered/native_artwork_delivery_manifest.json"
 }
